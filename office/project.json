@@ -4,7 +4,7 @@
   "created_on": "2026-09-10",
   "office_version": "1.1",
   "office_status": "AGENT_OFFICE_PLAN_ACCEPTED_FOR_SCOPE",
-  "technical_status": "SOURCE_CAD_INSPECTED_WITH_LIMITS_NOT_AS_BUILT",
+  "technical_status": "G02_ANALYTICAL_AND_CONCEPTUAL_COMPLETE_WITH_OPEN_LIMITS",
   "estimate_status": "PLANNED_NOT_ESTIMATED",
   "source_commit": "786f60ae55773337f780860f8043b4232c8b16b7",
   "source_spec_rows": 73,
@@ -28,8 +28,8 @@
   "utv_definition": "Утверждённая исходная смета / базовый бюджет — прямой ответ Алексея 10.09.2026",
   "market_context": "Europe / Poland; российские сметные нормы и цены не применяются",
   "baseline_commit": "9eca7cce48295ec2a718f27011d24c1604b90e30",
-  "current_stage": "G01 завершён как аналитический разбор; далее G02 — координатная привязка, единицы и проверка полноты DWG до размерного применения",
+  "current_stage": "G02 завершён в аналитической и концептуальной области; следующая очередь G03 — объёмная помещаемость",
   "future_design_intents": "data/office/design-intents.csv",
-  "geometry_deliverable": "deliverables/G01/v001/00_geometry-review.md",
-  "geometry_open_limit": "G01-R06: полнота DWG-конвертации не принята; единицы/сшивка/натурная идентичность не установлены"
+  "geometry_deliverable": "deliverables/G02/v001/00_sprint-result.md",
+  "geometry_open_limit": "G02: второе CAD-чтение и частичная привязка выполнены; spline/6387/единицы, полная идентичность и натурное соответствие открыты; варианты A/B не прошли проверку помещаемости"
 }

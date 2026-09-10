@@ -1,0 +1,63 @@
+{
+  "alignment_file": "deliverables/G02/v001/01_support/alignment/curves-working.json",
+  "alignment_sha256": "65206919803104ff3f0424c3f01770cab0909918bcf90644b56fff79addf63c1",
+  "backdrop_independent_reproduction_matches_alignment_atol_m": 1e-09,
+  "source": "documentation/01-hull-and-geometry/3d/2-1.3dm",
+  "sha256": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+  "sample_points_per_edge": 257,
+  "transform_native_mm_to_working_mm_translation": [
+    1294.16,
+    19381.843773828055,
+    24837.674386867988
+  ],
+  "plot_units": "m",
+  "symbolic_profile_marks_not_design_elevations": true,
+  "plot_backdrop": "actual sampled Rhino trimmed edges; not inferred internal usable boundary",
+  "objects": [
+    {
+      "index": 133,
+      "id": "47cc8bdb-89af-4af9-9312-275b5b3d047c"
+    },
+    {
+      "index": 144,
+      "id": "190edc86-b6f9-43b0-8e00-276eaca1a3ee"
+    },
+    {
+      "index": 478,
+      "id": "57a33295-b699-4ce5-9558-477c26fcf4ae"
+    },
+    {
+      "index": 198,
+      "id": "c1dc5a1b-98b3-41de-8720-1da63fbf38bd"
+    },
+    {
+      "index": 333,
+      "id": "addd62c5-1935-49d0-8fec-d90ba0764cf9"
+    },
+    {
+      "index": 334,
+      "id": "fc6d1e31-1b75-4851-8701-ee610eeeed81"
+    },
+    {
+      "index": 335,
+      "id": "1737ac2c-6ff8-4b4e-95f8-ee30b013543a"
+    },
+    {
+      "index": 336,
+      "id": "5077b506-30cd-4ab9-9784-91394139c4cc"
+    }
+  ],
+  "proposed_station_parameter": "Xw_m=d-20.5; d not surveyed distance from transom",
+  "zone_count": 35,
+  "assumptions": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "L01",
+    "L02",
+    "L03",
+    "L04"
+  ],
+  "independent_fit_check": "NOT_DONE"
+}

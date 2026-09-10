@@ -1,0 +1,41 @@
+{
+  "oda_version": "27.1.0.0",
+  "source_url": "https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_lnxX64_8.3dll_27.1.deb",
+  "official_page": "https://www.opendesign.com/guestfiles/oda_file_converter",
+  "date": "2026-09-10",
+  "installation": "dpkg-deb -x, task-local; no maintainer scripts, no system install",
+  "execution": "existing DISPLAY=:0, bundled Qt xcb",
+  "read_only_input": true,
+  "sha256": [
+    {
+      "path": "documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG",
+      "bytes": 348145,
+      "sha256": "1d6a5b151c62a5902ed784fe18d8f11e08a844355561c5086203c4694b31b589"
+    },
+    {
+      "path": ".local/cad-tools/oda/ODAFileConverter_QT6_lnxX64_8.3dll_27.1.deb",
+      "bytes": 56204274,
+      "sha256": "c71363cd54758177af47a365154f180dc50a1e2b52a131994fda541c13a36766"
+    },
+    {
+      "path": ".local/cad-tools/oda/root/usr/bin/ODAFileConverter_27.1.0.0/ODAFileConverter",
+      "bytes": 529968,
+      "sha256": "9cd8fc1b23615f13ea00bfe8ae217d9bfdfee2e1455e29291c0f759fe22573d7"
+    },
+    {
+      "path": "deliverables/G02/v001/01_support/cad/lines-oda-noaudit.dxf",
+      "bytes": 1787999,
+      "sha256": "d06ad079a2c7b7f5ec8b0655fa71ee8f03efda8a95f7b88e45ed4e5db3a4055e"
+    },
+    {
+      "path": ".local/G02/cad/oda-audit/Linie teoretyczne VDS 67.dxf",
+      "bytes": 1787993,
+      "sha256": "8f62702338535f460669c7488b5f691f06a2172507cc54bc52363e832d05bb38"
+    },
+    {
+      "path": ".local/G02/cad/recheck-v2/noaudit/Linie teoretyczne VDS 67.dxf",
+      "bytes": 1787999,
+      "sha256": "c4005eebeab50a8470b13017a92e2cd8704792ad9653588b21a9014f619b3ff3"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-10",
+  "scope": "AUTHOR_CHECK_NOT_INDEPENDENT",
+  "repeat_path": ".local/G02/alignment/author-recheck",
+  "byte_equal_outputs": {
+    "curves-working.json": true,
+    "transform.json": true,
+    "anchors.csv": true,
+    "section-diagnostics.json": true,
+    "sections-working.json": true,
+    "dwg-selected-extraction.json": true,
+    "alignment-overlay.png": true,
+    "holdout-sections.png": true,
+    "bow-detail.png": true
+  },
+  "inverse_matrix_max_abs_errors": {
+    "dwg_to_rhino_native": 0.0,
+    "rhino_native_to_working": 0.0,
+    "dwg_to_working": 0.0
+  },
+  "input_sha256_unchanged": {
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": true,
+    "documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG": true,
+    "deliverables/G02/v001/01_support/cad/lines-oda-noaudit.dxf": true,
+    "deliverables/G01/v001/01_support/dwg/lines-derived.dxf": true
+  },
+  "nonempty_output_rejected_exit_code": 2,
+  "working_curve_count": 125,
+  "working_curve_file_sha256": "65206919803104ff3f0424c3f01770cab0909918bcf90644b56fff79addf63c1",
+  "script_sha256": "08ff5e58d825b6c08d85b53c80e42d261bc7f4cf2e0f1a667c355bd8c191d1cd",
+  "limitations": [
+    "SVG metadata and internal IDs are not asserted byte-stable",
+    "Mesh section accuracy and physical units of DWG not established"
+  ]
+}

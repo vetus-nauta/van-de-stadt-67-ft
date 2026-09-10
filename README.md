@@ -1,5 +1,8 @@
 # Van de Stadt 67 ft — Project Technical Base
 
+Текущий результат офиса: [G02 — геометрическая основа и два варианта компоновки](deliverables/G02/v001/00_sprint-result.md). Концептуальная стадия; помещаемость и конструктивная реализуемость ещё проверяются.
+
+
 Engineering research repository for the future completion/refit/design study of the Van de Stadt 67 ft aluminium deck-saloon yacht, based primarily on Van de Stadt Design project No. 430 and the current unfinished hull in Gdansk, Poland.
 
 ## Working rule

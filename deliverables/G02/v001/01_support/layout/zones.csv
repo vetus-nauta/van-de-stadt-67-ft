@@ -1,0 +1,62 @@
+option;zone_id;level;xw_min_m;xw_max_m;yw_min_m;yw_max_m;label;kind;status;source_refs;height_status;limit
+A;A-VIP;lower;-4.399999999999999;-2.1999999999999993;-1.1;1.1;VIP;cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Чистая ширина сечения/высота/койка OPEN; оконечное хранение не отменено"
+A;A-GUEST;lower;-8.6;-5.6;0.5;2.25;GUEST;cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;Мебель и чистый проход не размещены
+A;A-CONV;lower;-8.6;-6.6;-2.25;-0.5;"CONVERTIBLE
+2 нижние + 1 верхняя?";cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Конфигурация brief не доказана; голова/разложенная койка/доступ конфликтуют с E4"
+A;A-E2;lower;-5.6;-4.399999999999999;-1.6;-0.45;"E2
+VIP";wet;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Частная дверь из VIP предлагается; душ и уклоны OPEN"
+A;A-E3;lower;-5.6;-4.399999999999999;0.45;1.6;"E3
+GUEST";wet;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Частная дверь из GUEST в передний санузел предлагается; дверные створки/душ OPEN"
+A;A-E4;lower;-6.6;-5.6;-2;-0.5;"E4
+CONV";wet;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Новый четвёртый санузел отнимает длину convertible; ещё не полноценный ensuite"
+A;A-FORE;lower;-2.1999999999999993;-0.8999999999999986;-0.6;0.6;"Носовое
+хранение";service;PROPOSED_NOT_FIT_CHECKED;"P01;L01";OPEN;Якорное/парусное назначение и перегородка OPEN
+A;A-ROOF;upper;-15.1;-8.7;-2;2;FC-01: зона исследования крыши;future;PROPOSED_NOT_FIT_CHECKED;"P04;L02";OPEN;"Продление рубки вперёд — только один условный сценарий; высота и опоры OPEN"
+A;A-HARDTOP;upper;-18.0;-15.1;-1.9;1.9;"FC-02
+HARDTOP";future;PROPOSED_NOT_FIT_CHECKED;"P04;L02";OPEN;"Опоры/гик/высота/обзор OPEN; не конструктивный контур"
+A;A-TECHUP;upper;-15.0;-13.7;-1.7;-0.65;"Пульт /
+лестницы";service;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;Количество экранов/ступени/обзор OPEN
+B;B-VIP;lower;-4.399999999999999;-2.1999999999999993;-1.1;1.1;VIP;cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Чистая ширина сечения/высота/койка OPEN; оконечное хранение не отменено"
+B;B-GUEST;lower;-8.6;-5.6;0.5;2.25;GUEST;cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;Мебель и чистый проход не размещены
+B;B-CONV;lower;-8.6;-6.6;-2.25;-0.5;"CONVERTIBLE
+2 нижние + 1 верхняя?";cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Конфигурация brief не доказана; голова/разложенная койка/доступ конфликтуют с E4"
+B;B-E2;lower;-5.6;-4.399999999999999;-1.6;-0.45;"E2
+VIP";wet;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Частная дверь из VIP предлагается; душ и уклоны OPEN"
+B;B-E3;lower;-5.6;-4.399999999999999;0.45;1.6;"E3
+GUEST";wet;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Частная дверь из GUEST в передний санузел предлагается; дверные створки/душ OPEN"
+B;B-E4;lower;-6.6;-5.6;-2;-0.5;"E4
+CONV";wet;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Новый четвёртый санузел отнимает длину convertible; ещё не полноценный ensuite"
+B;B-FORE;lower;-2.1999999999999993;-0.8999999999999986;-0.6;0.6;"Носовое
+хранение";service;PROPOSED_NOT_FIT_CHECKED;"P01;L01";OPEN;Якорное/парусное назначение и перегородка OPEN
+B;B-ROOF;upper;-15.1;-8.7;-2;2;FC-01: зона исследования крыши;future;PROPOSED_NOT_FIT_CHECKED;"P04;L02";OPEN;"Продление рубки вперёд — только один условный сценарий; высота и опоры OPEN"
+B;B-HARDTOP;upper;-18.0;-15.1;-1.9;1.9;"FC-02
+HARDTOP";future;PROPOSED_NOT_FIT_CHECKED;"P04;L02";OPEN;"Опоры/гик/высота/обзор OPEN; не конструктивный контур"
+B;B-TECHUP;upper;-15.0;-13.7;-1.7;-0.65;"Пульт /
+лестницы";service;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;Количество экранов/ступени/обзор OPEN
+A;A-MASTER;lower;-17.6;-13.7;-1.9;1.9;"MASTER
+сохранение кормовой идеи";cabin;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Прямое наложение с резервом гаража; полный поперечный объём не доказан"
+A;A-E1;lower;-15.1;-13.7;-1.9;-0.8;"E1
+MASTER";wet;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Резерв внутри жилого блока; частный вход и душ OPEN"
+A;A-GARAGE;lower;-20.1;-15.6;-1.6;1.6;"ГАРАЖ: конфликт с MASTER
+RESERVED / MODEL_NOT_SELECTED";garage;PROPOSED_NOT_FIT_CHECKED;"P04;L03";OPEN;"Произвольный сравнительный резерв; не габарит тендера; наложение с резервом Master по рабочей продольной координате Xw от −17.6 до −15.6 м; эскизные границы, не обмер"
+A;A-ER;lower;-13.7;-11.2;-0.85;2.15;"МО
+двигатель / генераторы?";machinery;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Контур условный; агрегаты/снятие/выхлоп/доступ не проверены"
+A;A-GALLEY;lower;-11.2;-8.7;-2.35;-0.5;КАМБУЗ;social;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Сохранение нижнего камбуза; полный комплект техники OPEN"
+A;A-DINING;lower;-11.2;-8.7;0.5;2.35;"НИЖНЯЯ
+СТОЛОВАЯ";social;PROPOSED_NOT_FIT_CHECKED;"P01;L01";OPEN;Конкурирует с хранением/техзонами
+A;A-SALOON;upper;-13.6;-10.9;-1.7;1.7;ВЕРХНИЙ САЛОН;social;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;Посадочные места/лестница/чистая высота OPEN
+B;B-GARAGE;lower;-20.1;-15.1;-1.7;1.7;"ГАРАЖ: приоритет кормы
+RESERVED / MODEL_NOT_SELECTED";garage;PROPOSED_NOT_FIT_CHECKED;"P04;L03";OPEN;"Произвольный сравнительный резерв; рулевое/закрытие/проём/балка OPEN"
+B;B-ER;lower;-15.0;-11.7;-0.9;2.15;"МО / ТЕХЗОНЫ
+перекомпоновка";machinery;PROPOSED_NOT_FIT_CHECKED;"P01;P03;L01";OPEN;"Смещение относительно GA требует проверки фундаментов/вала/выноса; полная начинка OPEN"
+B;B-MASTER;lower;-11.6;-8.7;-0.15;2.35;"MASTER
+сторона Y+";cabin;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Уступает проходу: цель full-beam не выполнена; высота/ширина кровати OPEN"
+B;B-E1;lower;-10.0;-8.7;0.9;2.35;"E1
+MASTER";wet;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Резерв внутри Master уменьшает жилой объём; геометрия двери/душа OPEN"
+B;B-UTILITY;lower;-11.6;-8.7;-2.3;-1;"СЕРВИС /
+ХРАНЕНИЕ";service;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Часть уступит лестнице/трассам; не место утверждённых батарей"
+B;B-GALLEY;upper;-10.9;-8.7;-1.9;-0.45;"КАМБУЗ
+наверх";social;PROPOSED_NOT_FIT_CHECKED;"P03;L02";OPEN;"Передняя зона за частью старой крыши; зависит от определения FC-01 и высоты"
+B;B-SALOON;upper;-13.6;-10.9;-1.7;1.7;САЛОН + СТОЛОВАЯ;social;PROPOSED_NOT_FIT_CHECKED;"P03;L01";OPEN;"Замена нижней столовой верхней; обеденные места OPEN"
+B;B-STOREUP;upper;-10.9;-8.7;0.45;1.9;"ХРАНЕНИЕ /
+рабочая зона";service;PROPOSED_NOT_FIT_CHECKED;"P03;L02";OPEN;Зависит от условного объёма рубки и доступа к палубе
