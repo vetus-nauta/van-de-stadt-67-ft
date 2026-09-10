@@ -1,0 +1,121 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_tools.md",
+      "sha256": "0607c54528430a4a74ad9d7f87473dc0334b7d11f8d8a7ca4c7b9d0baaac2b66",
+      "bytes": 4414
+    },
+    {
+      "path": "01_support/acceptance.md",
+      "sha256": "3304ff42fe03558f3e646dad22369fc56fc7071d9064a47971d328381352dece",
+      "bytes": 2171
+    },
+    {
+      "path": "01_support/bridge/README.md",
+      "sha256": "646ef792257b91f5b33bf2af08bb79314cd6d1fe8174255a7359823d03c3fffb",
+      "bytes": 4441
+    },
+    {
+      "path": "01_support/bridge/blender-verification.json",
+      "sha256": "5833f0dd13d35e13a67e19f115091b6c7e096eb2788631275756503f6f91e59b",
+      "bytes": 4235
+    },
+    {
+      "path": "01_support/bridge/metadata.json",
+      "sha256": "012f5eea6771ff4da4458a866a4f3efb6db9a0bec22c4e7d195fbac2fdf26d10",
+      "bytes": 6336
+    },
+    {
+      "path": "01_support/bridge/vds67-reference.blend",
+      "sha256": "492fd2299a58203eb8bcad8a02e66fb9d74dc6935854e2e6576ec044594ca08c",
+      "bytes": 909828
+    },
+    {
+      "path": "01_support/bridge/vds67-reference.obj",
+      "sha256": "58ea4a4727ab53d1aa41ef2324b3d49a691719424ec46269f1492bbe07ac8aa0",
+      "bytes": 387595
+    },
+    {
+      "path": "01_support/bridge-independent-check.json",
+      "sha256": "e80fc43ab7f2864b298a25a7c875e55507780f26562c767c542c1f7a69e78a4a",
+      "bytes": 3540
+    },
+    {
+      "path": "01_support/check_bridge.py",
+      "sha256": "287de0eab25722fb94fe6645b646da9be42aeba15f95be118061e178e7f4ee80",
+      "bytes": 5511
+    },
+    {
+      "path": "01_support/check_freecad.FCMacro",
+      "sha256": "4d2ce99edb1a3165451066e5f5fa03347cf17d3a4173b8c456aaaf52222fd077",
+      "bytes": 1989
+    },
+    {
+      "path": "01_support/freecad/FreeCAD_1.1.3-Linux-x86_64-py311.AppImage-SHA256.txt",
+      "sha256": "a6b1dacc0304ad37a280fb39a6947bcb6f94c984dfb821d019296cd8efe3048b",
+      "bytes": 108
+    },
+    {
+      "path": "01_support/freecad/artifact-hashes.json",
+      "sha256": "6e73b5aafc3b689871a3f9ec2eeae7657e811d304518394dbf4ba814740eeef4",
+      "bytes": 581
+    },
+    {
+      "path": "01_support/freecad/freecad-report.md",
+      "sha256": "4db0eab43ca1d48db30ff6e74fc0c64478948ec0b5d00dac1659db4f8de08793",
+      "bytes": 3910
+    },
+    {
+      "path": "01_support/freecad/freecad-smoke.FCMacro",
+      "sha256": "49fa0a68bdd43ec579bf3afeaad39de2744a8593b8132980470672bdf4a1ae5f",
+      "bytes": 2073
+    },
+    {
+      "path": "01_support/freecad/freecad-smoke.log",
+      "sha256": "9e85f8f3efe5721aea828e328b03895e1ebff3f77e793fc5c7d70795ab7a1131",
+      "bytes": 223
+    },
+    {
+      "path": "01_support/freecad/result.json",
+      "sha256": "55aeebf6bfcb17262bac9234df20374302cdb289f37e6424db19fcb967226c16",
+      "bytes": 549
+    },
+    {
+      "path": "01_support/freecad/test-bracket.png",
+      "sha256": "284eb1afe46fa0a0393bfaac142b7eea28d3eaa190bb1d92400b65738e1fa0bb",
+      "bytes": 5659
+    },
+    {
+      "path": "01_support/freecad-independent-check.json",
+      "sha256": "ccff6d0b7f8ae331b0b8443b503cf51f518a5d31749007e05742c8520adf871e",
+      "bytes": 1111
+    },
+    {
+      "path": "01_support/gui-check.json",
+      "sha256": "42bbf8c8f4196bcbd27d7969ea4bf050ca3d4bffe192087570c90bfebb464258",
+      "bytes": 273
+    },
+    {
+      "path": "01_support/inkscape-check.log",
+      "sha256": "6ca84b754ea34a0f514a657051c058c4cf0bcacffd4e9ef52cef325e332a7888",
+      "bytes": 564
+    },
+    {
+      "path": "01_support/platform.md",
+      "sha256": "7b186f2dfba15720c759a99e0ca9dcc293164b16c0bef020e366c517ad928097",
+      "bytes": 2902
+    },
+    {
+      "path": "01_support/review.md",
+      "sha256": "d1f34b7b8d2d1a7956b12f3b28077699dd323945b06eb79dbc433d16c3204c27",
+      "bytes": 6671
+    }
+  ]
+}

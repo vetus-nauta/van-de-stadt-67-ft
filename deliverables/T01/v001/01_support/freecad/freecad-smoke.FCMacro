@@ -1,0 +1,36 @@
+import FreeCAD as App
+import Part
+import json, pathlib, traceback, math
+out = pathlib.Path('/home/alexey/Groot/van-de-stadt-67-ft/.local/tooling/freecad-smoke')
+out.mkdir(parents=True, exist_ok=True)
+try:
+    doc = App.newDocument('ToolingSmoke')
+    obj = doc.addObject('PartDesign::Feature', 'TestBracket')
+    # 100 x 60 x 10 mm stock minus 8 mm through-hole.
+    obj.Shape = Part.makeBox(100,60,10).cut(Part.makeCylinder(4,10,App.Vector(15,15,0)))
+    doc.recompute()
+    expected = 60000 - math.pi * 16 * 10
+    assert obj.Shape.isValid() and len(obj.Shape.Solids) == 1
+    assert abs(obj.Shape.Volume - expected) < 1e-6
+    doc.saveAs(str(out / 'test-bracket.FCStd'))
+    Part.export([obj], str(out / 'test-bracket.step'))
+    Gui.activeDocument().activeView().viewAxonometric()
+    Gui.activeDocument().activeView().fitAll()
+    Gui.activeDocument().activeView().saveImage(str(out / 'test-bracket.png'),1200,800,'White')
+    App.closeDocument(doc.Name)
+    reopened = App.openDocument(str(out / 'test-bracket.FCStd'))
+    shape = reopened.getObject('TestBracket').Shape
+    assert shape.isValid() and len(shape.Solids) == 1
+    assert abs(shape.Volume - expected) < 1e-6
+    step = Part.Shape()
+    step.read(str(out / 'test-bracket.step'))
+    assert step.isValid() and len(step.Solids) == 1
+    assert abs(step.Volume - expected) < 1e-6
+    result = {'status':'PASS','version':App.Version(),'fcstd_valid':shape.isValid(),'fcstd_solids':len(shape.Solids),'fcstd_volume_mm3':shape.Volume,'step_valid':step.isValid(),'step_solids':len(step.Solids),'step_volume_mm3':step.Volume,'expected_volume_mm3':expected,'test':'Created box with through-hole, saved FCStd and STEP, closed document, reopened FCStd and read STEP independently.'}
+    (out / 'result.json').write_text(json.dumps(result,indent=2))
+    App.closeDocument(reopened.Name)
+except Exception:
+    (out / 'result.json').write_text(json.dumps({'status':'FAIL','traceback':traceback.format_exc()},indent=2))
+finally:
+    from PySide import QtCore
+    QtCore.QTimer.singleShot(1000, Gui.getMainWindow().close)

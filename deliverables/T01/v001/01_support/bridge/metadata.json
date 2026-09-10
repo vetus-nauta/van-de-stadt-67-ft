@@ -1,0 +1,244 @@
+{
+  "status": "VISUAL_REFERENCE_ONLY_NOT_EXACT_CAD_NOT_AS_BUILT",
+  "inputs_sha256": {
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "tools/cad/rhino_cached_mesh_to_obj.py": "8dbf3b484f9966be60622fb57c9febadfcd46aad8bb3f6d7dc01474658b49ad7"
+  },
+  "rhino3dm_distribution_version": "8.32.1",
+  "units": "metres",
+  "native_units": "millimetres",
+  "rhino_native_to_working_mm": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "working_mm_to_rhino_native": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinate_conversion": "apply 4x4 matrix to native mm, then divide XYZ by 1000",
+  "axis_meaning": "Same XYZ orientation as G02; X longitudinal, Y transverse, Z vertical by interpretation",
+  "datum": "larger-X endpoint of PolyCurve #234. Working plane z=0 is a drawing datum near CWL1250 text, not physical/design approved waterline.",
+  "mesh_method": "Original cached render mesh vertices and triangle/quad faces; no remeshing, welding or closure",
+  "limits": [
+    "Tessellation accuracy unknown; source NURBS and trims are not transferred",
+    "Open reference surfaces; no volume, hydrostatics or manufacturing dimensions certified",
+    "Object roles inherited from analytical selections, not approved semantic CAD assemblies",
+    "No complete interior, structural frame or proposed alterations in this export"
+  ],
+  "objects": [
+    {
+      "name": "shell_133_47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "source_index": 133,
+      "source_uuid": "47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "role": "shell",
+      "vertices": 647,
+      "faces": 963,
+      "bounds_m": {
+        "min": [
+          -20.498978671875,
+          -2.8776855230469445,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          7.836328055418562e-06,
+          2.0457036837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "shell_144_190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "source_index": 144,
+      "source_uuid": "190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "role": "shell",
+      "vertices": 647,
+      "faces": 964,
+      "bounds_m": {
+        "min": [
+          -20.498978671875,
+          -7.788671944581439e-06,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          2.8776855707030555,
+          2.0457036837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "deck_478_57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "source_index": 478,
+      "source_uuid": "57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "role": "deck",
+      "vertices": 3453,
+      "faces": 5149,
+      "bounds_m": {
+        "min": [
+          -19.752138828125002,
+          -2.8766640386719446,
+          1.4910630587429878
+        ],
+        "max": [
+          -0.3446540869140622,
+          2.8726640863280553,
+          1.8889204806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "roof_198_c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "source_index": 198,
+      "source_uuid": "c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "role": "roof",
+      "vertices": 153,
+      "faces": 195,
+      "bounds_m": {
+        "min": [
+          -15.109314609375,
+          -1.0500077886719446,
+          2.828346261867988
+        ],
+        "max": [
+          -12.65000015625,
+          1.0500078363280554,
+          2.896934152492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "roof_333_addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "source_index": 333,
+      "source_uuid": "addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "role": "roof",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094673984375,
+          -1.8625214605469447,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          2.3828055418562143e-08,
+          2.858815011867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "roof_334_fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "source_index": 334,
+      "source_uuid": "fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "role": "roof",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094673984375,
+          2.3828055418562143e-08,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          1.8625215082030555,
+          2.858815011867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "roof_335_1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "source_index": 335,
+      "source_uuid": "1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "role": "roof",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.7016222265625,
+          -1.8726249761719447,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          2.3828055418562143e-08,
+          2.777139230617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "roof_336_5077b506-30cd-4ab9-9784-91394139c4cc",
+      "source_index": 336,
+      "source_uuid": "5077b506-30cd-4ab9-9784-91394139c4cc",
+      "role": "roof",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.7016222265625,
+          2.3828055418562143e-08,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          1.8726250238280555,
+          2.777139230617988
+        ]
+      },
+      "source_brep_is_solid": false
+    }
+  ],
+  "obj_sha256": "58ea4a4727ab53d1aa41ef2324b3d49a691719424ec46269f1492bbe07ac8aa0"
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS_REFERENCE_TRANSFER_ONLY",
+  "reviewer": "/root/tools_review",
+  "method": "Original Rhino cached vertices and face topology compared against all OBJ vertices/faces; separately started Blender reads saved scene, checks every world-space vertex, face and UUID.",
+  "limits": "Same rhino3dm source reader as author; distinct checking code. No validation of NURBS, tessellation accuracy, closed solid, physical hull or design feasibility.",
+  "source_objects": 491,
+  "exported_objects": 8,
+  "objects": [
+    {
+      "source_index": 133,
+      "source_uuid": "47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "vertices": 647,
+      "faces": 963,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 9.496820325693989e-07
+    },
+    {
+      "source_index": 144,
+      "source_uuid": "190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "vertices": 647,
+      "faces": 964,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 9.496820325693989e-07
+    },
+    {
+      "source_index": 478,
+      "source_uuid": "57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "vertices": 3453,
+      "faces": 5149,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 9.497570303551583e-07
+    },
+    {
+      "source_index": 198,
+      "source_uuid": "c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "vertices": 153,
+      "faces": 195,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 4.7668457092697736e-07
+    },
+    {
+      "source_index": 333,
+      "source_uuid": "addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "vertices": 132,
+      "faces": 152,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 4.7673457004293596e-07
+    },
+    {
+      "source_index": 334,
+      "source_uuid": "fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "vertices": 132,
+      "faces": 152,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 4.7673457004293596e-07
+    },
+    {
+      "source_index": 335,
+      "source_uuid": "1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "vertices": 140,
+      "faces": 183,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 4.69385351919982e-07
+    },
+    {
+      "source_index": 336,
+      "source_uuid": "5077b506-30cd-4ab9-9784-91394139c4cc",
+      "vertices": 140,
+      "faces": 183,
+      "obj_max_coordinate_error_m": 5.000089231543825e-11,
+      "blend_max_coordinate_error_m": 4.69385351919982e-07
+    }
+  ],
+  "checked_sha256": {
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "deliverables/T01/v001/01_support/bridge/metadata.json": "012f5eea6771ff4da4458a866a4f3efb6db9a0bec22c4e7d195fbac2fdf26d10",
+    "deliverables/T01/v001/01_support/bridge/vds67-reference.obj": "58ea4a4727ab53d1aa41ef2324b3d49a691719424ec46269f1492bbe07ac8aa0",
+    "deliverables/T01/v001/01_support/bridge/vds67-reference.blend": "492fd2299a58203eb8bcad8a02e66fb9d74dc6935854e2e6576ec044594ca08c",
+    "tools/cad/rhino_cached_mesh_to_obj.py": "8dbf3b484f9966be60622fb57c9febadfcd46aad8bb3f6d7dc01474658b49ad7",
+    "tools/cad/blender_reference_scene.py": "8edfef6cf641d7ee8dfe8c9cf8b90ae750c40ae9fc06c5ca4f9bfb9a280918c1"
+  }
+}

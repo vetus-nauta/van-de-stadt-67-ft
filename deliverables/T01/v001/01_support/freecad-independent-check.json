@@ -1,0 +1,45 @@
+{
+  "status": "PASS_NEW_PROCESS_READ_ONLY",
+  "reviewer": "/root/tools_review",
+  "version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "tests": {
+    "FCStd": {
+      "valid": true,
+      "solids": 1,
+      "extents_mm": [
+        100.0,
+        60.0,
+        10.0
+      ],
+      "volume_mm3": 59497.34517542564,
+      "hole_center_empty": true,
+      "stock_point_inside": true
+    },
+    "STEP": {
+      "valid": true,
+      "solids": 1,
+      "extents_mm": [
+        100.0,
+        60.0,
+        10.0
+      ],
+      "volume_mm3": 59497.34517542564,
+      "hole_center_empty": true,
+      "stock_point_inside": true
+    }
+  },
+  "scope": "Synthetic 100x60x10 mm bracket with 8 mm through-hole; does not test native yacht Rhino import or exact yacht geometry.",
+  "input_sha256": {
+    "test-bracket.FCStd": "11d75cb89cd68a0f70604b5f1dbc3c91cf98771adbe9fadb8994cee14ff24407",
+    "test-bracket.step": "ab54d09ce8fafdb0b5b53daf8c227a9aaf991b681847d0cee8e0387fc2589e86"
+  }
+}

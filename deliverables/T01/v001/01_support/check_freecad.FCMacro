@@ -1,0 +1,38 @@
+"""Independent read-only test of the author's saved FCStd and STEP."""
+import FreeCAD as App
+import Part
+import pathlib, json, math, hashlib, traceback
+from PySide import QtCore
+
+root = pathlib.Path('/home/alexey/Groot/van-de-stadt-67-ft')
+src = root / '.local/tooling/freecad-smoke'
+output = root / 'deliverables/T01/v001/01_support/freecad-independent-check.json'
+try:
+    expected = 100 * 60 * 10 - math.pi * 4 ** 2 * 10
+    doc = App.openDocument(str(src / 'test-bracket.FCStd'))
+    assert len(doc.Objects) == 1
+    shapes = {'FCStd': doc.Objects[0].Shape}
+    shape = Part.Shape()
+    shape.read(str(src / 'test-bracket.step'))
+    shapes['STEP'] = shape
+    results = {}
+    for name, shape in shapes.items():
+        box = shape.BoundBox
+        extents = [box.XLength, box.YLength, box.ZLength]
+        assert shape.isValid() and len(shape.Solids) == 1
+        assert abs(shape.Volume - expected) < 1e-6
+        assert max(abs(a-b) for a,b in zip(extents,[100,60,10])) < 1e-6
+        assert not shape.isInside(App.Vector(15,15,5),1e-6,True)
+        assert shape.isInside(App.Vector(30,30,5),1e-6,True)
+        results[name] = {'valid':shape.isValid(),'solids':len(shape.Solids),
+                         'extents_mm':extents,'volume_mm3':shape.Volume,
+                         'hole_center_empty':True,'stock_point_inside':True}
+    result = {'status':'PASS_NEW_PROCESS_READ_ONLY','reviewer':'/root/tools_review',
+              'version':App.Version(),'tests':results,
+              'scope':'Synthetic 100x60x10 mm bracket with 8 mm through-hole; does not test native yacht Rhino import or exact yacht geometry.',
+              'input_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [src/'test-bracket.FCStd',src/'test-bracket.step']}}
+    App.closeDocument(doc.Name)
+except Exception:
+    result = {'status':'FAIL','traceback':traceback.format_exc()}
+output.write_text(json.dumps(result,indent=2)+'\n')
+QtCore.QTimer.singleShot(500,Gui.getMainWindow().close)

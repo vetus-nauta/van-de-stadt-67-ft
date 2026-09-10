@@ -1,0 +1,17 @@
+[
+  {
+    "app": "Inkscape",
+    "gui_window_seen": true,
+    "process_alive": true
+  },
+  {
+    "app": "Blender",
+    "gui_window_seen": true,
+    "process_alive": true
+  },
+  {
+    "app": "ODA File Converter",
+    "gui_window_seen": true,
+    "process_alive": true
+  }
+]

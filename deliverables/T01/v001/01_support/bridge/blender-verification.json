@@ -1,0 +1,160 @@
+{
+  "status": "PASS_IMPORT_SAVE_REOPEN",
+  "blender_version": "4.0.2",
+  "axis_import": {
+    "forward_axis": "Y",
+    "up_axis": "Z"
+  },
+  "coordinate_check_tolerance_m": 1e-05,
+  "scope": "8 objects, cached vertex/face counts, source UUID, metre bounding boxes before and after reopen",
+  "not_checked": "Exact CAD surfaces, manifoldness, visual rendering, hydrostatics and production suitability",
+  "obj_sha256": "58ea4a4727ab53d1aa41ef2324b3d49a691719424ec46269f1492bbe07ac8aa0",
+  "blend_sha256": "492fd2299a58203eb8bcad8a02e66fb9d74dc6935854e2e6576ec044594ca08c",
+  "script_sha256": "8edfef6cf641d7ee8dfe8c9cf8b90ae750c40ae9fc06c5ca4f9bfb9a280918c1",
+  "objects": [
+    {
+      "name": "shell_133_47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "vertices": 647,
+      "faces": 963,
+      "bounds_m": {
+        "min": [
+          -20.498979568481445,
+          -2.877685546875,
+          -1.2438979148864746
+        ],
+        "max": [
+          -0.20910122990608215,
+          7.836328222765587e-06,
+          2.045703649520874
+        ]
+      },
+      "max_bbox_coordinate_error_m": 8.966064442006427e-07
+    },
+    {
+      "name": "shell_144_190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "vertices": 647,
+      "faces": 964,
+      "bounds_m": {
+        "min": [
+          -20.498979568481445,
+          -7.788671609887388e-06,
+          -1.2438979148864746
+        ],
+        "max": [
+          -0.20910122990608215,
+          2.877685546875,
+          2.045703649520874
+        ]
+      },
+      "max_bbox_coordinate_error_m": 8.966064442006427e-07
+    },
+    {
+      "name": "deck_478_57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "vertices": 3453,
+      "faces": 5149,
+      "bounds_m": {
+        "min": [
+          -19.752138137817383,
+          -2.87666392326355,
+          1.491063117980957
+        ],
+        "max": [
+          -0.3446540832519531,
+          2.872663974761963,
+          1.8889204263687134
+        ]
+      },
+      "max_bbox_coordinate_error_m": 6.903076190667434e-07
+    },
+    {
+      "name": "roof_198_c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "vertices": 153,
+      "faces": 195,
+      "bounds_m": {
+        "min": [
+          -15.109314918518066,
+          -1.0500078201293945,
+          2.8283462524414062
+        ],
+        "max": [
+          -12.65000057220459,
+          1.0500078201293945,
+          2.8969342708587646
+        ]
+      },
+      "max_bbox_coordinate_error_m": 4.1595458988297196e-07
+    },
+    {
+      "name": "roof_333_addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094674110412598,
+          -1.8625214099884033,
+          2.633178234100342
+        ],
+        "max": [
+          -10.956928253173828,
+          2.3828055972785478e-08,
+          2.8588149547576904
+        ]
+      },
+      "max_bbox_coordinate_error_m": 3.6254882829211965e-07
+    },
+    {
+      "name": "roof_334_fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094674110412598,
+          2.3828055972785478e-08,
+          2.633178234100342
+        ],
+        "max": [
+          -10.956928253173828,
+          1.8625215291976929,
+          2.8588149547576904
+        ]
+      },
+      "max_bbox_coordinate_error_m": 3.6254882829211965e-07
+    },
+    {
+      "name": "roof_335_1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.701622009277344,
+          -1.8726249933242798,
+          2.5756256580352783
+        ],
+        "max": [
+          -10.798319816589355,
+          2.3828055972785478e-08,
+          2.777139186859131
+        ]
+      },
+      "max_bbox_coordinate_error_m": 3.244018547121641e-07
+    },
+    {
+      "name": "roof_336_5077b506-30cd-4ab9-9784-91394139c4cc",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.701622009277344,
+          2.3828055972785478e-08,
+          2.5756256580352783
+        ],
+        "max": [
+          -10.798319816589355,
+          1.8726249933242798,
+          2.777139186859131
+        ]
+      },
+      "max_bbox_coordinate_error_m": 3.244018547121641e-07
+    }
+  ]
+}
