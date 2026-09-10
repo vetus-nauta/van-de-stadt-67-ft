@@ -12,4 +12,4 @@ documentation/**/*.3dm -text
 documentation/**/*.DWG -text
 documentation/**/*.pdf -text
 documentation/**/*.jpg -text
-documentation/99-service/email-reaction.json -text
+documentation/99-service/email-reaction.json -text whitespace=cr-at-eol
