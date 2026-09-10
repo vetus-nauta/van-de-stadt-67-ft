@@ -1,5 +1,7 @@
 # Van de Stadt 67 ft — Project Technical Base
 
+[Шаблон будущей УТВ — Excel/LibreOffice](deliverables/U01/v001/00_UTV_template.xlsx) · [Порядок заполнения](deliverables/U01/v001/01_support/00_readme.md).
+
 [Эксперименты с надстройкой](experiments/README.md) — отдельные варианты, исходные чертежи сохранены.
 
 
