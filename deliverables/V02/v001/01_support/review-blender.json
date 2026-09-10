@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INDEPENDENT_BLEND_REREAD",
+  "objects": 314,
+  "vertices": 125026,
+  "max_vertex_error_m": 9.497570303551583e-07,
+  "blender_version": "4.0.2",
+  "blend_sha256": "d0a47aa2fafbe60e24518658f6029a82aba491d9e88a6d2eb0469009bef36a6a",
+  "obj_sha256": "169a4888538dbb4d66fccb19fd33e4d589e5090f71a1f865e726d32cfb7fce6c",
+  "scope": "All UUIDs, every vertex transformed to world metres, all polygon index lists. No geometric healing, NURBS verification, volume or as-built assertion."
+}

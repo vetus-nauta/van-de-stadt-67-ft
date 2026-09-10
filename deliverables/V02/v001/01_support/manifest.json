@@ -1,0 +1,76 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_full-model.md",
+      "sha256": "8bb993d658a403afa29d271ccad1c462ba368d7109afb02650232b7416600199",
+      "bytes": 2657
+    },
+    {
+      "path": "01_support/exterior.blend",
+      "sha256": "acbf8d1231144bd5c27942fb4f97b321b10c509aabf4908ea6b6383a9b8df8b7",
+      "bytes": 12083448
+    },
+    {
+      "path": "01_support/exterior.png",
+      "sha256": "b82fb9f1f6cc68624142549a6d13d481bb4938919e9058c0373dd7aa475b170a",
+      "bytes": 1615198
+    },
+    {
+      "path": "01_support/full/blender-verification.json",
+      "sha256": "9a7a8b28d72c455d9e5a4175902a0d28723f11253aef58e37b5c41e9e3f30bf1",
+      "bytes": 138727
+    },
+    {
+      "path": "01_support/full/metadata.json",
+      "sha256": "199dfbac9dbadb7d1af051087b1361db330cc7b4bf7615ee42b01a21af56878b",
+      "bytes": 166279
+    },
+    {
+      "path": "01_support/full/vds67-reference.blend",
+      "sha256": "d0a47aa2fafbe60e24518658f6029a82aba491d9e88a6d2eb0469009bef36a6a",
+      "bytes": 12078480
+    },
+    {
+      "path": "01_support/full/vds67-reference.obj",
+      "sha256": "169a4888538dbb4d66fccb19fd33e4d589e5090f71a1f865e726d32cfb7fce6c",
+      "bytes": 9235799
+    },
+    {
+      "path": "01_support/review-blender.json",
+      "sha256": "c1f803bb78aacfe22686e00255409d5aad351499768cf28d04a57bd7d56450b5",
+      "bytes": 499
+    },
+    {
+      "path": "01_support/review-check.json",
+      "sha256": "8b8f20c1d04b68821675bf9c5a94b847d00d69d881c5f44580b7cdcc1d8b6cce",
+      "bytes": 62936
+    },
+    {
+      "path": "01_support/review.md",
+      "sha256": "e545a3f35b5d0672c94fad1a423fc606de1883cb64297cf4fe503bf87d0aac95",
+      "bytes": 3430
+    },
+    {
+      "path": "01_support/review_blender.py",
+      "sha256": "cc53fcca5eb0c1cfe0f6e08dba8dfeb1f03d40c64c42d490e7d07b8f0357c3fc",
+      "bytes": 1648
+    },
+    {
+      "path": "01_support/review_check.py",
+      "sha256": "e1ebbe6c258654e4ebc6d80d2618ab195087f0a119b7ec4cbb8e2867419cee74",
+      "bytes": 4176
+    },
+    {
+      "path": "01_support/show-full.py",
+      "sha256": "dea54c44a77bfc7a8c4ee35b568574190eda864951e911024f475bf3e125be61",
+      "bytes": 2004
+    }
+  ]
+}

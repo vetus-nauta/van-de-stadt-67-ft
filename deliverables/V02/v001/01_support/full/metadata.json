@@ -1,0 +1,6670 @@
+{
+  "status": "VISUAL_REFERENCE_ONLY_NOT_EXACT_CAD_NOT_AS_BUILT",
+  "inputs_sha256": {
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "tools/cad/rhino_cached_mesh_to_obj.py": "8dbf3b484f9966be60622fb57c9febadfcd46aad8bb3f6d7dc01474658b49ad7"
+  },
+  "rhino3dm_distribution_version": "8.32.1",
+  "units": "metres",
+  "native_units": "millimetres",
+  "rhino_native_to_working_mm": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "working_mm_to_rhino_native": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "coordinate_conversion": "apply 4x4 matrix to native mm, then divide XYZ by 1000",
+  "axis_meaning": "Same XYZ orientation as G02; X longitudinal, Y transverse, Z vertical by interpretation",
+  "datum": "larger-X endpoint of PolyCurve #234. Working plane z=0 is a drawing datum near CWL1250 text, not physical/design approved waterline.",
+  "mesh_method": "Original cached render mesh vertices and triangle/quad faces; no remeshing, welding or closure",
+  "limits": [
+    "Tessellation accuracy unknown; source NURBS and trims are not transferred",
+    "Open reference surfaces; no volume, hydrostatics or manufacturing dimensions certified",
+    "Object roles inherited from analytical selections, not approved semantic CAD assemblies",
+    "No complete interior, structural frame or proposed alterations in this export"
+  ],
+  "objects": [
+    {
+      "name": "brep_0_09b50099-b89c-4df2-8eab-3c390e9491c3",
+      "source_index": 0,
+      "source_uuid": "09b50099-b89c-4df2-8eab-3c390e9491c3",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -18.67000015625,
+          -2.0753476324219444,
+          1.5239009493679878
+        ],
+        "max": [
+          -18.63000015625,
+          -2.0353476324219444,
+          1.6439009493679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_1_6fd86359-2733-4ae1-8eb7-75f1a8167aba",
+      "source_index": 1,
+      "source_uuid": "6fd86359-2733-4ae1-8eb7-75f1a8167aba",
+      "role": "brep",
+      "vertices": 340,
+      "faces": 392,
+      "bounds_m": {
+        "min": [
+          -18.67500015625,
+          -2.0803476324219448,
+          1.5239009493679878
+        ],
+        "max": [
+          -18.62500015625,
+          -2.0303476324219445,
+          1.6439009493679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_2_2bc25291-a06c-4acd-9bfb-70f2fb4f16c3",
+      "source_index": 2,
+      "source_uuid": "2bc25291-a06c-4acd-9bfb-70f2fb4f16c3",
+      "role": "brep",
+      "vertices": 133,
+      "faces": 172,
+      "bounds_m": {
+        "min": [
+          -18.67500015625,
+          -2.0789394292969448,
+          1.5199009493679878
+        ],
+        "max": [
+          -18.62500015625,
+          -2.0303476324219445,
+          1.5199009493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_3_569a6806-816d-4723-b456-f79d0bde3ce5",
+      "source_index": 3,
+      "source_uuid": "569a6806-816d-4723-b456-f79d0bde3ce5",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -18.65000015625,
+          -2.0789394292969448,
+          1.4893540743679878
+        ],
+        "max": [
+          -18.65000015625,
+          -2.0156640386719444,
+          1.6083228243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_4_4618bb23-97d2-42ae-92ce-6423facea88f",
+      "source_index": 4,
+      "source_uuid": "4618bb23-97d2-42ae-92ce-6423facea88f",
+      "role": "brep",
+      "vertices": 198,
+      "faces": 160,
+      "bounds_m": {
+        "min": [
+          -19.71685953125,
+          -0.2749999761719446,
+          1.6313032931179878
+        ],
+        "max": [
+          -19.66685953125,
+          -0.2249999761719446,
+          1.7513032931179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_5_78024294-0232-459c-ae92-8ed9276786c0",
+      "source_index": 5,
+      "source_uuid": "78024294-0232-459c-ae92-8ed9276786c0",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -19.71185953125,
+          -0.2699999761719446,
+          1.6313032931179878
+        ],
+        "max": [
+          -19.67185953125,
+          -0.2299999761719446,
+          1.7513032931179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_6_c6040361-723a-4fdc-bf15-4d18dae326ed",
+      "source_index": 6,
+      "source_uuid": "c6040361-723a-4fdc-bf15-4d18dae326ed",
+      "role": "brep",
+      "vertices": 198,
+      "faces": 160,
+      "bounds_m": {
+        "min": [
+          -19.628980625,
+          -1.0749999761719446,
+          1.5916040743679878
+        ],
+        "max": [
+          -19.578980625,
+          -1.0249999761719446,
+          1.7116040743679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_7_00941fa9-a05c-4cfd-a5f1-1519571d7ca0",
+      "source_index": 7,
+      "source_uuid": "00941fa9-a05c-4cfd-a5f1-1519571d7ca0",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -19.623980625,
+          -1.0699999761719445,
+          1.5916040743679878
+        ],
+        "max": [
+          -19.583980625,
+          -1.0299999761719445,
+          1.7116040743679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_8_024373f4-bd30-4a23-85b7-dc4f14eb0fb0",
+      "source_index": 8,
+      "source_uuid": "024373f4-bd30-4a23-85b7-dc4f14eb0fb0",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -19.437732578125,
+          -1.8199999761719445,
+          1.5093521212429877
+        ],
+        "max": [
+          -19.397732578125,
+          -1.7799999761719445,
+          1.6293521212429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_9_270b5ed4-33f9-4bb9-b71b-81185a9d8dc0",
+      "source_index": 9,
+      "source_uuid": "270b5ed4-33f9-4bb9-b71b-81185a9d8dc0",
+      "role": "brep",
+      "vertices": 198,
+      "faces": 160,
+      "bounds_m": {
+        "min": [
+          -19.442732578125,
+          -1.8249999761719446,
+          1.5093521212429877
+        ],
+        "max": [
+          -19.392732578125,
+          -1.7749999761719446,
+          1.6293521212429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_10_a334ad8a-9044-4c3f-82b0-5a2e13da3187",
+      "source_index": 10,
+      "source_uuid": "a334ad8a-9044-4c3f-82b0-5a2e13da3187",
+      "role": "brep",
+      "vertices": 20,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -3.4499991796874996,
+          -1.2729218511719447,
+          1.7638306368679877
+        ],
+        "max": [
+          -3.4499991796874996,
+          -1.1934003667969446,
+          1.9250708712429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_11_accbfeaf-fc35-407a-aa7b-83e4adde487e",
+      "source_index": 11,
+      "source_uuid": "accbfeaf-fc35-407a-aa7b-83e4adde487e",
+      "role": "brep",
+      "vertices": 348,
+      "faces": 392,
+      "bounds_m": {
+        "min": [
+          -3.4699991796874996,
+          -1.2798925542969446,
+          1.8403091524929878
+        ],
+        "max": [
+          -3.4299991796874996,
+          -1.2398925542969446,
+          1.9603091524929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_12_97728507-e59f-41ee-914d-943b94d97cff",
+      "source_index": 12,
+      "source_uuid": "97728507-e59f-41ee-914d-943b94d97cff",
+      "role": "brep",
+      "vertices": 316,
+      "faces": 382,
+      "bounds_m": {
+        "min": [
+          -3.4749991796874995,
+          -1.2848925542969445,
+          1.8403091524929878
+        ],
+        "max": [
+          -3.4249991796874997,
+          -1.2348925542969447,
+          1.9603091524929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_13_d21d2b48-325b-421f-858a-431cf92f74ec",
+      "source_index": 13,
+      "source_uuid": "d21d2b48-325b-421f-858a-431cf92f74ec",
+      "role": "brep",
+      "vertices": 102,
+      "faces": 132,
+      "bounds_m": {
+        "min": [
+          -3.4749991796874995,
+          -1.2729218511719447,
+          1.8363091524929878
+        ],
+        "max": [
+          -3.4249991796874997,
+          -1.2348925542969447,
+          1.8363091524929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_14_a096f621-257d-4f0c-bddb-2a6356b18152",
+      "source_index": 14,
+      "source_uuid": "a096f621-257d-4f0c-bddb-2a6356b18152",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -5.4499991796875005,
+          -1.8867343511719445,
+          1.7006236056179878
+        ],
+        "max": [
+          -5.4499991796875005,
+          -1.8124999761719445,
+          1.8553696993679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_15_1afcd136-d30a-4314-980b-638cf643b4ba",
+      "source_index": 15,
+      "source_uuid": "1afcd136-d30a-4314-980b-638cf643b4ba",
+      "role": "brep",
+      "vertices": 338,
+      "faces": 367,
+      "bounds_m": {
+        "min": [
+          -5.4699991796875,
+          -1.8892109136719446,
+          1.7707876681179877
+        ],
+        "max": [
+          -5.4299991796875,
+          -1.8492109136719446,
+          1.8907876681179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_16_6f684223-8655-48d6-874e-a0da48eb5f99",
+      "source_index": 16,
+      "source_uuid": "6f684223-8655-48d6-874e-a0da48eb5f99",
+      "role": "brep",
+      "vertices": 303,
+      "faces": 340,
+      "bounds_m": {
+        "min": [
+          -5.4749991796875,
+          -1.8942109136719445,
+          1.7707876681179877
+        ],
+        "max": [
+          -5.4249991796875,
+          -1.8442109136719447,
+          1.8907876681179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_17_f3273f38-8719-45a1-80bd-101a9751de93",
+      "source_index": 17,
+      "source_uuid": "f3273f38-8719-45a1-80bd-101a9751de93",
+      "role": "brep",
+      "vertices": 84,
+      "faces": 102,
+      "bounds_m": {
+        "min": [
+          -5.4749991796875,
+          -1.8867343511719445,
+          1.7667876681179877
+        ],
+        "max": [
+          -5.4249991796875,
+          -1.8442109136719447,
+          1.7667876681179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_18_852a90ca-2c85-4d72-a2fc-7ebfc896afe1",
+      "source_index": 18,
+      "source_uuid": "852a90ca-2c85-4d72-a2fc-7ebfc896afe1",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 21,
+      "bounds_m": {
+        "min": [
+          -7.4499991796875005,
+          -2.3805898199219446,
+          1.6464575899929879
+        ],
+        "max": [
+          -7.4499991796875005,
+          -2.3134433355469444,
+          1.7951724337429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_19_26ce90c7-5079-4383-9eaa-634e87f84dbf",
+      "source_index": 19,
+      "source_uuid": "26ce90c7-5079-4383-9eaa-634e87f84dbf",
+      "role": "brep",
+      "vertices": 405,
+      "faces": 479,
+      "bounds_m": {
+        "min": [
+          -7.4699991796875,
+          -2.3833984136719444,
+          1.7108228243679877
+        ],
+        "max": [
+          -7.4299991796875,
+          -2.343398413671945,
+          1.8308228243679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_20_2d3f17e1-080b-4bf1-a36a-bd96efa454f5",
+      "source_index": 20,
+      "source_uuid": "2d3f17e1-080b-4bf1-a36a-bd96efa454f5",
+      "role": "brep",
+      "vertices": 293,
+      "faces": 326,
+      "bounds_m": {
+        "min": [
+          -7.4749991796875,
+          -2.3883984136719447,
+          1.7108228243679877
+        ],
+        "max": [
+          -7.4249991796875,
+          -2.3383984136719445,
+          1.8308228243679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_21_5e920156-7d0f-4f49-9e49-c4f98d032eae",
+      "source_index": 21,
+      "source_uuid": "5e920156-7d0f-4f49-9e49-c4f98d032eae",
+      "role": "brep",
+      "vertices": 82,
+      "faces": 100,
+      "bounds_m": {
+        "min": [
+          -7.4749991796875,
+          -2.3805898199219446,
+          1.7068228243679877
+        ],
+        "max": [
+          -7.4249991796875,
+          -2.3383984136719445,
+          1.7068228243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_22_dcc4c512-87e3-4bdb-90d5-c264628076af",
+      "source_index": 22,
+      "source_uuid": "dcc4c512-87e3-4bdb-90d5-c264628076af",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 21,
+      "bounds_m": {
+        "min": [
+          -9.4499991796875,
+          -2.7178788824219446,
+          1.6009029024929877
+        ],
+        "max": [
+          -9.4499991796875,
+          -2.6550878667969444,
+          1.7434263399929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_23_4466af12-df66-43fe-9515-adeffc5a9bff",
+      "source_index": 23,
+      "source_uuid": "4466af12-df66-43fe-9515-adeffc5a9bff",
+      "role": "brep",
+      "vertices": 361,
+      "faces": 421,
+      "bounds_m": {
+        "min": [
+          -9.4749991796875,
+          -2.7198906011719446,
+          1.6591275118679878
+        ],
+        "max": [
+          -9.4249991796875,
+          -2.6698906011719448,
+          1.7791275118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_24_2d49294a-eac6-4a2f-a62f-ebac49d13529",
+      "source_index": 24,
+      "source_uuid": "2d49294a-eac6-4a2f-a62f-ebac49d13529",
+      "role": "brep",
+      "vertices": 127,
+      "faces": 162,
+      "bounds_m": {
+        "min": [
+          -9.4749991796875,
+          -2.7178788824219446,
+          1.6551275118679878
+        ],
+        "max": [
+          -9.4249991796875,
+          -2.6698906011719448,
+          1.6551275118679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_25_2c19995a-3310-4fc0-89d0-1719eb4e6319",
+      "source_index": 25,
+      "source_uuid": "2c19995a-3310-4fc0-89d0-1719eb4e6319",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -9.4699991796875,
+          -2.7148906011719447,
+          1.6591275118679878
+        ],
+        "max": [
+          -9.429999179687501,
+          -2.6748906011719447,
+          1.7791275118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_26_b7d374b4-bd21-4c8b-940b-ec8b37bbde24",
+      "source_index": 26,
+      "source_uuid": "b7d374b4-bd21-4c8b-940b-ec8b37bbde24",
+      "role": "brep",
+      "vertices": 21,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -11.45000015625,
+          -2.8697714605469447,
+          1.5627114962429878
+        ],
+        "max": [
+          -11.45000015625,
+          -2.8097753667969445,
+          1.6992915743679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_27_9a6cb325-7801-47c1-9c31-7fe0d9a7a126",
+      "source_index": 27,
+      "source_uuid": "9a6cb325-7801-47c1-9c31-7fe0d9a7a126",
+      "role": "brep",
+      "vertices": 101,
+      "faces": 120,
+      "bounds_m": {
+        "min": [
+          -11.475000156250001,
+          -2.869183569921945,
+          1.6108892306179878
+        ],
+        "max": [
+          -11.42500015625,
+          -2.8191835699219445,
+          1.6108892306179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_28_c49f76b6-747e-41e1-9905-ddb78ca2a365",
+      "source_index": 28,
+      "source_uuid": "c49f76b6-747e-41e1-9905-ddb78ca2a365",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -11.47000015625,
+          -2.8641835699219444,
+          1.6148892306179878
+        ],
+        "max": [
+          -11.43000015625,
+          -2.8241835699219444,
+          1.7348892306179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_29_f7cad0c6-dc28-4398-8da6-f316f9f53cd9",
+      "source_index": 29,
+      "source_uuid": "f7cad0c6-dc28-4398-8da6-f316f9f53cd9",
+      "role": "brep",
+      "vertices": 198,
+      "faces": 160,
+      "bounds_m": {
+        "min": [
+          -11.475000156250001,
+          -2.869183569921945,
+          1.6148892306179878
+        ],
+        "max": [
+          -11.42500015625,
+          -2.8191835699219445,
+          1.7348892306179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_30_78ae9039-4b2d-4c81-a2df-d60a63c84ef3",
+      "source_index": 30,
+      "source_uuid": "78ae9039-4b2d-4c81-a2df-d60a63c84ef3",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 21,
+      "bounds_m": {
+        "min": [
+          -13.4499991796875,
+          -2.8296425542969446,
+          1.5316724337429877
+        ],
+        "max": [
+          -13.4499991796875,
+          -2.7681933355469446,
+          1.6630806368679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_31_49570555-d9b8-4cb0-8cc2-51b9df8d25d8",
+      "source_index": 31,
+      "source_uuid": "49570555-d9b8-4cb0-8cc2-51b9df8d25d8",
+      "role": "brep",
+      "vertices": 101,
+      "faces": 120,
+      "bounds_m": {
+        "min": [
+          -13.4749991796875,
+          -2.8279433355469448,
+          1.5745884493679878
+        ],
+        "max": [
+          -13.4249991796875,
+          -2.7779433355469445,
+          1.5745884493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_32_a80ddc5c-4608-45af-ae6e-6bbf6f2ea4bc",
+      "source_index": 32,
+      "source_uuid": "a80ddc5c-4608-45af-ae6e-6bbf6f2ea4bc",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -13.4699991796875,
+          -2.8229433355469444,
+          1.5785884493679878
+        ],
+        "max": [
+          -13.429999179687501,
+          -2.7829433355469444,
+          1.6985884493679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_33_bd965dea-1276-4ead-8cb3-a327e8d6d5a1",
+      "source_index": 33,
+      "source_uuid": "bd965dea-1276-4ead-8cb3-a327e8d6d5a1",
+      "role": "brep",
+      "vertices": 198,
+      "faces": 160,
+      "bounds_m": {
+        "min": [
+          -13.4749991796875,
+          -2.8279433355469448,
+          1.5785884493679878
+        ],
+        "max": [
+          -13.4249991796875,
+          -2.7779433355469445,
+          1.6985884493679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_34_a32f468d-b752-4ae7-9ec5-15d7af4eb5aa",
+      "source_index": 34,
+      "source_uuid": "a32f468d-b752-4ae7-9ec5-15d7af4eb5aa",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 21,
+      "bounds_m": {
+        "min": [
+          -15.45000015625,
+          -2.6211464605469446,
+          1.5105239962429877
+        ],
+        "max": [
+          -15.45000015625,
+          -2.5595839605469446,
+          1.6353091524929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_35_22385e0c-ffeb-4059-905f-51e3f9196b42",
+      "source_index": 35,
+      "source_uuid": "22385e0c-ffeb-4059-905f-51e3f9196b42",
+      "role": "brep",
+      "vertices": 117,
+      "faces": 150,
+      "bounds_m": {
+        "min": [
+          -15.475000156250001,
+          -2.6211464605469446,
+          1.5467329806179877
+        ],
+        "max": [
+          -15.42500015625,
+          -2.5740527105469444,
+          1.5467329806179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_36_7f7e8662-1756-4559-af07-a2fd9fdd5a90",
+      "source_index": 36,
+      "source_uuid": "7f7e8662-1756-4559-af07-a2fd9fdd5a90",
+      "role": "brep",
+      "vertices": 346,
+      "faces": 399,
+      "bounds_m": {
+        "min": [
+          -15.475000156250001,
+          -2.6240527105469447,
+          1.5507329806179877
+        ],
+        "max": [
+          -15.42500015625,
+          -2.5740527105469444,
+          1.6707329806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_37_28a23c97-444c-4d24-b1cb-6a8a3a8d3f9c",
+      "source_index": 37,
+      "source_uuid": "28a23c97-444c-4d24-b1cb-6a8a3a8d3f9c",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -15.47000015625,
+          -2.6190527105469448,
+          1.5507329806179877
+        ],
+        "max": [
+          -15.43000015625,
+          -2.5790527105469447,
+          1.6707329806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_38_c0f1f58c-0daf-4271-9622-412a9e69be77",
+      "source_index": 38,
+      "source_uuid": "c0f1f58c-0daf-4271-9622-412a9e69be77",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          -2.3012089605469446,
+          1.4970884493679877
+        ],
+        "max": [
+          -17.45000015625,
+          -2.2379355230469447,
+          1.6160571993679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_39_90b9146b-b823-4d97-aa0b-5655ad577c79",
+      "source_index": 39,
+      "source_uuid": "90b9146b-b823-4d97-aa0b-5655ad577c79",
+      "role": "brep",
+      "vertices": 133,
+      "faces": 172,
+      "bounds_m": {
+        "min": [
+          -17.47500015625,
+          -2.3012089605469446,
+          1.5276353243679879
+        ],
+        "max": [
+          -17.42500015625,
+          -2.2526171636719448,
+          1.5276353243679879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_40_de441cc9-1ad6-4b2a-830b-70f194c57bab",
+      "source_index": 40,
+      "source_uuid": "de441cc9-1ad6-4b2a-830b-70f194c57bab",
+      "role": "brep",
+      "vertices": 340,
+      "faces": 392,
+      "bounds_m": {
+        "min": [
+          -17.47500015625,
+          -2.3026171636719446,
+          1.5316353243679879
+        ],
+        "max": [
+          -17.42500015625,
+          -2.2526171636719448,
+          1.6516353243679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_41_3f2e3b27-bfc5-4c06-84b4-320952f544fa",
+      "source_index": 41,
+      "source_uuid": "3f2e3b27-bfc5-4c06-84b4-320952f544fa",
+      "role": "brep",
+      "vertices": 231,
+      "faces": 192,
+      "bounds_m": {
+        "min": [
+          -17.47000015625,
+          -2.2976171636719447,
+          1.5316353243679879
+        ],
+        "max": [
+          -17.43000015625,
+          -2.2576171636719446,
+          1.6516353243679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_42_1e220cf5-43aa-4693-bd6d-7883306f624b",
+      "source_index": 42,
+      "source_uuid": "1e220cf5-43aa-4693-bd6d-7883306f624b",
+      "role": "brep",
+      "vertices": 1178,
+      "faces": 1503,
+      "bounds_m": {
+        "min": [
+          -19.523138828125,
+          -1.0009843511719445,
+          0.5498286837429878
+        ],
+        "max": [
+          -16.25000015625,
+          -0.6111386480469446,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_52_b2d193cc-3a49-4a25-9e25-f136975aeeea",
+      "source_index": 52,
+      "source_uuid": "b2d193cc-3a49-4a25-9e25-f136975aeeea",
+      "role": "brep",
+      "vertices": 184,
+      "faces": 240,
+      "bounds_m": {
+        "min": [
+          -17.349599765625,
+          -0.7498359136719446,
+          1.2085239962429877
+        ],
+        "max": [
+          -15.375224765625001,
+          1.5366269769530554,
+          1.2479224337429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_53_b76a884f-1df5-46f5-b2d4-2b6c35b2c939",
+      "source_index": 53,
+      "source_uuid": "b76a884f-1df5-46f5-b2d4-2b6c35b2c939",
+      "role": "brep",
+      "vertices": 300,
+      "faces": 376,
+      "bounds_m": {
+        "min": [
+          -17.30267203125,
+          0.7496543207030554,
+          1.2202974337429877
+        ],
+        "max": [
+          -15.94736734375,
+          1.3604121332030554,
+          2.0278931368679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_54_9d3d3709-7b2f-47b2-a293-a663efd51c58",
+      "source_index": 54,
+      "source_uuid": "9d3d3709-7b2f-47b2-a293-a663efd51c58",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -18.714568515625,
+          -1.3779863042969447,
+          1.5205259493679877
+        ],
+        "max": [
+          -18.481873203125,
+          1.3779863519530555,
+          1.8410884493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_56_4efa934a-9799-4e51-a023-70e81c50586e",
+      "source_index": 56,
+      "source_uuid": "4efa934a-9799-4e51-a023-70e81c50586e",
+      "role": "brep",
+      "vertices": 81,
+      "faces": 89,
+      "bounds_m": {
+        "min": [
+          -18.481873203125,
+          -1.3779863042969447,
+          1.5109810274929878
+        ],
+        "max": [
+          -17.94960171875,
+          -1.2549999761719446,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_57_b7347639-4981-4080-9f8b-39016ed31029",
+      "source_index": 57,
+      "source_uuid": "b7347639-4981-4080-9f8b-39016ed31029",
+      "role": "brep",
+      "vertices": 81,
+      "faces": 89,
+      "bounds_m": {
+        "min": [
+          -18.481873203125,
+          1.2550000238280554,
+          1.5109810274929878
+        ],
+        "max": [
+          -17.94960171875,
+          1.3779863519530555,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_58_5fa358fe-cc2d-4a46-9306-eac27e2b7179",
+      "source_index": 58,
+      "source_uuid": "5fa358fe-cc2d-4a46-9306-eac27e2b7179",
+      "role": "brep",
+      "vertices": 454,
+      "faces": 646,
+      "bounds_m": {
+        "min": [
+          -18.71396890625,
+          -1.6070917730469445,
+          1.5002193087429878
+        ],
+        "max": [
+          -17.349615390625,
+          1.6070957269530555,
+          1.5246880587429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_59_1a656b00-391c-4fde-8ecf-1333c440a3a4",
+      "source_index": 59,
+      "source_uuid": "1a656b00-391c-4fde-8ecf-1333c440a3a4",
+      "role": "brep",
+      "vertices": 84,
+      "faces": 112,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -1.6339081792969445,
+          1.5109810274929878
+        ],
+        "max": [
+          -17.94960171875,
+          1.6339082269530554,
+          1.9519165743679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_60_de6b5ab7-c4fd-43f0-b41b-29be37a1119a",
+      "source_index": 60,
+      "source_uuid": "de6b5ab7-c4fd-43f0-b41b-29be37a1119a",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -18.5339415625,
+          -1.3393808355469445,
+          1.9476939181179878
+        ],
+        "max": [
+          -17.94960171875,
+          -0.24999997617194458,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_61_1427d587-8d95-4f1c-a5ea-dc823d887c8f",
+      "source_index": 61,
+      "source_uuid": "1427d587-8d95-4f1c-a5ea-dc823d887c8f",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -18.542767734375,
+          -1.3413749761719447,
+          1.9476939181179878
+        ],
+        "max": [
+          -18.314793125,
+          -0.24999997617194458,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_62_1ed1bfe7-efdd-4205-8f78-444305d46012",
+      "source_index": 62,
+      "source_uuid": "1ed1bfe7-efdd-4205-8f78-444305d46012",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -18.592861484375,
+          -1.3526991949219447,
+          2.002272043117988
+        ],
+        "max": [
+          -18.32343765625,
+          -0.24999997617194458,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_63_ca9e71d4-5319-4302-af69-2c1141bd1f4e",
+      "source_index": 63,
+      "source_uuid": "ca9e71d4-5319-4302-af69-2c1141bd1f4e",
+      "role": "brep",
+      "vertices": 42,
+      "faces": 40,
+      "bounds_m": {
+        "min": [
+          -18.66807046875,
+          -1.3696933355469445,
+          1.9067329806179878
+        ],
+        "max": [
+          -18.42636734375,
+          -0.24999997617194458,
+          1.9123814181179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_64_1ef4f5e0-729c-434d-b69f-cd6f6c240e23",
+      "source_index": 64,
+      "source_uuid": "1ef4f5e0-729c-434d-b69f-cd6f6c240e23",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -18.648033359375,
+          -1.3651601324219447,
+          1.9075943087429879
+        ],
+        "max": [
+          -18.372423984375,
+          -0.24999997617194458,
+          2.003846261867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_65_2ff0c0cd-2689-40d0-b7be-cae3846ae1e5",
+      "source_index": 65,
+      "source_uuid": "2ff0c0cd-2689-40d0-b7be-cae3846ae1e5",
+      "role": "brep",
+      "vertices": 29,
+      "faces": 29,
+      "bounds_m": {
+        "min": [
+          -18.707416171875,
+          -1.3779863042969447,
+          1.8394810274929878
+        ],
+        "max": [
+          -18.445974765625,
+          -0.24999997617194458,
+          1.9083189181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_66_1bbfcb0d-0f9b-4f05-97c6-401ad347aaa5",
+      "source_index": 66,
+      "source_uuid": "1bbfcb0d-0f9b-4f05-97c6-401ad347aaa5",
+      "role": "brep",
+      "vertices": 37,
+      "faces": 37,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -1.2549999761719446,
+          1.9039146212429878
+        ],
+        "max": [
+          -17.94960171875,
+          -0.24999997617194458,
+          1.9519165743679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_67_ad595d0b-feca-41e4-9517-e08f59f52133",
+      "source_index": 67,
+      "source_uuid": "ad595d0b-feca-41e4-9517-e08f59f52133",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 25,
+      "bounds_m": {
+        "min": [
+          -18.314793125,
+          -1.6339081792969445,
+          1.9492583712429878
+        ],
+        "max": [
+          -17.94960171875,
+          -1.2549999761719446,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_68_d33bed5c-52b0-4b32-bdba-20ea1209001b",
+      "source_index": 68,
+      "source_uuid": "d33bed5c-52b0-4b32-bdba-20ea1209001b",
+      "role": "brep",
+      "vertices": 29,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -18.54172671875,
+          -0.24999997617194458,
+          1.9476372774929878
+        ],
+        "max": [
+          -17.94960171875,
+          2.3828055418562143e-08,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_69_f81d78ad-d8d9-4689-aa4c-f95e68aabee3",
+      "source_index": 69,
+      "source_uuid": "f81d78ad-d8d9-4689-aa4c-f95e68aabee3",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.323423984375,
+          -1.6104726324219445,
+          1.9492583712429878
+        ],
+        "max": [
+          -18.21285171875,
+          -1.3393808355469445,
+          2.0049439181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_70_ed17f5a1-a7e5-4b0f-9d9a-fad30efc8ec8",
+      "source_index": 70,
+      "source_uuid": "ed17f5a1-a7e5-4b0f-9d9a-fad30efc8ec8",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.550525546875,
+          -0.24999997617194458,
+          1.9476372774929878
+        ],
+        "max": [
+          -18.5339415625,
+          1.9555078055418562e-05,
+          2.002631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_71_3185a00f-2f3a-4b8a-acf7-10084d15863e",
+      "source_index": 71,
+      "source_uuid": "3185a00f-2f3a-4b8a-acf7-10084d15863e",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 17,
+      "bounds_m": {
+        "min": [
+          -18.372423984375,
+          -1.6566991949219445,
+          2.003846261867988
+        ],
+        "max": [
+          -18.21893765625,
+          -1.3413749761719447,
+          2.0049439181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_72_7323769d-72e7-43bf-af75-ec6b30623c26",
+      "source_index": 72,
+      "source_uuid": "7323769d-72e7-43bf-af75-ec6b30623c26",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.60052359375,
+          -0.24999997617194458,
+          2.002217355617988
+        ],
+        "max": [
+          -18.542767734375,
+          1.9555078055418562e-05,
+          2.002631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_73_2a4d1aa9-721c-4379-b6bf-369e00a0636c",
+      "source_index": 73,
+      "source_uuid": "2a4d1aa9-721c-4379-b6bf-369e00a0636c",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.426361484375,
+          -1.6758866949219446,
+          1.9123814181179877
+        ],
+        "max": [
+          -18.253388828125,
+          -1.3526972417969445,
+          2.004697824367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_74_d11ff0ba-3d86-414a-8df8-f357d4a9ea6d",
+      "source_index": 74,
+      "source_uuid": "d11ff0ba-3d86-414a-8df8-f357d4a9ea6d",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -18.65560171875,
+          -0.24999997617194458,
+          1.9068228243679877
+        ],
+        "max": [
+          -18.59285953125,
+          7.836328055418562e-06,
+          2.002272043117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_75_2933749d-5e4e-4773-b04e-77a0d6643ff6",
+      "source_index": 75,
+      "source_uuid": "2933749d-5e4e-4773-b04e-77a0d6643ff6",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -18.445974765625,
+          -1.6943730230469445,
+          1.9083189181179878
+        ],
+        "max": [
+          -18.305072421875,
+          -1.3651601324219447,
+          1.9141411837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_76_6986f9a2-64a1-4410-ae38-76e5ce916db4",
+      "source_index": 76,
+      "source_uuid": "6986f9a2-64a1-4410-ae38-76e5ce916db4",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -18.67560171875,
+          -0.24999997617194458,
+          1.9066782931179878
+        ],
+        "max": [
+          -18.64803140625,
+          7.836328055418562e-06,
+          1.9075943087429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_77_e88a4dc0-60f4-4c91-be39-d2dc94f64d60",
+      "source_index": 77,
+      "source_uuid": "e88a4dc0-60f4-4c91-be39-d2dc94f64d60",
+      "role": "brep",
+      "vertices": 33,
+      "faces": 34,
+      "bounds_m": {
+        "min": [
+          -18.817013828125,
+          -1.7690175542969446,
+          1.5463364962429877
+        ],
+        "max": [
+          -18.318830234375,
+          2.3828055418562143e-08,
+          1.9092271212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_78_c3cc7235-893c-438c-91b6-aae951f5d451",
+      "source_index": 78,
+      "source_uuid": "c3cc7235-893c-438c-91b6-aae951f5d451",
+      "role": "brep",
+      "vertices": 33,
+      "faces": 34,
+      "bounds_m": {
+        "min": [
+          -18.817013828125,
+          2.3828055418562143e-08,
+          1.5463364962429877
+        ],
+        "max": [
+          -18.318830234375,
+          1.7690176019530555,
+          1.9092271212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_79_b3ec8bba-691a-4026-84b2-9071b28ec4fd",
+      "source_index": 79,
+      "source_uuid": "b3ec8bba-691a-4026-84b2-9071b28ec4fd",
+      "role": "brep",
+      "vertices": 37,
+      "faces": 37,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          0.2500000238280554,
+          1.9039146212429878
+        ],
+        "max": [
+          -17.94960171875,
+          1.2550000238280554,
+          1.9519165743679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_80_0daf4771-ff9d-4f4b-8abb-94874b493729",
+      "source_index": 80,
+      "source_uuid": "0daf4771-ff9d-4f4b-8abb-94874b493729",
+      "role": "brep",
+      "vertices": 29,
+      "faces": 29,
+      "bounds_m": {
+        "min": [
+          -18.707416171875,
+          0.2500000238280554,
+          1.8394810274929878
+        ],
+        "max": [
+          -18.445974765625,
+          1.3779863519530555,
+          1.9083189181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_81_8c7c3884-627b-4574-a078-8b00721b642d",
+      "source_index": 81,
+      "source_uuid": "8c7c3884-627b-4574-a078-8b00721b642d",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.426361484375,
+          1.3526972894530553,
+          1.9123814181179877
+        ],
+        "max": [
+          -18.253388828125,
+          1.6758867425780555,
+          2.004697824367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_82_c627f721-eca4-4f95-863d-d4a9450e5955",
+      "source_index": 82,
+      "source_uuid": "c627f721-eca4-4f95-863d-d4a9450e5955",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -18.65560171875,
+          -7.788671944581439e-06,
+          1.9068228243679877
+        ],
+        "max": [
+          -18.59285953125,
+          0.2500000238280554,
+          2.002272043117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_83_cbdfc618-5056-4e41-a38d-fe95b5e134e2",
+      "source_index": 83,
+      "source_uuid": "cbdfc618-5056-4e41-a38d-fe95b5e134e2",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -18.648033359375,
+          0.2500000238280554,
+          1.9075943087429879
+        ],
+        "max": [
+          -18.372423984375,
+          1.3651601800780555,
+          2.003846261867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_84_ad92d0df-7353-4f58-a58e-f375707cea3f",
+      "source_index": 84,
+      "source_uuid": "ad92d0df-7353-4f58-a58e-f375707cea3f",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -18.445978671875,
+          1.3651621332030555,
+          1.9083189181179878
+        ],
+        "max": [
+          -18.305072421875,
+          1.6943886957030554,
+          1.9141411837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_85_58b2d232-59d2-4657-abf9-ac08bd40ebbe",
+      "source_index": 85,
+      "source_uuid": "58b2d232-59d2-4657-abf9-ac08bd40ebbe",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -18.67560171875,
+          7.836328055418562e-06,
+          1.9066782931179878
+        ],
+        "max": [
+          -18.64803140625,
+          0.2500000238280554,
+          1.9075943087429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_86_040cd553-56de-4cfa-b61a-fa565ec96fa6",
+      "source_index": 86,
+      "source_uuid": "040cd553-56de-4cfa-b61a-fa565ec96fa6",
+      "role": "brep",
+      "vertices": 55,
+      "faces": 38,
+      "bounds_m": {
+        "min": [
+          -18.66807046875,
+          0.2500000238280554,
+          1.9067329806179878
+        ],
+        "max": [
+          -18.42636734375,
+          1.3696933832030553,
+          1.9123814181179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_87_1de60551-ac59-463f-a834-454c99f881c7",
+      "source_index": 87,
+      "source_uuid": "1de60551-ac59-463f-a834-454c99f881c7",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 17,
+      "bounds_m": {
+        "min": [
+          -18.372435703125,
+          1.3413789300780554,
+          2.003846261867988
+        ],
+        "max": [
+          -18.21893765625,
+          1.6567383050780555,
+          2.0049439181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_88_9940f30d-746b-4f44-b8fe-ec9c7eafb9e4",
+      "source_index": 88,
+      "source_uuid": "9940f30d-746b-4f44-b8fe-ec9c7eafb9e4",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.60052359375,
+          1.9555078055418562e-05,
+          2.002217355617988
+        ],
+        "max": [
+          -18.5427696875,
+          0.2500000238280554,
+          2.002631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_89_42da9f6d-6889-44a8-bbe9-467ce0592e6f",
+      "source_index": 89,
+      "source_uuid": "42da9f6d-6889-44a8-bbe9-467ce0592e6f",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -18.592861484375,
+          0.2500000238280554,
+          2.002272043117988
+        ],
+        "max": [
+          -18.32343765625,
+          1.3526992425780555,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_90_cddbaf7e-acd2-45fe-9801-433998309e57",
+      "source_index": 90,
+      "source_uuid": "cddbaf7e-acd2-45fe-9801-433998309e57",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.323423984375,
+          1.3393808832030554,
+          1.9492583712429878
+        ],
+        "max": [
+          -18.21285171875,
+          1.6104726800780553,
+          2.0049439181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_91_9d9e1485-7193-4e77-bbac-81f6e6342018",
+      "source_index": 91,
+      "source_uuid": "9d9e1485-7193-4e77-bbac-81f6e6342018",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -18.550525546875,
+          -1.950742194458144e-05,
+          1.9476372774929878
+        ],
+        "max": [
+          -18.5339415625,
+          0.2500000238280554,
+          2.002631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_92_b3c75563-8f5f-44d9-be54-7def431fbc38",
+      "source_index": 92,
+      "source_uuid": "b3c75563-8f5f-44d9-be54-7def431fbc38",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -18.542767734375,
+          0.2500000238280554,
+          1.9476939181179878
+        ],
+        "max": [
+          -18.314793125,
+          1.3413750238280555,
+          2.0041978243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_93_420a4a19-b7da-4ee5-8b26-50a7d23cc4df",
+      "source_index": 93,
+      "source_uuid": "420a4a19-b7da-4ee5-8b26-50a7d23cc4df",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 24,
+      "bounds_m": {
+        "min": [
+          -18.314793125,
+          1.2550000238280554,
+          1.9492583712429878
+        ],
+        "max": [
+          -17.94960171875,
+          1.6339062738280554,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_94_09787efe-4005-480b-b9a4-e796691c64d8",
+      "source_index": 94,
+      "source_uuid": "09787efe-4005-480b-b9a4-e796691c64d8",
+      "role": "brep",
+      "vertices": 29,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -18.54172671875,
+          2.3828055418562143e-08,
+          1.9476372774929878
+        ],
+        "max": [
+          -17.94960171875,
+          0.2500000238280554,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_95_804933ef-121e-4b6b-8a18-3eaf34acfce0",
+      "source_index": 95,
+      "source_uuid": "804933ef-121e-4b6b-8a18-3eaf34acfce0",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -18.5339415625,
+          0.2500000238280554,
+          1.9476939181179878
+        ],
+        "max": [
+          -17.94960171875,
+          1.3393808832030554,
+          1.9519146212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_96_55f8732d-1c1f-47f6-9558-6af7c33e70c5",
+      "source_index": 96,
+      "source_uuid": "55f8732d-1c1f-47f6-9558-6af7c33e70c5",
+      "role": "brep",
+      "vertices": 42,
+      "faces": 36,
+      "bounds_m": {
+        "min": [
+          -20.3967540625,
+          -1.2990917730469447,
+          0.5372993868679877
+        ],
+        "max": [
+          -19.61521109375,
+          -1.0004921636719446,
+          1.5669400118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_97_ff60efc2-8477-430f-96f1-aedd3c725446",
+      "source_index": 97,
+      "source_uuid": "ff60efc2-8477-430f-96f1-aedd3c725446",
+      "role": "brep",
+      "vertices": 42,
+      "faces": 36,
+      "bounds_m": {
+        "min": [
+          -20.3967540625,
+          1.0004922113280554,
+          0.5372993868679877
+        ],
+        "max": [
+          -19.61521109375,
+          1.2990918207030555,
+          1.5669400118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_98_7a971d25-a47b-4a90-90f8-a2a3d5af2630",
+      "source_index": 98,
+      "source_uuid": "7a971d25-a47b-4a90-90f8-a2a3d5af2630",
+      "role": "brep",
+      "vertices": 105,
+      "faces": 128,
+      "bounds_m": {
+        "min": [
+          -19.811548984375,
+          -1.2990820074219447,
+          0.5458013399929877
+        ],
+        "max": [
+          -19.61521109375,
+          1.2990918207030555,
+          1.6314048556179879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_99_691b50e6-af71-44d8-bec7-33acb7062bf4",
+      "source_index": 99,
+      "source_uuid": "691b50e6-af71-44d8-bec7-33acb7062bf4",
+      "role": "brep",
+      "vertices": 1343,
+      "faces": 2095,
+      "bounds_m": {
+        "min": [
+          -20.50133609375,
+          -1.9125898199219447,
+          0.3180982149929878
+        ],
+        "max": [
+          -19.443855625,
+          2.3828055418562143e-08,
+          1.5669400118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_100_948f4948-ee49-4cdb-a8b6-e4b8e0aa70e4",
+      "source_index": 100,
+      "source_uuid": "948f4948-ee49-4cdb-a8b6-e4b8e0aa70e4",
+      "role": "brep",
+      "vertices": 1310,
+      "faces": 2048,
+      "bounds_m": {
+        "min": [
+          -20.50133609375,
+          2.3828055418562143e-08,
+          0.3180982149929878
+        ],
+        "max": [
+          -19.443855625,
+          1.9125898675780555,
+          1.5669400118679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_101_7bd7f6f9-72a9-4ffa-aab3-14af02924b06",
+      "source_index": 101,
+      "source_uuid": "7bd7f6f9-72a9-4ffa-aab3-14af02924b06",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -1.2549999761719446,
+          1.4622173556179878
+        ],
+        "max": [
+          -17.450091953125,
+          -1.2549999761719446,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_102_7a979f64-435e-4dfe-9605-36a57500be40",
+      "source_index": 102,
+      "source_uuid": "7a979f64-435e-4dfe-9605-36a57500be40",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -1.2499999761719445,
+          1.4622173556179878
+        ],
+        "max": [
+          -17.450091953125,
+          -1.2499999761719445,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_103_deefc12f-dfe2-469e-a5a0-d1e719c84a28",
+      "source_index": 103,
+      "source_uuid": "deefc12f-dfe2-469e-a5a0-d1e719c84a28",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          1.2500000238280555,
+          1.4622173556179878
+        ],
+        "max": [
+          -17.450091953125,
+          1.2500000238280555,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_104_0cd5261f-dd3d-492b-bf1d-eb7af5a74ba5",
+      "source_index": 104,
+      "source_uuid": "0cd5261f-dd3d-492b-bf1d-eb7af5a74ba5",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          1.2550000238280554,
+          1.4622173556179878
+        ],
+        "max": [
+          -17.450091953125,
+          1.2550000238280554,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_105_dc490afd-8db4-4b09-8808-c0d8072baa3f",
+      "source_index": 105,
+      "source_uuid": "dc490afd-8db4-4b09-8808-c0d8072baa3f",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -0.3999999761719446,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          -0.3999999761719446,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_106_c4d2b474-4102-4ade-839f-408ef91120d8",
+      "source_index": 106,
+      "source_uuid": "c4d2b474-4102-4ade-839f-408ef91120d8",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -0.3949999761719446,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          -0.3949999761719446,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_107_7351ef20-e339-44f9-9b1e-118c9ac1d203",
+      "source_index": 107,
+      "source_uuid": "7351ef20-e339-44f9-9b1e-118c9ac1d203",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          0.39500002382805544,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          0.39500002382805544,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_108_af463fda-e754-446b-a4bd-8ff0b2573d62",
+      "source_index": 108,
+      "source_uuid": "af463fda-e754-446b-a4bd-8ff0b2573d62",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          0.40000002382805544,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          0.40000002382805544,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_109_1ea97f43-03e8-4b08-93a2-97becd73093e",
+      "source_index": 109,
+      "source_uuid": "1ea97f43-03e8-4b08-93a2-97becd73093e",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -0.0024999761719445815,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          -0.0024999761719445815,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_110_994d2b75-3aef-4567-af80-dd3a494ed7b9",
+      "source_index": 110,
+      "source_uuid": "994d2b75-3aef-4567-af80-dd3a494ed7b9",
+      "role": "brep",
+      "vertices": 26,
+      "faces": 19,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          0.0025000238280554186,
+          1.4602271212429878
+        ],
+        "max": [
+          -17.349599765625,
+          0.0025000238280554186,
+          1.5121919649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_111_72dd7be9-9c9d-41ff-9142-4e2f10f0a6b0",
+      "source_index": 111,
+      "source_uuid": "72dd7be9-9c9d-41ff-9142-4e2f10f0a6b0",
+      "role": "brep",
+      "vertices": 724,
+      "faces": 768,
+      "bounds_m": {
+        "min": [
+          -17.349599765625,
+          -0.3999999761719446,
+          1.1859810274929878
+        ],
+        "max": [
+          -16.25000015625,
+          -0.35999997617194457,
+          1.2479224337429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_112_01bf3b9e-2c8c-448d-bbd2-948bc7e0863a",
+      "source_index": 112,
+      "source_uuid": "01bf3b9e-2c8c-448d-bbd2-948bc7e0863a",
+      "role": "brep",
+      "vertices": 724,
+      "faces": 768,
+      "bounds_m": {
+        "min": [
+          -17.349599765625,
+          0.3600000238280554,
+          1.1859810274929878
+        ],
+        "max": [
+          -16.25000015625,
+          0.40000002382805544,
+          1.2479224337429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_113_3c27eada-a29d-4b2b-86ee-fe08ca98f21a",
+      "source_index": 113,
+      "source_uuid": "3c27eada-a29d-4b2b-86ee-fe08ca98f21a",
+      "role": "brep",
+      "vertices": 724,
+      "faces": 768,
+      "bounds_m": {
+        "min": [
+          -17.349599765625,
+          -0.0024999761719445815,
+          1.1859810274929878
+        ],
+        "max": [
+          -16.25000015625,
+          0.037500023828055416,
+          1.2479224337429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_114_19c2f9e9-a825-4d18-9a8d-987bc21df07f",
+      "source_index": 114,
+      "source_uuid": "19c2f9e9-a825-4d18-9a8d-987bc21df07f",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -17.159591953125002,
+          -1.0240156011719446,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.09921890625,
+          -1.0240156011719446,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_115_953cc058-12bd-404f-b4f2-8765ae0f0cdd",
+      "source_index": 115,
+      "source_uuid": "953cc058-12bd-404f-b4f2-8765ae0f0cdd",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -17.159591953125002,
+          -1.0190156011719447,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.09921890625,
+          -1.0190156011719447,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_116_49b5ffc8-efdb-4507-9cf6-6a6336d992e6",
+      "source_index": 116,
+      "source_uuid": "49b5ffc8-efdb-4507-9cf6-6a6336d992e6",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          -0.3949999761719446,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          -0.3949999761719446,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_117_5bae1810-3a37-4cdb-8d5b-7b63fe9e6c11",
+      "source_index": 117,
+      "source_uuid": "5bae1810-3a37-4cdb-8d5b-7b63fe9e6c11",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          -0.3999999761719446,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          -0.3999999761719446,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_118_c95632be-56bd-4043-a70f-f0d0e11c87cd",
+      "source_index": 118,
+      "source_uuid": "c95632be-56bd-4043-a70f-f0d0e11c87cd",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -15.9745665625,
+          1.1950000238280554,
+          1.1717036837429877
+        ],
+        "max": [
+          -15.534146640625,
+          1.1950000238280554,
+          1.2204673556179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_119_658480e9-7350-4fda-b4e4-9a2ecaf7eb1e",
+      "source_index": 119,
+      "source_uuid": "658480e9-7350-4fda-b4e4-9a2ecaf7eb1e",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -15.9745665625,
+          1.2000000238280555,
+          1.1717036837429877
+        ],
+        "max": [
+          -15.534146640625,
+          1.2000000238280555,
+          1.2204673556179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_120_9b0cf617-8631-4d92-b369-316286b00446",
+      "source_index": 120,
+      "source_uuid": "9b0cf617-8631-4d92-b369-316286b00446",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.086974765625,
+          0.7950000238280555,
+          1.1698853243679879
+        ],
+        "max": [
+          -15.44305484375,
+          0.7950000238280555,
+          1.2227114962429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_121_7b641903-4ef0-4a08-91cf-4f55e4469855",
+      "source_index": 121,
+      "source_uuid": "7b641903-4ef0-4a08-91cf-4f55e4469855",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.086974765625,
+          0.8000000238280555,
+          1.1698853243679879
+        ],
+        "max": [
+          -15.44305484375,
+          0.8000000238280555,
+          1.2227114962429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_122_2b6be650-0747-40c7-98a7-39e6077aa688",
+      "source_index": 122,
+      "source_uuid": "2b6be650-0747-40c7-98a7-39e6077aa688",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          0.40000002382805544,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          0.40000002382805544,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_123_e3f8c697-1d05-451a-8fa0-eb058e0f0c3e",
+      "source_index": 123,
+      "source_uuid": "e3f8c697-1d05-451a-8fa0-eb058e0f0c3e",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          0.39500002382805544,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          0.39500002382805544,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_124_2448ff8d-f3e6-48e7-bfd1-3379c179978b",
+      "source_index": 124,
+      "source_uuid": "2448ff8d-f3e6-48e7-bfd1-3379c179978b",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          0.0025000238280554186,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          0.0025000238280554186,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_125_54c92a7d-3a7b-4f2f-9f25-5fa2a90187a4",
+      "source_index": 125,
+      "source_uuid": "54c92a7d-3a7b-4f2f-9f25-5fa2a90187a4",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -16.25079703125,
+          -0.0024999761719445815,
+          1.1718189181179879
+        ],
+        "max": [
+          -15.539949375,
+          -0.0024999761719445815,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_126_e7a0a67a-f0c7-4bf8-98a5-da867ea173f0",
+      "source_index": 126,
+      "source_uuid": "e7a0a67a-f0c7-4bf8-98a5-da867ea173f0",
+      "role": "brep",
+      "vertices": 2128,
+      "faces": 2442,
+      "bounds_m": {
+        "min": [
+          -1.0659991796874997,
+          0.4141074457030554,
+          2.009762277492988
+        ],
+        "max": [
+          -0.5016042822265622,
+          0.4614668207030554,
+          2.6039946993679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_127_94beacff-bf0f-4311-8186-f3da605219cb",
+      "source_index": 127,
+      "source_uuid": "94beacff-bf0f-4311-8186-f3da605219cb",
+      "role": "brep",
+      "vertices": 4622,
+      "faces": 5296,
+      "bounds_m": {
+        "min": [
+          -1.5764239843749996,
+          0.02281447695305542,
+          2.2357407931179876
+        ],
+        "max": [
+          0.07453719726562531,
+          0.7183242425780554,
+          2.337684152492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_128_2427be20-21d1-485c-9407-aeb52c1a87ce",
+      "source_index": 128,
+      "source_uuid": "2427be20-21d1-485c-9407-aeb52c1a87ce",
+      "role": "brep",
+      "vertices": 9060,
+      "faces": 11231,
+      "bounds_m": {
+        "min": [
+          -1.8659991796874997,
+          0.16022853945305543,
+          1.9768677462429878
+        ],
+        "max": [
+          0.01207711425781281,
+          0.7453105707030554,
+          2.6263989962429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_129_b3e6d09b-92cc-4d42-8844-3577a89f62b9",
+      "source_index": 129,
+      "source_uuid": "b3e6d09b-92cc-4d42-8844-3577a89f62b9",
+      "role": "brep",
+      "vertices": 9060,
+      "faces": 11231,
+      "bounds_m": {
+        "min": [
+          -1.8659991796874997,
+          -0.7453105230469446,
+          1.9768677462429878
+        ],
+        "max": [
+          0.01207711425781281,
+          -0.1602284917969446,
+          2.6263989962429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_130_34ed68a8-9ba5-43e0-900e-a82f621bb87d",
+      "source_index": 130,
+      "source_uuid": "34ed68a8-9ba5-43e0-900e-a82f621bb87d",
+      "role": "brep",
+      "vertices": 4622,
+      "faces": 5296,
+      "bounds_m": {
+        "min": [
+          -1.5764239843749996,
+          -0.7183241949219445,
+          2.2357407931179876
+        ],
+        "max": [
+          0.07453719726562531,
+          -0.02281442929694458,
+          2.337684152492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_131_a0ff900c-f572-40f2-a534-3fa50df14b25",
+      "source_index": 131,
+      "source_uuid": "a0ff900c-f572-40f2-a534-3fa50df14b25",
+      "role": "brep",
+      "vertices": 2128,
+      "faces": 2442,
+      "bounds_m": {
+        "min": [
+          -1.0659991796874997,
+          -0.46146677304694456,
+          2.009762277492988
+        ],
+        "max": [
+          -0.5016042822265622,
+          -0.4141073980469446,
+          2.6039946993679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_132_62fbe957-4eae-458b-9ffd-535d5e4016eb",
+      "source_index": 132,
+      "source_uuid": "62fbe957-4eae-458b-9ffd-535d5e4016eb",
+      "role": "brep",
+      "vertices": 609,
+      "faces": 690,
+      "bounds_m": {
+        "min": [
+          -2.6263932226562496,
+          -0.09764841367194459,
+          -0.6442963162570122
+        ],
+        "max": [
+          -0.1310290869140622,
+          2.3828055418562143e-08,
+          1.8859536837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_133_47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "source_index": 133,
+      "source_uuid": "47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "role": "brep",
+      "vertices": 647,
+      "faces": 963,
+      "bounds_m": {
+        "min": [
+          -20.498978671875,
+          -2.8776855230469445,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          7.836328055418562e-06,
+          2.0457036837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_135_2dda2216-10c1-447a-b6a3-99d3d2955c7e",
+      "source_index": 135,
+      "source_uuid": "2dda2216-10c1-447a-b6a3-99d3d2955c7e",
+      "role": "brep",
+      "vertices": 1079,
+      "faces": 1403,
+      "bounds_m": {
+        "min": [
+          -19.689568515625,
+          0.9847246332030554,
+          1.2675493868679877
+        ],
+        "max": [
+          -19.519545078125,
+          1.0200000238280553,
+          1.7076821993679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_140_dcdbf8d8-6b16-421e-9240-f8d219676cb4",
+      "source_index": 140,
+      "source_uuid": "dcdbf8d8-6b16-421e-9240-f8d219676cb4",
+      "role": "brep",
+      "vertices": 1079,
+      "faces": 1403,
+      "bounds_m": {
+        "min": [
+          -19.689568515625,
+          -1.0199999761719445,
+          1.2675493868679877
+        ],
+        "max": [
+          -19.519545078125,
+          -0.9847245855469445,
+          1.7076821993679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_142_4bace091-1f46-41f6-9230-399c81a1b4ef",
+      "source_index": 142,
+      "source_uuid": "4bace091-1f46-41f6-9230-399c81a1b4ef",
+      "role": "brep",
+      "vertices": 114,
+      "faces": 61,
+      "bounds_m": {
+        "min": [
+          -19.341201328125,
+          0.16200002382805542,
+          1.5949771212429877
+        ],
+        "max": [
+          -0.23620767578124968,
+          2.8790468988280553,
+          2.0474517306179876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_143_7823af27-addd-4c9f-8105-cb8f3540c6e2",
+      "source_index": 143,
+      "source_uuid": "7823af27-addd-4c9f-8105-cb8f3540c6e2",
+      "role": "brep",
+      "vertices": 114,
+      "faces": 61,
+      "bounds_m": {
+        "min": [
+          -19.341201328125,
+          -2.8790468511719447,
+          1.5949771212429877
+        ],
+        "max": [
+          -0.23620767578124968,
+          -0.1619999761719446,
+          2.0474517306179876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_144_190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "source_index": 144,
+      "source_uuid": "190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "role": "brep",
+      "vertices": 647,
+      "faces": 964,
+      "bounds_m": {
+        "min": [
+          -20.498978671875,
+          -7.788671944581439e-06,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          2.8776855707030555,
+          2.0457036837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_145_5659be39-1cdc-4ae8-b352-66bbe7d12f2d",
+      "source_index": 145,
+      "source_uuid": "5659be39-1cdc-4ae8-b352-66bbe7d12f2d",
+      "role": "brep",
+      "vertices": 609,
+      "faces": 690,
+      "bounds_m": {
+        "min": [
+          -2.6263932226562496,
+          2.3828055418562143e-08,
+          -0.6442963162570122
+        ],
+        "max": [
+          -0.1310290869140622,
+          0.09764846132805542,
+          1.8859536837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_146_21584b05-0a53-4761-b40e-3029918c9443",
+      "source_index": 146,
+      "source_uuid": "21584b05-0a53-4761-b40e-3029918c9443",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 25,
+      "bounds_m": {
+        "min": [
+          -0.6499991796874997,
+          0.14999611757805542,
+          1.8784888399929878
+        ],
+        "max": [
+          -0.3663208349609372,
+          0.25406252382805544,
+          2.0488755587429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_147_55037764-7575-42fa-8d0a-c1ca835ddd3e",
+      "source_index": 147,
+      "source_uuid": "55037764-7575-42fa-8d0a-c1ca835ddd3e",
+      "role": "brep",
+      "vertices": 1397,
+      "faces": 1715,
+      "bounds_m": {
+        "min": [
+          -0.5131887548828122,
+          0.1500000238280554,
+          1.7760650118679877
+        ],
+        "max": [
+          0.15813924804687532,
+          0.18900002382805542,
+          2.059967355617988
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_156_afbfa686-d532-4a85-b3d8-e8d325b17203",
+      "source_index": 156,
+      "source_uuid": "afbfa686-d532-4a85-b3d8-e8d325b17203",
+      "role": "brep",
+      "vertices": 1393,
+      "faces": 1709,
+      "bounds_m": {
+        "min": [
+          -0.5131887548828122,
+          -0.18899997617194458,
+          1.7760650118679877
+        ],
+        "max": [
+          0.15813924804687532,
+          -0.14999997617194458,
+          2.059967355617988
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_157_3e8a6bc2-0364-44b3-a1b6-af40fa94976d",
+      "source_index": 157,
+      "source_uuid": "3e8a6bc2-0364-44b3-a1b6-af40fa94976d",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 25,
+      "bounds_m": {
+        "min": [
+          -0.6499991796874997,
+          -0.2540624761719446,
+          1.8784888399929878
+        ],
+        "max": [
+          -0.3663208349609372,
+          -0.14999606992194459,
+          2.0488755587429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_170_6bb6bf4e-49f9-4e1e-9634-426469274e17",
+      "source_index": 170,
+      "source_uuid": "6bb6bf4e-49f9-4e1e-9634-426469274e17",
+      "role": "brep",
+      "vertices": 2258,
+      "faces": 2784,
+      "bounds_m": {
+        "min": [
+          -0.4286291845703122,
+          -0.014999976171944582,
+          1.6529009493679878
+        ],
+        "max": [
+          0.20255758300781282,
+          0.015000023828055419,
+          2.0640161837429876
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_171_969b21f3-3ae7-4d4f-86c6-05d92d7cc10a",
+      "source_index": 171,
+      "source_uuid": "969b21f3-3ae7-4d4f-86c6-05d92d7cc10a",
+      "role": "brep",
+      "vertices": 212,
+      "faces": 281,
+      "bounds_m": {
+        "min": [
+          -16.637009921875,
+          1.5115859613280553,
+          1.8167310274929878
+        ],
+        "max": [
+          -15.856623203125,
+          1.9763086175780553,
+          1.9859419649929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_172_80788cb5-d89f-4717-b976-3e9b178382b8",
+      "source_index": 172,
+      "source_uuid": "80788cb5-d89f-4717-b976-3e9b178382b8",
+      "role": "brep",
+      "vertices": 157,
+      "faces": 212,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          1.5082773675780554,
+          1.7775806368679878
+        ],
+        "max": [
+          -15.856623203125,
+          1.9763086175780553,
+          1.9853482149929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_173_f130a108-de34-495a-a9ef-3fa8b94b8b63",
+      "source_index": 173,
+      "source_uuid": "f130a108-de34-495a-a9ef-3fa8b94b8b63",
+      "role": "brep",
+      "vertices": 110,
+      "faces": 137,
+      "bounds_m": {
+        "min": [
+          -16.11717203125,
+          -2.5332441167969444,
+          1.6279927462429877
+        ],
+        "max": [
+          -15.70060953125,
+          -2.3074648199219445,
+          1.6655044649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_174_16b62ba1-4e82-4445-836f-9c25783cd04d",
+      "source_index": 174,
+      "source_uuid": "16b62ba1-4e82-4445-836f-9c25783cd04d",
+      "role": "brep",
+      "vertices": 85,
+      "faces": 66,
+      "bounds_m": {
+        "min": [
+          -16.141281406250002,
+          -2.5368417730469446,
+          1.5135298556179877
+        ],
+        "max": [
+          -15.675240390625,
+          -2.2674433355469445,
+          1.6654927462429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_175_283acae7-a3fd-4ef5-abc7-ab514dcf71f2",
+      "source_index": 175,
+      "source_uuid": "283acae7-a3fd-4ef5-abc7-ab514dcf71f2",
+      "role": "brep",
+      "vertices": 85,
+      "faces": 66,
+      "bounds_m": {
+        "min": [
+          -16.141281406250002,
+          2.2674433832030556,
+          1.5135298556179877
+        ],
+        "max": [
+          -15.675240390625,
+          2.5368418207030556,
+          1.6654927462429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_176_22cc678f-5173-451a-b23c-87cff3fa803f",
+      "source_index": 176,
+      "source_uuid": "22cc678f-5173-451a-b23c-87cff3fa803f",
+      "role": "brep",
+      "vertices": 110,
+      "faces": 137,
+      "bounds_m": {
+        "min": [
+          -16.11717203125,
+          2.3074648675780556,
+          1.6279927462429877
+        ],
+        "max": [
+          -15.70060953125,
+          2.5332441644530554,
+          1.6655044649929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_177_de0dd632-696b-4cd3-9eab-8e258400c731",
+      "source_index": 177,
+      "source_uuid": "de0dd632-696b-4cd3-9eab-8e258400c731",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -19.231439609375,
+          -1.9822734136719447,
+          1.6048814181179878
+        ],
+        "max": [
+          -18.897658359375,
+          -1.8449394292969445,
+          1.6215825899929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_178_a4b23c55-b644-4c6e-bed2-403d45a53c92",
+      "source_index": 178,
+      "source_uuid": "a4b23c55-b644-4c6e-bed2-403d45a53c92",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -19.231439609375,
+          1.8449394769530554,
+          1.6048814181179878
+        ],
+        "max": [
+          -18.897658359375,
+          1.9822734613280555,
+          1.6215825899929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_179_7faf5122-a8b7-480a-bfe9-fd854fd4a7f7",
+      "source_index": 179,
+      "source_uuid": "7faf5122-a8b7-480a-bfe9-fd854fd4a7f7",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -2.3821224707031248,
+          -0.8730077886719446,
+          1.9659224337429877
+        ],
+        "max": [
+          -2.0612550390624995,
+          -0.7032597417969446,
+          1.9930161837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_180_16516a24-f565-4045-9a16-861bdd96226f",
+      "source_index": 180,
+      "source_uuid": "16516a24-f565-4045-9a16-861bdd96226f",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -2.3821224707031248,
+          0.7032597894530555,
+          1.9659224337429877
+        ],
+        "max": [
+          -2.0612550390624995,
+          0.8730078363280555,
+          1.9930161837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_181_2f9a13cc-6d4e-40fb-aa57-d7c04451b3d1",
+      "source_index": 181,
+      "source_uuid": "2f9a13cc-6d4e-40fb-aa57-d7c04451b3d1",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -10.817916171875,
+          -2.7862304449219444,
+          1.7124009493679877
+        ],
+        "max": [
+          -10.4786417578125,
+          -2.6792597417969444,
+          1.7334810274929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_182_2ccd6844-0caf-4f57-a7cc-ff360e9bc1d3",
+      "source_index": 182,
+      "source_uuid": "2ccd6844-0caf-4f57-a7cc-ff360e9bc1d3",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -10.817916171875,
+          2.6792578363280555,
+          1.7124009493679877
+        ],
+        "max": [
+          -10.4786417578125,
+          2.7862304925780554,
+          1.7334810274929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_183_8d5d07ce-8fc3-4e99-8a7b-52a0aeba0dd4",
+      "source_index": 183,
+      "source_uuid": "8d5d07ce-8fc3-4e99-8a7b-52a0aeba0dd4",
+      "role": "brep",
+      "vertices": 342,
+      "faces": 461,
+      "bounds_m": {
+        "min": [
+          -8.850000156250001,
+          -0.3999999761719446,
+          1.8376997774929877
+        ],
+        "max": [
+          -7.40000015625,
+          0.40000002382805544,
+          1.8572212618679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_184_7f82e948-3841-4378-86a5-86545d2755c5",
+      "source_index": 184,
+      "source_uuid": "7f82e948-3841-4378-86a5-86545d2755c5",
+      "role": "brep",
+      "vertices": 200,
+      "faces": 182,
+      "bounds_m": {
+        "min": [
+          -12.57280875,
+          -1.8726249761719447,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          1.8726250238280555,
+          2.701867746242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_185_f126ba3d-dbaa-4809-83f5-aa05e9ceddf7",
+      "source_index": 185,
+      "source_uuid": "f126ba3d-dbaa-4809-83f5-aa05e9ceddf7",
+      "role": "brep",
+      "vertices": 76,
+      "faces": 56,
+      "bounds_m": {
+        "min": [
+          -10.550873203125,
+          -1.8112734136719446,
+          1.9391861056179878
+        ],
+        "max": [
+          -10.2499991796875,
+          2.3828055418562143e-08,
+          2.115426339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_186_aa1d1141-0cce-4ca5-8549-37b155b6b695",
+      "source_index": 186,
+      "source_uuid": "aa1d1141-0cce-4ca5-8549-37b155b6b695",
+      "role": "brep",
+      "vertices": 76,
+      "faces": 56,
+      "bounds_m": {
+        "min": [
+          -10.550873203125,
+          2.3828055418562143e-08,
+          1.9391861056179878
+        ],
+        "max": [
+          -10.2499991796875,
+          1.8112734613280554,
+          2.115426339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_187_c1f24057-0afc-4978-beb0-708bbe35bcdc",
+      "source_index": 187,
+      "source_uuid": "c1f24057-0afc-4978-beb0-708bbe35bcdc",
+      "role": "brep",
+      "vertices": 48,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -10.550873203125,
+          2.3828055418562143e-08,
+          1.9791861056179878
+        ],
+        "max": [
+          -9.64020328125,
+          1.8112734613280554,
+          2.115426339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_188_9d91831a-208d-4ea6-a70b-66d2da8cdd20",
+      "source_index": 188,
+      "source_uuid": "9d91831a-208d-4ea6-a70b-66d2da8cdd20",
+      "role": "brep",
+      "vertices": 48,
+      "faces": 28,
+      "bounds_m": {
+        "min": [
+          -10.550873203125,
+          -1.8112734136719446,
+          1.9791861056179878
+        ],
+        "max": [
+          -9.64020328125,
+          2.3828055418562143e-08,
+          2.115426339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_189_f933d681-5ebb-4cb0-9839-0da4c3b4f035",
+      "source_index": 189,
+      "source_uuid": "f933d681-5ebb-4cb0-9839-0da4c3b4f035",
+      "role": "brep",
+      "vertices": 85,
+      "faces": 97,
+      "bounds_m": {
+        "min": [
+          -10.4554991796875,
+          0.9487793207030554,
+          1.9769009493679879
+        ],
+        "max": [
+          -9.80803140625,
+          1.8253789300780554,
+          2.0607661837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_190_6639c18e-07ab-47fc-ba4a-22a5be63ea07",
+      "source_index": 190,
+      "source_uuid": "6639c18e-07ab-47fc-ba4a-22a5be63ea07",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -11.7820167578125,
+          0.8950547113280554,
+          1.9794204806179878
+        ],
+        "max": [
+          -9.8300948828125,
+          1.8036660394530555,
+          2.7526353243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_191_5e624782-3903-4cb7-9695-dc803ff0f992",
+      "source_index": 191,
+      "source_uuid": "5e624782-3903-4cb7-9695-dc803ff0f992",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -11.7820167578125,
+          -1.8036659917969446,
+          1.9794204806179878
+        ],
+        "max": [
+          -9.8300948828125,
+          -0.8950546636719445,
+          2.7526353243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_192_16e3ca5a-e06f-477f-9462-92a234218e5c",
+      "source_index": 192,
+      "source_uuid": "16e3ca5a-e06f-477f-9462-92a234218e5c",
+      "role": "brep",
+      "vertices": 85,
+      "faces": 97,
+      "bounds_m": {
+        "min": [
+          -10.4554991796875,
+          -1.8253788824219446,
+          1.9769009493679879
+        ],
+        "max": [
+          -9.80803140625,
+          -0.9487792730469445,
+          2.0607661837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_193_36c7c8ea-bf64-4c56-9fc2-a2d1133de2f7",
+      "source_index": 193,
+      "source_uuid": "36c7c8ea-bf64-4c56-9fc2-a2d1133de2f7",
+      "role": "brep",
+      "vertices": 21,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -14.958485507812501,
+          -1.7183398199219446,
+          2.749680246242988
+        ],
+        "max": [
+          -14.5214894140625,
+          -0.29990622617194457,
+          2.9406099337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_194_5fa8d7eb-b728-4c30-af56-775322fa53aa",
+      "source_index": 194,
+      "source_uuid": "5fa8d7eb-b728-4c30-af56-775322fa53aa",
+      "role": "brep",
+      "vertices": 45,
+      "faces": 32,
+      "bounds_m": {
+        "min": [
+          -15.0291964453125,
+          -1.8419140386719446,
+          2.6331782931179877
+        ],
+        "max": [
+          -14.5465519140625,
+          -1.6985546636719446,
+          2.7553833712429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_195_4319df00-0f0c-4125-a9c6-5f0f7e9da6d7",
+      "source_index": 195,
+      "source_uuid": "4319df00-0f0c-4125-a9c6-5f0f7e9da6d7",
+      "role": "brep",
+      "vertices": 45,
+      "faces": 32,
+      "bounds_m": {
+        "min": [
+          -15.0291964453125,
+          1.6985547113280555,
+          2.6331782931179877
+        ],
+        "max": [
+          -14.5465519140625,
+          1.8419140863280554,
+          2.7553833712429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_196_6f957515-df1a-45b7-8e5b-79afd3bf9caf",
+      "source_index": 196,
+      "source_uuid": "6f957515-df1a-45b7-8e5b-79afd3bf9caf",
+      "role": "brep",
+      "vertices": 21,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -14.958485507812501,
+          0.3000937738280554,
+          2.749680246242988
+        ],
+        "max": [
+          -14.521490390625,
+          1.7183398675780555,
+          2.940602121242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_197_4b745509-09da-4fa7-85c7-93fd358434ae",
+      "source_index": 197,
+      "source_uuid": "4b745509-09da-4fa7-85c7-93fd358434ae",
+      "role": "brep",
+      "vertices": 222,
+      "faces": 280,
+      "bounds_m": {
+        "min": [
+          -14.842369296875,
+          -0.29990622617194457,
+          2.9361919649929877
+        ],
+        "max": [
+          -14.5200714453125,
+          0.3000937738280554,
+          2.946623605617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_198_c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "source_index": 198,
+      "source_uuid": "c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "role": "brep",
+      "vertices": 153,
+      "faces": 195,
+      "bounds_m": {
+        "min": [
+          -15.109314609375,
+          -1.0500077886719446,
+          2.828346261867988
+        ],
+        "max": [
+          -12.65000015625,
+          1.0500078363280554,
+          2.896934152492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_199_7456ffd1-e2d0-4e2c-9a62-e2378429afa5",
+      "source_index": 199,
+      "source_uuid": "7456ffd1-e2d0-4e2c-9a62-e2378429afa5",
+      "role": "brep",
+      "vertices": 90,
+      "faces": 72,
+      "bounds_m": {
+        "min": [
+          -15.835353671875,
+          1.6949609613280554,
+          0.9822739962429877
+        ],
+        "max": [
+          -15.76264859375,
+          1.7500000238280555,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_200_807145dd-76aa-4c30-b33b-bd86cea9b0da",
+      "source_index": 200,
+      "source_uuid": "807145dd-76aa-4c30-b33b-bd86cea9b0da",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 27,
+      "bounds_m": {
+        "min": [
+          -16.0846603125,
+          0.8047715082030554,
+          0.9837173556179878
+        ],
+        "max": [
+          -15.835236484375,
+          1.6953769769530553,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_201_5d58d23d-19e9-44bb-9ecb-e5c592fa2919",
+      "source_index": 201,
+      "source_uuid": "5d58d23d-19e9-44bb-9ecb-e5c592fa2919",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.939605625,
+          1.3497734613280554,
+          1.6200200899929877
+        ],
+        "max": [
+          -15.835353671875,
+          1.6949609613280554,
+          2.0195786837429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_202_37befcf8-6b15-44a8-8c58-e8484876562d",
+      "source_index": 202,
+      "source_uuid": "37befcf8-6b15-44a8-8c58-e8484876562d",
+      "role": "brep",
+      "vertices": 44,
+      "faces": 42,
+      "bounds_m": {
+        "min": [
+          -15.86018765625,
+          1.6942480707030554,
+          1.6185767306179877
+        ],
+        "max": [
+          -15.763168125,
+          1.7496992425780553,
+          1.9713228243679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_203_c00bc88f-5423-4165-a399-66b1d3adde2c",
+      "source_index": 203,
+      "source_uuid": "c00bc88f-5423-4165-a399-66b1d3adde2c",
+      "role": "brep",
+      "vertices": 63,
+      "faces": 48,
+      "bounds_m": {
+        "min": [
+          -16.01224234375,
+          1.2950000238280555,
+          1.6200200899929877
+        ],
+        "max": [
+          -15.9320275,
+          1.4159199457030553,
+          2.027996652492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_204_3d217e1c-d157-4f17-b29a-aafc951ac27e",
+      "source_index": 204,
+      "source_uuid": "3d217e1c-d157-4f17-b29a-aafc951ac27e",
+      "role": "brep",
+      "vertices": 207,
+      "faces": 271,
+      "bounds_m": {
+        "min": [
+          -17.238634921875,
+          0.7499980707030555,
+          1.6200200899929877
+        ],
+        "max": [
+          -15.9320275,
+          1.3497734613280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_205_2d53746a-87ad-48c4-80c3-ac1fd9894a38",
+      "source_index": 205,
+      "source_uuid": "2d53746a-87ad-48c4-80c3-ac1fd9894a38",
+      "role": "brep",
+      "vertices": 48,
+      "faces": 63,
+      "bounds_m": {
+        "min": [
+          -17.364689609375,
+          0.7499980707030555,
+          1.2241216524929879
+        ],
+        "max": [
+          -16.156881015625,
+          0.7499980707030555,
+          1.6210376681179879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_206_31ff6bf3-fcd3-4d04-b363-61c3fd1ec786",
+      "source_index": 206,
+      "source_uuid": "31ff6bf3-fcd3-4d04-b363-61c3fd1ec786",
+      "role": "brep",
+      "vertices": 97,
+      "faces": 130,
+      "bounds_m": {
+        "min": [
+          -17.450215,
+          0.7496543207030554,
+          2.0036704806179877
+        ],
+        "max": [
+          -17.088709140625,
+          1.3541543207030555,
+          2.003676339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_207_6e65e5c1-2f62-4c84-81e2-36060209cf68",
+      "source_index": 207,
+      "source_uuid": "6e65e5c1-2f62-4c84-81e2-36060209cf68",
+      "role": "brep",
+      "vertices": 151,
+      "faces": 177,
+      "bounds_m": {
+        "min": [
+          -17.450232578125,
+          0.7500000238280554,
+          1.5008521212429877
+        ],
+        "max": [
+          -17.36462515625,
+          0.8250000238280554,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_208_394d71dd-6ca7-47d3-aad1-02d8e16794dc",
+      "source_index": 208,
+      "source_uuid": "394d71dd-6ca7-47d3-aad1-02d8e16794dc",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 17,
+      "bounds_m": {
+        "min": [
+          -17.3648946875,
+          0.7496543207030554,
+          1.6200200899929877
+        ],
+        "max": [
+          -17.238736484375,
+          0.7500000238280554,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_209_ec7ff18d-ef7d-4019-9eb8-66229a7d6b35",
+      "source_index": 209,
+      "source_uuid": "ec7ff18d-ef7d-4019-9eb8-66229a7d6b35",
+      "role": "brep",
+      "vertices": 32,
+      "faces": 33,
+      "bounds_m": {
+        "min": [
+          -17.450232578125,
+          0.8250000238280554,
+          1.5020161837429877
+        ],
+        "max": [
+          -17.449748203125,
+          1.6372949457030554,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_210_4738df68-7b12-4960-9656-80c28173cd2f",
+      "source_index": 210,
+      "source_uuid": "4738df68-7b12-4960-9656-80c28173cd2f",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          1.5633574457030555,
+          1.5030103243679878
+        ],
+        "max": [
+          -17.505220859375,
+          1.6821875238280555,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_211_83a11ba5-1bc0-46e5-8ea5-a3bc648c20c8",
+      "source_index": 211,
+      "source_uuid": "83a11ba5-1bc0-46e5-8ea5-a3bc648c20c8",
+      "role": "brep",
+      "vertices": 216,
+      "faces": 263,
+      "bounds_m": {
+        "min": [
+          -17.505349765625,
+          1.5601093988280554,
+          1.5020161837429877
+        ],
+        "max": [
+          -17.449830234375,
+          1.6824609613280554,
+          1.9441489962429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_212_2050ba10-1db6-42f0-9507-76412f05d53b",
+      "source_index": 212,
+      "source_uuid": "2050ba10-1db6-42f0-9507-76412f05d53b",
+      "role": "brep",
+      "vertices": 279,
+      "faces": 395,
+      "bounds_m": {
+        "min": [
+          -17.238634921875,
+          -1.2949999761719446,
+          1.6200200899929877
+        ],
+        "max": [
+          -14.9933468359375,
+          1.1000000238280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_213_9e032acc-0659-43d4-b9e8-ec6fef56d13d",
+      "source_index": 213,
+      "source_uuid": "9e032acc-0659-43d4-b9e8-ec6fef56d13d",
+      "role": "brep",
+      "vertices": 72,
+      "faces": 56,
+      "bounds_m": {
+        "min": [
+          -15.375326328125,
+          1.0450136957030554,
+          0.9730806368679877
+        ],
+        "max": [
+          -15.30294546875,
+          1.1000000238280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_214_019db167-32a7-4d13-99e5-c3e37acdd7a4",
+      "source_index": 214,
+      "source_uuid": "019db167-32a7-4d13-99e5-c3e37acdd7a4",
+      "role": "brep",
+      "vertices": 97,
+      "faces": 130,
+      "bounds_m": {
+        "min": [
+          -17.450215,
+          -1.3541542730469447,
+          2.0036704806179877
+        ],
+        "max": [
+          -17.088709140625,
+          -0.7496542730469445,
+          2.003676339992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_215_9c4bc0bd-041a-4473-ba74-82f346bba1dc",
+      "source_index": 215,
+      "source_uuid": "9c4bc0bd-041a-4473-ba74-82f346bba1dc",
+      "role": "brep",
+      "vertices": 32,
+      "faces": 33,
+      "bounds_m": {
+        "min": [
+          -17.450232578125,
+          -1.6372948980469446,
+          1.5020161837429877
+        ],
+        "max": [
+          -17.449748203125,
+          -0.8249999761719445,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_216_2d064c4b-3b9a-484d-ab5f-ac0b6105b254",
+      "source_index": 216,
+      "source_uuid": "2d064c4b-3b9a-484d-ab5f-ac0b6105b254",
+      "role": "brep",
+      "vertices": 22,
+      "faces": 17,
+      "bounds_m": {
+        "min": [
+          -17.3648946875,
+          -0.7499999761719446,
+          1.6200200899929877
+        ],
+        "max": [
+          -17.238736484375,
+          -0.7496542730469445,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_217_7fe82f17-a7b1-496b-b692-14dfb39a6513",
+      "source_index": 217,
+      "source_uuid": "7fe82f17-a7b1-496b-b692-14dfb39a6513",
+      "role": "brep",
+      "vertices": 151,
+      "faces": 177,
+      "bounds_m": {
+        "min": [
+          -17.450232578125,
+          -0.8249999761719445,
+          1.5008521212429877
+        ],
+        "max": [
+          -17.36462515625,
+          -0.7499999761719446,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_218_5f0e2274-e909-43d1-94ee-1f2282ba4ef1",
+      "source_index": 218,
+      "source_uuid": "5f0e2274-e909-43d1-94ee-1f2282ba4ef1",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 25,
+      "bounds_m": {
+        "min": [
+          -17.30267203125,
+          -1.3026406011719447,
+          1.6200200899929877
+        ],
+        "max": [
+          -17.095705234375,
+          -0.7496542730469445,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_219_0c25be57-8cd2-46c9-b34b-18c110c5b0c9",
+      "source_index": 219,
+      "source_uuid": "0c25be57-8cd2-46c9-b34b-18c110c5b0c9",
+      "role": "brep",
+      "vertices": 77,
+      "faces": 60,
+      "bounds_m": {
+        "min": [
+          -15.614826328125,
+          -0.7499999761719446,
+          1.2118111056179879
+        ],
+        "max": [
+          -15.539949375,
+          -0.6749980230469446,
+          1.6215161837429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_220_64457882-c14c-40b4-aa3d-a5a45ca26e10",
+      "source_index": 220,
+      "source_uuid": "64457882-c14c-40b4-aa3d-a5a45ca26e10",
+      "role": "brep",
+      "vertices": 78,
+      "faces": 114,
+      "bounds_m": {
+        "min": [
+          -17.364689609375,
+          -0.7499999761719446,
+          1.2133052462429879
+        ],
+        "max": [
+          -15.614810703125,
+          -0.7499999761719446,
+          1.6215200899929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_221_58606f63-2424-4386-b6de-c7d8b50f4e7a",
+      "source_index": 221,
+      "source_uuid": "58606f63-2424-4386-b6de-c7d8b50f4e7a",
+      "role": "brep",
+      "vertices": 216,
+      "faces": 263,
+      "bounds_m": {
+        "min": [
+          -17.505349765625,
+          -1.6824609136719446,
+          1.5020161837429877
+        ],
+        "max": [
+          -17.449830234375,
+          -1.5601093511719446,
+          1.9441489962429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_222_93dd4949-caa0-42a5-b245-755cb26d832c",
+      "source_index": 222,
+      "source_uuid": "93dd4949-caa0-42a5-b245-755cb26d832c",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -17.94960171875,
+          -1.6821874761719446,
+          1.5030103243679878
+        ],
+        "max": [
+          -17.505220859375,
+          -1.5633573980469446,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_223_ca3c18c6-fce2-48a4-b272-5169d7560df8",
+      "source_index": 223,
+      "source_uuid": "ca3c18c6-fce2-48a4-b272-5169d7560df8",
+      "role": "brep",
+      "vertices": 63,
+      "faces": 48,
+      "bounds_m": {
+        "min": [
+          -17.141427890625,
+          -1.3566777105469445,
+          1.6200200899929877
+        ],
+        "max": [
+          -17.02369546875,
+          -1.2409628667969446,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_224_90caad6f-9ed5-4030-8845-89940fb92835",
+      "source_index": 224,
+      "source_uuid": "90caad6f-9ed5-4030-8845-89940fb92835",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.069418125,
+          -1.3618085699219447,
+          1.6200200899929877
+        ],
+        "max": [
+          -15.61490640625,
+          -1.2949999761719446,
+          2.0369458712429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_225_6787fe70-33e4-4edf-ba7d-5e9d2c8a6de0",
+      "source_index": 225,
+      "source_uuid": "6787fe70-33e4-4edf-ba7d-5e9d2c8a6de0",
+      "role": "brep",
+      "vertices": 2421,
+      "faces": 1612,
+      "bounds_m": {
+        "min": [
+          -15.614966953125,
+          -0.7469882574219446,
+          1.2133052462429879
+        ],
+        "max": [
+          -15.614810703125,
+          -0.7469882574219446,
+          1.6215200899929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_226_1a9835c2-3a2f-4742-be4f-395139ba850e",
+      "source_index": 226,
+      "source_uuid": "1a9835c2-3a2f-4742-be4f-395139ba850e",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.539982578125,
+          -0.6719882574219446,
+          1.2118111056179879
+        ],
+        "max": [
+          -15.539949375,
+          0.45000002382805543,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_227_1416f5ad-bad1-47ee-b389-71ecc761c332",
+      "source_index": 227,
+      "source_uuid": "1416f5ad-bad1-47ee-b389-71ecc761c332",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.539982578125,
+          0.45000002382805543,
+          1.2085239962429877
+        ],
+        "max": [
+          -15.375224765625001,
+          1.0450136957030554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_228_d1da9108-8939-491a-9cc1-127b77c0c40c",
+      "source_index": 228,
+      "source_uuid": "d1da9108-8939-491a-9cc1-127b77c0c40c",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.61708609375,
+          -1.3617089605469446,
+          1.6200200899929877
+        ],
+        "max": [
+          -14.9238273046875,
+          -0.6744042730469446,
+          2.054520089992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_229_e31d1550-6c90-4af6-8a06-ff50908700bc",
+      "source_index": 229,
+      "source_uuid": "e31d1550-6c90-4af6-8a06-ff50908700bc",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.9933468359375,
+          -0.6744042730469446,
+          1.6200200899929877
+        ],
+        "max": [
+          -14.9238273046875,
+          1.1000000238280554,
+          2.054520089992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_230_1ff32281-57ae-4fd8-a25a-3a2b8bc9a1cf",
+      "source_index": 230,
+      "source_uuid": "1ff32281-57ae-4fd8-a25a-3a2b8bc9a1cf",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.61708609375,
+          -1.3645195074219445,
+          2.0369458712429878
+        ],
+        "max": [
+          -14.850000156250001,
+          -0.6744042730469446,
+          2.054520089992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_231_79bd817c-9867-4a94-81f9-55deff2a6b1a",
+      "source_index": 231,
+      "source_uuid": "79bd817c-9867-4a94-81f9-55deff2a6b1a",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.9238273046875,
+          -0.6744042730469446,
+          2.054520089992988
+        ],
+        "max": [
+          -14.850000156250001,
+          1.1000000238280554,
+          2.054520089992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_319_706de1e7-8c1e-4660-bf2b-e0d5fea6974a",
+      "source_index": 319,
+      "source_uuid": "706de1e7-8c1e-4660-bf2b-e0d5fea6974a",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.253388828125,
+          -1.6931679449219446,
+          2.004697824367988
+        ],
+        "max": [
+          -17.949236484375,
+          -1.6104726324219445,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_320_9b5eb425-187b-4b64-8b65-793307316cd8",
+      "source_index": 320,
+      "source_uuid": "9b5eb425-187b-4b64-8b65-793307316cd8",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.253388828125,
+          1.6105117425780555,
+          2.004697824367988
+        ],
+        "max": [
+          -17.949236484375,
+          1.6932090082030553,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_321_5e0cfe69-3604-4b09-b956-ab3cf4c6875e",
+      "source_index": 321,
+      "source_uuid": "5e0cfe69-3604-4b09-b956-ab3cf4c6875e",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.21893375,
+          -1.6428144292969447,
+          1.9499868868679877
+        ],
+        "max": [
+          -17.949236484375,
+          -1.6023398199219445,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_322_27a602b1-0335-4829-9de1-0f85011e1001",
+      "source_index": 322,
+      "source_uuid": "27a602b1-0335-4829-9de1-0f85011e1001",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.21893375,
+          1.6023398675780554,
+          1.9499868868679877
+        ],
+        "max": [
+          -17.949236484375,
+          1.6428144769530555,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_323_63d37c4c-5f8a-4f8e-8992-d97043ff61a3",
+      "source_index": 323,
+      "source_uuid": "63d37c4c-5f8a-4f8e-8992-d97043ff61a3",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.349615390625,
+          -0.7499999761719446,
+          1.2479224337429877
+        ],
+        "max": [
+          -17.349599765625,
+          0.7500000238280554,
+          1.5002193087429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_324_fb0c705d-9008-453d-b587-4196ede7d4b2",
+      "source_index": 324,
+      "source_uuid": "fb0c705d-9008-453d-b587-4196ede7d4b2",
+      "role": "brep",
+      "vertices": 131,
+      "faces": 195,
+      "bounds_m": {
+        "min": [
+          -15.879324375,
+          1.0450136957030554,
+          0.9730806368679877
+        ],
+        "max": [
+          -15.303060703125,
+          1.7500000238280555,
+          0.9846099337429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_325_d9ea7135-dcf5-45df-a4b6-dfb7d26e579d",
+      "source_index": 325,
+      "source_uuid": "d9ea7135-dcf5-45df-a4b6-dfb7d26e579d",
+      "role": "brep",
+      "vertices": 24,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -15.571465,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          0.7434497774929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_326_a02fe7ad-4a1f-44ac-ae83-cd8aa54178b3",
+      "source_index": 326,
+      "source_uuid": "a02fe7ad-4a1f-44ac-ae83-cd8aa54178b3",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.5715275,
+          1.0999902582030554,
+          0.7380786837429878
+        ],
+        "max": [
+          -15.30294546875,
+          1.7500000238280555,
+          0.9784517306179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_327_0c87b93c-3dc9-4a6d-b54a-26e9a95fd44f",
+      "source_index": 327,
+      "source_uuid": "0c87b93c-3dc9-4a6d-b54a-26e9a95fd44f",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.879324375,
+          1.0450136957030554,
+          0.9745279024929878
+        ],
+        "max": [
+          -15.375224765625001,
+          1.5366269769530554,
+          1.2185845431179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_328_70c5801a-0125-4c5e-9e85-03ffba408664",
+      "source_index": 328,
+      "source_uuid": "70c5801a-0125-4c5e-9e85-03ffba408664",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -9.8300948828125,
+          -0.9583847417969446,
+          2.059512277492988
+        ],
+        "max": [
+          -9.614713046875,
+          2.3828055418562143e-08,
+          2.0927661837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_329_86345c9e-0cd6-4c52-a68c-9aa9a1d17ace",
+      "source_index": 329,
+      "source_uuid": "86345c9e-0cd6-4c52-a68c-9aa9a1d17ace",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -9.8300948828125,
+          2.3828055418562143e-08,
+          2.059512277492988
+        ],
+        "max": [
+          -9.614713046875,
+          0.9583847894530554,
+          2.0927661837429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_330_45a00685-1c04-4f89-9c34-0971f3cd8900",
+      "source_index": 330,
+      "source_uuid": "45a00685-1c04-4f89-9c34-0971f3cd8900",
+      "role": "brep",
+      "vertices": 63,
+      "faces": 48,
+      "bounds_m": {
+        "min": [
+          -16.156861484375,
+          0.7500000238280554,
+          1.2226802462429878
+        ],
+        "max": [
+          -16.0846603125,
+          0.8047734613280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_331_b9734ba7-3acd-4e7d-befe-ffc4bc4fe126",
+      "source_index": 331,
+      "source_uuid": "b9734ba7-3acd-4e7d-befe-ffc4bc4fe126",
+      "role": "brep",
+      "vertices": 41,
+      "faces": 42,
+      "bounds_m": {
+        "min": [
+          -10.49407828125,
+          -1.8806894292969445,
+          1.7195337618679878
+        ],
+        "max": [
+          -9.100000156250001,
+          2.3828055418562143e-08,
+          2.091818918117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_332_6b67b8e5-bf51-4d05-a623-7f21b211121b",
+      "source_index": 332,
+      "source_uuid": "6b67b8e5-bf51-4d05-a623-7f21b211121b",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -10.780404453125,
+          -1.9596445074219446,
+          1.7080864962429878
+        ],
+        "max": [
+          -9.98985171875,
+          -1.8573730230469445,
+          1.9728130587429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_333_addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "source_index": 333,
+      "source_uuid": "addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "role": "brep",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094673984375,
+          -1.8625214605469447,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          2.3828055418562143e-08,
+          2.858815011867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_334_fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "source_index": 334,
+      "source_uuid": "fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "role": "brep",
+      "vertices": 132,
+      "faces": 152,
+      "bounds_m": {
+        "min": [
+          -15.094673984375,
+          2.3828055418562143e-08,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          1.8625215082030555,
+          2.858815011867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_335_1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "source_index": 335,
+      "source_uuid": "1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "role": "brep",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.7016222265625,
+          -1.8726249761719447,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          2.3828055418562143e-08,
+          2.777139230617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_336_5077b506-30cd-4ab9-9784-91394139c4cc",
+      "source_index": 336,
+      "source_uuid": "5077b506-30cd-4ab9-9784-91394139c4cc",
+      "role": "brep",
+      "vertices": 140,
+      "faces": 183,
+      "bounds_m": {
+        "min": [
+          -12.7016222265625,
+          2.3828055418562143e-08,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          1.8726250238280555,
+          2.777139230617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_337_3cb42428-d53c-41d6-a91b-071ec6772e02",
+      "source_index": 337,
+      "source_uuid": "3cb42428-d53c-41d6-a91b-071ec6772e02",
+      "role": "brep",
+      "vertices": 181,
+      "faces": 261,
+      "bounds_m": {
+        "min": [
+          -14.5606866796875,
+          -1.8419140386719446,
+          2.6366939181179876
+        ],
+        "max": [
+          -14.5200714453125,
+          1.8419140863280554,
+          2.9417134493679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_338_15d6941c-9754-4dd7-9429-1b50e9d7153c",
+      "source_index": 338,
+      "source_uuid": "15d6941c-9754-4dd7-9429-1b50e9d7153c",
+      "role": "brep",
+      "vertices": 61,
+      "faces": 53,
+      "bounds_m": {
+        "min": [
+          -14.65000015625,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          2.8367935274929876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_339_75f6febd-5532-4c8d-8799-2660ce899196",
+      "source_index": 339,
+      "source_uuid": "75f6febd-5532-4c8d-8799-2660ce899196",
+      "role": "brep",
+      "vertices": 44,
+      "faces": 49,
+      "bounds_m": {
+        "min": [
+          -15.30294546875,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.1000000238280554,
+          2.839225168117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_340_285355bd-2888-45a0-96aa-374e89f0485d",
+      "source_index": 340,
+      "source_uuid": "285355bd-2888-45a0-96aa-374e89f0485d",
+      "role": "brep",
+      "vertices": 99,
+      "faces": 103,
+      "bounds_m": {
+        "min": [
+          -14.850000156250001,
+          -1.7498886480469447,
+          1.9851040743679877
+        ],
+        "max": [
+          -14.850000156250001,
+          1.1000000238280554,
+          2.892912668117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_341_db0b5973-beb0-4b5a-b8b5-8c0898dbbc3b",
+      "source_index": 341,
+      "source_uuid": "db0b5973-beb0-4b5a-b8b5-8c0898dbbc3b",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -19.464982578125,
+          -1.9596073980469446,
+          1.4914458712429879
+        ],
+        "max": [
+          -19.321195468750002,
+          -1.8492167730469447,
+          1.6043521212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_342_40a2ba32-006f-4a1e-a7c3-b41146a1ea3b",
+      "source_index": 342,
+      "source_uuid": "40a2ba32-006f-4a1e-a7c3-b41146a1ea3b",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -19.464982578125,
+          1.8492168207030555,
+          1.4914458712429879
+        ],
+        "max": [
+          -19.321195468750002,
+          1.9596074457030555,
+          1.6043521212429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_343_76466e75-1c5c-4836-b266-627b47a5ec28",
+      "source_index": 343,
+      "source_uuid": "76466e75-1c5c-4836-b266-627b47a5ec28",
+      "role": "brep",
+      "vertices": 64,
+      "faces": 73,
+      "bounds_m": {
+        "min": [
+          -15.7875821875,
+          1.7500000238280555,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          2.660307199367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_344_fff3dca6-6cb2-42fb-8c17-eb558013e0b6",
+      "source_index": 344,
+      "source_uuid": "fff3dca6-6cb2-42fb-8c17-eb558013e0b6",
+      "role": "brep",
+      "vertices": 23,
+      "faces": 18,
+      "bounds_m": {
+        "min": [
+          -15.42613296875,
+          -1.7498886480469447,
+          1.9715376681179877
+        ],
+        "max": [
+          -14.850000156250001,
+          -1.7497792730469446,
+          2.6570064181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_345_784d0d2d-37d4-43c0-9983-2d5ff8d10077",
+      "source_index": 345,
+      "source_uuid": "784d0d2d-37d4-43c0-9983-2d5ff8d10077",
+      "role": "brep",
+      "vertices": 109,
+      "faces": 120,
+      "bounds_m": {
+        "min": [
+          -15.0613351171875,
+          -1.7498886480469447,
+          2.6431704806179876
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          2.7650747774929876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_346_ee9225cb-e528-4c45-b682-369207da2ab7",
+      "source_index": 346,
+      "source_uuid": "ee9225cb-e528-4c45-b682-369207da2ab7",
+      "role": "brep",
+      "vertices": 80,
+      "faces": 82,
+      "bounds_m": {
+        "min": [
+          -15.109314609375,
+          -1.7497792730469446,
+          2.643201730617988
+        ],
+        "max": [
+          -15.031369296875,
+          1.7497793207030554,
+          2.896934152492988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_347_fff1d3b4-1a8b-44db-b337-ab8751032170",
+      "source_index": 347,
+      "source_uuid": "fff1d3b4-1a8b-44db-b337-ab8751032170",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.6800714453125,
+          -0.10009567929694459,
+          2.9417134493679877
+        ],
+        "max": [
+          -14.5200714453125,
+          -0.050095679296944584,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_348_2b295ed4-0c6f-4730-a310-92fd2d05b801",
+      "source_index": 348,
+      "source_uuid": "2b295ed4-0c6f-4730-a310-92fd2d05b801",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.5700714453125,
+          -0.10009567929694459,
+          2.9417134493679877
+        ],
+        "max": [
+          -14.5200714453125,
+          0.09990432070305542,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_349_ca147180-b5d2-4f68-a64f-b4b17366eafb",
+      "source_index": 349,
+      "source_uuid": "ca147180-b5d2-4f68-a64f-b4b17366eafb",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.6800714453125,
+          0.04990432070305542,
+          2.9417134493679877
+        ],
+        "max": [
+          -14.5200714453125,
+          0.09990432070305542,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_350_3e5a3162-b593-4345-b08a-fecb048d8040",
+      "source_index": 350,
+      "source_uuid": "3e5a3162-b593-4345-b08a-fecb048d8040",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.6800714453125,
+          -0.10009567929694459,
+          2.9417134493679877
+        ],
+        "max": [
+          -14.6300714453125,
+          0.09990432070305542,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_351_04a63a18-db5e-44fa-b1ae-dd5fd485bcb6",
+      "source_index": 351,
+      "source_uuid": "04a63a18-db5e-44fa-b1ae-dd5fd485bcb6",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.6300714453125,
+          -0.050095679296944584,
+          2.991713449367988
+        ],
+        "max": [
+          -14.5700714453125,
+          0.04990432070305542,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_352_0efb6120-b081-4b44-8101-9dbbe31ee6bb",
+      "source_index": 352,
+      "source_uuid": "0efb6120-b081-4b44-8101-9dbbe31ee6bb",
+      "role": "brep",
+      "vertices": 390,
+      "faces": 460,
+      "bounds_m": {
+        "min": [
+          -14.9490187109375,
+          -0.0025956792969445814,
+          2.7650747774929876
+        ],
+        "max": [
+          -14.5200714453125,
+          0.0024043207030554187,
+          2.991713449367988
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_353_f02aef53-08bd-494e-8433-1962f0bd46d0",
+      "source_index": 353,
+      "source_uuid": "f02aef53-08bd-494e-8433-1962f0bd46d0",
+      "role": "brep",
+      "vertices": 81,
+      "faces": 72,
+      "bounds_m": {
+        "min": [
+          -11.241177890625,
+          -0.9487792730469445,
+          2.0607661837429876
+        ],
+        "max": [
+          -9.64020328125,
+          2.3828055418562143e-08,
+          2.782147043117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_354_48eeb860-ab2d-4bcf-bb64-122bbf9d0ed6",
+      "source_index": 354,
+      "source_uuid": "48eeb860-ab2d-4bcf-bb64-122bbf9d0ed6",
+      "role": "brep",
+      "vertices": 81,
+      "faces": 72,
+      "bounds_m": {
+        "min": [
+          -11.241177890625,
+          2.3828055418562143e-08,
+          2.0607661837429876
+        ],
+        "max": [
+          -9.64020328125,
+          0.9487793207030554,
+          2.782147043117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_355_290637b4-71ab-49ae-9c21-dd8bf091d005",
+      "source_index": 355,
+      "source_uuid": "290637b4-71ab-49ae-9c21-dd8bf091d005",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.45000015625,
+          1.7497793207030554,
+          1.9310200899929877
+        ],
+        "max": [
+          -15.016869296875,
+          1.9747773675780553,
+          2.6460630587429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_356_fbba9ee7-eaa4-4cca-8264-d751cceba36a",
+      "source_index": 356,
+      "source_uuid": "fbba9ee7-eaa4-4cca-8264-d751cceba36a",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -15.45000015625,
+          -1.9747773199219445,
+          1.9310200899929877
+        ],
+        "max": [
+          -15.016869296875,
+          -1.7497792730469446,
+          2.6460630587429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_357_31b6673b-4de9-4e3d-8983-7bf5ebc97c4d",
+      "source_index": 357,
+      "source_uuid": "31b6673b-4de9-4e3d-8983-7bf5ebc97c4d",
+      "role": "brep",
+      "vertices": 250,
+      "faces": 375,
+      "bounds_m": {
+        "min": [
+          -15.0291964453125,
+          -1.8196659917969447,
+          2.6331782931179877
+        ],
+        "max": [
+          -14.838662265625,
+          1.8196660394530555,
+          2.9466157931179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_358_796ac3a2-61b3-4f47-90df-cf9eeb303f61",
+      "source_index": 358,
+      "source_uuid": "796ac3a2-61b3-4f47-90df-cf9eeb303f61",
+      "role": "brep",
+      "vertices": 77,
+      "faces": 79,
+      "bounds_m": {
+        "min": [
+          -14.850000156250001,
+          -1.8424511480469445,
+          2.629900949367988
+        ],
+        "max": [
+          -14.543591953125,
+          1.8425273675780554,
+          2.7650747774929876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_359_b7749117-246a-4123-8f64-aca009533e4b",
+      "source_index": 359,
+      "source_uuid": "b7749117-246a-4123-8f64-aca009533e4b",
+      "role": "brep",
+      "vertices": 49,
+      "faces": 47,
+      "bounds_m": {
+        "min": [
+          -14.7021525,
+          -2.1063808355469447,
+          1.5742993868679878
+        ],
+        "max": [
+          -14.527228671875001,
+          2.1063808832030553,
+          2.887961496242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_360_c0f1b570-d520-4d09-9078-2dca688be946",
+      "source_index": 360,
+      "source_uuid": "c0f1b570-d520-4d09-9078-2dca688be946",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.570705234375,
+          -1.8829902105469445,
+          2.5614536837429878
+        ],
+        "max": [
+          -12.7147101171875,
+          -1.8080234136719446,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_361_1115ef88-81bb-429d-84b6-0b9e1129f18e",
+      "source_index": 361,
+      "source_uuid": "1115ef88-81bb-429d-84b6-0b9e1129f18e",
+      "role": "brep",
+      "vertices": 33,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -14.653896640625,
+          -2.0427831792969444,
+          1.9366958712429878
+        ],
+        "max": [
+          -12.8003009375,
+          -1.9629823980469445,
+          1.9535239962429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_362_ea3ad6f8-d647-464b-8c87-a43351060fa8",
+      "source_index": 362,
+      "source_uuid": "ea3ad6f8-d647-464b-8c87-a43351060fa8",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.653230625,
+          -1.9846738042969445,
+          1.9416958712429877
+        ],
+        "max": [
+          -12.7147101171875,
+          -1.8080234136719446,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_363_3983cb4b-ca78-4a38-a358-60f2f7acbd31",
+      "source_index": 363,
+      "source_uuid": "3983cb4b-ca78-4a38-a358-60f2f7acbd31",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.653230625,
+          1.8080234613280555,
+          1.9416958712429877
+        ],
+        "max": [
+          -12.7147101171875,
+          1.9846738519530553,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_364_cdaa73f1-3d95-4d81-b2c8-bacdf2070560",
+      "source_index": 364,
+      "source_uuid": "cdaa73f1-3d95-4d81-b2c8-bacdf2070560",
+      "role": "brep",
+      "vertices": 33,
+      "faces": 20,
+      "bounds_m": {
+        "min": [
+          -14.653896640625,
+          1.9629824457030554,
+          1.9366958712429878
+        ],
+        "max": [
+          -12.8003009375,
+          2.0427832269530555,
+          1.9535239962429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_365_65ee827e-9649-4b65-a18b-f32cb15a8884",
+      "source_index": 365,
+      "source_uuid": "65ee827e-9649-4b65-a18b-f32cb15a8884",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -14.570705234375,
+          1.8080234613280555,
+          2.5614536837429878
+        ],
+        "max": [
+          -12.7147101171875,
+          1.8829902582030553,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_366_be3b3196-6707-494e-bae9-32665197ab0a",
+      "source_index": 366,
+      "source_uuid": "be3b3196-6707-494e-bae9-32665197ab0a",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -12.8471983984375,
+          -2.1240409917969445,
+          1.6132134493679877
+        ],
+        "max": [
+          -12.7147101171875,
+          -1.8238808355469447,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_367_10a58de0-2a76-4595-8731-5f57125c0304",
+      "source_index": 367,
+      "source_uuid": "10a58de0-2a76-4595-8731-5f57125c0304",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -12.8471983984375,
+          1.8238789300780553,
+          1.6132173556179878
+        ],
+        "max": [
+          -12.7147101171875,
+          2.1240390863280556,
+          2.574611886867988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_368_7c09f66f-5841-4a94-be53-b92bd90a3e9b",
+      "source_index": 368,
+      "source_uuid": "7c09f66f-5841-4a94-be53-b92bd90a3e9b",
+      "role": "brep",
+      "vertices": 997,
+      "faces": 1503,
+      "bounds_m": {
+        "min": [
+          -11.302427890625,
+          -1.9735527105469446,
+          1.9603032931179878
+        ],
+        "max": [
+          -10.4433683203125,
+          -1.8036659917969446,
+          1.9794204806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_369_d84e8b3e-9e11-41ef-9ea9-e3a4e9a8188d",
+      "source_index": 369,
+      "source_uuid": "d84e8b3e-9e11-41ef-9ea9-e3a4e9a8188d",
+      "role": "brep",
+      "vertices": 66,
+      "faces": 69,
+      "bounds_m": {
+        "min": [
+          -12.7245597265625,
+          -1.9678613042969446,
+          2.0668892306179876
+        ],
+        "max": [
+          -11.661134921875,
+          -1.7600488042969447,
+          2.6717915743679876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_370_eeda2631-7fc2-48b6-b9a2-a2883a6e2e4f",
+      "source_index": 370,
+      "source_uuid": "eeda2631-7fc2-48b6-b9a2-a2883a6e2e4f",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -11.6963585546875,
+          -1.9786406011719446,
+          1.9603032931179878
+        ],
+        "max": [
+          -11.2942648046875,
+          -1.8706835699219446,
+          2.070914621242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_371_796a602a-62c6-43b1-813e-969f81bd9e2d",
+      "source_index": 371,
+      "source_uuid": "796a602a-62c6-43b1-813e-969f81bd9e2d",
+      "role": "brep",
+      "vertices": 83,
+      "faces": 78,
+      "bounds_m": {
+        "min": [
+          -12.724560703125,
+          -1.8787773199219446,
+          1.9771353243679877
+        ],
+        "max": [
+          -10.4554991796875,
+          -1.6940312261719446,
+          2.6796763399929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_372_96f6bc2c-ae7d-476e-b6d8-596f627eaf6a",
+      "source_index": 372,
+      "source_uuid": "96f6bc2c-ae7d-476e-b6d8-596f627eaf6a",
+      "role": "brep",
+      "vertices": 41,
+      "faces": 42,
+      "bounds_m": {
+        "min": [
+          -10.49407828125,
+          2.3828055418562143e-08,
+          1.7195337618679878
+        ],
+        "max": [
+          -9.100000156250001,
+          1.8806894769530553,
+          2.091818918117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_373_703b1fee-0dcf-42be-901c-de2bed970c03",
+      "source_index": 373,
+      "source_uuid": "703b1fee-0dcf-42be-901c-de2bed970c03",
+      "role": "brep",
+      "vertices": 27,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -10.780404453125,
+          1.8573730707030554,
+          1.7080864962429878
+        ],
+        "max": [
+          -9.98985171875,
+          1.9596465082030554,
+          1.9728130587429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_374_65df8fea-4411-4451-9968-3af298daf547",
+      "source_index": 374,
+      "source_uuid": "65df8fea-4411-4451-9968-3af298daf547",
+      "role": "brep",
+      "vertices": 83,
+      "faces": 78,
+      "bounds_m": {
+        "min": [
+          -12.724560703125,
+          1.6940312738280554,
+          1.9771353243679877
+        ],
+        "max": [
+          -10.4554991796875,
+          1.8787773675780555,
+          2.6796763399929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_375_676b9c42-9862-4e08-a81b-b12d6d17838d",
+      "source_index": 375,
+      "source_uuid": "676b9c42-9862-4e08-a81b-b12d6d17838d",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -11.6963585546875,
+          1.8706836175780555,
+          1.9603032931179878
+        ],
+        "max": [
+          -11.2942648046875,
+          1.9786406488280555,
+          2.070914621242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_376_3aaf4929-d223-4db5-9fa2-37a17d549f77",
+      "source_index": 376,
+      "source_uuid": "3aaf4929-d223-4db5-9fa2-37a17d549f77",
+      "role": "brep",
+      "vertices": 66,
+      "faces": 69,
+      "bounds_m": {
+        "min": [
+          -12.7245597265625,
+          1.7600488519530555,
+          2.0668892306179876
+        ],
+        "max": [
+          -11.661134921875,
+          1.9678613519530554,
+          2.6717915743679876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_377_c48fb77e-c7a0-4774-b873-c365d51cc5fb",
+      "source_index": 377,
+      "source_uuid": "c48fb77e-c7a0-4774-b873-c365d51cc5fb",
+      "role": "brep",
+      "vertices": 997,
+      "faces": 1503,
+      "bounds_m": {
+        "min": [
+          -11.302427890625,
+          1.8036660394530555,
+          1.9603032931179878
+        ],
+        "max": [
+          -10.4433683203125,
+          1.9735527582030554,
+          1.9794204806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_378_998b8078-d715-4ba8-9b75-e51c11c1f18f",
+      "source_index": 378,
+      "source_uuid": "998b8078-d715-4ba8-9b75-e51c11c1f18f",
+      "role": "brep",
+      "vertices": 111,
+      "faces": 124,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          1.5082773675780554,
+          1.7775806368679878
+        ],
+        "max": [
+          -16.67342984375,
+          1.8343652582030554,
+          1.9856802462429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_379_35570b14-0686-4d5c-be39-c6b8cf4c46d1",
+      "source_index": 379,
+      "source_uuid": "35570b14-0686-4d5c-be39-c6b8cf4c46d1",
+      "role": "brep",
+      "vertices": 110,
+      "faces": 134,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          -1.9412753667969447,
+          1.7775806368679878
+        ],
+        "max": [
+          -16.325295078125,
+          -1.5082773199219446,
+          1.9853482149929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_380_d8de8a2a-548d-4000-86f5-cf6c32545f4b",
+      "source_index": 380,
+      "source_uuid": "d8de8a2a-548d-4000-86f5-cf6c32545f4b",
+      "role": "brep",
+      "vertices": 111,
+      "faces": 124,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          -1.8343652105469446,
+          1.7775806368679878
+        ],
+        "max": [
+          -16.67342984375,
+          -1.5082773199219446,
+          1.9856802462429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_382_6596dce2-dfe5-47f2-8f09-4b42b339f3c8",
+      "source_index": 382,
+      "source_uuid": "6596dce2-dfe5-47f2-8f09-4b42b339f3c8",
+      "role": "brep",
+      "vertices": 62,
+      "faces": 57,
+      "bounds_m": {
+        "min": [
+          -16.63206265625,
+          -1.9412753667969447,
+          1.8039087618679879
+        ],
+        "max": [
+          -16.325295078125,
+          -1.5125331792969445,
+          1.9858872774929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_383_4906a8f7-f128-49e4-afc4-9ce179510ed6",
+      "source_index": 383,
+      "source_uuid": "4906a8f7-f128-49e4-afc4-9ce179510ed6",
+      "role": "brep",
+      "vertices": 199,
+      "faces": 282,
+      "bounds_m": {
+        "min": [
+          -18.49475796875,
+          -2.119070288671945,
+          1.5463364962429877
+        ],
+        "max": [
+          -10.277847812500001,
+          -1.6943730230469445,
+          2.649805246242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_384_6c44638b-a6d3-486f-99af-98848e8a6c1f",
+      "source_index": 384,
+      "source_uuid": "6c44638b-a6d3-486f-99af-98848e8a6c1f",
+      "role": "brep",
+      "vertices": 64,
+      "faces": 52,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          -1.8344902105469445,
+          1.7775806368679878
+        ],
+        "max": [
+          -17.448869296875,
+          -1.8343652105469446,
+          1.7776079806179879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_385_76aa667b-2130-43a4-884f-5421ba7838a4",
+      "source_index": 385,
+      "source_uuid": "76aa667b-2130-43a4-884f-5421ba7838a4",
+      "role": "brep",
+      "vertices": 57,
+      "faces": 55,
+      "bounds_m": {
+        "min": [
+          -17.448869296875,
+          -1.8462616949219446,
+          1.7776040743679877
+        ],
+        "max": [
+          -17.34077359375,
+          -1.8344902105469445,
+          1.7799321993679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_386_361f503d-3aa4-468c-88cb-4a29983734c0",
+      "source_index": 386,
+      "source_uuid": "361f503d-3aa4-468c-88cb-4a29983734c0",
+      "role": "brep",
+      "vertices": 92,
+      "faces": 90,
+      "bounds_m": {
+        "min": [
+          -17.130076328125,
+          -1.8875722417969445,
+          1.7843677462429879
+        ],
+        "max": [
+          -16.935261875000002,
+          -1.8678886480469445,
+          1.7888286837429879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_387_4b318d19-d91e-4324-bce4-1bff66586e33",
+      "source_index": 387,
+      "source_uuid": "4b318d19-d91e-4324-bce4-1bff66586e33",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.6539728125,
+          -1.8343652105469446,
+          1.7732896212429878
+        ],
+        "max": [
+          -17.421060703125,
+          -1.7167695074219447,
+          1.9250259493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_388_e5f4d86b-4453-4cfc-a312-ae26d0befc3d",
+      "source_index": 388,
+      "source_uuid": "e5f4d86b-4453-4cfc-a312-ae26d0befc3d",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.6539728125,
+          -1.8097577886719445,
+          1.7812818087429878
+        ],
+        "max": [
+          -17.653970859375,
+          -1.7167695074219447,
+          1.9250259493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_389_8e1a2e21-e95e-480f-a500-59c1e72b8bd7",
+      "source_index": 389,
+      "source_uuid": "8e1a2e21-e95e-480f-a500-59c1e72b8bd7",
+      "role": "brep",
+      "vertices": 193,
+      "faces": 271,
+      "bounds_m": {
+        "min": [
+          -18.49475796875,
+          1.6943730707030553,
+          1.5463364962429877
+        ],
+        "max": [
+          -10.277847812500001,
+          2.1190703363280554,
+          2.649805246242988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_390_ebcbaa56-84d9-4bd1-9b89-a8f9272a1df8",
+      "source_index": 390,
+      "source_uuid": "ebcbaa56-84d9-4bd1-9b89-a8f9272a1df8",
+      "role": "brep",
+      "vertices": 64,
+      "faces": 52,
+      "bounds_m": {
+        "min": [
+          -17.45000015625,
+          1.8343652582030554,
+          1.7775806368679878
+        ],
+        "max": [
+          -17.44867984375,
+          1.8345097894530553,
+          1.7776118868679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_391_814a392c-3d69-4b34-9e6f-f693c2d7e021",
+      "source_index": 391,
+      "source_uuid": "814a392c-3d69-4b34-9e6f-f693c2d7e021",
+      "role": "brep",
+      "vertices": 136,
+      "faces": 134,
+      "bounds_m": {
+        "min": [
+          -17.44867984375,
+          1.8345097894530553,
+          1.7776079806179879
+        ],
+        "max": [
+          -17.34078140625,
+          1.8462617425780554,
+          1.7799341524929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_392_f55a63bb-0368-4f97-8020-03cbe047076d",
+      "source_index": 392,
+      "source_uuid": "f55a63bb-0368-4f97-8020-03cbe047076d",
+      "role": "brep",
+      "vertices": 89,
+      "faces": 87,
+      "bounds_m": {
+        "min": [
+          -17.131761875,
+          1.8677148675780555,
+          1.7843325899929878
+        ],
+        "max": [
+          -16.935261875000002,
+          1.8875722894530553,
+          1.7888443087429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_393_f9e26c38-7871-4e16-bed9-eeeb35fb15a6",
+      "source_index": 393,
+      "source_uuid": "f9e26c38-7871-4e16-bed9-eeeb35fb15a6",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.6539728125,
+          1.7167695550780555,
+          1.7812818087429878
+        ],
+        "max": [
+          -17.653970859375,
+          1.8097578363280553,
+          1.9250259493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_394_e64831a3-ef99-4449-b5b7-07d2621cb22b",
+      "source_index": 394,
+      "source_uuid": "e64831a3-ef99-4449-b5b7-07d2621cb22b",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.6539728125,
+          1.7167695550780555,
+          1.7732896212429878
+        ],
+        "max": [
+          -17.421060703125,
+          1.8343652582030554,
+          1.9250259493679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_415_9d996bd4-64f4-4a55-8f95-38ff1c5c4329",
+      "source_index": 415,
+      "source_uuid": "9d996bd4-64f4-4a55-8f95-38ff1c5c4329",
+      "role": "brep",
+      "vertices": 519,
+      "faces": 683,
+      "bounds_m": {
+        "min": [
+          -19.464982578125,
+          -2.8203339605469444,
+          1.5001157931179878
+        ],
+        "max": [
+          -0.6499991796874997,
+          -0.2032597417969446,
+          2.036717355617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_416_d17575d1-4b52-43da-9582-f75bb1b94055",
+      "source_index": 416,
+      "source_uuid": "d17575d1-4b52-43da-9582-f75bb1b94055",
+      "role": "brep",
+      "vertices": 686,
+      "faces": 976,
+      "bounds_m": {
+        "min": [
+          -19.464982578125,
+          0.20325978945305542,
+          1.5001157931179878
+        ],
+        "max": [
+          -0.6499991796874997,
+          2.8203359613280554,
+          2.036717355617988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_417_09eb8807-27ae-4539-afa3-ae511bcc2f3b",
+      "source_index": 417,
+      "source_uuid": "09eb8807-27ae-4539-afa3-ae511bcc2f3b",
+      "role": "brep",
+      "vertices": 123,
+      "faces": 137,
+      "bounds_m": {
+        "min": [
+          -2.38479556640625,
+          0.6815215082030555,
+          1.8126782931179877
+        ],
+        "max": [
+          -2.0609942968749997,
+          0.8730078363280555,
+          1.9930161837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_418_a36db581-a186-4e52-adc5-00a4141d00b5",
+      "source_index": 418,
+      "source_uuid": "a36db581-a186-4e52-adc5-00a4141d00b5",
+      "role": "brep",
+      "vertices": 123,
+      "faces": 137,
+      "bounds_m": {
+        "min": [
+          -2.38479556640625,
+          -0.8730077886719446,
+          1.8126782931179877
+        ],
+        "max": [
+          -2.0609942968749997,
+          -0.6815214605469446,
+          1.9930161837429878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_419_c6c43306-7ecf-4153-a24e-8fcfc100b367",
+      "source_index": 419,
+      "source_uuid": "c6c43306-7ecf-4153-a24e-8fcfc100b367",
+      "role": "brep",
+      "vertices": 87,
+      "faces": 84,
+      "bounds_m": {
+        "min": [
+          -10.8412726171875,
+          2.6587324457030554,
+          1.5839536837429877
+        ],
+        "max": [
+          -10.4568605078125,
+          2.7861191644530554,
+          1.7334810274929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_420_31a4d220-3a12-43b1-9f4a-3bf934d04754",
+      "source_index": 420,
+      "source_uuid": "31a4d220-3a12-43b1-9f4a-3bf934d04754",
+      "role": "brep",
+      "vertices": 87,
+      "faces": 84,
+      "bounds_m": {
+        "min": [
+          -10.8412726171875,
+          -2.786119116796945,
+          1.5839536837429877
+        ],
+        "max": [
+          -10.4568605078125,
+          -2.6587323980469444,
+          1.7334810274929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_421_240f6b9c-cd3b-4995-a5ba-43f1fc698b02",
+      "source_index": 421,
+      "source_uuid": "240f6b9c-cd3b-4995-a5ba-43f1fc698b02",
+      "role": "brep",
+      "vertices": 87,
+      "faces": 84,
+      "bounds_m": {
+        "min": [
+          -19.234724765625,
+          1.8236621332030554,
+          1.5011841524929879
+        ],
+        "max": [
+          -18.885095859375,
+          1.9822715082030553,
+          1.6215825899929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_422_a7e66077-92d6-4e02-92f6-5da202219af2",
+      "source_index": 422,
+      "source_uuid": "a7e66077-92d6-4e02-92f6-5da202219af2",
+      "role": "brep",
+      "vertices": 87,
+      "faces": 84,
+      "bounds_m": {
+        "min": [
+          -19.234724765625,
+          -1.9822714605469445,
+          1.5011841524929879
+        ],
+        "max": [
+          -18.885095859375,
+          -1.8236620855469445,
+          1.6215825899929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_423_71a228e4-eba0-436f-b710-c8107a5885ff",
+      "source_index": 423,
+      "source_uuid": "71a228e4-eba0-436f-b710-c8107a5885ff",
+      "role": "brep",
+      "vertices": 763,
+      "faces": 776,
+      "bounds_m": {
+        "min": [
+          -0.10328921874999969,
+          -0.14749997617194457,
+          1.8054419649929878
+        ],
+        "max": [
+          0.018025600585937808,
+          -0.01749997617194458,
+          1.9268189181179878
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_424_133b67f7-07c0-4aa7-a916-c39c3aeb66b1",
+      "source_index": 424,
+      "source_uuid": "133b67f7-07c0-4aa7-a916-c39c3aeb66b1",
+      "role": "brep",
+      "vertices": 72,
+      "faces": 81,
+      "bounds_m": {
+        "min": [
+          -1.8499991796874997,
+          -0.14999997617194458,
+          1.8778208712429878
+        ],
+        "max": [
+          -0.11341397460937469,
+          0.1500000238280554,
+          1.8936294649929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_425_a2323c09-b78c-4a9c-ae3d-79cb7b0cd796",
+      "source_index": 425,
+      "source_uuid": "a2323c09-b78c-4a9c-ae3d-79cb7b0cd796",
+      "role": "brep",
+      "vertices": 763,
+      "faces": 776,
+      "bounds_m": {
+        "min": [
+          -0.10328921874999969,
+          0.01750002382805542,
+          1.8054419649929878
+        ],
+        "max": [
+          0.018025600585937808,
+          0.1475000238280554,
+          1.9268189181179878
+        ]
+      },
+      "source_brep_is_solid": true
+    },
+    {
+      "name": "brep_426_3679d022-9e48-4898-8207-e8fe69a2a8e5",
+      "source_index": 426,
+      "source_uuid": "3679d022-9e48-4898-8207-e8fe69a2a8e5",
+      "role": "brep",
+      "vertices": 706,
+      "faces": 814,
+      "bounds_m": {
+        "min": [
+          -1.8949991796874996,
+          -0.29276755429694457,
+          1.8295044649929877
+        ],
+        "max": [
+          -1.8499991796874997,
+          0.2927676019530554,
+          1.8919966524929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_427_647f6925-895f-4578-9aa9-fed2bb2b84c3",
+      "source_index": 427,
+      "source_uuid": "647f6925-895f-4578-9aa9-fed2bb2b84c3",
+      "role": "brep",
+      "vertices": 1055,
+      "faces": 1236,
+      "bounds_m": {
+        "min": [
+          -2.5449991796875,
+          -0.4260937261719446,
+          1.8198989962429877
+        ],
+        "max": [
+          -2.4949991796874995,
+          0.4260937738280554,
+          1.8895337618679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_428_7cc8c393-87d2-4c26-8d7b-044285d18ee0",
+      "source_index": 428,
+      "source_uuid": "7cc8c393-87d2-4c26-8d7b-044285d18ee0",
+      "role": "brep",
+      "vertices": 778,
+      "faces": 912,
+      "bounds_m": {
+        "min": [
+          -2.5449991796875,
+          -0.4260976324219446,
+          1.8199536837429877
+        ],
+        "max": [
+          -1.8499991796874997,
+          -0.2508359136719446,
+          1.8820962618679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_429_0ded5157-e67a-41d6-8c2b-5e76d9174796",
+      "source_index": 429,
+      "source_uuid": "0ded5157-e67a-41d6-8c2b-5e76d9174796",
+      "role": "brep",
+      "vertices": 74,
+      "faces": 83,
+      "bounds_m": {
+        "min": [
+          -2.5349991796874995,
+          -0.4141659917969446,
+          1.8707739962429877
+        ],
+        "max": [
+          -1.8549991796874996,
+          0.4141660394530554,
+          1.8926939181179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_430_f5eafe92-36b2-47d9-8707-f0f3824e7e07",
+      "source_index": 430,
+      "source_uuid": "f5eafe92-36b2-47d9-8707-f0f3824e7e07",
+      "role": "brep",
+      "vertices": 781,
+      "faces": 917,
+      "bounds_m": {
+        "min": [
+          -2.5449991796875,
+          0.2508359613280554,
+          1.8199536837429877
+        ],
+        "max": [
+          -1.8499991796874997,
+          0.42609768007805543,
+          1.8820962618679877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_446_79f4674f-44b6-4798-8e9c-d8d5c2ed03e5",
+      "source_index": 446,
+      "source_uuid": "79f4674f-44b6-4798-8e9c-d8d5c2ed03e5",
+      "role": "brep",
+      "vertices": 1287,
+      "faces": 1216,
+      "bounds_m": {
+        "min": [
+          -19.619978671875,
+          -1.0659999761719445,
+          1.5916040743679878
+        ],
+        "max": [
+          -19.587978671875,
+          -1.0339999761719445,
+          2.291631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_447_448fc728-dfc7-425a-8f6a-b13811a074d4",
+      "source_index": 447,
+      "source_uuid": "448fc728-dfc7-425a-8f6a-b13811a074d4",
+      "role": "brep",
+      "vertices": 1287,
+      "faces": 1216,
+      "bounds_m": {
+        "min": [
+          -19.433732578125,
+          -1.8159999761719445,
+          1.5093521212429877
+        ],
+        "max": [
+          -19.401732578125,
+          -1.7839999761719445,
+          2.2094282931179876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_448_13023fd5-9f9a-474d-ac77-416f8456dcda",
+      "source_index": 448,
+      "source_uuid": "13023fd5-9f9a-474d-ac77-416f8456dcda",
+      "role": "brep",
+      "vertices": 5513,
+      "faces": 6160,
+      "bounds_m": {
+        "min": [
+          -19.707845859375,
+          -2.0549531011719444,
+          1.8230376681179878
+        ],
+        "max": [
+          -18.75864859375,
+          -0.24926755429694458,
+          1.9972993868679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_449_939f972e-d15e-46ce-b3d4-111150002a62",
+      "source_index": 449,
+      "source_uuid": "939f972e-d15e-46ce-b3d4-111150002a62",
+      "role": "brep",
+      "vertices": 11455,
+      "faces": 14412,
+      "bounds_m": {
+        "min": [
+          -19.70785953125,
+          -2.0766952886719445,
+          1.6029009493679878
+        ],
+        "max": [
+          -18.63400796875,
+          -0.23399997617194457,
+          2.344947824367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_450_2c84576d-d940-4dd2-a991-b476baaaa57e",
+      "source_index": 450,
+      "source_uuid": "2c84576d-d940-4dd2-a991-b476baaaa57e",
+      "role": "brep",
+      "vertices": 11455,
+      "faces": 14412,
+      "bounds_m": {
+        "min": [
+          -19.70785953125,
+          0.23400002382805543,
+          1.6029009493679878
+        ],
+        "max": [
+          -18.63400796875,
+          2.0766953363280556,
+          2.344947824367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_451_ad93b216-9c67-4c37-88a6-4fd2ae31f947",
+      "source_index": 451,
+      "source_uuid": "ad93b216-9c67-4c37-88a6-4fd2ae31f947",
+      "role": "brep",
+      "vertices": 5513,
+      "faces": 6160,
+      "bounds_m": {
+        "min": [
+          -19.707845859375,
+          0.24926760195305542,
+          1.8230376681179878
+        ],
+        "max": [
+          -18.75864859375,
+          2.0549531488280555,
+          1.9972993868679878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_452_d5aa2435-f285-4ec9-961b-603d1aa5c2cf",
+      "source_index": 452,
+      "source_uuid": "d5aa2435-f285-4ec9-961b-603d1aa5c2cf",
+      "role": "brep",
+      "vertices": 1287,
+      "faces": 1216,
+      "bounds_m": {
+        "min": [
+          -19.433732578125,
+          1.7840000238280553,
+          1.5093521212429877
+        ],
+        "max": [
+          -19.401732578125,
+          1.8160000238280554,
+          2.2094282931179876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_453_3c20b210-79ef-47e2-90fc-19df54acbb15",
+      "source_index": 453,
+      "source_uuid": "3c20b210-79ef-47e2-90fc-19df54acbb15",
+      "role": "brep",
+      "vertices": 1287,
+      "faces": 1216,
+      "bounds_m": {
+        "min": [
+          -19.619978671875,
+          1.0340000238280553,
+          1.5916040743679878
+        ],
+        "max": [
+          -19.587978671875,
+          1.0660000238280554,
+          2.291631418117988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_454_d4a73445-d7d3-46b0-a527-07326f194e75",
+      "source_index": 454,
+      "source_uuid": "d4a73445-d7d3-46b0-a527-07326f194e75",
+      "role": "brep",
+      "vertices": 354,
+      "faces": 519,
+      "bounds_m": {
+        "min": [
+          -18.318830234375,
+          1.3068808832030554,
+          1.9134048556179877
+        ],
+        "max": [
+          -15.42612125,
+          1.9712383050780553,
+          2.0280298556179877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_455_1ba03e0d-ab46-4141-b18b-707333ece5ff",
+      "source_index": 455,
+      "source_uuid": "1ba03e0d-ab46-4141-b18b-707333ece5ff",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.305072421875,
+          1.6567187738280553,
+          1.9156001681179877
+        ],
+        "max": [
+          -17.904429843750002,
+          1.7240234613280554,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_456_ea7febbb-0079-4957-8e45-c225c3a3c7c0",
+      "source_index": 456,
+      "source_uuid": "ea7febbb-0079-4957-8e45-c225c3a3c7c0",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.94926578125,
+          1.6360136957030553,
+          1.9178208712429878
+        ],
+        "max": [
+          -17.904429843750002,
+          1.7240234613280554,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_457_93018d29-4a91-4132-88f5-29c8a24c9eff",
+      "source_index": 457,
+      "source_uuid": "93018d29-4a91-4132-88f5-29c8a24c9eff",
+      "role": "brep",
+      "vertices": 252,
+      "faces": 370,
+      "bounds_m": {
+        "min": [
+          -18.318830234375,
+          -1.9715507574219446,
+          1.9134048556179877
+        ],
+        "max": [
+          -14.850000156250001,
+          -1.3068808355469446,
+          2.054520089992988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_458_389bda12-2a08-4f08-bbe3-6d0ca089f382",
+      "source_index": 458,
+      "source_uuid": "389bda12-2a08-4f08-bbe3-6d0ca089f382",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -17.94926578125,
+          -1.7240234136719446,
+          1.9178208712429878
+        ],
+        "max": [
+          -17.904429843750002,
+          -1.6360136480469445,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_459_89779a3a-3dc7-4272-80d9-835d0b85f3d0",
+      "source_index": 459,
+      "source_uuid": "89779a3a-3dc7-4272-80d9-835d0b85f3d0",
+      "role": "brep",
+      "vertices": 25,
+      "faces": 16,
+      "bounds_m": {
+        "min": [
+          -18.305072421875,
+          -1.7240234136719446,
+          1.9156001681179877
+        ],
+        "max": [
+          -17.904429843750002,
+          -1.6566991949219445,
+          2.006869699367988
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_460_24ba2903-f4b6-4004-8b86-7928099f1a6f",
+      "source_index": 460,
+      "source_uuid": "24ba2903-f4b6-4004-8b86-7928099f1a6f",
+      "role": "brep",
+      "vertices": 1178,
+      "faces": 1503,
+      "bounds_m": {
+        "min": [
+          -19.523138828125,
+          0.6111386957030555,
+          0.5498286837429878
+        ],
+        "max": [
+          -16.25000015625,
+          1.0009843988280553,
+          2.0036724337429876
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_461_4741ba26-e315-42e5-b4b3-de3379b009e8",
+      "source_index": 461,
+      "source_uuid": "4741ba26-e315-42e5-b4b3-de3379b009e8",
+      "role": "brep",
+      "vertices": 653,
+      "faces": 896,
+      "bounds_m": {
+        "min": [
+          -20.444923984375,
+          -0.9990156011719445,
+          0.5369595431179878
+        ],
+        "max": [
+          -16.25000015625,
+          1.0009843988280553,
+          1.2259810274929879
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_474_b52e73ad-4d9d-4a77-9444-11bff85f713c",
+      "source_index": 474,
+      "source_uuid": "b52e73ad-4d9d-4a77-9444-11bff85f713c",
+      "role": "brep",
+      "vertices": 108,
+      "faces": 124,
+      "bounds_m": {
+        "min": [
+          -19.340341953125,
+          0.9550195550780555,
+          1.5368560274929879
+        ],
+        "max": [
+          -18.745011875,
+          1.6997734613280555,
+          1.6207779024929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_475_d2c9d5ce-9a7f-4958-a51b-249e6d857bb0",
+      "source_index": 475,
+      "source_uuid": "d2c9d5ce-9a7f-4958-a51b-249e6d857bb0",
+      "role": "brep",
+      "vertices": 117,
+      "faces": 117,
+      "bounds_m": {
+        "min": [
+          -19.527013828125,
+          -0.4196777105469446,
+          1.6389282931179878
+        ],
+        "max": [
+          -18.887013828125,
+          0.4198164300780554,
+          1.6625943087429877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_476_806a0193-030e-4eab-bbb1-11f3fc9c6693",
+      "source_index": 476,
+      "source_uuid": "806a0193-030e-4eab-bbb1-11f3fc9c6693",
+      "role": "brep",
+      "vertices": 111,
+      "faces": 128,
+      "bounds_m": {
+        "min": [
+          -19.482013828125,
+          -0.3749999761719446,
+          1.6408306368679877
+        ],
+        "max": [
+          -18.932011875,
+          0.3749961175780554,
+          1.6611001681179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_477_bd0f1ff9-c945-4dd8-b8ca-87b15deb699f",
+      "source_index": 477,
+      "source_uuid": "bd0f1ff9-c945-4dd8-b8ca-87b15deb699f",
+      "role": "brep",
+      "vertices": 117,
+      "faces": 117,
+      "bounds_m": {
+        "min": [
+          -19.385201328125,
+          0.9103672113280554,
+          1.5302603243679878
+        ],
+        "max": [
+          -18.700136875000002,
+          1.7444570550780554,
+          1.6246450899929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_478_57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "source_index": 478,
+      "source_uuid": "57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "role": "brep",
+      "vertices": 3453,
+      "faces": 5149,
+      "bounds_m": {
+        "min": [
+          -19.752138828125002,
+          -2.8766640386719446,
+          1.4910630587429878
+        ],
+        "max": [
+          -0.3446540869140622,
+          2.8726640863280553,
+          1.8889204806179878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_479_fdc814b9-b4bd-448f-809f-53fefb34f069",
+      "source_index": 479,
+      "source_uuid": "fdc814b9-b4bd-448f-809f-53fefb34f069",
+      "role": "brep",
+      "vertices": 117,
+      "faces": 117,
+      "bounds_m": {
+        "min": [
+          -19.385201328125,
+          -1.7444570074219445,
+          1.5302603243679878
+        ],
+        "max": [
+          -18.700136875000002,
+          -0.9103671636719446,
+          1.6246450899929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_480_8b092c0c-ffae-4a25-80d9-4d9597bf29a1",
+      "source_index": 480,
+      "source_uuid": "8b092c0c-ffae-4a25-80d9-4d9597bf29a1",
+      "role": "brep",
+      "vertices": 105,
+      "faces": 119,
+      "bounds_m": {
+        "min": [
+          -19.340341953125,
+          -1.6997734136719447,
+          1.5368560274929879
+        ],
+        "max": [
+          -18.745011875,
+          -0.9550195074219446,
+          1.6207779024929878
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_481_7fb50356-2f87-4f0d-be44-6139e42cf99c",
+      "source_index": 481,
+      "source_uuid": "7fb50356-2f87-4f0d-be44-6139e42cf99c",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -15.26416421875,
+          -1.0190156011719447,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.26416421875,
+          -0.29111521054694456,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_482_da30eab2-3c73-4fa2-98e3-49a5c02a23f8",
+      "source_index": 482,
+      "source_uuid": "da30eab2-3c73-4fa2-98e3-49a5c02a23f8",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -15.26416421875,
+          0.29159963320305543,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.26416421875,
+          1.1000000238280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_483_36c2e6f7-a6e1-43cf-b767-29e38f70d6ce",
+      "source_index": 483,
+      "source_uuid": "36c2e6f7-a6e1-43cf-b767-29e38f70d6ce",
+      "role": "brep",
+      "vertices": 28,
+      "faces": 23,
+      "bounds_m": {
+        "min": [
+          -15.26916421875,
+          -1.0190156011719447,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.26916421875,
+          -0.29111521054694456,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    },
+    {
+      "name": "brep_484_578b2cb5-6124-4033-9643-16c0d1f8934d",
+      "source_index": 484,
+      "source_uuid": "578b2cb5-6124-4033-9643-16c0d1f8934d",
+      "role": "brep",
+      "vertices": 30,
+      "faces": 22,
+      "bounds_m": {
+        "min": [
+          -15.26916421875,
+          0.29159963320305543,
+          1.5800200899929877
+        ],
+        "max": [
+          -15.26916421875,
+          1.1000000238280554,
+          1.6200200899929877
+        ]
+      },
+      "source_brep_is_solid": false
+    }
+  ],
+  "obj_sha256": "169a4888538dbb4d66fccb19fd33e4d589e5090f71a1f865e726d32cfb7fce6c"
+}
