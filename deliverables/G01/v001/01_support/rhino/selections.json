@@ -1,0 +1,104 @@
+{
+  "shell-surfaces": {
+    "indices": [
+      133,
+      144
+    ],
+    "object_ids": [
+      "47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "190edc86-b6f9-43b0-8e00-276eaca1a3ee"
+    ],
+    "sample_bounds": {
+      "min": [
+        -21794.082767412798,
+        -22259.535368678877,
+        -26081.668113130592
+      ],
+      "max": [
+        -1503.26133001677,
+        -16504.1521789745,
+        -22791.971992303377
+      ]
+    },
+    "method": "visual grouping of native sampled edges; no semantic CAD assembly; not an approved naval component classification"
+  },
+  "deck-candidate": {
+    "indices": [
+      478
+    ],
+    "object_ids": [
+      "57a33295-b699-4ce5-9558-477c26fcf4ae"
+    ],
+    "sample_bounds": {
+      "min": [
+        -21051.160027730395,
+        -22258.83626020517,
+        -23346.611045438272
+      ],
+      "max": [
+        -1638.814043838763,
+        -16504.850929101707,
+        -22948.135360387034
+      ]
+    },
+    "method": "visual grouping of native sampled edges; no semantic CAD assembly; not an approved naval component classification"
+  },
+  "roof-candidates": {
+    "indices": [
+      198,
+      333,
+      334,
+      335,
+      336
+    ],
+    "object_ids": [
+      "c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "5077b506-30cd-4ab9-9784-91394139c4cc"
+    ],
+    "sample_bounds": {
+      "min": [
+        -16403.47431546117,
+        -21254.46939133551,
+        -22262.048289381284
+      ],
+      "max": [
+        -12092.47917344954,
+        -17509.218156320694,
+        -21940.74099925204
+      ]
+    },
+    "method": "visual grouping of native sampled edges; no semantic CAD assembly; not an approved naval component classification"
+  },
+  "internal-surfaces-example": {
+    "indices": [
+      338,
+      339,
+      340,
+      343,
+      344
+    ],
+    "object_ids": [
+      "15d6941c-9754-4dd7-9429-1b50e9d7153c",
+      "75f6febd-5532-4c8d-8799-2660ce899196",
+      "285355bd-2888-45a0-96aa-374e89f0485d",
+      "76466e75-1c5c-4836-b266-627b47a5ec28",
+      "fff3dca6-6cb2-42fb-8c17-eb558013e0b6"
+    ],
+    "sample_bounds": {
+      "min": [
+        -17081.743111934233,
+        -21131.733153635098,
+        -24112.654386868
+      ],
+      "max": [
+        -15944.159999999993,
+        -17631.84365953001,
+        -21944.735632472817
+      ]
+    },
+    "method": "visual grouping of native sampled edges; no semantic CAD assembly; not an approved naval component classification"
+  }
+}

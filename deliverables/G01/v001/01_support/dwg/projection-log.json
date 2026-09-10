@@ -1,0 +1,11 @@
+{
+  "curves_plotted": 1042,
+  "excluded_types": [
+    "TEXT",
+    "INSERT",
+    "VIEWPORT"
+  ],
+  "flattening_distance_drawing_units": 2,
+  "failed": [],
+  "scope": "All direct model linework; no block expansion; not hull dimensions."
+}

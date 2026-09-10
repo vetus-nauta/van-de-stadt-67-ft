@@ -1,0 +1,1552 @@
+{
+  "input": "deliverables/G01/v001/01_support/dwg/lines-derived.dxf",
+  "sha256": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273",
+  "ezdxf": "1.4.4",
+  "header": {
+    "$ACADVER": "AC1018",
+    "$INSUNITS": 0,
+    "$MEASUREMENT": 0,
+    "$LUNITS": 2,
+    "$LUPREC": 0,
+    "$AUNITS": 0,
+    "$DIMSCALE": 10.0,
+    "$DIMLFAC": 1.0,
+    "$INSBASE": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "$EXTMIN": [
+      -3085.900638091904,
+      -97.17319099628367,
+      -22089.10535019184
+    ],
+    "$EXTMAX": [
+      3308.470362330441,
+      4301.4869012908,
+      1295.587296593192
+    ],
+    "$LIMMIN": [
+      -2977.64028349873,
+      -63.51860475043974
+    ],
+    "$LIMMAX": [
+      3004.495391315329,
+      4612.120029306387
+    ],
+    "$UCSORG": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "$UCSXDIR": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "$UCSYDIR": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "layouts": [
+    {
+      "name": "Layout1",
+      "count": 1,
+      "types": {
+        "VIEWPORT": 1
+      }
+    },
+    {
+      "name": "Model",
+      "count": 1241,
+      "types": {
+        "LWPOLYLINE": 91,
+        "LINE": 814,
+        "TEXT": 188,
+        "ARC": 107,
+        "POLYLINE": 30,
+        "INSERT": 11
+      }
+    }
+  ],
+  "audit_errors": [],
+  "audit_fixes": [
+    {
+      "code": 103,
+      "message": "Deleted entity INSERT(#4C21) without required BLOCK definition."
+    },
+    {
+      "code": 103,
+      "message": "Deleted entity INSERT(#4C22) without required BLOCK definition."
+    }
+  ],
+  "layers": [
+    {
+      "handle": "10",
+      "owner": "2",
+      "name": "0",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 2
+    },
+    {
+      "handle": "50",
+      "owner": "2",
+      "name": "TEXT",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 0
+    },
+    {
+      "handle": "51",
+      "owner": "2",
+      "name": "DIM",
+      "flags": 8,
+      "color": 2,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 0
+    },
+    {
+      "handle": "52",
+      "owner": "2",
+      "name": "P1",
+      "flags": 8,
+      "color": 1,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 197
+    },
+    {
+      "handle": "53",
+      "owner": "2",
+      "name": "P3",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 217
+    },
+    {
+      "handle": "54",
+      "owner": "2",
+      "name": "P5",
+      "flags": 8,
+      "color": 3,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 207
+    },
+    {
+      "handle": "55",
+      "owner": "2",
+      "name": "HIDDEN",
+      "flags": 8,
+      "color": 5,
+      "linetype": "HIDDEN",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "56",
+      "owner": "2",
+      "name": "CENTER",
+      "flags": 8,
+      "color": 1,
+      "linetype": "CENTER",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 147
+    },
+    {
+      "handle": "57",
+      "owner": "2",
+      "name": "HATCH",
+      "flags": 8,
+      "color": 6,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 0
+    },
+    {
+      "handle": "58",
+      "owner": "2",
+      "name": "HELP",
+      "flags": 9,
+      "color": 4,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": true,
+      "locked": false,
+      "entities": 186
+    },
+    {
+      "handle": "59",
+      "owner": "2",
+      "name": "DEFPOINTS",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 0,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 0
+    },
+    {
+      "handle": "5A",
+      "owner": "2",
+      "name": "49",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "5B",
+      "owner": "2",
+      "name": "48",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "5C",
+      "owner": "2",
+      "name": "47",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "5D",
+      "owner": "2",
+      "name": "46",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "5E",
+      "owner": "2",
+      "name": "45",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "5F",
+      "owner": "2",
+      "name": "44",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "60",
+      "owner": "2",
+      "name": "43",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "61",
+      "owner": "2",
+      "name": "42",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "62",
+      "owner": "2",
+      "name": "41",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "63",
+      "owner": "2",
+      "name": "40",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "64",
+      "owner": "2",
+      "name": "39",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "65",
+      "owner": "2",
+      "name": "38",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "66",
+      "owner": "2",
+      "name": "37",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "67",
+      "owner": "2",
+      "name": "36",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "68",
+      "owner": "2",
+      "name": "35",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "69",
+      "owner": "2",
+      "name": "34",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6A",
+      "owner": "2",
+      "name": "33",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6B",
+      "owner": "2",
+      "name": "32",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6C",
+      "owner": "2",
+      "name": "31",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6D",
+      "owner": "2",
+      "name": "30",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6E",
+      "owner": "2",
+      "name": "29",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "6F",
+      "owner": "2",
+      "name": "28",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "70",
+      "owner": "2",
+      "name": "27",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "71",
+      "owner": "2",
+      "name": "26",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "72",
+      "owner": "2",
+      "name": "25",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "73",
+      "owner": "2",
+      "name": "24",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "74",
+      "owner": "2",
+      "name": "23",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "75",
+      "owner": "2",
+      "name": "22",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "76",
+      "owner": "2",
+      "name": "21",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "77",
+      "owner": "2",
+      "name": "20",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "78",
+      "owner": "2",
+      "name": "19",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "79",
+      "owner": "2",
+      "name": "18",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "7A",
+      "owner": "2",
+      "name": "17",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "7B",
+      "owner": "2",
+      "name": "16",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "7C",
+      "owner": "2",
+      "name": "15",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 8
+    },
+    {
+      "handle": "7D",
+      "owner": "2",
+      "name": "14",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "7E",
+      "owner": "2",
+      "name": "13",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 8
+    },
+    {
+      "handle": "7F",
+      "owner": "2",
+      "name": "12",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "80",
+      "owner": "2",
+      "name": "11",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 7
+    },
+    {
+      "handle": "81",
+      "owner": "2",
+      "name": "10",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "82",
+      "owner": "2",
+      "name": "9",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "83",
+      "owner": "2",
+      "name": "8",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "84",
+      "owner": "2",
+      "name": "7",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 10
+    },
+    {
+      "handle": "85",
+      "owner": "2",
+      "name": "6",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "86",
+      "owner": "2",
+      "name": "5",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "87",
+      "owner": "2",
+      "name": "4",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 3
+    },
+    {
+      "handle": "88",
+      "owner": "2",
+      "name": "3",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 9
+    },
+    {
+      "handle": "89",
+      "owner": "2",
+      "name": "2",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 4
+    },
+    {
+      "handle": "8A",
+      "owner": "2",
+      "name": "1",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "8B",
+      "owner": "2",
+      "name": "-1",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "8C",
+      "owner": "2",
+      "name": "-2",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "8D",
+      "owner": "2",
+      "name": "-3",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "8E",
+      "owner": "2",
+      "name": "-4",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 1
+    },
+    {
+      "handle": "8F",
+      "owner": "2",
+      "name": "TEMP",
+      "flags": 9,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": true,
+      "locked": false,
+      "entities": 45
+    },
+    {
+      "handle": "91",
+      "owner": "2",
+      "name": "AME_FRZ",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 5
+    },
+    {
+      "handle": "94",
+      "owner": "2",
+      "name": "TXT",
+      "flags": 8,
+      "color": 7,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 35
+    },
+    {
+      "handle": "95",
+      "owner": "2",
+      "name": "P7",
+      "flags": 8,
+      "color": 4,
+      "linetype": "CONTINUOUS",
+      "plot": 1,
+      "lineweight": -3,
+      "plotstyle_handle": "F",
+      "material_handle": "7DB4",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "entities": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "",
+      "count": 1241,
+      "types": {
+        "LWPOLYLINE": 91,
+        "LINE": 814,
+        "TEXT": 188,
+        "ARC": 107,
+        "POLYLINE": 30,
+        "INSERT": 11
+      }
+    },
+    {
+      "name": "*Paper_Space",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "",
+      "count": 1,
+      "types": {
+        "VIEWPORT": 1
+      }
+    },
+    {
+      "name": "AME_NIL",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "AME_NIL",
+      "count": 0,
+      "types": {}
+    },
+    {
+      "name": "AME_SOL",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "AME_SOL",
+      "count": 0,
+      "types": {}
+    },
+    {
+      "name": "AME_MAT",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "AME_MAT",
+      "count": 0,
+      "types": {}
+    },
+    {
+      "name": "STEMRND",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "",
+      "count": 4,
+      "types": {
+        "LWPOLYLINE": 4
+      }
+    },
+    {
+      "name": "STADT01D",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 0,
+      "xref_path": "",
+      "count": 274,
+      "types": {
+        "LINE": 199,
+        "TEXT": 17,
+        "ARC": 54,
+        "LWPOLYLINE": 2,
+        "INSERT": 2
+      }
+    },
+    {
+      "name": "*X27",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 1,
+      "xref_path": "",
+      "count": 37,
+      "types": {
+        "LINE": 37
+      }
+    },
+    {
+      "name": "*X28",
+      "base_point": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 1,
+      "xref_path": "",
+      "count": 53,
+      "types": {
+        "LINE": 53
+      }
+    }
+  ],
+  "dimension_count": 0,
+  "text_count": 188,
+  "warning": "Derived DXF only. Empty audit does not establish DWG conversion equivalence.",
+  "block_texts": [
+    {
+      "block": "STADT01D",
+      "handle": "4AF1",
+      "text": "ALTERATION:"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF4",
+      "text": "these rights."
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF5",
+      "text": "considered an infringement of"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF6",
+      "text": "authorized is forbidden and will be"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF7",
+      "text": "party or any work other than"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF8",
+      "text": "firm. Copy or inspection by a third"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AF9",
+      "text": "use authorized in writing by our"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AFA",
+      "text": "It is sent to you for personal"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AFB",
+      "text": "AND DETAILS ARE RESERVED"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AFC",
+      "text": "ALL RIGHTS OF THIS DESIGN"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4AFF",
+      "text": "DATE:"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B05",
+      "text": "yacht designers"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B08",
+      "text": "POSTBUS 193    1520 AD WORMERVEER   HOLLAND"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B09",
+      "text": "E.G. VAN DE STADT & PARTNERS BV"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B0A",
+      "text": "NO.:"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B0B",
+      "text": "DATE:"
+    },
+    {
+      "block": "STADT01D",
+      "handle": "4B0C",
+      "text": "SCALE:"
+    }
+  ],
+  "inserts": [
+    {
+      "handle": "6F78",
+      "name": "AME_NIL",
+      "point": [
+        0.0,
+        4000.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "6F79",
+      "name": "AME_SOL",
+      "point": [
+        0.0,
+        4000.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "6F7A",
+      "name": "AME_NIL",
+      "point": [
+        1.0,
+        4001.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "6F7B",
+      "name": "AME_NIL",
+      "point": [
+        1.0,
+        4001.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "6F7C",
+      "name": "AME_MAT",
+      "point": [
+        0.0,
+        4000.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7C34",
+      "name": "STEMRND",
+      "point": [
+        0.0,
+        0.0,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7D1D",
+      "name": "STADT01D",
+      "point": [
+        3188.002902063022,
+        4249.219239248749,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7D25",
+      "name": "STADT01D",
+      "point": [
+        3193.370316027642,
+        3399.219239248749,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7D2D",
+      "name": "STADT01D",
+      "point": [
+        3198.340143772661,
+        2549.219239248749,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7D35",
+      "name": "STADT01D",
+      "point": [
+        3192.77393669824,
+        1699.219239248749,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "handle": "7D3D",
+      "name": "STADT01D",
+      "point": [
+        3198.14135066286,
+        849.2192392487486,
+        -10650.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

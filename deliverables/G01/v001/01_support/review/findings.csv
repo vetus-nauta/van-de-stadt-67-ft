@@ -1,0 +1,9 @@
+finding_id;severity;scope;finding;status;disposition
+G01-R01;INFO;Rhino;Независимый скрипт подтвердил SHA всех 7 файлов и ключевые количества/единицы/ObjectID;CLOSED;Проверка выполнена
+G01-R02;INFO;Rhino;Численный охват выбранных кромок не является LOA/осадкой/as-built;CLOSED;Автор сохраняет ограничение метода
+G01-R03;INFO;Survey;14 заданий обмера не выполнены в натуре;CLOSED;PLANNED_NOT_MEASURED явно сохранён
+G01-R04;INFO;Scope;FC-01–04 являются будущими намерениями;CLOSED;Удлинение корпуса/модель тендера/борт загрузки не назначены
+G01-R05;INFO;DWG;1241 handles / 814 LINE / 27 POLY3D / 188 TEXT проверены между JSON и DXF;CLOSED;Сверка двух производных одного декодирования
+G01-R06;MAJOR;DWG completeness;CRC/служебные ошибки и отсутствующий BLOCK для INSERT 4C21/4C22;DISCLOSED_SCOPE_LIMIT;Полнота импорта и размерная пригодность не приняты
+G01-R07;INFO;Rhino IDs;UUID слоёв неустойчивы в старом архиве;CLOSED;Слои связываются по index+name / ObjectID объектов устойчивы
+G01-R08;MINOR;DWG traceability;Конкретный охват кривых первоначально без handles и метода;CLOSED;Автор указал 7A76/7A9D и метод вершин / независимо воспроизведено

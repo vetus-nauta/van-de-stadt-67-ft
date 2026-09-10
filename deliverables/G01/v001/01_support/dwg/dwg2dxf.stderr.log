@@ -1,0 +1,17 @@
+Warning: checksum: 0x62fd193d (calculated) CRC mismatch 0x54eb4-0x54f71
+
+Warning: Invalid sections: 0 != numgaps: 0 + numsections: 24
+ERROR: Skip section AcDb:RevHistory with size 12 > 0 * 29696
+Warning: Ignore invalid handleoff (@2036)
+Warning: Ignore invalid handleoff (@4071)
+Warning: Ignore invalid handleoff (@6105)
+Warning: Ignore invalid handleoff (@8139)
+Warning: Ignore invalid handleoff (@9792)
+ERROR: Failed to read uncompressed AppInfo section
+Warning: Skip empty section 0 AcDb:Template
+Warning: Object handle not found 32131/0x7D83
+Warning: Object handle not found 3226/0xC9A in 6918 objects of max 0x7D83 handles
+Warning: Object handle not found 3228/0xC9C in 6918 objects of max 0x7D83 handles
+Warning: Object handle not found 3229/0xC9D in 6918 objects of max 0x7D83 handles
+Warning: Object handle not found 3227/0xC9B in 6918 objects of max 0x7D83 handles
+Warning: Object handle not found 3230/0xC9E in 6918 objects of max 0x7D83 handles

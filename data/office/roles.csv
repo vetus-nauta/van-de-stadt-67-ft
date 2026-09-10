@@ -5,5 +5,8 @@ SYSTEMS;Интеграция систем;/root/systems;APPOINTED_O02_COMPLETED;
 PROCUREMENT;Закупки и сравнение предложений;/root/procurement_cost;APPOINTED_O02_COMPLETED;"Польша/ЕС; первичные рыночные источники и готовые запросы без отправки";/root/independent_review
 ESTIMATE;Сметная подготовка;/root/procurement_cost;APPOINTED_O02_COMPLETED;"WBS, условия КАЦ и будущей УТВ; пока без полного денежного расчёта";/root/independent_review
 PLAN;Планирование;/root;ACTIVE;Зависимости, очередность, контроль результатов специалистов;REVIEW
-REVIEW;Независимая проверка;/root/independent_review;APPOINTED_O02_COMPLETED;Проверка чужих результатов после готовности авторов;HEAD принимает решение
+REVIEW;Независимая проверка;/root/geometry_review;APPOINTED_G01_COMPLETED;Независимое воспроизведение ключевых извлечений 3DM/DWG и границ применимости;HEAD принимает решение
 DOCS;Выпуск и синхронизация;/root;ACTIVE;Реестры, журнал, manifest, сохранность исходников и GitHub;Контроль SHA и дерева
+GEOMETRY_RH;Геометрия Rhino;/root/rhino_geometry;APPOINTED_G01_COMPLETED;"Чтение3DM; слои/объекты/координаты; проекции и ограничения";/root/geometry_review
+GEOMETRY_DW;Геометрия DWG;/root/dwg_geometry;APPOINTED_G01_COMPLETED;"Локальная конвертация и чтение DWG; виды/единицы; сопоставление";/root/geometry_review
+SURVEY;План обмеров;/root/geometry_survey;APPOINTED_G01_COMPLETED;"PDF/фото; адресные реперы и пробелы, связанные с будущими изменениями";/root/geometry_review

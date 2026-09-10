@@ -1,0 +1,188 @@
+{
+  "dwg_signature": "AC1018",
+  "raw_objects": 6918,
+  "modelspace_count": 1241,
+  "raw_to_dxf_type_counts": {
+    "LWPOLYLINE / LWPOLYLINE": 91,
+    "LINE / LINE": 814,
+    "TEXT / TEXT": 188,
+    "ARC / ARC": 107,
+    "POLYLINE / POLYLINE_2D": 3,
+    "POLYLINE / POLYLINE_3D": 27,
+    "INSERT / INSERT": 11
+  },
+  "missing_raw_handles_for_dxf_entities": [],
+  "header_comparison": {
+    "INSUNITS": {
+      "raw": 0,
+      "dxf": 0
+    },
+    "LUNITS": {
+      "raw": 2,
+      "dxf": 2
+    },
+    "DIMSCALE": {
+      "raw": 10.0,
+      "dxf": 10.0
+    },
+    "DIMLFAC": {
+      "raw": 1.0,
+      "dxf": 1.0
+    }
+  },
+  "line_endpoint_comparisons": 814,
+  "max_line_endpoint_abs_difference": 5.4569682106375694e-12,
+  "text_comparisons": 188,
+  "all_text_strings_equal": true,
+  "polyline3d_comparisons": [
+    {
+      "handle": "6428",
+      "vertex_count": 22,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "646E",
+      "vertex_count": 412,
+      "max_delta": 3.637978807091713e-12
+    },
+    {
+      "handle": "661C",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "67BA",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "69BD",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "6B60",
+      "vertex_count": 463,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "6D41",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "700B",
+      "vertex_count": 6,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7083",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "722C",
+      "vertex_count": 463,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "7425",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "75CD",
+      "vertex_count": 412,
+      "max_delta": 3.637978807091713e-12
+    },
+    {
+      "handle": "776B",
+      "vertex_count": 9,
+      "max_delta": 2.2737367544323206e-13
+    },
+    {
+      "handle": "7776",
+      "vertex_count": 6,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "77C2",
+      "vertex_count": 412,
+      "max_delta": 5.4569682106375694e-12
+    },
+    {
+      "handle": "7A76",
+      "vertex_count": 37,
+      "max_delta": 1.8189894035458565e-12
+    },
+    {
+      "handle": "7A9D",
+      "vertex_count": 22,
+      "max_delta": 3.637978807091713e-12
+    },
+    {
+      "handle": "7AB5",
+      "vertex_count": 2,
+      "max_delta": 0.0
+    },
+    {
+      "handle": "7AB9",
+      "vertex_count": 2,
+      "max_delta": 5.684341886080802e-14
+    },
+    {
+      "handle": "7ABD",
+      "vertex_count": 51,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7AF2",
+      "vertex_count": 51,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7B27",
+      "vertex_count": 63,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7B68",
+      "vertex_count": 2,
+      "max_delta": 0.0
+    },
+    {
+      "handle": "7B6C",
+      "vertex_count": 2,
+      "max_delta": 5.684341886080802e-14
+    },
+    {
+      "handle": "7B70",
+      "vertex_count": 61,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7BAF",
+      "vertex_count": 51,
+      "max_delta": 4.547473508864641e-13
+    },
+    {
+      "handle": "7BE4",
+      "vertex_count": 63,
+      "max_delta": 5.684341886080802e-14
+    }
+  ],
+  "max_vertex_abs_difference": 5.4569682106375694e-12,
+  "errors": [],
+  "audit_errors": [],
+  "audit_fixes": [
+    {
+      "code": "103",
+      "message": "Deleted entity INSERT(#4C21) without required BLOCK definition."
+    },
+    {
+      "code": "103",
+      "message": "Deleted entity INSERT(#4C22) without required BLOCK definition."
+    }
+  ],
+  "limits": "RawJSON and DXF use same LibreDWG decode. Equal handles/coordinates do not prove original completeness or correct physical units. No DWG source corruption conclusion."
+}

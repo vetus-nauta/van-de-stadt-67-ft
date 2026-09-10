@@ -1,0 +1,276 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_geometry-review.md",
+      "sha256": "9ab7a9c29b40e46bcb08230f84deaba9304912766e10cf97be71f76b1eec11fa",
+      "bytes": 12995
+    },
+    {
+      "path": "01_support/00_acceptance.md",
+      "sha256": "5b8777fafe956674745edd88ca01fa57ec12a60159b1449d92e61d23fe5c0fa9",
+      "bytes": 5838
+    },
+    {
+      "path": "01_support/dwg/00_dwg-inspection.md",
+      "sha256": "0cf4ff64bfe538d7c5f7b4d3da7a4ec6051432e77dea8f3b1f23939da80fb12b",
+      "bytes": 15163
+    },
+    {
+      "path": "01_support/dwg/author-recheck.json",
+      "sha256": "6bcc158681c34c9f3db357ccce78e51abe9a84ec3224717f52e9d57452595329",
+      "bytes": 1933
+    },
+    {
+      "path": "01_support/dwg/conversion-status.json",
+      "sha256": "fa8635be727c378f60a63c1ccc5da99e542f7540f17c964fc2c4a28009bdd947",
+      "bytes": 69
+    },
+    {
+      "path": "01_support/dwg/dimensions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "01_support/dwg/dwg2dxf.stderr.log",
+      "sha256": "450c9781f8a4192e085d4ce3dd0d06e70a044aee0ffc6c6e7052e1041cd663ce",
+      "bytes": 956
+    },
+    {
+      "path": "01_support/dwg/dwg2dxf.stdout.log",
+      "sha256": "e943806645ea36cb43334e36de884a18c800c0b8bd9284f000e6eb0ed2fa60dc",
+      "bytes": 235
+    },
+    {
+      "path": "01_support/dwg/dwgread.stderr.log",
+      "sha256": "3e64f7c6692575249a3bfb8a48f08c4b619bcbebec9699c379056f02f593efcf",
+      "bytes": 9
+    },
+    {
+      "path": "01_support/dwg/dwgread.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/dwg/entities.json",
+      "sha256": "6d32dde2412da0dbb191d9b5dfcec68c2ec82fb76a21f81454cb1d23ce6d9860",
+      "bytes": 333022
+    },
+    {
+      "path": "01_support/dwg/inspect_dxf.py",
+      "sha256": "9c7801188b3a560e08ceed196ea86a20616fdd1f8ad70b56ae955d69f75fd12c",
+      "bytes": 5190
+    },
+    {
+      "path": "01_support/dwg/inspection.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/dwg/inspection.stdout.log",
+      "sha256": "45079f65229e0fd7ee376ff0d6f27154c15a09590284bb9b41a46984b7526f41",
+      "bytes": 1141
+    },
+    {
+      "path": "01_support/dwg/inventory.json",
+      "sha256": "d849bfee5c4e423bb57ec6528d2d335039148bf76c5e1ff383b52b7098e0c41d",
+      "bytes": 30494
+    },
+    {
+      "path": "01_support/dwg/layers.csv",
+      "sha256": "cdf45f02e7c9fc286e84b20976525fb7afa8f008b3cfc7f67f5c30929c0d7ffc",
+      "bytes": 1839
+    },
+    {
+      "path": "01_support/dwg/lines-decoded.json",
+      "sha256": "ea5d2215b5c7bdd8906e944c03f0bf09218e3f29a4262362de6e28d7916f52d3",
+      "bytes": 5491867
+    },
+    {
+      "path": "01_support/dwg/lines-derived-preview.png",
+      "sha256": "f5ce70309a8d1a8c63886b32a5f7ed35610af99cd4568248ee07d218246c1159",
+      "bytes": 366372
+    },
+    {
+      "path": "01_support/dwg/lines-derived.dxf",
+      "sha256": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273",
+      "bytes": 1556078
+    },
+    {
+      "path": "01_support/dwg/lines-derived.svg",
+      "sha256": "1978b9bccb5b0a2304770c0cd6a10e623fca2c1adde9fd251e46b3fc1e51b905",
+      "bytes": 766282
+    },
+    {
+      "path": "01_support/dwg/orthographic-linework.png",
+      "sha256": "11b96d5aef32fbc07f5bb7a2f8d978109b107ec23506fee4c721657e41b0a0df",
+      "bytes": 556490
+    },
+    {
+      "path": "01_support/dwg/projection-log.json",
+      "sha256": "1898683f68549c8c182dc898b2b5ba171ca04b8edf7c7df07ddd3dc61e812dc8",
+      "bytes": 237
+    },
+    {
+      "path": "01_support/dwg/reproduce.sh",
+      "sha256": "d9361d56f79eb412105a949da4739d2e2f87818836c3e75679d27e73db59c046",
+      "bytes": 1892
+    },
+    {
+      "path": "01_support/dwg/requirements-lock.txt",
+      "sha256": "5d88711d7921008aa45678283dbf6f544bf83f115d6ff13b86ffe58ecbe0838c",
+      "bytes": 228
+    },
+    {
+      "path": "01_support/dwg/texts.json",
+      "sha256": "abcf7454ce7985981dc690ae0667e6879fa71c4e7badb2e5dfdae7ff94aae045",
+      "bytes": 127141
+    },
+    {
+      "path": "01_support/review/00_review.md",
+      "sha256": "2b1400c9719a2b00a76f592c9373df00a008d19df7830e895083e2973d45210c",
+      "bytes": 10047
+    },
+    {
+      "path": "01_support/review/check_dwg.py",
+      "sha256": "8f60ffc6a9569e55d01d2aedb96c68bda914112b051f509a972c27c86564a5a2",
+      "bytes": 2897
+    },
+    {
+      "path": "01_support/review/check_geometry.py",
+      "sha256": "b202cb2a6831a7b1f3744b4cee8c2d7bebeb0a43c80a2b78985562c140d8ba26",
+      "bytes": 3831
+    },
+    {
+      "path": "01_support/review/checked-inputs.json",
+      "sha256": "bd28e248caa22e2d1b83be7004a3397f70337af54e0f568808282100e7b0a956",
+      "bytes": 1751
+    },
+    {
+      "path": "01_support/review/findings.csv",
+      "sha256": "377ee2f2158377a1908307194d5e6f4f91b484d4228aa0868ce40b0413d76439",
+      "bytes": 1709
+    },
+    {
+      "path": "01_support/review/independent-dwg-results.json",
+      "sha256": "6739f0daf1079f275e7a85481e3bc11ed9d7a7856a2dc78c220599e998422c8a",
+      "bytes": 4134
+    },
+    {
+      "path": "01_support/review/independent-results.json",
+      "sha256": "8d3de755f4f21659675990674d33e13b9b15700732c900846aa3e4b52fd46955",
+      "bytes": 16468
+    },
+    {
+      "path": "01_support/rhino/00_rhino-inspection.md",
+      "sha256": "dfa172c159363422569ae8cf9037567933ee9d3366c2212fdbb684eef79b0389",
+      "bytes": 17849
+    },
+    {
+      "path": "01_support/rhino/all-projections.png",
+      "sha256": "38564ed659e8655e2409e9bd7f52a46d5a410f21e9e480c0c090fb3ba4702dfc",
+      "bytes": 403881
+    },
+    {
+      "path": "01_support/rhino/all-projections.svg",
+      "sha256": "3b8ef2009c6f7138841ae32e514c230ff0514cc1ee5237c8ae1a7525ca6b758e",
+      "bytes": 1431349
+    },
+    {
+      "path": "01_support/rhino/deck-candidate-projections.png",
+      "sha256": "ba69b289b22783c5714f9ed3f25455e4ddfa9bb1e8428aa4fe1a0f8c5ee5b20b",
+      "bytes": 166242
+    },
+    {
+      "path": "01_support/rhino/deck-candidate-projections.svg",
+      "sha256": "9f1c974488adc0ad410090d75c75076acdd48d7f17f34ddc7bd4c1d1886a992a",
+      "bytes": 114280
+    },
+    {
+      "path": "01_support/rhino/hull-layer-projections.png",
+      "sha256": "44c17042f987cc9866013a5884c4f850750881203c0c438603054c7e2dd662ec",
+      "bytes": 376846
+    },
+    {
+      "path": "01_support/rhino/hull-layer-projections.svg",
+      "sha256": "02de53adae0e5e82bcf3cf6fc962c83d523cc50a200b13ea9830b4efb3691a21",
+      "bytes": 1221593
+    },
+    {
+      "path": "01_support/rhino/inspect_rhino.py",
+      "sha256": "81aef2147beef3e29b905ad9acbf4dc956810499eb6c8942b62c18039158e489",
+      "bytes": 6103
+    },
+    {
+      "path": "01_support/rhino/internal-surfaces-example-projections.png",
+      "sha256": "f44fd1e7d050f272d7f0476706d68f2f669dc7e05fdfe77d6174e96f66b7172b",
+      "bytes": 107886
+    },
+    {
+      "path": "01_support/rhino/internal-surfaces-example-projections.svg",
+      "sha256": "683c4114dce9141eb1201a875d5c6e96bd867d9cef8a57ebf71d6e8ff12c47b9",
+      "bytes": 94749
+    },
+    {
+      "path": "01_support/rhino/inventory.json",
+      "sha256": "b736da134a3bd4ad1562bf85f49f95b419b8262cb2536adbd3b1d521fe50bda2",
+      "bytes": 749937
+    },
+    {
+      "path": "01_support/rhino/objects.csv",
+      "sha256": "b0e9be733273e2a348567e0da80aaeb63f8a4a8842d84d6eabe4fb20b6942f4b",
+      "bytes": 276040
+    },
+    {
+      "path": "01_support/rhino/requirements-lock.txt",
+      "sha256": "f32999705ddfbbe5becfaa2a146224e82a4e0647dce65fdaf3430f993fa1effe",
+      "bytes": 206
+    },
+    {
+      "path": "01_support/rhino/roof-candidates-projections.png",
+      "sha256": "77dd8a79399d86778ec5de772eeb056891bebf60d02cfe65d302338ef9b3bd83",
+      "bytes": 152738
+    },
+    {
+      "path": "01_support/rhino/roof-candidates-projections.svg",
+      "sha256": "ec39e25b2c18152145479733e24554ece92e9fedc0ef540530dfda911bd518ce",
+      "bytes": 102708
+    },
+    {
+      "path": "01_support/rhino/selections.json",
+      "sha256": "672181d4cab47e5f7837364f14986c747c34c63ac2ce0d6d354e992ffba164ae",
+      "bytes": 2562
+    },
+    {
+      "path": "01_support/rhino/shell-surfaces-projections.png",
+      "sha256": "4bfc0b830fb399d87099aec184282d3d11d642ba6e7e76f7240ef0e6a84f159c",
+      "bytes": 162045
+    },
+    {
+      "path": "01_support/rhino/shell-surfaces-projections.svg",
+      "sha256": "5b5673aa706e36b1cbd394d4328e89cee619a7c36840c37c4c24488a1cb7ade7",
+      "bytes": 115381
+    },
+    {
+      "path": "01_support/survey/00_survey-basis.md",
+      "sha256": "ac35a2071c0b8f01a561945bc68baab150d9d4a5cc05a0d682b89a9dc99d8172",
+      "bytes": 12927
+    },
+    {
+      "path": "01_support/survey/survey-checklist.csv",
+      "sha256": "ac9fc4c6585976ae92d2c4c756800f07a5ac7c06b724bd1f0387d6429a472312",
+      "bytes": 12972
+    },
+    {
+      "path": "01_support/task-definition.json",
+      "sha256": "a83f992d62bab3d1c79f1df4ae40ec889bd932f3fa763d9b4baafdf26d9213e6",
+      "bytes": 1871
+    }
+  ]
+}

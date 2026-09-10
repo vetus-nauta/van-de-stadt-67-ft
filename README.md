@@ -79,3 +79,7 @@ Primary and comparison sources are recorded in `sources/SOURCES.md`. No unverifi
 ## План работы агентского офиса
 
 [От требований к яхте до компоновки, КП, КАЦ и УТВ](deliverables/O02/v001/00_office-launch.md). Строительство — Польша. [Команда и порядок передач](office/agent-office.md). Текущая стадия — планирование и исходное задание; бюджет не утверждён.
+
+## Геометрия перед компоновкой
+
+[G01: фактический разбор DWG/3DM, проекции и план обмеров](deliverables/G01/v001/00_geometry-review.md). [Будущие намерения по крыше, хардтопу и кормовому гаражу](data/office/design-intents.csv) сохранены отдельно от исходной геометрии.

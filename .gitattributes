@@ -13,3 +13,11 @@ documentation/**/*.DWG -text
 documentation/**/*.pdf -text
 documentation/**/*.jpg -text
 documentation/99-service/email-reaction.json -text whitespace=cr-at-eol
+
+# Preserve exact released analysis bytes, including converter CRLF streams.
+deliverables/G01/** -text whitespace=cr-at-eol
+# Generator formatting is preserved verbatim; review authored Markdown/scripts normally.
+deliverables/G01/**/*.svg -whitespace linguist-generated=true
+deliverables/G01/**/*.dxf -whitespace linguist-generated=true
+deliverables/G01/**/*.log -whitespace linguist-generated=true
+deliverables/G01/**/lines-decoded.json -whitespace linguist-generated=true
