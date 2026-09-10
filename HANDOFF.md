@@ -5,6 +5,32 @@ Build a traceable engineering knowledge base for the Polish aluminium Van de Sta
 
 The repository is not a generic yacht-spec collection. The target is to reconstruct as much of the actual design intent and physical configuration as possible, then distinguish that evidence from reference-yacht solutions and from new engineering proposals.
 
+## Premium-class build direction
+The completion target is now explicitly **premium-class bluewater yacht**, not a minimum viable completion and not a basic production-yacht fit-out.
+
+Use Oyster 675, Contest 67CS and comparable high-spec custom aluminium yachts from KM Yachtbuilders/Bestevaer and other respected 65–75 ft builders as benchmarks for systems architecture, redundancy, hotel comfort, acoustic treatment, maintainability and finish.
+
+A provisional builder-style target specification is maintained in `docs/16-premium-builder-specification.md`. Treat it as the design brief to test against the real Polish drawings.
+
+Owner-defined baseline requirements currently include:
+- main engine target 300 hp;
+- two compact marine generator sets around 11.5–12 kVA each;
+- two independent chilled-water chiller modules;
+- one fan-coil unit per conditioned cabin/space as a design rule;
+- 150 L/h watermaker;
+- redundant freshwater pressure architecture: 24 VDC pump + 230 VAC pump, with dedicated 24→230 V inverter backup for the AC pump;
+- electric toilets selectable between potable-tank freshwater and dedicated seawater flushing, both normally discharging to black-water holding tanks;
+- three principal guest cabins: Master, forward VIP and side guest cabin;
+- one compact convertible ensuite cabin with twin lower berths convertible to a double plus optional folding upper berth;
+- TV in all guest cabins and saloon;
+- premium centrally managed multi-zone audio, Sonos-style architecture or superior marine-integrated equivalent;
+- two complete helm stations;
+- target per helm: four approximately 20-inch-class primary navigation/MFD displays plus four dedicated instrument displays, controls and system monitoring;
+- premium digital monitoring/switching while preserving local/manual operation of critical services;
+- strong redundancy, acoustic isolation and serviceability throughout.
+
+These are `PROVISIONAL DESIGN TARGETS` until checked against actual hull geometry, weights, stability and electrical/hydraulic loads.
+
 ## Evidence classes
 Every technical statement should carry one of these statuses:
 
@@ -49,7 +75,6 @@ Record drawing number, title, revision/date, scale and provenance for every reco
 Do not rely only on model-name searches. Work backwards from hull geometry, designer/project number, old sale listings, registries, builders, yacht names and photographs.
 
 For each candidate completed yacht, establish whether it is:
-
 1. confirmed Design No. 430;
 2. probable No. 430;
 3. another Van de Stadt 67;
@@ -58,160 +83,71 @@ For each candidate completed yacht, establish whether it is:
 Capture yacht name, year, builder, hull material, LOA/LWL/beam/draft/displacement/ballast and all available technical particulars.
 
 ### 3. Recover historical brokerage particulars
-Search archived brokerage listings, downloadable sale brochures, PDFs, cached pages and yacht databases. The objective is equipment-level data that normally disappears from short listings:
+Search archived brokerage listings, downloadable sale brochures, PDFs, cached pages and yacht databases. Extract equipment-level data: engine, gearbox, shaft/propeller, generators, AC/DC architecture, batteries, thrusters, steering, tankage, watermaker, HVAC, sanitation, bilge/fire, rig, deck hardware, windlass/anchors, navigation, domestic equipment and tender handling. Preserve source/date for each value.
 
-- main engine make/model/power/year/hours;
-- gearbox and ratio;
-- shaft diameter/material;
-- propeller make/type/diameter/pitch;
-- exhaust arrangement;
-- generator make/model/kVA;
-- shore power, isolation transformer and charger/inverter architecture;
-- battery banks and capacities;
-- alternators;
-- bow/stern thrusters;
-- steering system and autopilot drive;
-- fuel/fresh/grey/black-water capacities;
-- pumps and watermakers;
-- hot-water system;
-- HVAC/heating;
-- bilge and fire systems;
-- mast/boom manufacturer and materials;
-- standing rigging dimensions/material;
-- furlers;
-- winches and deck hardware;
-- windlass, anchors and chain;
-- navigation/electronics;
-- domestic equipment;
-- tender/garage/davit solutions where relevant.
+### 4. Study premium 65–75 ft yachts as engineering benchmarks
+The reference pool is broader than Van de Stadt alone. Prioritise:
+- Van de Stadt 65–77 ft aluminium yachts for structural/design lineage;
+- Oyster 675 for premium bluewater hotel/system integration;
+- Contest 67CS for 24/230 V architecture, technical-room arrangement, redundant water services, 150 L/h watermaker, chiller HVAC and high-end accommodation;
+- KM Yachtbuilders/Bestevaer for aluminium custom-yacht structure, autonomy, watertight integrity and machinery integration;
+- other credible premium/custom 65–75 ft sailing yachts where a detailed builder/broker specification is available.
 
-Preserve the source and date for each value.
-
-### 4. Study real Van de Stadt 65–77 ft aluminium yachts as engineering references
-Use nearby Van de Stadt designs to reconstruct plausible engineering ranges where No. 430 data is absent. Prioritise yachts close in displacement and intended service, not simply close in LOA.
-
-Extract:
-
-- machinery-room layout;
-- engine power and installation envelope;
-- gearbox/shaft/propeller sizing;
-- generator sizing;
-- tankage and tank location;
-- battery-bank mass and position;
-- hydraulic systems;
-- steering architecture;
-- bow-thruster installation;
-- rig and deck hardware;
-- service access;
-- ventilation;
-- watermaker/HVAC placement;
-- anchor handling;
-- interior arrangement and technical voids.
-
-Keep these as `REFERENCE` until supported by the Polish hull/original drawings.
+For every reference solution, record yacht, builder, year, displacement and source. Never copy equipment blindly: assess suitability for the heavier No. 430 hull and owner-defined premium brief.
 
 ### 5. Image-based reconstruction
-Collect useful photographs of confirmed/probable sister or reference yachts, especially:
-
-- engine room;
-- bilges;
-- keel interior;
-- rudder quadrant/steering gear;
-- shaft line;
-- tanks;
-- mast step;
-- chainplates;
-- bow-thruster tunnel;
-- electrical panels;
-- generator;
-- cockpit/deck hardware;
-- anchor locker;
-- deckhouse/interior bulkheads.
-
-Use photographs to infer arrangement only when geometry is visible. Mark inferred dimensions/relationships as `REFERENCE` or `PROVISIONAL`, never confirmed.
+Collect useful photographs of confirmed/probable sister or reference yachts, especially engine room, bilges, keel interior, steering gear, shaft line, tanks, mast step, chainplates, thruster, electrical panels, generators, cockpit/deck hardware, anchor locker and technical spaces. Mark inferred relationships as `REFERENCE` or `PROVISIONAL`.
 
 ## Polish hull drawing ingestion
 The owner will provide the available drawings for the actual Polish hull in chat.
 
 When drawings arrive:
-
 1. Inventory every sheet/file before interpreting it.
 2. Record file name, drawing title/number, revision, date, scale, author/builder and sheet size where visible.
-3. Determine whether each drawing is original Van de Stadt, builder production documentation, later modification, sales documentation or unknown provenance.
-4. Extract all explicit dimensions and specifications before making visual estimates.
-5. Cross-reference repeated dimensions between drawings and flag inconsistencies.
+3. Determine provenance.
+4. Extract explicit dimensions/specifications before visual estimates.
+5. Cross-reference repeated dimensions and flag inconsistencies.
 6. Map stations/frames/bulkheads into one longitudinal coordinate system where possible.
 7. Extract material grades, plate thicknesses, profiles, weld notes and structural details.
-8. Reconstruct the actual hull/deck/deckhouse structural arrangement.
-9. Locate and dimension machinery spaces, engine beds, shaft line, rudder/steering, tanks, mast step, chainplates, thruster provision and major service routes.
+8. Reconstruct hull/deck/deckhouse structural arrangement.
+9. Locate/dimension machinery spaces, engine beds, shaft line, rudder/steering, tanks, mast step, chainplates, thruster provision and service routes.
 10. Extract GA/interior dimensions and usable equipment envelopes.
-11. Compare drawing-derived values against the existing repository matrix.
-12. Replace assumptions with `CONFIRMED-HULL` values only where the drawings genuinely support them.
-13. Keep unresolved discrepancies in a dedicated conflict register.
-14. Do not alter or “clean up” original source drawings. Store originals separately from derived notes/data.
+11. Compare drawing-derived values against repository matrix and premium target specification.
+12. Replace assumptions with `CONFIRMED-HULL` only where genuinely supported.
+13. Keep unresolved discrepancies in a conflict register.
+14. Preserve originals unchanged.
 
-## Derived engineering outputs from the drawings
-After drawing ingestion, produce progressively:
+## Derived engineering outputs from drawings
+Produce progressively: master dimensions; frame/bulkhead table; plate/scantling and structural schedules; tank register; machinery envelope; propulsion and steering geometry; rig-foundation register; deck-hardware foundations; openings register; equipment-space map; weight ledger; design-displacement reconciliation; operating/full-load mass model; unresolved survey list.
 
-- master dimensions table;
-- station/frame/bulkhead table;
-- plate/scantling schedule;
-- structural member schedule;
-- tank register with geometry, estimated/declared volume and longitudinal position;
-- machinery-space envelope;
-- propulsion geometry sheet;
-- rudder/steering geometry sheet;
-- rig foundation / mast-step / chainplate register;
-- deck-hardware foundation register;
-- openings/hatches/ports register;
-- equipment-space/envelope map;
-- weight ledger by system and longitudinal position;
-- known-weight vs design-displacement reconciliation;
-- preliminary lightship/operating/full-load mass model;
-- unresolved measurement list for the next physical hull survey.
+Additionally, perform a **fit/gap analysis against `docs/16-premium-builder-specification.md`**. For every premium target system mark:
+- FITS AS DRAWN;
+- FITS WITH LOCAL MODIFICATION;
+- STRUCTURAL MODIFICATION REQUIRED;
+- SPACE CONFLICT;
+- WEIGHT/STABILITY REVIEW REQUIRED;
+- ELECTRICAL/HYDRAULIC CAPACITY REVIEW REQUIRED;
+- NOT YET DETERMINABLE.
 
 ## Weight-control rule
-The current public/source values contain a major unresolved discrepancy: original No. 430 design displacement and ballast values do not directly reconcile with the advertised/current Polish-hull mass and ballast figures. Do not force these numbers to agree.
+Do not force current public/source values to reconcile. Maintain separate weights for bare/current hull, aluminium structure, ballast, machinery, tanks, fluids, rig, deck gear, batteries/electrical, HVAC/plumbing, interior, safety/navigation/domestic equipment, stores/crew and design displacement.
 
-Maintain separate columns for:
-
-- bare/current hull mass;
-- aluminium structure;
-- ballast actually installed;
-- machinery;
-- tanks dry;
-- fluids;
-- rig;
-- deck gear;
-- electrical/batteries;
-- HVAC/plumbing;
-- interior/joinery;
-- safety/navigation/domestic equipment;
-- stores/crew/operating load;
-- design displacement.
-
-The drawings and later weighing/survey data should resolve the mass model.
+Premium equipment adds substantial weight. The 300 hp propulsion plant, two generators, dual chillers, lithium bank, large bridge electronics, AV, watermaker and high-end interior must all be included early in the longitudinal/vertical weight model.
 
 ## Future equipment-selection workflow
-Do not select equipment solely by LOA. For each major system, first establish the actual constraints from drawings and calculations.
-
-Sequence:
-
-1. establish geometry and displacement target;
-2. establish space, foundation and access envelopes;
-3. establish duty/load requirement;
-4. establish mass and centre-of-gravity effect;
-5. identify 2–5 realistic modern candidates;
-6. compare dimensions, dry/wet weight, service access, power/fuel/electrical demand, compatibility and price;
-7. select a preferred solution only after integration checks.
-
-This applies especially to main engine, gearbox, shaft/propeller, generator, batteries, thruster, steering/autopilot, windlass, rig, winches, watermaker, HVAC and pumps.
+Do not select equipment solely by LOA. Sequence:
+1. geometry/displacement target;
+2. foundation, access and removal envelopes;
+3. duty/load requirement;
+4. mass and CG effect;
+5. 2–5 realistic premium candidates;
+6. compare dimensions, dry/wet mass, service access, consumption, acoustic data, compatibility, redundancy, service network and price;
+7. select only after integration checks.
 
 ## Repository structure going forward
-Keep the existing system documents. Add as information becomes available:
-
-- `drawings/original/` — source drawings supplied by owner (when repository/file tooling permits binary storage)
-- `drawings/index.md` — drawing register and provenance
+Keep existing system documents and add:
+- `drawings/original/`
+- `drawings/index.md`
 - `docs/09-structural-scantlings.md`
 - `docs/10-weight-budget.md`
 - `docs/11-tank-register.md`
@@ -219,6 +155,7 @@ Keep the existing system documents. Add as information becomes available:
 - `docs/13-rig-foundations.md`
 - `docs/14-equipment-selection.md`
 - `docs/15-conflict-register.md`
+- `docs/16-premium-builder-specification.md`
 - `data/dimensions.csv`
 - `data/frames-bulkheads.csv`
 - `data/tanks.csv`
@@ -226,15 +163,15 @@ Keep the existing system documents. Add as information becomes available:
 - `data/equipment.csv`
 
 ## End goal
-The repository should eventually answer, with traceable evidence:
-
+The repository should eventually answer with traceable evidence:
 - What exactly was Van de Stadt No. 430 designed to be?
 - What exactly has already been built in Poland?
-- What differs between the original design and the Polish hull?
-- What spaces, foundations and structural provisions actually exist?
+- What differs between original design and Polish hull?
+- What spaces, foundations and structural provisions exist?
 - What is the real weight/displacement/ballast picture?
-- What equipment can physically and technically be integrated?
-- What must be designed or modified before completion?
-- What is the resulting equipment list, weight budget and build budget?
+- Can the full premium-class target specification be integrated safely?
+- What must be redesigned or structurally modified?
+- What exact equipment package is selected?
+- What are the final weight, power, hotel-load and build budgets?
 
 The owner's Polish-hull drawings become the highest-priority source for the next phase.
