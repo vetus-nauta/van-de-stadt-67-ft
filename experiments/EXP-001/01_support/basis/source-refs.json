@@ -1,0 +1,605 @@
+{
+  "status": "GEOMETRY_REFERENCES_NOT_AS_BUILT",
+  "coordinates": "G02 working metres; X increases toward bow; Z0 drawing datum, not floor",
+  "inputs_sha256": {
+    "deliverables/G01/v001/01_support/rhino/objects.csv": "b0e9be733273e2a348567e0da80aaeb63f8a4a8842d84d6eabe4fb20b6942f4b",
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8"
+  },
+  "objects": [
+    {
+      "index": 133,
+      "object_id": "47cc8bdb-89af-4af9-9312-275b5b3d047c",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -20.498978671875,
+          -2.8776855230469445,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          7.836328055418562e-06,
+          2.0457036837429876
+        ]
+      }
+    },
+    {
+      "index": 144,
+      "object_id": "190edc86-b6f9-43b0-8e00-276eaca1a3ee",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -20.498978671875,
+          -7.788671944581439e-06,
+          -1.2438978787570123
+        ],
+        "max": [
+          -0.20910123046874968,
+          2.8776855707030555,
+          2.0457036837429876
+        ]
+      }
+    },
+    {
+      "index": 190,
+      "object_id": "6639c18e-07ab-47fc-ba4a-22a5be63ea07",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.7820167578125,
+          0.8950547113280554,
+          1.9794204806179878
+        ],
+        "max": [
+          -9.8300948828125,
+          1.8036660394530555,
+          2.7526353243679877
+        ]
+      }
+    },
+    {
+      "index": 191,
+      "object_id": "5e624782-3903-4cb7-9695-dc803ff0f992",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.7820167578125,
+          -1.8036659917969446,
+          1.9794204806179878
+        ],
+        "max": [
+          -9.8300948828125,
+          -0.8950546636719445,
+          2.7526353243679877
+        ]
+      }
+    },
+    {
+      "index": 198,
+      "object_id": "c1dc5a1b-98b3-41de-8720-1da63fbf38bd",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.109314609375,
+          -1.0500077886719446,
+          2.828346261867988
+        ],
+        "max": [
+          -12.65000015625,
+          1.0500078363280554,
+          2.896934152492988
+        ]
+      }
+    },
+    {
+      "index": 212,
+      "object_id": "2050ba10-1db6-42f0-9507-76412f05d53b",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -17.238634921875,
+          -1.2949999761719446,
+          1.6200200899929877
+        ],
+        "max": [
+          -14.9933468359375,
+          1.1000000238280554,
+          1.6200200899929877
+        ]
+      }
+    },
+    {
+      "index": 325,
+      "object_id": "d9ea7135-dcf5-45df-a4b6-dfb7d26e579d",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.571465,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          0.7434497774929878
+        ]
+      }
+    },
+    {
+      "index": 328,
+      "object_id": "70c5801a-0125-4c5e-9e85-03ffba408664",
+      "source_name": "GR5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -9.8300948828125,
+          -0.9583847417969446,
+          2.059512277492988
+        ],
+        "max": [
+          -9.614713046875,
+          2.3828055418562143e-08,
+          2.0927661837429876
+        ]
+      }
+    },
+    {
+      "index": 329,
+      "object_id": "86345c9e-0cd6-4c52-a68c-9aa9a1d17ace",
+      "source_name": "GR5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -9.8300948828125,
+          2.3828055418562143e-08,
+          2.059512277492988
+        ],
+        "max": [
+          -9.614713046875,
+          0.9583847894530554,
+          2.0927661837429876
+        ]
+      }
+    },
+    {
+      "index": 331,
+      "object_id": "b9734ba7-3acd-4e7d-befe-ffc4bc4fe126",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -10.49407828125,
+          -1.8806894292969445,
+          1.7195337618679878
+        ],
+        "max": [
+          -9.100000156250001,
+          2.3828055418562143e-08,
+          2.091818918117988
+        ]
+      }
+    },
+    {
+      "index": 332,
+      "object_id": "6b67b8e5-bf51-4d05-a623-7f21b211121b",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -10.780404453125,
+          -1.9596445074219446,
+          1.7080864962429878
+        ],
+        "max": [
+          -9.98985171875,
+          -1.8573730230469445,
+          1.9728130587429877
+        ]
+      }
+    },
+    {
+      "index": 333,
+      "object_id": "addd62c5-1935-49d0-8fec-d90ba0764cf9",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.094673984375,
+          -1.8625214605469447,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          2.3828055418562143e-08,
+          2.858815011867988
+        ]
+      }
+    },
+    {
+      "index": 334,
+      "object_id": "fc6d1e31-1b75-4851-8701-ee610eeeed81",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.094673984375,
+          2.3828055418562143e-08,
+          2.6331782931179877
+        ],
+        "max": [
+          -10.956927890625,
+          1.8625215082030555,
+          2.858815011867988
+        ]
+      }
+    },
+    {
+      "index": 335,
+      "object_id": "1737ac2c-6ff8-4b4e-95f8-ee30b013543a",
+      "source_name": "GR4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.7016222265625,
+          -1.8726249761719447,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          2.3828055418562143e-08,
+          2.777139230617988
+        ]
+      }
+    },
+    {
+      "index": 336,
+      "object_id": "5077b506-30cd-4ab9-9784-91394139c4cc",
+      "source_name": "GR4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.7016222265625,
+          2.3828055418562143e-08,
+          2.575625558742988
+        ],
+        "max": [
+          -10.7983194921875,
+          1.8726250238280555,
+          2.777139230617988
+        ]
+      }
+    },
+    {
+      "index": 338,
+      "object_id": "15d6941c-9754-4dd7-9429-1b50e9d7153c",
+      "source_name": "GR5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -14.65000015625,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          2.8367935274929876
+        ]
+      }
+    },
+    {
+      "index": 339,
+      "object_id": "75f6febd-5532-4c8d-8799-2660ce899196",
+      "source_name": "GR5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.30294546875,
+          1.1000000238280554,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.1000000238280554,
+          2.839225168117988
+        ]
+      }
+    },
+    {
+      "index": 340,
+      "object_id": "285355bd-2888-45a0-96aa-374e89f0485d",
+      "source_name": "GR5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -14.850000156250001,
+          -1.7498886480469447,
+          1.9851040743679877
+        ],
+        "max": [
+          -14.850000156250001,
+          1.1000000238280554,
+          2.892912668117988
+        ]
+      }
+    },
+    {
+      "index": 343,
+      "object_id": "76466e75-1c5c-4836-b266-627b47a5ec28",
+      "source_name": "GR4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.7875821875,
+          1.7500000238280555,
+          0.7250200899929877
+        ],
+        "max": [
+          -14.65000015625,
+          1.7500000238280555,
+          2.660307199367988
+        ]
+      }
+    },
+    {
+      "index": 344,
+      "object_id": "fff3dca6-6cb2-42fb-8c17-eb558013e0b6",
+      "source_name": "GR4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -15.42613296875,
+          -1.7498886480469447,
+          1.9715376681179877
+        ],
+        "max": [
+          -14.850000156250001,
+          -1.7497792730469446,
+          2.6570064181179878
+        ]
+      }
+    },
+    {
+      "index": 362,
+      "object_id": "ea3ad6f8-d647-464b-8c87-a43351060fa8",
+      "source_name": "glass 24",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -14.653230625,
+          -1.9846738042969445,
+          1.9416958712429877
+        ],
+        "max": [
+          -12.7147101171875,
+          -1.8080234136719446,
+          2.574611886867988
+        ]
+      }
+    },
+    {
+      "index": 363,
+      "object_id": "3983cb4b-ca78-4a38-a358-60f2f7acbd31",
+      "source_name": "glass 24",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -14.653230625,
+          1.8080234613280555,
+          1.9416958712429877
+        ],
+        "max": [
+          -12.7147101171875,
+          1.9846738519530553,
+          2.574611886867988
+        ]
+      }
+    },
+    {
+      "index": 368,
+      "object_id": "7c09f66f-5841-4a94-be53-b92bd90a3e9b",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.302427890625,
+          -1.9735527105469446,
+          1.9603032931179878
+        ],
+        "max": [
+          -10.4433683203125,
+          -1.8036659917969446,
+          1.9794204806179878
+        ]
+      }
+    },
+    {
+      "index": 369,
+      "object_id": "d84e8b3e-9e11-41ef-9ea9-e3a4e9a8188d",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.7245597265625,
+          -1.9678613042969446,
+          2.0668892306179876
+        ],
+        "max": [
+          -11.661134921875,
+          -1.7600488042969447,
+          2.6717915743679876
+        ]
+      }
+    },
+    {
+      "index": 370,
+      "object_id": "eeda2631-7fc2-48b6-b9a2-a2883a6e2e4f",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.6963585546875,
+          -1.9786406011719446,
+          1.9603032931179878
+        ],
+        "max": [
+          -11.2942648046875,
+          -1.8706835699219446,
+          2.070914621242988
+        ]
+      }
+    },
+    {
+      "index": 371,
+      "object_id": "796a602a-62c6-43b1-813e-969f81bd9e2d",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.724560703125,
+          -1.8787773199219446,
+          1.9771353243679877
+        ],
+        "max": [
+          -10.4554991796875,
+          -1.6940312261719446,
+          2.6796763399929877
+        ]
+      }
+    },
+    {
+      "index": 372,
+      "object_id": "96f6bc2c-ae7d-476e-b6d8-596f627eaf6a",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -10.49407828125,
+          2.3828055418562143e-08,
+          1.7195337618679878
+        ],
+        "max": [
+          -9.100000156250001,
+          1.8806894769530553,
+          2.091818918117988
+        ]
+      }
+    },
+    {
+      "index": 373,
+      "object_id": "703b1fee-0dcf-42be-901c-de2bed970c03",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -10.780404453125,
+          1.8573730707030554,
+          1.7080864962429878
+        ],
+        "max": [
+          -9.98985171875,
+          1.9596465082030554,
+          1.9728130587429877
+        ]
+      }
+    },
+    {
+      "index": 374,
+      "object_id": "65df8fea-4411-4451-9968-3af298daf547",
+      "source_name": "",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.724560703125,
+          1.6940312738280554,
+          1.9771353243679877
+        ],
+        "max": [
+          -10.4554991796875,
+          1.8787773675780555,
+          2.6796763399929877
+        ]
+      }
+    },
+    {
+      "index": 375,
+      "object_id": "676b9c42-9862-4e08-a81b-b12d6d17838d",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.6963585546875,
+          1.8706836175780555,
+          1.9603032931179878
+        ],
+        "max": [
+          -11.2942648046875,
+          1.9786406488280555,
+          2.070914621242988
+        ]
+      }
+    },
+    {
+      "index": 376,
+      "object_id": "3aaf4929-d223-4db5-9fa2-37a17d549f77",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -12.7245597265625,
+          1.7600488519530555,
+          2.0668892306179876
+        ],
+        "max": [
+          -11.661134921875,
+          1.9678613519530554,
+          2.6717915743679876
+        ]
+      }
+    },
+    {
+      "index": 377,
+      "object_id": "c48fb77e-c7a0-4774-b873-c365d51cc5fb",
+      "source_name": "gr5",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -11.302427890625,
+          1.8036660394530555,
+          1.9603032931179878
+        ],
+        "max": [
+          -10.4433683203125,
+          1.9735527582030554,
+          1.9794204806179878
+        ]
+      }
+    },
+    {
+      "index": 478,
+      "object_id": "57a33295-b699-4ce5-9558-477c26fcf4ae",
+      "source_name": "gr4",
+      "bounds_method": "cached_mesh_bounds",
+      "working_bounds_m": {
+        "min": [
+          -19.752138828125002,
+          -2.8766640386719446,
+          1.4910630587429878
+        ],
+        "max": [
+          -0.3446540869140622,
+          2.8726640863280553,
+          1.8889204806179878
+        ]
+      }
+    }
+  ]
+}

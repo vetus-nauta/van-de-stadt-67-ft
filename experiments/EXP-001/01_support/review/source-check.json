@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "source_sha256": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+  "brep_objects_with_meshes": 314,
+  "basis_objects_checked": [
+    {
+      "index": 133,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 144,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 190,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 191,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 198,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 212,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 325,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 328,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 329,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 331,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 332,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 333,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 334,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 335,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 336,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 338,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 339,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 340,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 343,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 344,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 362,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 363,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 368,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 369,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 370,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 371,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 372,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 373,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 374,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 375,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 376,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 377,
+      "max_difference_m": 0.0
+    },
+    {
+      "index": 478,
+      "max_difference_m": 0.0
+    }
+  ],
+  "mesh_accuracy": "Original cached meshes, unknown tessellation tolerance; no exact NURBS claim."
+}

@@ -33,3 +33,8 @@ deliverables/G02/**/*.log -whitespace linguist-generated=true
 *.FCStd binary
 deliverables/T01/** -text whitespace=cr-at-eol
 deliverables/T01/**/*.log -whitespace linguist-generated=true
+
+# Experimental releases preserve exact checked bytes.
+experiments/** -text whitespace=cr-at-eol
+experiments/**/*.log -whitespace linguist-generated=true
+*.gz binary

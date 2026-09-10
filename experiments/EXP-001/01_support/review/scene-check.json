@@ -1,0 +1,55 @@
+{
+  "scope": "EXPERIMENTAL_GEOMETRY_ONLY_NOT_ENGINEERING_ACCEPTANCE",
+  "reference_objects_preserved": 314,
+  "reference_mesh_and_world_transforms_identical_to_V02": true,
+  "max_native_mesh_coordinate_delta_m": 9.497070330155566e-07,
+  "reference_objects_hidden_in_collection": 61,
+  "new_mesh_objects": 344,
+  "glass_panels_checked": 48,
+  "vertical_xy_delta_max_m": 0,
+  "radius_error_max_m": 2.097730010808263e-07,
+  "new_front_x_m": -7.797999858856201,
+  "extension_m": 3.0,
+  "aft_lowest_frame_z_m": 3.0999999046325684,
+  "conditional_aft_clearance_m": 2.0999999046325684,
+  "rooflight_frame_plan_overlaps": [],
+  "rooflights_checked": 8,
+  "human_z_min_max_m": [
+    1.0,
+    3.0
+  ],
+  "mast_axis_structure_z_coverage": [
+    [
+      0.11999999731779099,
+      0.30000001192092896,
+      "EXP_foundation_ZONE_UNKNOWN"
+    ],
+    [
+      0.25,
+      2.6470000743865967,
+      "EXP_compression_post_SUPPORT_UNVERIFIED"
+    ],
+    [
+      2.6470000743865967,
+      2.796999931335449,
+      "EXP_longitudinal_reserved_beam_0_-9.44"
+    ],
+    [
+      2.796999931335449,
+      2.877000093460083,
+      "EXP_mast_bearing_TRANSFER_RESERVATION"
+    ],
+    [
+      2.877000093460083,
+      3.056999921798706,
+      "EXP_mast_step_RESERVATION"
+    ],
+    [
+      3.057000160217285,
+      6.199999809265137,
+      "EXP_mast_axis_PROVISIONAL_NOT_FULL_RIG"
+    ]
+  ],
+  "mast_axis_geometry_gaps": [],
+  "mast_load_capacity": "NOT_CHECKED; lower support is a hypothetical zone"
+}
