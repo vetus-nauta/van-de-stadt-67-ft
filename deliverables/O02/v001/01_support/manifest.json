@@ -1,0 +1,96 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_office-launch.md",
+      "sha256": "e78295791137c3bfe517f6ca4704f028c6762393204d6e5a1a95dc0c246a021c",
+      "bytes": 13324
+    },
+    {
+      "path": "01_support/00_acceptance.md",
+      "sha256": "63675574b444873cc1af4c873efbed138192c8e3cc51dc86f9f98eab7220c620",
+      "bytes": 5859
+    },
+    {
+      "path": "01_support/commercial/00_commercial-basis.md",
+      "sha256": "db19a357f3776d0c15a7c781fdf25846246ad02665793e903bf7aa8dace1b005",
+      "bytes": 9046
+    },
+    {
+      "path": "01_support/commercial/learning-card.md",
+      "sha256": "5f9685e8ce24d9f8a507126e02ebc0b05a01672f47df80b3ad5c0e6d7e2d477d",
+      "bytes": 4662
+    },
+    {
+      "path": "01_support/commercial/preliminary-market-note.md",
+      "sha256": "cb6854e7c98e28f7d5290a073a777d06b490a973b8a9744f89aa981017859e1e",
+      "bytes": 4324
+    },
+    {
+      "path": "01_support/commercial/rfq-drafts.md",
+      "sha256": "9cc371605d1ce5fde52a55f1f06ac40904d5c77321583ff81a043c3482f32e95",
+      "bytes": 6935
+    },
+    {
+      "path": "01_support/design/00_design-basis.md",
+      "sha256": "541cfb89d0772536a52aa8a23fe05d3c27521636ca35b7900efe1f946b4d8f3c",
+      "bytes": 22073
+    },
+    {
+      "path": "01_support/design/01_project-brief.md",
+      "sha256": "528985e11bd6445865675d8c5fac3f523561b4d940e5233608d5aee49c2fd99f",
+      "bytes": 11701
+    },
+    {
+      "path": "01_support/design/design-gaps.csv",
+      "sha256": "f01a563561357a425e4d7bc876f119d6653df324e0a7d17b6ae34e5401cc9427",
+      "bytes": 7061
+    },
+    {
+      "path": "01_support/design/layout-zones.csv",
+      "sha256": "25c3ac653681136c133e7f73e68921f35be47c7c2a940b66de1727ce5d29f9b6",
+      "bytes": 5988
+    },
+    {
+      "path": "01_support/design/learning-card.md",
+      "sha256": "9c71dcc0c726c9916d957a9fedbac6e1b28db5f8cd5ebad3f6b7851ad5959574",
+      "bytes": 5840
+    },
+    {
+      "path": "01_support/review/00_review.md",
+      "sha256": "64511e10f27950d62dced632b3dc938e62bac2afaba56dc7d0f1090ad17a7af9",
+      "bytes": 10851
+    },
+    {
+      "path": "01_support/review/findings.csv",
+      "sha256": "33d40c90301e06cc9fe5385fa4f554a25e4fb89eb2dcb3724a4e58cafae4c3c9",
+      "bytes": 5143
+    },
+    {
+      "path": "01_support/systems/00_systems-basis.md",
+      "sha256": "2c5f58dd0650eaeced078a420efe732a7c7ff1678d3ad228ced979cecfb371b5",
+      "bytes": 11991
+    },
+    {
+      "path": "01_support/systems/equipment-register.csv",
+      "sha256": "7d78a4941849a77cd93a173fb2bcb7ef8828ae5ba2a378d1e2625c8fc421f478",
+      "bytes": 131696
+    },
+    {
+      "path": "01_support/systems/interface-register.csv",
+      "sha256": "8eaa21974068559601b54600c9d20e7381d8b1f408fa5a2e6151f13942e41efe",
+      "bytes": 21715
+    },
+    {
+      "path": "01_support/systems/learning-card.md",
+      "sha256": "a1d5010ecb27b30cc877274970e5f3aade005e7cadfba78410abbd1f20422ceb",
+      "bytes": 7410
+    }
+  ]
+}

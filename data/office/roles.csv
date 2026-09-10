@@ -1,8 +1,9 @@
 role_id;role_name;assignee;appointment_status;scope;reviewer
-HEAD;Начальник;;UNASSIGNED;Управление и внутренний выпуск;
-DESIGN;Проектный руководитель;;UNASSIGNED;Технические основания и интерфейсы;
-ESTIMATE;Сметчик;;UNASSIGNED;Количества и стоимость;
-PROCUREMENT;Аналитик предложений;;UNASSIGNED;Сопоставление КП;
-PLAN;Планирование и контроль;;UNASSIGNED;Сроки и прогноз;
-REVIEW;Независимый проверяющий;;UNASSIGNED;Проверка чужой работы;
-DOCS;Выпускающий;;UNASSIGNED;Версии и комплектность;
+HEAD;Начальник;/root;ACTIVE;Управление заданиями, решения, сведение и внутренний выпуск;REVIEW для содержательных результатов
+DESIGN;Корпус и общая компоновка;/root/naval_layout;APPOINTED_O02_COMPLETED;"Чтение чертежей; зональные варианты и интерьер; расчётный допуск отдельно";/root/independent_review
+SYSTEMS;Интеграция систем;/root/systems;APPOINTED_O02_COMPLETED;Ведомость оборудования, размещение по зонам и интерфейсы;/root/independent_review
+PROCUREMENT;Закупки и сравнение предложений;/root/procurement_cost;APPOINTED_O02_COMPLETED;"Польша/ЕС; первичные рыночные источники и готовые запросы без отправки";/root/independent_review
+ESTIMATE;Сметная подготовка;/root/procurement_cost;APPOINTED_O02_COMPLETED;"WBS, условия КАЦ и будущей УТВ; пока без полного денежного расчёта";/root/independent_review
+PLAN;Планирование;/root;ACTIVE;Зависимости, очередность, контроль результатов специалистов;REVIEW
+REVIEW;Независимая проверка;/root/independent_review;APPOINTED_O02_COMPLETED;Проверка чужих результатов после готовности авторов;HEAD принимает решение
+DOCS;Выпуск и синхронизация;/root;ACTIVE;Реестры, журнал, manifest, сохранность исходников и GitHub;Контроль SHA и дерева
