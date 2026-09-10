@@ -1,0 +1,74 @@
+system,item,value_or_status,confidence,next_action
+Identity,Designer,Van de Stadt Design,CONFIRMED-430,None
+Identity,Design number,430,CONFIRMED-430,Recover original drawing revision
+Hull,LOA,20.50 m,CONFIRMED-430/HULL,Physical verification
+Hull,LWL,17.50 m,CONFIRMED-430/HULL,Confirm design waterline on hull
+Hull,Beam,5.50 m official list / 5.75 m design-listing variants / 5.80 m BoatNet,CONFLICT,Measure maximum beam and recover drawing
+Hull,Draft,2.50 m original / 2.80-3.00 m current listings,CONFLICT,Measure keel geometry and installed ballast condition
+Hull,Freeboard,~1.80 m,CONFIRMED-HULL listing,Measure bow/mid/aft from datum
+Hull,Original design displacement,51 t,CONFIRMED-430,Recover loading definition and hydrostatics
+Hull,Current unfinished dry weight,11 t,CONFIRMED-HULL listing,Calibrated weighing and inventory condition
+Stability,Original ballast,19 t,CONFIRMED-430,Recover ballast drawing and CG
+Stability,Current listing ballast,15 t,CONFIRMED-HULL listing,Confirm installed/planned and material
+Rig,Total sail area,241 m2,CONFIRMED-430/HULL,Recover sail plan
+Rig,Mainsail area,131 m2,CONFIRMED-HULL listing,Recover P/E dimensions
+Rig,Headsail area,110 m2,CONFIRMED-HULL listing,Recover I/J dimensions
+Rig,Air draft,~32 m,CONFIRMED-HULL listing,Measure mast plan before ordering
+Rig,Mast material,Unknown,TO-DECIDE,Compare aluminium vs carbon using RM/weight/cost
+Rig,Boom,Unknown,TO-DECIDE,Define sail-handling system
+Rig,Standing rigging,Unknown,TO-DECIDE,Engineer from righting moment
+Deck,Primary winches,Unknown,TO-DECIDE,Size from sheet loads
+Deck,Halyard winches,Unknown,TO-DECIDE,Size from sail handling plan
+Deck,Windlass,Unknown,TO-DECIDE,Size from displacement/anchor/chain
+Deck,Anchor and chain,Unknown,TO-DECIDE,Define operating profile and class requirements
+Propulsion,Main engine,None published for current hull,OPEN,Resistance/propulsion study
+Propulsion,Study power range,150-250+ hp,PROVISIONAL,Calculate from displacement/resistance
+Propulsion,Gearbox,Unknown,OPEN,Select with engine and prop rpm
+Propulsion,Shaft diameter,Unknown,OPEN,Measure geometry and calculate
+Propulsion,Reference shaft,50 mm stainless on Stadtship 70,REFERENCE,Do not copy without calculation
+Propulsion,Propeller,Unknown,OPEN,Propeller aperture survey and sizing
+Propulsion,Reference propeller,4-blade folding Stadtship 70,REFERENCE,Compare fixed/folding/feathering
+Steering,Rudder stock,Unknown,TO-MEASURE,Measure material/diameter/bearings
+Steering,Steering gear,Unknown,OPEN,Compare mechanical/hydraulic architecture
+Steering,Autopilot,Unknown,OPEN,Design independent drive attachment
+Steering,Emergency tiller,Unknown,OPEN,Recover/engineer geometry
+Thruster,Bow thruster,Unknown,OPEN,Calculate thrust and compare tunnel/retractable
+Electrical,House DC bus,24 V likely baseline,PROVISIONAL,Energy architecture study
+Electrical,AC bus,230 V 50 Hz likely EU baseline,PROVISIONAL,Define shore/genset/inverter architecture
+Electrical,House battery,Unknown,OPEN,Build 24 h load model then size
+Electrical,Genset,Unknown,OPEN,Size from simultaneous hotel load
+Electrical,Reference genset,Onan 7.5 kVA Stadtship 70,REFERENCE,Historical comparison only
+Electrical,Reference house bank,24 V 1000 Ah Stadtship 70,REFERENCE,Historical comparison only
+Electrical,Shore isolation,Required strategy for aluminium hull,DESIGN REQUIREMENT,Marine electrical engineering review
+Fuel,Fuel tank count,2,CONFIRMED-HULL listing,Measure capacities and positions
+Fuel,Fuel tank capacity,Unknown,TO-MEASURE,3D tank survey/calculation
+Fuel,Day tank,Unknown,OPEN,Decide after fuel-system architecture
+Water,Fresh-water tank count,2,CONFIRMED-HULL listing,Measure capacities and positions
+Water,Fresh-water capacity,Unknown,TO-MEASURE,Calculate endurance requirement
+Waste,Black-water tank count,1,CONFIRMED-HULL listing,Measure capacity and routing
+Waste,Grey-water tank,Unknown,OPEN,Define regulatory/operational scheme
+Watermaker,Capacity,Unknown,OPEN,Size from occupancy/autonomy/energy
+Watermaker,Reference,Spectra Newport 400 ~64 L/h Stadtship 70,REFERENCE,Compare modern alternatives
+Hot water,Boilers,Unknown,OPEN,Size from guest count and heat sources
+HVAC,Cooling/heating system,Unknown,OPEN,Thermal-load calculation
+Bilge,Electric bilge pumps,Unknown,OPEN,Design zoned redundant system
+Bilge,High-water alarms,Unknown,DESIGN REQUIREMENT,Independent alarm circuits
+Fire,Engine-room fixed suppression,Unknown,OPEN,Select after machinery-space volume fixed
+Fire,Detection,Unknown,OPEN,Design smoke/heat/engine-room alarm system
+Accommodation,Guest cabins,3,CONFIRMED-HULL listing,Recover/measure GA
+Accommodation,Guest heads,3,CONFIRMED-HULL listing,Recover/measure GA
+Accommodation,Headroom,~2.0 m,CONFIRMED-HULL listing,Physical verification
+Machinery,Engine-room envelope,Unknown,TO-MEASURE,3D survey and removal-route study
+Machinery,Generator location,Unknown,TO-MEASURE/DECIDE,Coordinate with structure and exhaust
+Machinery,Technical room,Unknown,OPEN,Reserve serviceable system concentration zone
+Structure,Plate alloy/temper,Unknown,TO-DOCUMENT,Obtain material certificates
+Structure,Plate thickness map,Unknown,TO-MEASURE/DOCUMENT,UT/physical and drawing verification
+Structure,Frame spacing/scantlings,Unknown,TO-MEASURE/DOCUMENT,Station survey
+Structure,Longitudinals,Unknown,TO-MEASURE/DOCUMENT,Station survey
+Structure,Mast step,Unknown,TO-MEASURE/DOCUMENT,Recover structural drawing
+Structure,Chainplates,Unknown,TO-MEASURE/DOCUMENT,Recover structural drawing
+Structure,Keel structure,Unknown,TO-MEASURE/DOCUMENT,Recover structural/ballast drawing
+Structure,Weld/NDT records,Unknown,TO-DOCUMENT,Request builder dossier
+Navigation,Autopilot/radar/AIS/comms,Unknown,OPEN,Define integrated bridge architecture
+Networking,Data backbone,NMEA 2000/Ethernet likely,PROVISIONAL,Define redundancy and cable routes
+Safety,Liferaft/EPIRB/fire/bilge package,Unknown,OPEN,Select to flag/class/operating area
