@@ -1,0 +1,13 @@
+wbs_id;parent_id;name;scope;status;owner_role;source_ref
+W00;;Управление проектом;Задание, бюджет, координация и документы;PROPOSED;HEAD;office/HANDOFF-TO-HEAD.md
+W01;;Исходники и обследование;Получение документов, обмер и состояние существующего;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W02;;Проектирование и применимость требований;Расчётные задания, решения и необходимые согласования;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W10;;Корпус и конструкция;Существующее, доработки и подтверждённые объёмы конструкции;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W20;;Рангоут и палуба;Пакеты систем Rig и Deck исходной базы;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W30;;Движение и управление;Propulsion, Steering и Thruster;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W40;;Энергия, электрика и связь;Electrical, Navigation и Networking;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W50;;Жидкостные системы и климат;Fuel, Water, Waste, Watermaker, Hot water, HVAC и Bilge;PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W60;;Компоновка и интерьер;"Accommodation и Machinery; смежные границы уточняются";PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W70;;Безопасность;"Fire и Safety; требования ещё подлежат установлению";PROPOSED;DESIGN;office/HANDOFF-TO-HEAD.md
+W80;;Интеграция, испытания и передача;Монтажные стыки и согласованный объём проверки/сдачи;PROPOSED;PLAN;office/HANDOFF-TO-HEAD.md
+W90;;Логистика и условия производства;Доставка, хранение, доступ и производственная площадка по применимости;PROPOSED;PLAN;office/HANDOFF-TO-HEAD.md

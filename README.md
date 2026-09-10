@@ -65,3 +65,7 @@ The 2008 **Van de Stadt Stadtship 70** (21.0 m aluminium, design No. 670) is clo
 
 ## Sources
 Primary and comparison sources are recorded in `sources/SOURCES.md`. No unverified marketplace value should be treated as a design-office value without an explicit tag.
+
+## Проектно-сметный офис / Project & estimating office
+
+10.09.2026: добавлена общая операционная основа для будущей команды достройки яхты. Начать с [хендофа начальнику](office/HANDOFF-TO-HEAD.md), затем [карты офиса](office/README.md). Правила для исполнителей — [AGENTS.md](AGENTS.md). Исходная техническая база и её статусы сохранены; отраслевую специализацию выполнит будущая команда.

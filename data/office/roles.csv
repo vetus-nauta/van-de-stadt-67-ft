@@ -1,0 +1,8 @@
+role_id;role_name;assignee;appointment_status;scope;reviewer
+HEAD;Начальник;;UNASSIGNED;Управление и внутренний выпуск;
+DESIGN;Проектный руководитель;;UNASSIGNED;Технические основания и интерфейсы;
+ESTIMATE;Сметчик;;UNASSIGNED;Количества и стоимость;
+PROCUREMENT;Аналитик предложений;;UNASSIGNED;Сопоставление КП;
+PLAN;Планирование и контроль;;UNASSIGNED;Сроки и прогноз;
+REVIEW;Независимый проверяющий;;UNASSIGNED;Проверка чужой работы;
+DOCS;Выпускающий;;UNASSIGNED;Версии и комплектность;

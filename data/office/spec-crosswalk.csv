@@ -1,0 +1,74 @@
+spec_id;source_row;system;item;source_value;source_confidence;source_commit;wbs_id;operational_status;next_action
+SPEC-0001;2;Identity;Designer;Van de Stadt Design;CONFIRMED-430;786f60ae55773337f780860f8043b4232c8b16b7;W00;IMPORTED_NOT_REVALIDATED;None
+SPEC-0002;3;Identity;Design number;430;CONFIRMED-430;786f60ae55773337f780860f8043b4232c8b16b7;W00;IMPORTED_NOT_REVALIDATED;Recover original drawing revision
+SPEC-0003;4;Hull;LOA;20.50 m;CONFIRMED-430/HULL;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Physical verification
+SPEC-0004;5;Hull;LWL;17.50 m;CONFIRMED-430/HULL;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Confirm design waterline on hull
+SPEC-0005;6;Hull;Beam;5.50 m official list / 5.75 m design-listing variants / 5.80 m BoatNet;CONFLICT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Measure maximum beam and recover drawing
+SPEC-0006;7;Hull;Draft;2.50 m original / 2.80-3.00 m current listings;CONFLICT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Measure keel geometry and installed ballast condition
+SPEC-0007;8;Hull;Freeboard;~1.80 m;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Measure bow/mid/aft from datum
+SPEC-0008;9;Hull;Original design displacement;51 t;CONFIRMED-430;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Recover loading definition and hydrostatics
+SPEC-0009;10;Hull;Current unfinished dry weight;11 t;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Calibrated weighing and inventory condition
+SPEC-0010;11;Stability;Original ballast;19 t;CONFIRMED-430;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Recover ballast drawing and CG
+SPEC-0011;12;Stability;Current listing ballast;15 t;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Confirm installed/planned and material
+SPEC-0012;13;Rig;Total sail area;241 m2;CONFIRMED-430/HULL;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Recover sail plan
+SPEC-0013;14;Rig;Mainsail area;131 m2;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Recover P/E dimensions
+SPEC-0014;15;Rig;Headsail area;110 m2;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Recover I/J dimensions
+SPEC-0015;16;Rig;Air draft;~32 m;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Measure mast plan before ordering
+SPEC-0016;17;Rig;Mast material;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Compare aluminium vs carbon using RM/weight/cost
+SPEC-0017;18;Rig;Boom;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Define sail-handling system
+SPEC-0018;19;Rig;Standing rigging;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Engineer from righting moment
+SPEC-0019;20;Deck;Primary winches;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Size from sheet loads
+SPEC-0020;21;Deck;Halyard winches;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Size from sail handling plan
+SPEC-0021;22;Deck;Windlass;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Size from displacement/anchor/chain
+SPEC-0022;23;Deck;Anchor and chain;Unknown;TO-DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W20;IMPORTED_NOT_REVALIDATED;Define operating profile and class requirements
+SPEC-0023;24;Propulsion;Main engine;None published for current hull;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Resistance/propulsion study
+SPEC-0024;25;Propulsion;Study power range;150-250+ hp;PROVISIONAL;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Calculate from displacement/resistance
+SPEC-0025;26;Propulsion;Gearbox;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Select with engine and prop rpm
+SPEC-0026;27;Propulsion;Shaft diameter;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Measure geometry and calculate
+SPEC-0027;28;Propulsion;Reference shaft;50 mm stainless on Stadtship 70;REFERENCE;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Do not copy without calculation
+SPEC-0028;29;Propulsion;Propeller;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Propeller aperture survey and sizing
+SPEC-0029;30;Propulsion;Reference propeller;4-blade folding Stadtship 70;REFERENCE;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Compare fixed/folding/feathering
+SPEC-0030;31;Steering;Rudder stock;Unknown;TO-MEASURE;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Measure material/diameter/bearings
+SPEC-0031;32;Steering;Steering gear;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Compare mechanical/hydraulic architecture
+SPEC-0032;33;Steering;Autopilot;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Design independent drive attachment
+SPEC-0033;34;Steering;Emergency tiller;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Recover/engineer geometry
+SPEC-0034;35;Thruster;Bow thruster;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W30;IMPORTED_NOT_REVALIDATED;Calculate thrust and compare tunnel/retractable
+SPEC-0035;36;Electrical;House DC bus;24 V likely baseline;PROVISIONAL;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Energy architecture study
+SPEC-0036;37;Electrical;AC bus;230 V 50 Hz likely EU baseline;PROVISIONAL;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Define shore/genset/inverter architecture
+SPEC-0037;38;Electrical;House battery;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Build 24 h load model then size
+SPEC-0038;39;Electrical;Genset;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Size from simultaneous hotel load
+SPEC-0039;40;Electrical;Reference genset;Onan 7.5 kVA Stadtship 70;REFERENCE;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Historical comparison only
+SPEC-0040;41;Electrical;Reference house bank;24 V 1000 Ah Stadtship 70;REFERENCE;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Historical comparison only
+SPEC-0041;42;Electrical;Shore isolation;Required strategy for aluminium hull;DESIGN REQUIREMENT;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Marine electrical engineering review
+SPEC-0042;43;Fuel;Fuel tank count;2;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Measure capacities and positions
+SPEC-0043;44;Fuel;Fuel tank capacity;Unknown;TO-MEASURE;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;3D tank survey/calculation
+SPEC-0044;45;Fuel;Day tank;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Decide after fuel-system architecture
+SPEC-0045;46;Water;Fresh-water tank count;2;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Measure capacities and positions
+SPEC-0046;47;Water;Fresh-water capacity;Unknown;TO-MEASURE;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Calculate endurance requirement
+SPEC-0047;48;Waste;Black-water tank count;1;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Measure capacity and routing
+SPEC-0048;49;Waste;Grey-water tank;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Define regulatory/operational scheme
+SPEC-0049;50;Watermaker;Capacity;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Size from occupancy/autonomy/energy
+SPEC-0050;51;Watermaker;Reference;Spectra Newport 400 ~64 L/h Stadtship 70;REFERENCE;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Compare modern alternatives
+SPEC-0051;52;Hot water;Boilers;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Size from guest count and heat sources
+SPEC-0052;53;HVAC;Cooling/heating system;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Thermal-load calculation
+SPEC-0053;54;Bilge;Electric bilge pumps;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Design zoned redundant system
+SPEC-0054;55;Bilge;High-water alarms;Unknown;DESIGN REQUIREMENT;786f60ae55773337f780860f8043b4232c8b16b7;W50;IMPORTED_NOT_REVALIDATED;Independent alarm circuits
+SPEC-0055;56;Fire;Engine-room fixed suppression;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W70;IMPORTED_NOT_REVALIDATED;Select after machinery-space volume fixed
+SPEC-0056;57;Fire;Detection;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W70;IMPORTED_NOT_REVALIDATED;Design smoke/heat/engine-room alarm system
+SPEC-0057;58;Accommodation;Guest cabins;3;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;Recover/measure GA
+SPEC-0058;59;Accommodation;Guest heads;3;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;Recover/measure GA
+SPEC-0059;60;Accommodation;Headroom;~2.0 m;CONFIRMED-HULL listing;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;Physical verification
+SPEC-0060;61;Machinery;Engine-room envelope;Unknown;TO-MEASURE;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;3D survey and removal-route study
+SPEC-0061;62;Machinery;Generator location;Unknown;TO-MEASURE/DECIDE;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;Coordinate with structure and exhaust
+SPEC-0062;63;Machinery;Technical room;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W60;IMPORTED_NOT_REVALIDATED;Reserve serviceable system concentration zone
+SPEC-0063;64;Structure;Plate alloy/temper;Unknown;TO-DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Obtain material certificates
+SPEC-0064;65;Structure;Plate thickness map;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;UT/physical and drawing verification
+SPEC-0065;66;Structure;Frame spacing/scantlings;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Station survey
+SPEC-0066;67;Structure;Longitudinals;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Station survey
+SPEC-0067;68;Structure;Mast step;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Recover structural drawing
+SPEC-0068;69;Structure;Chainplates;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Recover structural drawing
+SPEC-0069;70;Structure;Keel structure;Unknown;TO-MEASURE/DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Recover structural/ballast drawing
+SPEC-0070;71;Structure;Weld/NDT records;Unknown;TO-DOCUMENT;786f60ae55773337f780860f8043b4232c8b16b7;W10;IMPORTED_NOT_REVALIDATED;Request builder dossier
+SPEC-0071;72;Navigation;Autopilot/radar/AIS/comms;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Define integrated bridge architecture
+SPEC-0072;73;Networking;Data backbone;NMEA 2000/Ethernet likely;PROVISIONAL;786f60ae55773337f780860f8043b4232c8b16b7;W40;IMPORTED_NOT_REVALIDATED;Define redundancy and cable routes
+SPEC-0073;74;Safety;Liferaft/EPIRB/fire/bilge package;Unknown;OPEN;786f60ae55773337f780860f8043b4232c8b16b7;W70;IMPORTED_NOT_REVALIDATED;Select to flag/class/operating area
