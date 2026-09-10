@@ -1,0 +1,12 @@
+source;member;document_id;sha256;canonical_path;disposition
+attachments.zip;2-1.3dm;DOC-001;814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8;documentation/01-hull-and-geometry/3d/2-1.3dm;CANONICAL
+attachments.zip;7-1.pdf;DOC-003;71c31e8ddcea35efb728e7567f18e7a78359f5aadf365bf3f8f5ce006a7a8486;documentation/02-general-arrangement/7-1.pdf;CANONICAL
+attachments.zip;8-1.pdf;DOC-004;d385d61571106e80be1e818969f47170e15d1d23024c074d220a6b3d40485cb1;documentation/03-rig-and-sails/8-1.pdf;CANONICAL
+attachments (1).zip;60EFCC49-2240-4061-8B70-3D480DCC43CE.jpg;DOC-005;3481bc91aac8ddd742cea61a99fdd47bec8b1d83701565d357b1a37a7d75d462;documentation/04-photos/hull/60EFCC49-2240-4061-8B70-3D480DCC43CE.jpg;CANONICAL
+attachments (1).zip;2-1.3dm;DOC-001;814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8;documentation/01-hull-and-geometry/3d/2-1.3dm;EXACT_DUPLICATE
+attachments (2).zip;2-1.3dm;DOC-001;814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8;documentation/01-hull-and-geometry/3d/2-1.3dm;EXACT_DUPLICATE
+attachments (2).zip;7-1.pdf;DOC-003;71c31e8ddcea35efb728e7567f18e7a78359f5aadf365bf3f8f5ce006a7a8486;documentation/02-general-arrangement/7-1.pdf;EXACT_DUPLICATE
+attachments (2).zip;8-1.pdf;DOC-004;d385d61571106e80be1e818969f47170e15d1d23024c074d220a6b3d40485cb1;documentation/03-rig-and-sails/8-1.pdf;EXACT_DUPLICATE
+attachments (2).zip;3898828_20120417012409_4_XLARGE.jpg;DOC-006;3873ca45117ad4c290258463b9904ff27be074d5df14fa9782913bdf66f17b00;documentation/05-reference-images/3898828_20120417012409_4_XLARGE.jpg;CANONICAL
+Linie teoretyczne VDS 67.DWG;;DOC-002;1d6a5b151c62a5902ed784fe18d8f11e08a844355561c5086203c4694b31b589;documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG;CANONICAL
+text-vnd.google.email-reaction+json-attachment;;AUX-001;a508002a094808df504618aab757f502e9c77ddab949f84d0d2f066115966caa;documentation/99-service/email-reaction.json;CANONICAL

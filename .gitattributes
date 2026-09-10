@@ -6,3 +6,10 @@
 *.xlsx binary
 *.docx binary
 *.xml -text
+
+# Preserve original document bytes; do not normalize line endings.
+documentation/**/*.3dm -text
+documentation/**/*.DWG -text
+documentation/**/*.pdf -text
+documentation/**/*.jpg -text
+documentation/99-service/email-reaction.json -text

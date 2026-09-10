@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-10",
+  "location": ".local/research/R01-2026-09-10/",
+  "note": "Original PDFs are local and ignored by Git. Reading scope is recorded in sources.csv.",
+  "files": [
+    {
+      "file": "layout-2026.pdf",
+      "bytes": 9140151,
+      "sha256": "a0644a74bbf314c1edf0e0d64c8bf06f5815526101875c9143a80ace5596f99a"
+    },
+    {
+      "file": "orc-sy-2026.pdf",
+      "bytes": 5822253,
+      "sha256": "f4d009b78bbe163c8d737e5a2585d373f009f40c80b59f3b5528949ad29e065b"
+    },
+    {
+      "file": "sail-fsi-trimarchi.pdf",
+      "bytes": 26950646,
+      "sha256": "8e1bd5c2af9e0e18269b34e4e1135eb657bb58db9d5e87f7256b1a90ec427636"
+    },
+    {
+      "file": "stability-usna.pdf",
+      "bytes": 1893602,
+      "sha256": "772a061c017fbef0a257c852de05d8a7b3e53ae4b8fb2201f36e561e1a5d7679"
+    }
+  ]
+}

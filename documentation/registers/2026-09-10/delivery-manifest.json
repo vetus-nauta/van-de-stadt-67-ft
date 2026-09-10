@@ -1,0 +1,31 @@
+{
+  "received": "2026-09-10",
+  "originals_location": ".local/original-deliveries/2026-09-10/",
+  "files": [
+    {
+      "name": "attachments.zip",
+      "bytes": 6729333,
+      "sha256": "225f039bfa1524804521eea7a56e76f8cd2dd21f6fb781901f6250e60d3f4669"
+    },
+    {
+      "name": "attachments (1).zip",
+      "bytes": 6322136,
+      "sha256": "ce30d86175f702f577ee3e4a8ab84df8c91dcdeb83c5e662da62de7b4a9519cb"
+    },
+    {
+      "name": "attachments (2).zip",
+      "bytes": 6734696,
+      "sha256": "f0fead9a2de9e2a35b71f42ebe35e1da436e45101d646ee1f94f5934cb2cbabc"
+    },
+    {
+      "name": "Linie teoretyczne VDS 67.DWG",
+      "bytes": 348145,
+      "sha256": "1d6a5b151c62a5902ed784fe18d8f11e08a844355561c5086203c4694b31b589"
+    },
+    {
+      "name": "text-vnd.google.email-reaction+json-attachment",
+      "bytes": 40,
+      "sha256": "a508002a094808df504618aab757f502e9c77ddab949f84d0d2f066115966caa"
+    }
+  ]
+}
