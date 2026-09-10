@@ -1,0 +1,4 @@
+Blender 4.0.2
+Read prefs: "/home/alexey/.config/blender/4.0/config/userpref.blend"
+usage: blender [-h] --out-dir OUT_DIR
+blender: error: the following arguments are required: --out-dir

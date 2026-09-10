@@ -1,0 +1,32 @@
+{
+  "status": "PASS_NATIVE_CONTOURS_AND_VERTICAL_250MM_INCREMENT",
+  "contours_checked": [
+    {
+      "index": 142,
+      "edge": 1,
+      "points": 513,
+      "max_difference_m": 8.881784197001252e-16
+    },
+    {
+      "index": 142,
+      "edge": 3,
+      "points": 513,
+      "max_difference_m": 8.881784197001252e-16
+    },
+    {
+      "index": 143,
+      "edge": 1,
+      "points": 513,
+      "max_difference_m": 1.7763568394002505e-15
+    },
+    {
+      "index": 143,
+      "edge": 3,
+      "points": 513,
+      "max_difference_m": 1.7763568394002505e-15
+    }
+  ],
+  "sections_checked": 9,
+  "proposed_hole_centres_checked": 6,
+  "meaning_limit": "Geometric classification; no material, thickness, existing as-built or load verification"
+}

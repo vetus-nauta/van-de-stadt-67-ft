@@ -1,0 +1,295 @@
+{
+  "status": "GEOMETRIC_EXPERIMENT_NOT_ENGINEERING",
+  "units": "m",
+  "source_blend_sha256": "f3b33300d3a72a10be57a852c8897ae05db199a8bb07f6e6afb505711e317565",
+  "bulwark_basis_sha256": "cf44183ebe4044a3e5357017457792ddd657839cdc41386e88ab649480a8a77e",
+  "bulwark_raise_m": 0.25,
+  "bulwark_datum": "existing top of native142/143, NOT deck",
+  "front_slope_deg": 45,
+  "front_slope_definition": "straight low forward wall: upper edge moves aft by same amount as rise in Z; rounding at corners varies",
+  "glass": "dark smoked visual material, no performance or transmission approval",
+  "roof": "continuous shallow-crown canopy with smooth longitudinal transitions, rounded margins, real cut-out rooflights",
+  "structures": "geometry-connected supports and knees; no strength/load approval",
+  "limits": [
+    "No rig/boom clearance verification",
+    "No actual floor/headroom approval",
+    "No glazing or structure scantling calculation",
+    "No drainage/freeing-port sizing",
+    "No as-built equivalence"
+  ],
+  "reference_count": 314,
+  "front_plane_x_plus_z": -2.977789,
+  "front_base_z": 1.820211,
+  "front_max_x": -4.798,
+  "rooflight_count": 8,
+  "supports": [
+    {
+      "source_index_contact": 67,
+      "base_contact_xyz": [
+        -18.1,
+        -1.5,
+        1.9508178234100342
+      ],
+      "top_xyz": [
+        -17.8,
+        -1.7,
+        3.7900000000000005
+      ],
+      "foot_corner_xyz": [
+        [
+          -18.200000000000003,
+          -1.58,
+          1.9500834941864014
+        ],
+        [
+          -18.0,
+          -1.58,
+          1.951546549797058
+        ],
+        [
+          -18.0,
+          -1.42,
+          1.9515479803085327
+        ],
+        [
+          -18.200000000000003,
+          -1.42,
+          1.9500914812088013
+        ]
+      ],
+      "status": "GEOMETRIC_CONTACT_ONLY_NOT_LOAD_PATH_VERIFICATION"
+    },
+    {
+      "source_index_contact": 457,
+      "base_contact_xyz": [
+        -15.65,
+        -1.84,
+        1.950010061264038
+      ],
+      "top_xyz": [
+        -15.35,
+        -1.84,
+        3.7900000000000005
+      ],
+      "foot_corner_xyz": [
+        [
+          -15.77,
+          -1.9100000000000001,
+          1.9345721006393433
+        ],
+        [
+          -15.530000000000001,
+          -1.9100000000000001,
+          1.9402227401733398
+        ],
+        [
+          -15.530000000000001,
+          -1.77,
+          1.9654484987258911
+        ],
+        [
+          -15.77,
+          -1.77,
+          1.9597969055175781
+        ]
+      ],
+      "status": "GEOMETRIC_CONTACT_ONLY_NOT_LOAD_PATH_VERIFICATION"
+    },
+    {
+      "source_index_contact": 93,
+      "base_contact_xyz": [
+        -18.1,
+        1.5,
+        1.9508179426193237
+      ],
+      "top_xyz": [
+        -17.8,
+        1.7,
+        3.7900000000000005
+      ],
+      "foot_corner_xyz": [
+        [
+          -18.200000000000003,
+          1.42,
+          1.9500914812088013
+        ],
+        [
+          -18.0,
+          1.42,
+          1.9515478610992432
+        ],
+        [
+          -18.0,
+          1.58,
+          1.9515464305877686
+        ],
+        [
+          -18.200000000000003,
+          1.58,
+          1.9500834941864014
+        ]
+      ],
+      "status": "GEOMETRIC_CONTACT_ONLY_NOT_LOAD_PATH_VERIFICATION"
+    },
+    {
+      "source_index_contact": 454,
+      "base_contact_xyz": [
+        -15.65,
+        1.84,
+        1.9500104188919067
+      ],
+      "top_xyz": [
+        -15.35,
+        1.84,
+        3.7900000000000005
+      ],
+      "foot_corner_xyz": [
+        [
+          -15.77,
+          1.77,
+          1.9597965478897095
+        ],
+        [
+          -15.530000000000001,
+          1.77,
+          1.9654486179351807
+        ],
+        [
+          -15.530000000000001,
+          1.9100000000000001,
+          1.9402236938476562
+        ],
+        [
+          -15.77,
+          1.9100000000000001,
+          1.934571385383606
+        ]
+      ],
+      "status": "GEOMETRIC_CONTACT_ONLY_NOT_LOAD_PATH_VERIFICATION"
+    }
+  ],
+  "openings": [
+    {
+      "zone": "aft",
+      "source_side_index": 142,
+      "centre_proposed_m": [
+        -18.0,
+        2.2115050423344584,
+        1.7268242326263972
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    },
+    {
+      "zone": "aft",
+      "source_side_index": 143,
+      "centre_proposed_m": [
+        -18.0,
+        -2.211505042334462,
+        1.7268242326263972
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    },
+    {
+      "zone": "midships",
+      "source_side_index": 142,
+      "centre_proposed_m": [
+        -12.000000000000002,
+        2.879588411534598,
+        1.8033097018920343
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    },
+    {
+      "zone": "midships",
+      "source_side_index": 143,
+      "centre_proposed_m": [
+        -12.000000000000002,
+        -2.8795884115345944,
+        1.8033097018920343
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    },
+    {
+      "zone": "bow",
+      "source_side_index": 142,
+      "centre_proposed_m": [
+        -2.5,
+        0.9736399416236745,
+        2.074838488829762
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    },
+    {
+      "zone": "bow",
+      "source_side_index": 143,
+      "centre_proposed_m": [
+        -2.5,
+        -0.9736399416236708,
+        2.074838488829762
+      ],
+      "length_m": 0.36,
+      "height_m": 0.1,
+      "corner_radius_m": 0.05,
+      "status": "PROPOSED_VISUAL_ENVELOPE_NOT_FITTING_SELECTED",
+      "orientation": "along local sheer tangent, through raised bulwark; position to review with cleats and rope lead"
+    }
+  ],
+  "bulwark_end_treatment": "native side-strip ends capped; bow/stern continuation subject to separate source contour check",
+  "transition_clearances": [
+    {
+      "source_index": 52,
+      "overlap_x": [
+        -17.349599765625,
+        -15.375224765625001
+      ],
+      "source_max_z": 1.2479224337429877,
+      "conservative_lowest_canopy_and_frame_reserve_z": 3.6750000000000003,
+      "conservative_vertical_gap_m": 2.4270775662570125,
+      "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+    },
+    {
+      "source_index": 58,
+      "overlap_x": [
+        -18.71396890625,
+        -17.349615390625
+      ],
+      "source_max_z": 1.5246880587429879,
+      "conservative_lowest_canopy_and_frame_reserve_z": 3.6750000000000003,
+      "conservative_vertical_gap_m": 2.150311941257012,
+      "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+    },
+    {
+      "source_index": 212,
+      "overlap_x": [
+        -17.238634921875,
+        -14.9933468359375
+      ],
+      "source_max_z": 1.6200200899929877,
+      "conservative_lowest_canopy_and_frame_reserve_z": 3.6749715491764063,
+      "conservative_vertical_gap_m": 2.0549514591834184,
+      "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+    }
+  ],
+  "inner_bulwark_gap_min_m": 0.4878611523937002,
+  "reference_display_change": "smooth shading flags only on shell133/144; coordinates and topology unchanged"
+}

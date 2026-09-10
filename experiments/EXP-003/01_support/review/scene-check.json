@@ -1,0 +1,466 @@
+{
+  "status": "PASS_SOURCE_GEOMETRY_APERTURE_RAYS_AND_SOURCE_CONTACTS",
+  "reference_objects_preserved": 314,
+  "reference_display_note": "smooth shading flags only on shell133/144; coordinates and topology unchanged",
+  "aperture_checks": [
+    {
+      "zone": "aft",
+      "side_source": 142,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    },
+    {
+      "zone": "aft",
+      "side_source": 143,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    },
+    {
+      "zone": "midships",
+      "side_source": 142,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    },
+    {
+      "zone": "midships",
+      "side_source": 143,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    },
+    {
+      "zone": "bow",
+      "side_source": 142,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    },
+    {
+      "zone": "bow",
+      "side_source": 143,
+      "interior_9_rays_clear": true,
+      "upper_lower_solid_control_rays_hit": true
+    }
+  ],
+  "actual_bulwark_raise_checks": [
+    {
+      "source_side_index": 142,
+      "x_m": -18,
+      "actual_increment_m": 0.2499992847442627
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -15,
+      "actual_increment_m": 0.2500007152557373
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -12,
+      "actual_increment_m": 0.25000107288360596
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -10,
+      "actual_increment_m": 0.24999713897705078
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -7,
+      "actual_increment_m": 0.24999213218688965
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -4,
+      "actual_increment_m": 0.24999260902404785
+    },
+    {
+      "source_side_index": 142,
+      "x_m": -2.5,
+      "actual_increment_m": 0.2500040531158447
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -18,
+      "actual_increment_m": 0.24999940395355225
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -15,
+      "actual_increment_m": 0.2500007152557373
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -12,
+      "actual_increment_m": 0.25000107288360596
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -10,
+      "actual_increment_m": 0.24999713897705078
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -7,
+      "actual_increment_m": 0.24999213218688965
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -4,
+      "actual_increment_m": 0.24999260902404785
+    },
+    {
+      "source_side_index": 143,
+      "x_m": -2.5,
+      "actual_increment_m": 0.2500040531158447
+    }
+  ],
+  "support_source_contacts": [
+    {
+      "source_index": 67,
+      "xyz": [
+        -18.100000381469727,
+        -1.5,
+        1.9508178234100342
+      ],
+      "source_distance_m": 1.1920928955078125e-07,
+      "actual_shoe_mesh_at_base_distance_m": 9.5367431640625e-07,
+      "foot_corner_contacts": [
+        {
+          "xyz": [
+            -18.200000000000003,
+            -1.58,
+            1.9500834941864014
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -18.0,
+            -1.58,
+            1.951546549797058
+          ],
+          "source_distance_m": 5.960464477539062e-07
+        },
+        {
+          "xyz": [
+            -18.0,
+            -1.42,
+            1.9515479803085327
+          ],
+          "source_distance_m": 2.384185791015625e-07
+        },
+        {
+          "xyz": [
+            -18.200000000000003,
+            -1.42,
+            1.9500914812088013
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        }
+      ]
+    },
+    {
+      "source_index": 457,
+      "xyz": [
+        -15.649999618530273,
+        -1.840000033378601,
+        1.950010061264038
+      ],
+      "source_distance_m": 0.0,
+      "actual_shoe_mesh_at_base_distance_m": 2.384185791015625e-07,
+      "foot_corner_contacts": [
+        {
+          "xyz": [
+            -15.77,
+            -1.9100000000000001,
+            1.9345721006393433
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -15.530000000000001,
+            -1.9100000000000001,
+            1.9402227401733398
+          ],
+          "source_distance_m": 0.0
+        },
+        {
+          "xyz": [
+            -15.530000000000001,
+            -1.77,
+            1.9654484987258911
+          ],
+          "source_distance_m": 0.0
+        },
+        {
+          "xyz": [
+            -15.77,
+            -1.77,
+            1.9597969055175781
+          ],
+          "source_distance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_index": 93,
+      "xyz": [
+        -18.100000381469727,
+        1.5,
+        1.9508179426193237
+      ],
+      "source_distance_m": 1.1920928955078125e-07,
+      "actual_shoe_mesh_at_base_distance_m": 2.0265579223632812e-06,
+      "foot_corner_contacts": [
+        {
+          "xyz": [
+            -18.200000000000003,
+            1.42,
+            1.9500914812088013
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -18.0,
+            1.42,
+            1.9515478610992432
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -18.0,
+            1.58,
+            1.9515464305877686
+          ],
+          "source_distance_m": 4.76837158203125e-07
+        },
+        {
+          "xyz": [
+            -18.200000000000003,
+            1.58,
+            1.9500834941864014
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        }
+      ]
+    },
+    {
+      "source_index": 454,
+      "xyz": [
+        -15.649999618530273,
+        1.840000033378601,
+        1.9500104188919067
+      ],
+      "source_distance_m": 1.1920928955078125e-07,
+      "actual_shoe_mesh_at_base_distance_m": 3.769728778024728e-07,
+      "foot_corner_contacts": [
+        {
+          "xyz": [
+            -15.77,
+            1.77,
+            1.9597965478897095
+          ],
+          "source_distance_m": 0.0
+        },
+        {
+          "xyz": [
+            -15.530000000000001,
+            1.77,
+            1.9654486179351807
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -15.530000000000001,
+            1.9100000000000001,
+            1.9402236938476562
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        },
+        {
+          "xyz": [
+            -15.77,
+            1.9100000000000001,
+            1.934571385383606
+          ],
+          "source_distance_m": 1.1920928955078125e-07
+        }
+      ]
+    }
+  ],
+  "overhead_clearance_samples": [
+    {
+      "candidate_index": 52,
+      "status": "SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR; SAMPLED_VERTICES_NOT_GLOBAL_MIN",
+      "ray_hit_count": 184,
+      "ray_miss_count": 0,
+      "minimum": {
+        "source_xyz_m": [
+          -17.121557235717773,
+          0.9368691444396973,
+          1.243371605873108
+        ],
+        "underside_xyz_m": [
+          -17.121557235717773,
+          0.9368691444396973,
+          3.687500476837158
+        ],
+        "vertical_gap_m": 2.4441288709640503
+      },
+      "by_x_metre": [
+        {
+          "x_floor_m": -18,
+          "min_gap_m": 2.4441288709640503
+        },
+        {
+          "x_floor_m": -17,
+          "min_gap_m": 2.548676609992981
+        },
+        {
+          "x_floor_m": -16,
+          "min_gap_m": 2.46806001663208
+        }
+      ]
+    },
+    {
+      "candidate_index": 58,
+      "status": "SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR; SAMPLED_VERTICES_NOT_GLOBAL_MIN",
+      "ray_hit_count": 454,
+      "ray_miss_count": 0,
+      "minimum": {
+        "source_xyz_m": [
+          -18.21573829650879,
+          1.316494107246399,
+          1.5157525539398193
+        ],
+        "underside_xyz_m": [
+          -18.21573829650879,
+          1.316494107246399,
+          3.6911215782165527
+        ],
+        "vertical_gap_m": 2.1753690242767334
+      },
+      "by_x_metre": [
+        {
+          "x_floor_m": -19,
+          "min_gap_m": 2.1753690242767334
+        },
+        {
+          "x_floor_m": -18,
+          "min_gap_m": 2.2686455249786377
+        }
+      ]
+    },
+    {
+      "candidate_index": 212,
+      "status": "SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR; SAMPLED_VERTICES_NOT_GLOBAL_MIN",
+      "ray_hit_count": 279,
+      "ray_miss_count": 0,
+      "minimum": {
+        "source_xyz_m": [
+          -17.078022003173828,
+          -1.2717070579528809,
+          1.6200200319290161
+        ],
+        "underside_xyz_m": [
+          -17.078022003173828,
+          -1.2717070579528809,
+          3.6875
+        ],
+        "vertical_gap_m": 2.067479968070984
+      },
+      "by_x_metre": [
+        {
+          "x_floor_m": -18,
+          "min_gap_m": 2.067479968070984
+        },
+        {
+          "x_floor_m": -17,
+          "min_gap_m": 2.16817843914032
+        },
+        {
+          "x_floor_m": -16,
+          "min_gap_m": 2.1684502363204956
+        },
+        {
+          "x_floor_m": -15,
+          "min_gap_m": 2.1721466779708862
+        }
+      ]
+    }
+  ],
+  "front_face_angles": [
+    {
+      "object": "EXP003_front45_opaque",
+      "largest_planar_face_angle_to_horizontal_deg": 44.9999541181069
+    },
+    {
+      "object": "EXP003_front45_glass",
+      "largest_planar_face_angle_to_horizontal_deg": 45.00003139287687
+    },
+    {
+      "object": "EXP003_front45_curved_fascia",
+      "largest_planar_face_angle_to_horizontal_deg": 45.0
+    }
+  ],
+  "actual_inner_bulwark_plan_gaps": [
+    {
+      "x_m": -15.0,
+      "port_gap_m": 0.5005267869274257,
+      "starboard_gap_m": 0.5005267595431317
+    },
+    {
+      "x_m": -14.0,
+      "port_gap_m": 0.5072583009607112,
+      "starboard_gap_m": 0.5072583009607112
+    },
+    {
+      "x_m": -13.0,
+      "port_gap_m": 0.523008846737099,
+      "starboard_gap_m": 0.523008846737099
+    },
+    {
+      "x_m": -12.0,
+      "port_gap_m": 0.5415841341450949,
+      "starboard_gap_m": 0.5415840612126996
+    },
+    {
+      "x_m": -11.0,
+      "port_gap_m": 0.5229382445612476,
+      "starboard_gap_m": 0.5229383528137719
+    },
+    {
+      "x_m": -10.0,
+      "port_gap_m": 0.5078248911708267,
+      "starboard_gap_m": 0.5078250103802313
+    },
+    {
+      "x_m": -9.0,
+      "port_gap_m": 0.514709404550211,
+      "starboard_gap_m": 0.5147092793808232
+    },
+    {
+      "x_m": -8.0,
+      "port_gap_m": 0.512433381107843,
+      "starboard_gap_m": 0.4878611523937002
+    },
+    {
+      "x_m": -7.0,
+      "port_gap_m": 0.5193060514195547,
+      "starboard_gap_m": 0.4914602210449168
+    },
+    {
+      "x_m": -6.0,
+      "port_gap_m": 0.5249221615755284,
+      "starboard_gap_m": 0.4974805284629762
+    },
+    {
+      "x_m": -5.5,
+      "port_gap_m": 0.5263937031302257,
+      "starboard_gap_m": 0.5011956465810492
+    }
+  ],
+  "limits": "Aperture sampling checks actual voids, not fitting load or manufacturing geometry. Contact distances only, no strength or verified underlying structural continuity."
+}
