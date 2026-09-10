@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root/tools_freecad",
+  "date": "2026-09-10",
+  "status": "ACCEPTED_FOR_EXPERIMENTAL_SCOPE_WITH_DISCLOSED_LIMITS",
+  "scope": "Main/basis/model semantics and geometry plus artifact integrity; no structural/manufacturing approval",
+  "files_sha256": {
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "experiments/EXP-001/01_support/model/experiment.blend": "2308af27b136a30543de68152d1b54857a1becc25c9db67b9beeed371aa9a8da",
+    "experiments/EXP-002/00_proposal.md": "ff2f6f86d76278163de9411734b6f4f9762c67a19d6f43ac47a8080a0ab08395",
+    "experiments/EXP-002/01_support/basis/basis.md": "11b6f5e41a6b290b84e07a88cfdb43937da55e9ab880bd545614875c43f97196",
+    "experiments/EXP-002/01_support/basis/deck-sections.json": "54568a41a6ffe47c0e8a5fe8a592b15d81833ee04627d8e3449e694b947931ca",
+    "experiments/EXP-002/01_support/basis/extract_sections.py": "681ee3e1c0e14059a6fd6d967359c0ca5f6e0c39eabea97d82fd0675281b2fc6",
+    "experiments/EXP-002/01_support/brief.md": "a81c0a326eab4a89be0aa266ad440114076eaf1240783b9b4fc8b16e6e8fb189",
+    "experiments/EXP-002/01_support/design-intent.md": "81b02e044a339270bf827855a275056f12f4225a8752b13692424d24116fc6e1",
+    "experiments/EXP-002/01_support/model/README.md": "ad25082b8609ba8a45cd366e46e7bd077e7dd40ff78e54b455bfedf0a4d15165",
+    "experiments/EXP-002/01_support/model/build_model.py": "8c101b0ff968378ba9dd7fc4f3ce45617ac7f3a5589328ffb9cfacea8b56a18b",
+    "experiments/EXP-002/01_support/model/detail.png": "5d02a901959acdd8cbdc5fd19b664ea38d0a80e2fb0d394be8b36bf28509abda",
+    "experiments/EXP-002/01_support/model/experiment.blend": "f3b33300d3a72a10be57a852c8897ae05db199a8bb07f6e6afb505711e317565",
+    "experiments/EXP-002/01_support/model/exterior.png": "e6ad4218e64c32169e6323f6524e8036289424fb0722d8618ec4644505035008",
+    "experiments/EXP-002/01_support/model/font-license.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+    "experiments/EXP-002/01_support/model/hardtop-clearances.json": "592169094685e7220a69b5c6424b385a89a7cee1ba877e85b7bb89f81fe4e6f2",
+    "experiments/EXP-002/01_support/model/parameters.json": "f37420437202fbad905546303b16e3a0825685c3f9146b021d98e251f55a4f1b",
+    "experiments/EXP-002/01_support/model/passages.json": "bd4901cc2cce4ea8d0a85ed402a6b5a1475be64953e96896d76d9da04244df98",
+    "experiments/EXP-002/01_support/model/reference-inventory.json": "a128d7eb1eb1309dee5fbecad7d7080ad9cf6b3650e6ca24f2c94ea70494a19a",
+    "experiments/EXP-002/01_support/model/side.png": "c9444a9754a1c99a90daad6ca825c1abbd0d2c523726df1fc6a164cf57ed168f",
+    "experiments/EXP-002/01_support/model/top.png": "74499d799c0b220eab3d20472aa8f67bab8344f4fb4cc47579ce8c68a0f6d196"
+  }
+}

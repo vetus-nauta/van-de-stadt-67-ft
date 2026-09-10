@@ -1,0 +1,77 @@
+{
+  "status": "PASS_EXPERIMENTAL_INHERITANCE_AND_SHAPE",
+  "original_reference_objects_unchanged": 314,
+  "EXP001_roof_meshes_unchanged": 73,
+  "EXP001_structure_meshes_unchanged": 38,
+  "new_mesh_count": 362,
+  "main_side_glazing_outward_delta_y_min_max_m": [
+    0.01908552646636963,
+    0.24599993228912354
+  ],
+  "low_coachroof_front_x_m": -4.797999858856201,
+  "additional_extension_m": 3.000000141143799,
+  "low_glazing_objects": 17,
+  "hardtop_objects": 19,
+  "hardtop_min_crossframe_z_m": 3.749999761581421,
+  "hardtop_gap_checks": [
+    {
+      "candidate": 52,
+      "independent_gap_m": 2.502077341079712
+    },
+    {
+      "candidate": 58,
+      "independent_gap_m": 2.225311756134033
+    },
+    {
+      "candidate": 212,
+      "independent_gap_m": 2.129979729652405
+    }
+  ],
+  "main_front_glazing_z_min_max_m": [
+    2.4135000705718994,
+    2.796999931335449
+  ],
+  "hardtop_source_candidate_vertex_coverage": [
+    {
+      "source_candidate_index": 52,
+      "vertices_under_roof_in_plan": 184,
+      "total_vertices": 184,
+      "all_sampled_vertices_covered": true,
+      "candidate_z_min_max_m": [
+        1.2085239887237549,
+        1.247922420501709
+      ]
+    },
+    {
+      "source_candidate_index": 58,
+      "vertices_under_roof_in_plan": 454,
+      "total_vertices": 454,
+      "all_sampled_vertices_covered": true,
+      "candidate_z_min_max_m": [
+        1.5002193450927734,
+        1.5246880054473877
+      ]
+    },
+    {
+      "source_candidate_index": 212,
+      "vertices_under_roof_in_plan": 261,
+      "total_vertices": 279,
+      "all_sampled_vertices_covered": false,
+      "candidate_z_min_max_m": [
+        1.6200200319290161,
+        1.6200200319290161
+      ]
+    },
+    {
+      "source_candidate_index": 457,
+      "vertices_under_roof_in_plan": 247,
+      "total_vertices": 252,
+      "all_sampled_vertices_covered": false,
+      "candidate_z_min_max_m": [
+        1.9134048223495483,
+        2.0545201301574707
+      ]
+    }
+  ],
+  "reference_objects_hidden": 64
+}

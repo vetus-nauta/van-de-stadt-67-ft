@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "missing-output",
+      "exit_code": 2,
+      "refused_before_scene_read": true
+    },
+    {
+      "case": "existing-release",
+      "exit_code": 2,
+      "refused_before_scene_read": true
+    }
+  ],
+  "model_files_unchanged": true
+}

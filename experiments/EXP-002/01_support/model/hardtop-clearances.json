@@ -1,0 +1,47 @@
+[
+  {
+    "source_index": 52,
+    "source_z_max_m": 1.2479224337429877,
+    "reference_x_interval_m": [
+      -17.349599765625,
+      -15.375224765625001
+    ],
+    "overlap_x_interval_m": [
+      -17.349599765625,
+      -15.375224765625001
+    ],
+    "minimum_reserved_underside_z_m": 3.75,
+    "conservative_vertical_gap_m": 2.5020775662570123,
+    "status": "LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR_OR_WALKABLE_ROUTE"
+  },
+  {
+    "source_index": 58,
+    "source_z_max_m": 1.5246880587429879,
+    "reference_x_interval_m": [
+      -18.71396890625,
+      -17.349615390625
+    ],
+    "overlap_x_interval_m": [
+      -18.71396890625,
+      -17.349615390625
+    ],
+    "minimum_reserved_underside_z_m": 3.75,
+    "conservative_vertical_gap_m": 2.2253119412570124,
+    "status": "LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR_OR_WALKABLE_ROUTE"
+  },
+  {
+    "source_index": 212,
+    "source_z_max_m": 1.6200200899929877,
+    "reference_x_interval_m": [
+      -17.238634921875,
+      -14.9933468359375
+    ],
+    "overlap_x_interval_m": [
+      -17.238634921875,
+      -15.109
+    ],
+    "minimum_reserved_underside_z_m": 3.75,
+    "conservative_vertical_gap_m": 2.1299799100070125,
+    "status": "LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR_OR_WALKABLE_ROUTE"
+  }
+]
