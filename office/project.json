@@ -44,5 +44,7 @@
   "machinery_working_kac": "deliverables/M03/v001/00_working-KAC.xlsx",
   "machinery_working_kac_guide": "deliverables/M03/v001/01_support/00_readme.md",
   "machinery_working_kac_status": "DRAFT_OPEN_NO_APPROVED_EQUIPMENT_OR_BUDGET",
-  "tax_scheme_status": "BUYER_VAT_IMPORTER_AND_INTENDED_USE_UNKNOWN; no automatic23percent/deduction"
+  "tax_scheme_status": "BUYER_VAT_IMPORTER_AND_INTENDED_USE_UNKNOWN; no automatic23percent/deduction",
+  "machinery_yanmar_addendum": "deliverables/M04/v001/00_yanmar-completeness.md",
+  "machinery_yanmar_addendum_status": "PUBLIC_COMPONENT_PRICES_WITH_OPEN_EXACT_ASSEMBLY"
 }

@@ -1,0 +1,59 @@
+{
+  "release": "M04/v001",
+  "date": "2026-09-11",
+  "basis_commit": "bf9c964f85339c8fe84a6c023df0449318c429ef",
+  "scope": "Yanmar component price supplement to M03; not a complete offer or approved installation",
+  "review": "PASS_RESEARCH_OPEN_ENGINEERING_PROCUREMENT",
+  "files": [
+    {
+      "path": "00_yanmar-completeness.md",
+      "bytes": 9360,
+      "sha256": "d7861b5c3896b88bf55a2ab7f3685b47806e2b946c6dfa7fc0539d4cd63d9d44"
+    },
+    {
+      "path": "01_support/ancillaries.csv",
+      "bytes": 3122,
+      "sha256": "222d000a50e9fdd228e369a54487674f4d12848b2a33c971bcf8ed744dd166e6"
+    },
+    {
+      "path": "01_support/ancillaries.md",
+      "bytes": 7098,
+      "sha256": "cf5614a2b1faa5a7e8bc818fd04d0526932fce20fe0de8bab3421d60e1765015"
+    },
+    {
+      "path": "01_support/gearbox.csv",
+      "bytes": 2137,
+      "sha256": "3a85cd0e8b74eae595d52b751de940a96f6527bcc1dc95d988473561855f9318"
+    },
+    {
+      "path": "01_support/gearbox.md",
+      "bytes": 10455,
+      "sha256": "fcdf0468e4fb1ba5ebefb44b14c36dff265b9ad87897b81c852984dbc56dd71c"
+    },
+    {
+      "path": "01_support/local-pdf-index.json",
+      "bytes": 942,
+      "sha256": "4658a74380ed29abe21bb38c4d9fe6e31d1f961af5ceed0370ea7dc08c556bfb"
+    },
+    {
+      "path": "01_support/package-price-audit.md",
+      "bytes": 5653,
+      "sha256": "6c8f1908c4300250a388ba37c47890a0363cd0247bd2b068481d1355ca7e111d"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 6591,
+      "sha256": "1ccbe384197c06d50797c91f670b70a141be0c2293062511230057d44ca1aa2a"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 954,
+      "sha256": "79d37f06eca65f5f2f90309c1cffb27f5ea371ea0c4856f3ac6b8cc5cac275eb"
+    },
+    {
+      "path": "01_support/yanmar-addendum.csv",
+      "bytes": 5123,
+      "sha256": "171eab9b21bb551307e7ae9a0971b56be1f29ceb1c3228135adaa2144501939a"
+    }
+  ]
+}
