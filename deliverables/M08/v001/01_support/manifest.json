@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-11",
+  "decision": "D031",
+  "status": "RELEASED_DOCUMENT_SNAPSHOT_WITH_EXISTING_LIMITS",
+  "files": [
+    {
+      "path": "deliverables/M08/v001/00_package.md",
+      "sha256": "a1f5f3ab6d4874dcc34e039530c0f273c5d807b2fe6de8dfcb3a1fecf5a7cf6d",
+      "bytes": 2442
+    },
+    {
+      "path": "deliverables/M08/v001/01_support/build_package.py",
+      "sha256": "4e1a4bcff4eb554388e5c77695b2fe47b7292ddbfa3c0bdcd1ad6411695ddbaa",
+      "bytes": 16290
+    },
+    {
+      "path": "deliverables/M08/v001/01_support/review.md",
+      "sha256": "4f7f00b22305cbddcb4413395f4b9787cd1e4c69fd55b50a0c95fe8ae1034e77",
+      "bytes": 4930
+    },
+    {
+      "path": "deliverables/M08/v001/01_support/verification.json",
+      "sha256": "fac28b1fec211ec7afa4aac3233e467adcda11fef1b842908be6aaa77095d737",
+      "bytes": 134197
+    },
+    {
+      "path": "deliverables/M08/v001/01_support/verify_package.py",
+      "sha256": "d84d4808dc44e36047646e3a5d2404e67e38fa46508cd6c2b11d3567178a6dcf",
+      "bytes": 2891
+    },
+    {
+      "path": "Машина - версия 1.0/00_Оглавление.html",
+      "sha256": "32d60a81c1dd62df2b28ddfa272e16feae5306250e3a224fc195dd4efde6e569",
+      "bytes": 143892
+    },
+    {
+      "path": "Машина - версия 1.0/README.md",
+      "sha256": "4686105168b8b2a3d712c25a1123022031660eb168d986f8164a79036411806e",
+      "bytes": 3891
+    },
+    {
+      "path": "Машина - версия 1.0/Реестры/manifest.json",
+      "sha256": "32a491f5706d69c7ed7b3f0482b579ff4452d41786f1d7aed91ca8fb9436fa69",
+      "bytes": 123817
+    }
+  ]
+}

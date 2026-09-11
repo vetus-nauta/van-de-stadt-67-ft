@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "quick-bx.txt",
+    "sha256": "f2a2558a052af731816b7cae4f7f61dceae5ce5e2f49dca1e6704c1c65a98dac",
+    "local_cache": ".local/M02/water-climate-source-cache/quick-bx.txt"
+  },
+  {
+    "filename": "quick-bxs.txt",
+    "sha256": "59ea4d5876efaf68a536b583bada0ecb5bbaad7fa43a035c47f69ec4497e72b7",
+    "local_cache": ".local/M02/water-climate-source-cache/quick-bxs.txt"
+  },
+  {
+    "filename": "thermowell-2023.txt",
+    "sha256": "a137d4f2c550f4f708094b15c9209ef326471e7a30bf65e0f6b0a8b4fd3f0381",
+    "local_cache": ".local/M02/water-climate-source-cache/thermowell-2023.txt"
+  },
+  {
+    "filename": "thermowell-2023.pdf",
+    "sha256": "c929156263f8f3aacb119334d675fe2f3d1192996b7d6288f7c4bb7a6869f6fa",
+    "local_cache": ".local/M02/water-climate-source-cache/thermowell-2023.pdf"
+  },
+  {
+    "filename": "quick-b3.txt",
+    "sha256": "24cd3212477b78a381760288b3e103e6007a37b35859230f2a06c7d857ec016f",
+    "local_cache": ".local/M02/water-climate-source-cache/quick-b3.txt"
+  },
+  {
+    "filename": "climma-dealer.txt",
+    "sha256": "ca8d0ee59c29ca12040daac3f2b02ceca9e592c46e6cbaa8cc702c95d49fefd8",
+    "local_cache": ".local/M02/water-climate-source-cache/climma-dealer.txt"
+  }
+]

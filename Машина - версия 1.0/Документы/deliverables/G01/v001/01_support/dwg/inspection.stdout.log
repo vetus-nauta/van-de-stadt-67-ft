@@ -1,0 +1,73 @@
+{
+  "header": {
+    "$ACADVER": "AC1018",
+    "$INSUNITS": 0,
+    "$MEASUREMENT": 0,
+    "$LUNITS": 2,
+    "$LUPREC": 0,
+    "$AUNITS": 0,
+    "$DIMSCALE": 10.0,
+    "$DIMLFAC": 1.0,
+    "$INSBASE": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "$EXTMIN": [
+      -3085.900638091904,
+      -97.17319099628367,
+      -22089.10535019184
+    ],
+    "$EXTMAX": [
+      3308.470362330441,
+      4301.4869012908,
+      1295.587296593192
+    ],
+    "$LIMMIN": [
+      -2977.64028349873,
+      -63.51860475043974
+    ],
+    "$LIMMAX": [
+      3004.495391315329,
+      4612.120029306387
+    ],
+    "$UCSORG": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "$UCSXDIR": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "$UCSYDIR": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "layouts": [
+    {
+      "name": "Layout1",
+      "count": 1,
+      "types": {
+        "VIEWPORT": 1
+      }
+    },
+    {
+      "name": "Model",
+      "count": 1241,
+      "types": {
+        "LWPOLYLINE": 91,
+        "LINE": 814,
+        "TEXT": 188,
+        "ARC": 107,
+        "POLYLINE": 30,
+        "INSERT": 11
+      }
+    }
+  ],
+  "dimension_count": 0,
+  "text_count": 188
+}

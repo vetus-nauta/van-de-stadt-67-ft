@@ -1,0 +1,572 @@
+{
+  "release": "M07/v001",
+  "date": "2026-09-11",
+  "scope": "Arithmetic,source preservation,quantities,readability; not completeness or tax approval",
+  "checks": [
+    {
+      "check": "7 sheets and no standalone tax sheet",
+      "status": "PASS"
+    },
+    {
+      "check": "38 main rows",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J2",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M2",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O2",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J3",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M3",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O3",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J4",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M4",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O4",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J5",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M5",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O5",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J6",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M6",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O6",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J7",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M7",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O7",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J8",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M8",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O8",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J9",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M9",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O9",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J10",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M10",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O10",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J11",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M11",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O11",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J12",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M12",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O12",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J13",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M13",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O13",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J14",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M14",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O14",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J15",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M15",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O15",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J16",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M16",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O16",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J17",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M17",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O17",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J18",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M18",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O18",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J19",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M19",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O19",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J20",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M20",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O20",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J21",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M21",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O21",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J22",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M22",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O22",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J23",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M23",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O23",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J24",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M24",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O24",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J25",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M25",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O25",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J26",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M26",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O26",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J27",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M27",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O27",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J28",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M28",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O28",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J29",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M29",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O29",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J30",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M30",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O30",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J31",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M31",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O31",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J32",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M32",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O32",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J33",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M33",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O33",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J34",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M34",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O34",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J35",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M35",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O35",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J36",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M36",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O36",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J37",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M37",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O37",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J38",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M38",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O38",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount J39",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount M39",
+      "status": "PASS"
+    },
+    {
+      "check": "Cached amount O39",
+      "status": "PASS"
+    },
+    {
+      "check": "Yanmar sourcegross without double tax",
+      "status": "PASS"
+    },
+    {
+      "check": "Gross rows 8 unpriced 30",
+      "status": "PASS"
+    },
+    {
+      "check": "Total J",
+      "status": "PASS"
+    },
+    {
+      "check": "Total M",
+      "status": "PASS"
+    },
+    {
+      "check": "Total O",
+      "status": "PASS"
+    },
+    {
+      "check": "Summary equals detail",
+      "status": "PASS"
+    },
+    {
+      "check": "No formula error cache",
+      "status": "PASS"
+    },
+    {
+      "check": "29ME covered",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count YAN-E01",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count PAN-G02",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count EL-INV-B",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count EL-BAT-B",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count EL-OPEN-MAIN",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count EL-OPEN-GEN",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count WC-DC-02",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count WC-AC-02",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count WC-RO-02",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed count WC-CH-02",
+      "status": "PASS"
+    },
+    {
+      "check": "M05 never added to main",
+      "status": "PASS"
+    },
+    {
+      "check": "Prior releases original preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Three A3 print pages",
+      "status": "PASS"
+    },
+    {
+      "check": "PDF amount matches",
+      "status": "PASS"
+    }
+  ],
+  "formula_count": 159,
+  "input_sha256": {
+    "deliverables/M03/v001/01_support/components.csv": "d850d56cec801670bbed2dd3b33806aba49acb782b156165d1547cbc31ae69e2",
+    "deliverables/M03/v001/01_support/price-register.csv": "10c8a7f35b57c4d407d560e3c658eb12fc8f059b450fe9f2514fb901eb24ca2a",
+    "deliverables/M03/v001/01_support/packages.csv": "3e359e42991d66603d59e5dae54501b3e36a2e5b100231f45bcca0ee1c66cd90",
+    "deliverables/M05/v001/01_support/price-substitutions.csv": "de68f41faebd69a8988fabfde80efe7b197b4dc9b185c97a540f4fd08095dc98",
+    "deliverables/M06/v001/01_support/scope-register.csv": "77d0459edf6aedf529a1933c969126d76bb253c673e2d60882022bdd07958fed",
+    "deliverables/M01/v001/01_support/equipment-list.csv": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1"
+  },
+  "xlsx_sha256": "b4eaf485d69df0432c9d13eda988f7046bd9f7601063b05576edb20f469532f6",
+  "tax_note": "PL23 is owner-authorised estimate; YanmarSOURCE_GROSS tax unsplit; actual tax treatment open",
+  "unpriced_rows": 30,
+  "editorial_recheck": "Replaced2UNSIZEDdisplaylabels and explicitly labelledROFROMprice; unchangedarithmetic, all114cachedmoneyvalues andfullsubtotal rechecked afternewLibreOfficeconversion."
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11",
+  "checks": {
+    "five_unique_substitutions": true,
+    "four_net_one_gross": true,
+    "fx_decimal": true,
+    "imc_difference": true,
+    "source_trace": true,
+    "source_date_conflict_disclosed": true,
+    "unverified_not_adopted": true,
+    "retained_prices_match_m04": true,
+    "csv_width:gearbox-alternatives.csv": true,
+    "csv_width:ancillary-alternatives.csv": true,
+    "csv_width:price-substitutions.csv": true,
+    "csv_width:tasks.csv": true,
+    "csv_width:decisions.csv": true,
+    "link:00_price-substitutions.md:01_support/price-substitutions.csv": true,
+    "link:00_price-substitutions.md:01_support/fx.json": true,
+    "link:00_price-substitutions.md:01_support/gearbox-alternatives.md": true,
+    "link:00_price-substitutions.md:01_support/ancillary-alternatives.md": true,
+    "frozen_releases_unchanged": true
+  },
+  "scope": "Source transfer, arithmetic and file checks; no engineering or procurement approval."
+}

@@ -1,0 +1,4 @@
+Blender 4.0.2
+Read prefs: "/home/alexey/.config/blender/4.0/config/userpref.blend"
+usage: blender [-h] --out-dir OUT_DIR
+blender: error: Output must be NEW or EMPTY: /home/alexey/Groot/van-de-stadt-67-ft/experiments/EXP-003/01_support/model

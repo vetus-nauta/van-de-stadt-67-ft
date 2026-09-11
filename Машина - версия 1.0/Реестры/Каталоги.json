@@ -1,0 +1,201 @@
+[
+  {
+    "source_path": ".local/M02/propulsion-source-cache/rehlko-g2186.pdf",
+    "packet_path": "Каталоги производителей/caf5ae8d41_rehlko-g2186.pdf",
+    "bytes": 841386,
+    "sha256": "caf5ae8d41a9901d126ba4bdce21c8a6feafc1745d1b99be1299be0221631c01",
+    "source_urls": [
+      "https://techcomm.rehlko.com/techcomm/pdf/g2186.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M02/propulsion-source-cache/volvo-penta-d4-2021.pdf",
+    "packet_path": "Каталоги производителей/07cca64133_volvo-penta-d4-2021.pdf",
+    "bytes": 2775825,
+    "sha256": "07cca64133d147668f2bc6bc3d3c360136ff7a3df11c859e17c5b7ab9b1d433c",
+    "source_urls": [
+      "https://www.dbmoteurs.fr/sites/default/files/Moteur-Volvo-Penta-D4-270-300-320-fiche-commerciale-2021-47711815-en.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M02/propulsion-source-cache/volvo-penta-d6-2021.pdf",
+    "packet_path": "Каталоги производителей/22d3c1a43c_volvo-penta-d6-2021.pdf",
+    "bytes": 1010970,
+    "sha256": "22d3c1a43c89361b38694b35a57a2dcf336a00b76d6013438ca0a83aba4e64d6",
+    "source_urls": [
+      "https://www.dbmoteurs.fr/sites/default/files/Moteur-Volvo-Penta-D6-300-340-380-fiche-commerciale-brochure-2021-47711891-fr-dbmoteurs.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M02/propulsion-source-cache/volvo-penta-price-2023.pdf",
+    "packet_path": "Каталоги производителей/a2d9dec896_volvo-penta-price-2023.pdf",
+    "bytes": 1474377,
+    "sha256": "a2d9dec8969b74096ddb69f882cdad09f2054cf888095eade78c8fb14c786d1c",
+    "source_urls": [
+      "https://www.dbmoteurs.fr/sites/default/files/Volvo-Penta-tarifs-prix-achat-moteurs-2023-DB-Moteurs-motorisation-marine-bateau-plaisance.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M02/water-climate-source-cache/thermowell-2023.pdf",
+    "packet_path": "Каталоги производителей/c929156263_thermowell-2023.pdf",
+    "bytes": 13547422,
+    "sha256": "c929156263f8f3aacb119334d675fe2f3d1192996b7d6288f7c4bb7a6869f6fa",
+    "source_urls": [],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/panda/12000x-datasheet.pdf",
+    "packet_path": "Каталоги производителей/13c864fe0b_12000x-datasheet.pdf",
+    "bytes": 164558,
+    "sha256": "13c864fe0b3e939c01a8237648d0d14062a7830dc64d7d6364febe6c18459aa0",
+    "source_urls": [
+      "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-compact-power/12000x/Panda_12000x_PMS_-_EN.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/panda/12000x-drawing.pdf",
+    "packet_path": "Каталоги производителей/42d0f3c7f0_12000x-drawing.pdf",
+    "bytes": 219627,
+    "sha256": "42d0f3c7f09493d5dcdb1b2c75390bc04fd7bf9b3264831cf5ca26f9573bdf55",
+    "source_urls": [
+      "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-compact-power/12000x/Panda_12000x_230v_PMS.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/panda/12000x-manual-legacy.pdf",
+    "packet_path": "Каталоги производителей/2f3ea47c53_12000x-manual-legacy.pdf",
+    "bytes": 5673748,
+    "sha256": "2f3ea47c53f7df2835db86c47306ee56867f34c39a5faa54e99e00b164baa6b0",
+    "source_urls": [
+      "https://www.fischerpanda.de/fileadmin/user_upload/generators/generator_media_web/FP1-302229.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/panda/15000i-manual-R08.2.pdf",
+    "packet_path": "Каталоги производителей/b24a7c695c_15000i-manual-R08.2.pdf",
+    "bytes": 11529696,
+    "sha256": "b24a7c695ca96a62342b74f0f6c2335c9f9218289c2d071e2acabd5fdfd98e35",
+    "source_urls": [
+      "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-iseries-2026/handbooks/0037352_G_15000i_PMS_eng.R08.2.pdf"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/panda/marine-2026.pdf",
+    "packet_path": "Каталоги производителей/9aa9ec19f5_marine-2026.pdf",
+    "bytes": 1489315,
+    "sha256": "9aa9ec19f5a63d0e833a1959b3a8e59016705649d208dc90acb774993ee3d982",
+    "source_urls": [
+      "https://www.fischerpanda.co.uk/res/Fischer%20Panda%20Marine%20Generators%202026%20-%20FPUK"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/yanmar/6lpa-manual-2018.pdf",
+    "packet_path": "Каталоги производителей/c67cacd99b_6lpa-manual-2018.pdf",
+    "bytes": 4633009,
+    "sha256": "c67cacd99b0b37be36db50fbf5fa9b8b3f7a30d60bb2c4da8920ee2db0769f71",
+    "source_urls": [
+      "https://www.yanmar.com/marine/wp-content/uploads/2020/05/0A6LP-EN0015_2018.08.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/yanmar/6lpa-spec.pdf",
+    "packet_path": "Каталоги производителей/65df72e23f_6lpa-spec.pdf",
+    "bytes": 680725,
+    "sha256": "65df72e23fee04ee67da520b79bf97af72e8d0210fcbf59d016fc3a04102a504",
+    "source_urls": [
+      "https://www.yanmar.com/marine/wp-content/uploads/2020/05/Yanmar-Datasheet_6LPA-STP2.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/yanmar/6ly2m-spec-2021.pdf",
+    "packet_path": "Каталоги производителей/cfa22f63fe_6ly2m-spec-2021.pdf",
+    "bytes": 2496568,
+    "sha256": "cfa22f63fe4e86e38a7f617a31607b48ff986dd00504039c6b44b13f45451263",
+    "source_urls": [
+      "https://www.yanmar.com/marine/wp-content/uploads/2021/02/DS_6LY2M_WDT-WST_A4_022021_HR.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/yanmar/8lv-manual-2019.pdf",
+    "packet_path": "Каталоги производителей/3fff70ce81_8lv-manual-2019.pdf",
+    "bytes": 2465907,
+    "sha256": "3fff70ce81ff2e9a43c922749d6c4b9ebb96a0ecf60eae600a922003adbdf807",
+    "source_urls": [
+      "https://www.yanmar.com/marine/wp-content/uploads/2020/03/0A8LV-EN0013_2019.08.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M03/yanmar/8lv-spec-2021.pdf",
+    "packet_path": "Каталоги производителей/f03f23eb61_8lv-spec-2021.pdf",
+    "bytes": 1579279,
+    "sha256": "f03f23eb617badd188a14473284f16131e04133d6e7fbcf588074107b15e6fba",
+    "source_urls": [
+      "https://www.yanmar.com/marine/wp-content/uploads/2020/03/DS_8LV320-350-370_A4_2021_1018_HR.pdf?download=1"
+    ],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M04/6lpa-parts-2018.pdf",
+    "packet_path": "Каталоги производителей/24f1b9cfa2_6lpa-parts-2018.pdf",
+    "bytes": 4885521,
+    "sha256": "24f1b9cfa202cf53e94026e8160ee64d6174680cd744cd1b63e0aaa6fecc5c92",
+    "source_urls": [],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M04/6lpa-parts.pdf",
+    "packet_path": "Каталоги производителей/cedf9eceb4_6lpa-parts.pdf",
+    "bytes": 4366964,
+    "sha256": "cedf9eceb439c13847e2a688ee021af92e4f422335171bc14a9dd3d688778100",
+    "source_urls": [],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M04/6lpam-parts.pdf",
+    "packet_path": "Каталоги производителей/c0ddfeb7be_6lpam-parts.pdf",
+    "bytes": 2784635,
+    "sha256": "c0ddfeb7be31d4f1f83c8b9385449614cbbe61bd7f7e94ab74cdfef8745fefe8",
+    "source_urls": [],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  },
+  {
+    "source_path": ".local/M04/ultraflex-b183-manual.pdf",
+    "packet_path": "Каталоги производителей/0bb472fa42_ultraflex-b183-manual.pdf",
+    "bytes": 5998646,
+    "sha256": "0bb472fa429a7a9335d30d0cf9878d1d742d0448153be7c7b5692986defb2743",
+    "source_urls": [],
+    "visibility": "LOCAL_ONLY_THIRD_PARTY_PDF",
+    "status": "ARCHIVED_NOT_SUPPLIER_QUOTATION"
+  }
+]

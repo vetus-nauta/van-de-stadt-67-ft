@@ -1,0 +1,184 @@
+{
+  "status": "PROVISIONAL_ALIGNMENT_NOT_IDENTITY_NOT_AS_BUILT",
+  "method": "Fixed axis permutation; scale fixed at hypothesis 1 mm/DWG unit; translation X/Z from one aft sheer junction; transverse offset from Rhino datum symmetry. No least-squares/nearest-neighbour fitting.",
+  "unit_status": {
+    "Rhino": "file declares millimetres",
+    "DWG_INSUNITS": 0,
+    "DWG_scale_mm_per_unit": 1.0,
+    "scale_status": "GEOMETRICALLY_PLAUSIBLE_UNCONFIRMED"
+  },
+  "dwg_to_rhino_native": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      -1294.2627445292492
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      -19381.843773828055
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -26087.740572326355
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rhino_native_to_dwg": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      26087.740572326355
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1294.2627445292492
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rhino_native_to_working": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "working_to_rhino_native": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -1294.1600000000003
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -19381.843773828055
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -24837.674386867988
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dwg_to_working": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      -0.10274452924886646
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -1250.0661854583668
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "working_to_dwg": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1250.0661854583668
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.10274452924886646
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "origin_rhino_object_id": "1c35489c-378d-490d-a766-7cada4f152ab",
+  "origin_definition": "larger-X endpoint of PolyCurve #234. Working plane z=0 is a drawing datum near CWL1250 text, not physical/design approved waterline.",
+  "fit_rows": 1,
+  "holdout_rows": 6,
+  "holdout_section_diagnostics": 4,
+  "independence_limit": "Holdouts excluded from fitting; sheer points share one source curve and are correlated. Four frame-pattern entities are separate source entities but same historical drawing; they are not independent surveys or exact homologous hull features.",
+  "inputs_sha256": {
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG": "1d6a5b151c62a5902ed784fe18d8f11e08a844355561c5086203c4694b31b589",
+    "deliverables/G02/v001/01_support/cad/lines-oda-noaudit.dxf": "d06ad079a2c7b7f5ec8b0655fa71ee8f03efda8a95f7b88e45ed4e5db3a4055e",
+    "deliverables/G01/v001/01_support/dwg/lines-derived.dxf": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273"
+  },
+  "limits": [
+    "Selected entities now read from independent ODA DXF; whole-file CAD acceptance belongs to CAD agent, not this alignment",
+    "Render mesh tessellation accuracy unknown; section metrics diagnostic only",
+    "No physical survey; no revision identity or production dimensions established",
+    "No scale optimisation, anisotropic rescaling, or bow warp applied"
+  ]
+}

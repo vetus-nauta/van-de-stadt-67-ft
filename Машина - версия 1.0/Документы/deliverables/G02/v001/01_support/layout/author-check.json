@@ -1,0 +1,29 @@
+{
+  "status": "AUTHOR_CHECKED_NOT_INDEPENDENT",
+  "checks": {
+    "unique_zone_ids": true,
+    "positive_rectangle_extents": true,
+    "all_zones_proposed": true,
+    "four_cabin_reserves_each": true,
+    "four_head_reserves_each": true,
+    "local_links_resolve": true,
+    "repeat_backdrop_identical": true,
+    "nonempty_output_rejected_exit2": true,
+    "E1_contained_in_master_reserve_each": true,
+    "QA_text_clarification_only_A_GARAGE_limit": true
+  },
+  "zone_rows": 35,
+  "tradeoff_rows": 14,
+  "missing_links": [],
+  "open": [
+    "No 3D fit or clear-headroom check",
+    "Forward rectangular reserves exceed historical external plan at some corners",
+    "A garage intersects Master",
+    "B loses full-beam Master and moves machinery",
+    "B galley depends on conditional roof development",
+    "No tender model or load path selected"
+  ],
+  "input_alignment_sha256": "65206919803104ff3f0424c3f01770cab0909918bcf90644b56fff79addf63c1",
+  "visual_check": "Both PNG inspected; A label separation corrected; B route no longer crosses machinery rectangle",
+  "qa_followup": "2026-09-10: непояснённый параметр d в A-GARAGE limit заменён явным интервалом рабочей Xw −17.6…−15.6 м. Проверено сравнением CSV: изменилось только поле limit этой строки; координаты, изображения и геометрия не изменены. Та же формулировка внесена в reproduce.py."
+}

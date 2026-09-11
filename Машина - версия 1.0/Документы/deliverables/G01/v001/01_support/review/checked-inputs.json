@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-10",
+  "status": "REVIEWED_FOR_ANALYTICAL_SCOPE",
+  "files": [
+    {
+      "path": "deliverables/G01/v001/00_geometry-review.md",
+      "sha256": "9ab7a9c29b40e46bcb08230f84deaba9304912766e10cf97be71f76b1eec11fa"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/rhino/00_rhino-inspection.md",
+      "sha256": "dfa172c159363422569ae8cf9037567933ee9d3366c2212fdbb684eef79b0389"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/rhino/inventory.json",
+      "sha256": "b736da134a3bd4ad1562bf85f49f95b419b8262cb2536adbd3b1d521fe50bda2"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/dwg/00_dwg-inspection.md",
+      "sha256": "0cf4ff64bfe538d7c5f7b4d3da7a4ec6051432e77dea8f3b1f23939da80fb12b"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/dwg/inventory.json",
+      "sha256": "d849bfee5c4e423bb57ec6528d2d335039148bf76c5e1ff383b52b7098e0c41d"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/dwg/lines-decoded.json",
+      "sha256": "ea5d2215b5c7bdd8906e944c03f0bf09218e3f29a4262362de6e28d7916f52d3"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/dwg/lines-derived.dxf",
+      "sha256": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/survey/00_survey-basis.md",
+      "sha256": "ac35a2071c0b8f01a561945bc68baab150d9d4a5cc05a0d682b89a9dc99d8172"
+    },
+    {
+      "path": "deliverables/G01/v001/01_support/survey/survey-checklist.csv",
+      "sha256": "ac9fc4c6585976ae92d2c4c756800f07a5ac7c06b724bd1f0387d6429a472312"
+    },
+    {
+      "path": "data/office/design-intents.csv",
+      "sha256": "c5a8ba166613d98a9b996e5b46412d754e6fc643160ca2a75a06578c8b863331"
+    }
+  ]
+}

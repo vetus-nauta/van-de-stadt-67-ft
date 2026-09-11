@@ -1,0 +1,70 @@
+{
+  "source": "experiments/EXP-003/01_support/model/experiment.blend",
+  "sha256": "450cb9dd8185a2b591d058d6a3cb09487dbd100257b63713f0a904868a8f363e",
+  "coordinate_note": "G02 historical mesh, not actual waterline/as-built. These floor limits are outputs, NOT selected floor levels.",
+  "cases": [
+    {
+      "zone": "wet_outer",
+      "bounds_xy_m": [
+        -15.47,
+        -10.87,
+        -1.7,
+        1.7
+      ],
+      "sample_count": 3270,
+      "no_hit_count": 42,
+      "highest_sample_xyz_m": [
+        -15.47,
+        -1.7,
+        -0.482846
+      ],
+      "underfloor_reserve_m": 0.15,
+      "minimum_uniform_floor_rounded_up_m": -0.3,
+      "status": "SAMPLED_HULL_ONLY_NOT_INTERIOR_FIT"
+    },
+    {
+      "zone": "dry_cabinet_outer",
+      "bounds_xy_m": [
+        -10.87,
+        -10.17,
+        -1.7,
+        1.7
+      ],
+      "sample_count": 552,
+      "no_hit_count": 0,
+      "highest_sample_xyz_m": [
+        -10.17,
+        -1.7,
+        -0.875327
+      ],
+      "underfloor_reserve_m": 0.15,
+      "minimum_uniform_floor_rounded_up_m": -0.7,
+      "status": "SAMPLED_HULL_ONLY_NOT_INTERIOR_FIT"
+    },
+    {
+      "zone": "side_passage",
+      "bounds_xy_m": [
+        -15.47,
+        -10.17,
+        -2.4,
+        -1.7
+      ],
+      "sample_count": 825,
+      "no_hit_count": 0,
+      "highest_sample_xyz_m": [
+        -15.47,
+        -2.4,
+        0.373234
+      ],
+      "underfloor_reserve_m": 0.15,
+      "minimum_uniform_floor_rounded_up_m": 0.55,
+      "status": "SAMPLED_HULL_ONLY_NOT_INTERIOR_FIT"
+    }
+  ],
+  "limits": [
+    "No frames or tank deductions",
+    "Missing seam hits disclosed",
+    "No roof/passage headroom established",
+    "Allowance 0.15m is provisional; plate normal thickness not calculated"
+  ]
+}

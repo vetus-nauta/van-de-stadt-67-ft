@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "missing-output",
+      "returncode": 2,
+      "expected_rejection_seen": true,
+      "scene_not_loaded": true
+    },
+    {
+      "case": "existing-release",
+      "returncode": 2,
+      "expected_rejection_seen": true,
+      "scene_not_loaded": true
+    }
+  ],
+  "model_folder_unchanged_during_tests": true,
+  "previous_checked_inputs_changed_only": [
+    "experiments/EXP-001/01_support/model/README.md",
+    "experiments/EXP-001/01_support/model/build_model.py"
+  ],
+  "geometry_and_images_match_previous_checked_hashes": true
+}

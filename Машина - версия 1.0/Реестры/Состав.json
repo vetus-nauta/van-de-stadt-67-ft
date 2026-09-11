@@ -1,0 +1,14 @@
+{
+  "package": "Машина - версия 1.0",
+  "date": "2026-09-11",
+  "basis_commit": "8d2cfd9dac117d8cb603b51096bf579a58d37e90",
+  "public_copied_files": 503,
+  "public_bytes": 121889423,
+  "local_pdf_occurrences": 19,
+  "unique_local_pdfs": 19,
+  "local_pdf_unique_bytes": 68618178,
+  "preexisting_unresolved_markdown_references": 0,
+  "status": "DOCUMENT_SNAPSHOT_NOT_NEW_ENGINEERING_OR_BUDGET_APPROVAL",
+  "originals_preserved": true,
+  "local_catalogues_excluded_from_public_git": true
+}

@@ -1,0 +1,83 @@
+{
+  "release": "M06/v001",
+  "date": "2026-09-11",
+  "basis_commit": "e5d7d123952029c0fbea9604f4c81cb0b61874a3",
+  "status": "SCOPE_AND_DRAFT_RFQ_COMPLETE_TECHNICAL_CLOSURE_OPEN",
+  "files": [
+    {
+      "path": "00_powerplant-scope.xlsx",
+      "bytes": 36534,
+      "sha256": "0b92c3401704256d5c47f2149787d6fabaf82257ba2a4eb8e878b009838caa8a"
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "bytes": 7418,
+      "sha256": "274486c58f84e272b70e53f98b93b17d56ebaa3da8a4563faac128906ce83775"
+    },
+    {
+      "path": "01_support/RFQ-draft-en.md",
+      "bytes": 6779,
+      "sha256": "2f8dc43c7c24bfad6924b4f51dfa38ec09f0c01cefcf184f15b90e8197dc6e3f"
+    },
+    {
+      "path": "01_support/build-stats.json",
+      "bytes": 186,
+      "sha256": "91cb83a3bd6ff7348c401d1c1784db847da8d9ae515f50dca69bc721b5b873ea"
+    },
+    {
+      "path": "01_support/build_scope.py",
+      "bytes": 11258,
+      "sha256": "0ac830329b19b6b20f54c545a10b653c8b797a3d33bffc95536c473dec38c818"
+    },
+    {
+      "path": "01_support/electrical-hydraulic-notes.md",
+      "bytes": 7973,
+      "sha256": "f2bbda4ff1b3502e7458e000f61074b02a2eacc20009e46190e9f696e7b52acc"
+    },
+    {
+      "path": "01_support/electrical-hydraulic.csv",
+      "bytes": 21232,
+      "sha256": "738fce475302284bd5e70092697bdbd21329edfd384849087362181512716874"
+    },
+    {
+      "path": "01_support/generator-interfaces.csv",
+      "bytes": 4108,
+      "sha256": "b9040718264222e3de01c5a919896f96549a625fc85bf6bacc322edf2e1ebdd2"
+    },
+    {
+      "path": "01_support/mechanical-notes.md",
+      "bytes": 9088,
+      "sha256": "6b81f46155c30f5aa12d7a82df49f812ff5bbc94f59b003bdf1d6664b765da8b"
+    },
+    {
+      "path": "01_support/mechanical.csv",
+      "bytes": 19250,
+      "sha256": "2d865d45270f3020e48d2368b03f5f7b4b3ea2d3e8c28f9e35f23996cb0d5612"
+    },
+    {
+      "path": "01_support/open-questions.csv",
+      "bytes": 4595,
+      "sha256": "2bd46e96df62b2bb7a2a39a1dde713f67b963161810f382880c63b9058237521"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 7635,
+      "sha256": "935886f1fd79869f9e7dc3d2fcacdda196f6646d6ac87001b0b6f04da1fefa1a"
+    },
+    {
+      "path": "01_support/scope-register.csv",
+      "bytes": 44180,
+      "sha256": "77d0459edf6aedf529a1933c969126d76bb253c673e2d60882022bdd07958fed"
+    },
+    {
+      "path": "01_support/space-inputs.csv",
+      "bytes": 2908,
+      "sha256": "4efa4311d64f3fd8cdcf68ebd799aa0d3e031bb189efb4098b8d35d81b80c08b"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 2485,
+      "sha256": "427abb95c361eb9eca756bad8b98226fc1af2f715780cf5f962c566951aa5db1"
+    }
+  ]
+}

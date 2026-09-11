@@ -1,0 +1,1052 @@
+{
+  "status": "PLANNING_BLOCK_REGISTER_NOT_FULL_BOM_OR_FIT_APPROVAL",
+  "units": "m",
+  "blocks": [
+    {
+      "block_id": "AX01",
+      "covers_me_ids": [
+        "ME-05"
+      ],
+      "label": "Два основных инвертора-зарядника",
+      "equipment_quantity": 2,
+      "drawing_instances": 2,
+      "dimensions_each_LWH_m": [
+        0.3,
+        0.2,
+        0.55
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ENVELOPE_FROM_M02_OEM",
+      "proposed_location": "DRY_ADJACENT_ELECTRICAL",
+      "contents": "В каждом блоке1 инвертор; штатные зарядные функции не дублировать",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M02 EL-INV-A/B/C",
+      "notes": "M02 корпуса: A141×268×499;B147×275×506;C155×284×448мм. Предложенный LWH300×200×550; вентиляционные зазоры добавляются отдельно; мощность не выбрана",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX02",
+      "covers_me_ids": [
+        "ME-06"
+      ],
+      "label": "Независимый канал AC насоса воды",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.3,
+        0.2,
+        0.35
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "DRY_ADJACENT_ELECTRICAL",
+      "contents": "Функция1; отдельный инвертор либо независимое исполнение после схемы",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-06; M02 EL-OPEN-PUMP",
+      "notes": "Количество физических аппаратов не утверждено; не считать третьим основным инвертором",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX03",
+      "covers_me_ids": [
+        "ME-08"
+      ],
+      "label": "Сервисные АКБ — два лотка по3",
+      "equipment_quantity": 6,
+      "drawing_instances": 2,
+      "dimensions_each_LWH_m": [
+        0.66,
+        0.45,
+        0.38
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "CONDITIONAL_ENVELOPE_FROM_12V115AH_MARKET_REFERENCES",
+      "proposed_location": "DRY_BATTERY_LOCKER",
+      "contents": "В каждом лотке3 индивидуальные ячейки0.22×0.45×0.38; всего6",
+      "service_access": {
+        "front_clear_m": 0.65,
+        "top_clear_m": 0.35,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вертикальный подъём каждого АКБ; над лотками нужен съёмный доступ"
+      },
+      "source_ref": "M02 EL-BAT-A/B/C; D018",
+      "notes": "Корпуса кандидатов349×175×235;331×176×220;395×110×293мм поворачиваются горизонтально. 115Ah/12V только условный ценовой референс; напряжение/химия/соединение не приняты. Новый паспорт может увеличить ячейки",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX04",
+      "covers_me_ids": [
+        "ME-07"
+      ],
+      "label": "Пусковая АКБ главного двигателя",
+      "equipment_quantity": 1,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.55,
+        0.3,
+        0.38
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "SEPARATE_BATTERY_LOCKER_NEAR_ENGINE",
+      "contents": "1 физическая АКБ; удержание/поддон/изоляция",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.35,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-07; M06 EH01-EH06",
+      "notes": "Габарит неизвестен; крупный условный резерв, не назначение ёмкости. Не объединять с6 сервисными в дополнительный банк",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX05",
+      "covers_me_ids": [
+        "ME-27"
+      ],
+      "label": "Пусковые АКБ генераторов",
+      "equipment_quantity": 2,
+      "drawing_instances": 2,
+      "dimensions_each_LWH_m": [
+        0.55,
+        0.3,
+        0.38
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "SEPARATE_BATTERY_LOCKER_NEAR_GENERATORS",
+      "contents": "По1 физической АКБ на каждый из2 генераторов",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.35,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-27; M06 EH01",
+      "notes": "9 физических АКБ суммарно сAX03/04; схема резервного пуска не доказана",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX06",
+      "covers_me_ids": [
+        "ME-09"
+      ],
+      "label": "Береговое разделение/ввод",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.35,
+        0.3,
+        0.45
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ENVELOPE_FROM_M02_OEM",
+      "proposed_location": "DRY_ADJACENT_ELECTRICAL",
+      "contents": "Трансформатор/ввод/крепление; схема определяет аппаратное количество",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M02 EL-ISO-A/B/C",
+      "notes": "M02 крупнейший из рассмотренных корпусов290×208×380мм; мощность не выбрана. Один рисуемый резерв не фиксирует1 трансформатор",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX07",
+      "covers_me_ids": [
+        "ME-10",
+        "ME-28"
+      ],
+      "label": "Шкаф24VDC и резервного пуска",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.8,
+        0.3,
+        0.9
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "DRY_ADJACENT_ELECTRICAL",
+      "contents": "24VDC распределение; критическая шина; силовые контакторы; изоляция failedbattery; защита и контроль",
+      "service_access": {
+        "front_clear_m": 0.75,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M06 EH03-EH08",
+      "notes": "Не создавать12Vhousebus. Шкаф как функциональный резерв, не утверждённый BOM; доступ к обеим сторонам если нужны вводы",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX08",
+      "covers_me_ids": [
+        "ME-10"
+      ],
+      "label": "Шкаф220VAC и выбора источников",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.8,
+        0.3,
+        0.9
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "DRY_ADJACENT_ELECTRICAL",
+      "contents": "220VAC; берег/2 генератора/инверторы; защита и переключение",
+      "service_access": {
+        "front_clear_m": 0.75,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M06 EH08",
+      "notes": "Общие приборы вAX07/08 не считать дважды; запрет неутверждённого параллелирования. Разделение корпусов предлагается",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX09",
+      "covers_me_ids": [
+        "ME-29"
+      ],
+      "label": "Центральный гидромодуль",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        1.0,
+        0.45,
+        0.85
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ENVELOPE_FROM_PARTIAL_M02_OEM",
+      "proposed_location": "WET_ENGINE_ROOM_SIDE_BAY",
+      "contents": "Бак; фильтры; коллектор/клапаны; контроль; места подключения основного и резервного привода",
+      "service_access": {
+        "front_clear_m": 0.7,
+        "top_clear_m": 0.3,
+        "one_side_clear_m": 0.15,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M02 A07; M06 EH11-EH17",
+      "notes": "A07 бак/модуль870×330×705мм не вся система. Насос/PTO и теплообменник вынесеныAX10; аккумулятор давления условный",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX10",
+      "covers_me_ids": [
+        "ME-29"
+      ],
+      "label": "Насосный привод и охлаждение гидравлики",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.8,
+        0.45,
+        0.6
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_ENGINE_ROOM_NEAR_PTO",
+      "contents": "Насос/муфта/PTO; охладитель и обвязка; резерв функции без фиксации второго насоса",
+      "service_access": {
+        "front_clear_m": 0.7,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.2,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M06 EH12-EH17",
+      "notes": "Разделённый монтаж возможен: бокс обозначает суммарный зарезервированный узел, не единый покупной агрегат. Предохранительные функции обязательны; размеры уточнить",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX11",
+      "covers_me_ids": [
+        "ME-15"
+      ],
+      "label": "Два чиллерных модуля",
+      "equipment_quantity": 2,
+      "drawing_instances": 2,
+      "dimensions_each_LWH_m": [
+        0.45,
+        0.4,
+        0.45
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ENVELOPE_FROM_M02_OEM",
+      "proposed_location": "WET_ENGINE_ROOM_OR_CLIMATE_BAY",
+      "contents": "По1 независимому чиллеру, крепление и отсечки",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.15,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M02 WC-CH-01/03",
+      "notes": "Референсы350×340×380 и385×290×350мм; требуемая холодопроизводительность ещё не рассчитана; габарит кандидата не доказывает достаточность",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX12",
+      "covers_me_ids": [
+        "ME-16"
+      ],
+      "label": "Климатическая насосная обвязка",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.75,
+        0.4,
+        0.6
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_CLIMATE_BAY",
+      "contents": "Насосы хладоносителя/морской воды; расширительная ёмкость; фильтры; клапаны",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-16",
+      "notes": "Число насосов и раздельность контуров открыты; штатное внутри чиллеров исключить из повторного списка",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX13",
+      "covers_me_ids": [
+        "ME-13"
+      ],
+      "label": "Опреснитель150л/ч",
+      "equipment_quantity": 1,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        1.2,
+        0.45,
+        0.55
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_WATER_TREATMENT_BAY",
+      "contents": "Мембраны; насосы; предфильтры; промывка; датчиксолёности/отвод; управление",
+      "service_access": {
+        "front_clear_m": 0.65,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.15,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Выдвижение мембраны: дополнительно1.00м вдоль L как условный съёмный сервисный коридор"
+      },
+      "source_ref": "M02 WC-RO-01/02/03",
+      "notes": "Это модульная компоновочная гипотеза, OEMразмер вM02 не установлен. Производительность150л/ч зависит отусловий; не размножать комплектные насосы/предфильтры вAX16",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX14",
+      "covers_me_ids": [
+        "ME-11"
+      ],
+      "label": "Водяная установка24VDC",
+      "equipment_quantity": 1,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.65,
+        0.4,
+        0.55
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_WATER_BAY",
+      "contents": "DCнасосная установка с составом выбранного комплекта",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-11; M02 WC-DC-01/02/03",
+      "notes": "",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX15",
+      "covers_me_ids": [
+        "ME-12"
+      ],
+      "label": "Водяная установка220VAC",
+      "equipment_quantity": 1,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.65,
+        0.4,
+        0.55
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_WATER_BAY",
+      "contents": "ACнасосная установка; независимый каналAX02",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-12; M02 WC-AC-01/02/03",
+      "notes": "",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX16",
+      "covers_me_ids": [
+        "ME-14",
+        "ME-17"
+      ],
+      "label": "ГВС и внешняя водяная арматура",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.9,
+        0.55,
+        0.7
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_WATER_BAY",
+      "contents": "Резерв бойлера; смеситель; расширение/аккумулятор; коллектор; внешний фильтр/рециркуляция по схеме",
+      "service_access": {
+        "front_clear_m": 0.65,
+        "top_clear_m": 0.25,
+        "one_side_clear_m": 0.15,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-14/17; M02 WC-HW-01/02/03",
+      "notes": "Бойлеров1или2 не решено; бокс допускает только один условный цилиндр, второй потребует отдельного резерва. Не объявлять1 окончательным количеством; два источника нагрева не два бойлера",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX17",
+      "covers_me_ids": [
+        "ME-18"
+      ],
+      "label": "Топливный сервисный стенд",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.8,
+        0.25,
+        0.7
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_ENGINE_ROOM_ACCESSIBLE_BULKHEAD",
+      "contents": "Дуплексный первичный фильтр двигателя; независимая фильтрация2 генераторов; подача/отсечки; сервисная перекачка по схеме",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.25,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-18; M02 A09",
+      "notes": "Сервис снизу для слива чаш и сверху для картриджей; суточный танк/полировочныйконтур не утверждены и вэтотбокс не спрятаны",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX18",
+      "covers_me_ids": [
+        "ME-19"
+      ],
+      "label": "Три отдельных охлаждающих/выхлопных маршрута",
+      "equipment_quantity": null,
+      "drawing_instances": 3,
+      "dimensions_each_LWH_m": [
+        0.6,
+        0.45,
+        0.6
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_LOW_ENGINE_ROOM_AND_ROUTING",
+      "contents": "По одному маршруту для главного двигателя и каждого генератора: водозамок/сепаратор; забортныйфильтр/отсечка; антисифон и шланги",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.25,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-19; M06 G02",
+      "notes": "Три рисуемых кармана — не3 одинаковых комплекта и не фиксированное число аппаратов. Петли/уклоны/диаметры/обратное давление проверяются наразрезе; вертикальные трубы отдельнымидорожками",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX19",
+      "covers_me_ids": [
+        "ME-20"
+      ],
+      "label": "Осушение и аварийная откачка",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.5,
+        0.35,
+        0.4
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "WET_BILGE_PLUS_EXTERNAL_MANUAL_STATION",
+      "contents": "Локальный насос/датчики; центральная аварийная функция; ручной насос внеопаснойзоны; коллектор",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.25,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-20; M02 A12/A13/A14",
+      "notes": "Насосы распределены поотсекам; бокс не закрывает все отсеки. Число по схеме, обратные потоки исключить",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX20",
+      "covers_me_ids": [
+        "ME-21"
+      ],
+      "label": "Пожаротушение МО",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.4,
+        0.35,
+        0.9
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "PROTECTED_ACCESSIBLE_FIRE_BOTTLE_LOCKER",
+      "contents": "Баллонный резерв; пуск/сигнализация; сопла/датчики/отсечки вне бокса",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.2,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-21; M02 A20",
+      "notes": "Число баллонов/заряд пообъёму новогоМО; бокс не выбранная система. Ручной пуск внеМО и блокировка вентиляции",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX21",
+      "covers_me_ids": [
+        "ME-22"
+      ],
+      "label": "Приточная и вытяжная шахты",
+      "equipment_quantity": null,
+      "drawing_instances": 2,
+      "dimensions_each_LWH_m": [
+        0.4,
+        0.4,
+        0.9
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "ENGINE_ROOM_TO_EXTERIOR_DUCT_ROUTE",
+      "contents": "Раздельные функциональные шахты: вентиляторы, шумоглушение, заслонки, дренаж",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-22; M02 A15",
+      "notes": "2 трассы приток/вытяжка не утверждают2 вентилятора. Сечение/воздух/тепло не рассчитаны; продолжить шахты наружу на модели",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX22",
+      "covers_me_ids": [
+        "ME-23"
+      ],
+      "label": "Сервисный стендМО",
+      "equipment_quantity": null,
+      "drawing_instances": 1,
+      "dimensions_each_LWH_m": [
+        0.45,
+        0.2,
+        0.6
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "ENGINE_ROOM_SERVICE_BULKHEAD",
+      "contents": "Маслосмена для3 дизелей; местный контроль; освещение/камера/сигнализация распределены",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-23; M02 A16",
+      "notes": "Поддоны и свет не помещать физически внутрьбокса; обозначить распределённые значки на чертеже",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX23",
+      "covers_me_ids": [
+        "ME-24"
+      ],
+      "label": "Интерфейсы танков топлива/воды",
+      "equipment_quantity": null,
+      "drawing_instances": 0,
+      "dimensions_each_LWH_m": [
+        0.4,
+        0.25,
+        0.5
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "OUTSIDE_ENGINE_ROOM_DISTRIBUTED",
+      "contents": "Уровнемеры/венты/заполнение/отсечки; реальные объёмы танков отдельнаягеометрия",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-24; M02 A17/A18",
+      "notes": "Размер только сервисного интерфейсного узла, не всего танка. drawing_instances0: выноска OUTSIDE, не пропуск функции",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX24",
+      "covers_me_ids": [
+        "ME-25"
+      ],
+      "label": "Санитарный сервисный модуль",
+      "equipment_quantity": null,
+      "drawing_instances": 0,
+      "dimensions_each_LWH_m": [
+        0.6,
+        0.4,
+        0.5
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "OUTSIDE_ENGINE_ROOM_SANITARY_BAY",
+      "contents": "Насосы стоков/забортной подачи; вентиляция танков; разделение пресной воды",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-25; M02 A19",
+      "notes": "Унитазы/танки/трубы внеэтого бокса; отдельная зона. 0рисуемыхвМО не ноль оборудования",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    },
+    {
+      "block_id": "AX25",
+      "covers_me_ids": [
+        "ME-26"
+      ],
+      "label": "Условный модуль водяного отопления",
+      "equipment_quantity": null,
+      "drawing_instances": 0,
+      "dimensions_each_LWH_m": [
+        0.65,
+        0.4,
+        0.5
+      ],
+      "dimension_convention": "L horizontal along nominated mounting face; W depth into compartment; H vertical; rotation requires rechecking interfaces",
+      "size_basis": "PLANNING_ALLOWANCE_NOT_OEM",
+      "proposed_location": "CONDITIONAL_EXTERNAL_TECHNICAL_BAY",
+      "contents": "Отопитель/обвязка после выбораархитектуры",
+      "service_access": {
+        "front_clear_m": 0.6,
+        "top_clear_m": 0.15,
+        "one_side_clear_m": 0.1,
+        "basis": "PLANNING_ALLOWANCE_NOT_OEM_SERVICE_REQUIREMENT",
+        "removal": "Вынести агрегат в основной сервисный маршрут; ширину дверей проверить"
+      },
+      "source_ref": "M01 ME-26; M02 A21/A22",
+      "notes": "Не обязательная покупка; показывать штриховой внешний резерв, не добавлять автоматически к обратномуциклу чиллеров",
+      "status": "PROPOSED_BLOCK_NOT_FIT_OR_LOAD_APPROVED"
+    }
+  ],
+  "coverage_29_groups": [
+    {
+      "me_id": "ME-01",
+      "label": "Главный морской дизель",
+      "owner_quantity_literal": "1",
+      "owner_unit": "шт",
+      "coverage_type": "OTHER_AGENT_PROPULSION",
+      "block_ids": [],
+      "note": "Дизель/редуктор/валоваялиния/2генератора в отдельной геометрии; не дублировать"
+    },
+    {
+      "me_id": "ME-02",
+      "label": "Морской редуктор",
+      "owner_quantity_literal": "1",
+      "owner_unit": "шт",
+      "coverage_type": "OTHER_AGENT_PROPULSION",
+      "block_ids": [],
+      "note": "Дизель/редуктор/валоваялиния/2генератора в отдельной геометрии; не дублировать"
+    },
+    {
+      "me_id": "ME-03",
+      "label": "Муфта, опоры, упорный узел и элементы валопровода",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "OTHER_AGENT_PROPULSION",
+      "block_ids": [],
+      "note": "Дизель/редуктор/валоваялиния/2генератора в отдельной геометрии; не дублировать"
+    },
+    {
+      "me_id": "ME-04",
+      "label": "Дизель-генераторы в акустическом исполнении",
+      "owner_quantity_literal": "2",
+      "owner_unit": "шт",
+      "coverage_type": "OTHER_AGENT_PROPULSION",
+      "block_ids": [],
+      "note": "Дизель/редуктор/валоваялиния/2генератора в отдельной геометрии; не дублировать"
+    },
+    {
+      "me_id": "ME-05",
+      "label": "Основные инверторы-зарядные устройства",
+      "owner_quantity_literal": "2",
+      "owner_unit": "шт",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX01"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-06",
+      "label": "Независимое инверторное питание AC насоса пресной воды",
+      "owner_quantity_literal": "1",
+      "owner_unit": "канал",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX02"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-07",
+      "label": "Пусковой аккумулятор главного двигателя",
+      "owner_quantity_literal": "1",
+      "owner_unit": "шт",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX04"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-08",
+      "label": "Сервисные аккумуляторы",
+      "owner_quantity_literal": "6",
+      "owner_unit": "шт",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX03"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-09",
+      "label": "Разделительный трансформатор / подготовка берегового питания",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX06"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-10",
+      "label": "Распределение AC/DC, переключение источников, зарядная и защитная автоматика",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX07",
+        "AX08"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-11",
+      "label": "Напорная насосная установка пресной воды24VDC",
+      "owner_quantity_literal": "1",
+      "owner_unit": "установка",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX14"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-12",
+      "label": "Напорная насосная установка пресной воды220VAC",
+      "owner_quantity_literal": "1",
+      "owner_unit": "установка",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX15"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-13",
+      "label": "Опреснитель обратного осмоса",
+      "owner_quantity_literal": "1",
+      "owner_unit": "установка",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX13"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-14",
+      "label": "Бойлеры-калориферы ГВС",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX16"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-15",
+      "label": "Независимые чиллерные модули кондиционирования",
+      "owner_quantity_literal": "2",
+      "owner_unit": "модуля",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX11"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-16",
+      "label": "Насосы, расширительные ёмкости и обвязка климатической системы",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX12"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-17",
+      "label": "Гидроаккумуляторы, коллекторы, фильтры, клапаны и рециркуляция ГВС",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX16"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-18",
+      "label": "Топливная фильтрация, подача, перекачка и отсечки",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX17"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-19",
+      "label": "Забортное охлаждение и выхлоп двигателя и генераторов",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX18"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-20",
+      "label": "Осушение: локальные насосы, центральный аварийный, ручной и сигнализация",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX19"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-21",
+      "label": "Стационарное пожаротушение и защита МО",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX20"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-22",
+      "label": "Приточная и вытяжная вентиляция МО",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX21"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-23",
+      "label": "Сервис МО: маслосмена, поддоны, освещение, контроль и сигнализация",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX22"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-24",
+      "label": "Танки топлива/воды и их оснащение",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX23"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-25",
+      "label": "Санитарная забортная подача, насосы стоков и вентиляция танков",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX24"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-26",
+      "label": "Резервное водяное отопление",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX25"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-27",
+      "label": "Пусковые аккумуляторы генераторов",
+      "owner_quantity_literal": "2",
+      "owner_unit": "шт",
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX05"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-28",
+      "label": "Дистанционная система резервного пуска",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX07"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    },
+    {
+      "me_id": "ME-29",
+      "label": "Гидросиловая установка и центральная обвязка",
+      "owner_quantity_literal": null,
+      "owner_unit": null,
+      "coverage_type": "AUXILIARY_BLOCKS",
+      "block_ids": [
+        "AX09",
+        "AX10"
+      ],
+      "note": "Количество M01 не меняется; модульный резерв не равен числу аппаратов"
+    }
+  ],
+  "fixed_counts_check": {
+    "main_inverters": 2,
+    "independent_water_inverter_function": 1,
+    "service_batteries": 6,
+    "main_start_batteries": 1,
+    "generator_start_batteries": 2,
+    "total_physical_batteries": 9,
+    "DC_water_sets": 1,
+    "AC_water_sets": 1,
+    "watermaker_sets": 1,
+    "watermaker_nominal_lph": 150,
+    "chiller_modules": 2
+  },
+  "inputs_sha256": {
+    "deliverables/M01/v001/01_support/equipment-list.csv": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1",
+    "deliverables/M01/v001/01_support/owner-requirements.md": "c0708258406b61a360c71a0fc50fca9e9787a33444dbb3b98d27c4b281f08eb8",
+    "deliverables/M02/v001/01_support/electrical/candidates.csv": "84a1acf3278b2e3b44896db4393e52f483cf0e2c97a0aeac6cc7650aa9b5e33a",
+    "deliverables/M02/v001/01_support/water-climate/candidates.csv": "63d7317c9b57e65d522b39a6f20cfdef7d0c1f0f3c48213091d27d23163f544a",
+    "deliverables/M02/v001/01_support/auxiliary/candidates.csv": "9a762332a5b4a4225e8a6baeaf32266b4351c0ee3afcfa6ccaa43accfc7bc2d4",
+    "deliverables/M06/v001/01_support/electrical-hydraulic.csv": "738fce475302284bd5e70092697bdbd21329edfd384849087362181512716874"
+  },
+  "limits": [
+    "All service clearances planning allowances, not OEM certified",
+    "Electrical dry zones require environmental/ventilation/fire segregation design",
+    "Unknown appliance count remains null; drawing_instances is only number of drawn envelopes",
+    "Envelopes not summed as usable compartment volume or fit proof",
+    "No selected chemistry/voltage/Ah for individual batteries; no12Vhousebus",
+    "No new price lookup or supplier contact"
+  ]
+}

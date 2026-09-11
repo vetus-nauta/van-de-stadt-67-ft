@@ -1,0 +1,256 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_sprint-result.md",
+      "sha256": "2be3d3d6ac08bfe8f361ec1bbca499ff3c707beec342eda1879d4c55c112634c",
+      "bytes": 9508
+    },
+    {
+      "path": "01_support/00_acceptance.md",
+      "sha256": "d7a0f9f4fef2b5f830f662a59b38af6a2f4f82dcca6dcc8487cc296b83ebefa3",
+      "bytes": 5390
+    },
+    {
+      "path": "01_support/alignment/00_alignment.md",
+      "sha256": "6fe8627e5d0ed35bf054dd68b1fc37cb1c1106a20d11c045429796dc2b03c8b8",
+      "bytes": 15162
+    },
+    {
+      "path": "01_support/alignment/alignment-overlay.png",
+      "sha256": "6127a7908dcddd90aabd5ba7c4a4ae394cd03c0dcc49a9a03aadba6c61f2e088",
+      "bytes": 215103
+    },
+    {
+      "path": "01_support/alignment/alignment-overlay.svg",
+      "sha256": "a960fe946e6f2c716ebbe72eb4ce39a9ded618d7373f0b9a6000f98cb6ff194f",
+      "bytes": 126821
+    },
+    {
+      "path": "01_support/alignment/anchors.csv",
+      "sha256": "b8daf2d0dc95949166ca082bdf2cf70852db16ecd4aa75bf56c0b7fa2136fe31",
+      "bytes": 2538
+    },
+    {
+      "path": "01_support/alignment/author-check.json",
+      "sha256": "1cba8d49b4a932e0f41d8c12ab5e8b54ce544323adfee187b9b18f1745a0a29c",
+      "bytes": 1325
+    },
+    {
+      "path": "01_support/alignment/bow-detail.png",
+      "sha256": "44df5b51b0eac98fa8b8362780791b074edcfdeecfadc1c63b6dbef3860e8824",
+      "bytes": 107746
+    },
+    {
+      "path": "01_support/alignment/bow-detail.svg",
+      "sha256": "c700c458c550c865758c7e1bc32712b84be5cb49ac75adb9f01199df5e964739",
+      "bytes": 81582
+    },
+    {
+      "path": "01_support/alignment/build_alignment.py",
+      "sha256": "08ff5e58d825b6c08d85b53c80e42d261bc7f4cf2e0f1a667c355bd8c191d1cd",
+      "bytes": 13318
+    },
+    {
+      "path": "01_support/alignment/curves-working.json",
+      "sha256": "65206919803104ff3f0424c3f01770cab0909918bcf90644b56fff79addf63c1",
+      "bytes": 3883003
+    },
+    {
+      "path": "01_support/alignment/dwg-selected-extraction.json",
+      "sha256": "413b2d0efa2dd7938483a359552b308a5cb19df012a999d19c719f6a4127cf7f",
+      "bytes": 53039
+    },
+    {
+      "path": "01_support/alignment/holdout-sections.png",
+      "sha256": "2b991c62a954c818423931e9f1f05ceea8188a7a3f37fe8716aff85a43654969",
+      "bytes": 228607
+    },
+    {
+      "path": "01_support/alignment/holdout-sections.svg",
+      "sha256": "5ac5a3c6bf176548af99126d0e7eccb2bdb99ecc8c2bdea25ccc9c05092aa781",
+      "bytes": 162475
+    },
+    {
+      "path": "01_support/alignment/section-diagnostics.json",
+      "sha256": "7b070b18d4a0b12f6e8dbe1686f6317245329bd6bd9dc6874d97c322ff51453f",
+      "bytes": 2225
+    },
+    {
+      "path": "01_support/alignment/sections-working.json",
+      "sha256": "1330ae35662ac88a135638eb35b3c74727a3d3fda6127ad089f9dd7c6c894299",
+      "bytes": 100534
+    },
+    {
+      "path": "01_support/alignment/transform.json",
+      "sha256": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+      "bytes": 3749
+    },
+    {
+      "path": "01_support/cad/00_cad-validation.md",
+      "sha256": "dc4bb7b69d247558c5c260845985b66a43bc7d8d298471cd9f3ff101e56e660e",
+      "bytes": 11336
+    },
+    {
+      "path": "01_support/cad/audit.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/cad/audit.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/cad/compare_cad.py",
+      "sha256": "5b0635914b198ca5308f52aa60f1a8f3e49b65ca4e2b5142b9c86c1b75d9ff45",
+      "bytes": 5566
+    },
+    {
+      "path": "01_support/cad/comparison.csv",
+      "sha256": "8d003aeab19c47e8596b344380c94af59a32674208d5b655c78e5f9887127c88",
+      "bytes": 49285
+    },
+    {
+      "path": "01_support/cad/comparison.json",
+      "sha256": "f6af8f85b04db73d40ed8bf8bda61ebcaed3feb95ef5eb47b81dab600fed143c",
+      "bytes": 144738
+    },
+    {
+      "path": "01_support/cad/comparison.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/cad/comparison.stdout.log",
+      "sha256": "9af45c7b15e2f26518c522766a4257a1bbcf694efd5b32d5f67e306bc5f80fa6",
+      "bytes": 34388
+    },
+    {
+      "path": "01_support/cad/exit-status.json",
+      "sha256": "4a8d18f91b71dda1d9280cb992aad2901d38df5467cbf394eb621c1855a706c6",
+      "bytes": 33
+    },
+    {
+      "path": "01_support/cad/lines-oda-noaudit.dxf",
+      "sha256": "d06ad079a2c7b7f5ec8b0655fa71ee8f03efda8a95f7b88e45ed4e5db3a4055e",
+      "bytes": 1787999
+    },
+    {
+      "path": "01_support/cad/noaudit.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/cad/noaudit.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "01_support/cad/recheck.json",
+      "sha256": "868e4eab695294c618fb50011f089a7794dccb2a6cc6706c0d33f51deffe8743",
+      "bytes": 1507
+    },
+    {
+      "path": "01_support/cad/reproduce.sh",
+      "sha256": "f228b94a411cf995a92c11677559248c2bfd68cdf800130b08257b6921da9679",
+      "bytes": 2195
+    },
+    {
+      "path": "01_support/cad/toolchain.json",
+      "sha256": "5a11f572acfd8781ddd49bea4bb12c8c527f25aeceedb316513eeaa1a66c2447",
+      "bytes": 1644
+    },
+    {
+      "path": "01_support/layout/00_layout-options.md",
+      "sha256": "add993cce9c88ee41cdb52accf1048f011df1ba928da72225133e6ad89b47903",
+      "bytes": 15040
+    },
+    {
+      "path": "01_support/layout/author-check.json",
+      "sha256": "e0931103b8fb43a10ac87d5bd06330e768194edc83a641d3ca9addb984b00db6",
+      "bytes": 1524
+    },
+    {
+      "path": "01_support/layout/backdrop-curves.json",
+      "sha256": "768a571e484db19c83cc8bff6f0d929bfa33e42c647b692e715be006c3ffaf5a",
+      "bytes": 1501123
+    },
+    {
+      "path": "01_support/layout/option-A.png",
+      "sha256": "257da0074c7c2ebeb2547dc75a11eacb1a19d01390f38c231f1197da980acbcf",
+      "bytes": 476707
+    },
+    {
+      "path": "01_support/layout/option-A.svg",
+      "sha256": "9e2207f4f81a2e0ac790a583184ff70612dcc63182b63ef18b5475902a6ffc52",
+      "bytes": 264317
+    },
+    {
+      "path": "01_support/layout/option-B.png",
+      "sha256": "e4ae8081f67b351af663fc47bf284ae5d1708c838438f70b1cf8d32cbb727ed2",
+      "bytes": 479310
+    },
+    {
+      "path": "01_support/layout/option-B.svg",
+      "sha256": "2836213b64bd5e42317ecd8e4ade8471fe151dd0817be96e454459c66674ca5e",
+      "bytes": 267213
+    },
+    {
+      "path": "01_support/layout/reproduce.py",
+      "sha256": "c0e891fbf40b93068f0011b27c5ed339e07fccc451cb25f9457cf3bdc7075552",
+      "bytes": 14233
+    },
+    {
+      "path": "01_support/layout/sketch-provenance.json",
+      "sha256": "f5834885b9c7fbf83b1dad172a35d1b54df01ec1bde7888e03cd6a7b7655ddb3",
+      "bytes": 1661
+    },
+    {
+      "path": "01_support/layout/tradeoffs.csv",
+      "sha256": "cd01e1169312efa2f81d3990bd0d775a289eeb9c974bf28b5c585591e249ad0a",
+      "bytes": 4021
+    },
+    {
+      "path": "01_support/layout/zones.csv",
+      "sha256": "6ae1c811cff0d19a7e2f05d0ed145c029f8ba68e8dfccac65d411e0121efe51c",
+      "bytes": 8312
+    },
+    {
+      "path": "01_support/review/00_review.md",
+      "sha256": "aaec3736c92b45c2447292e84fe4adb13f7333ee51166706556843b859616f3f",
+      "bytes": 8441
+    },
+    {
+      "path": "01_support/review/checked-inputs.json",
+      "sha256": "74bf2d5bc01edc5f1e0abba0e2be52fd3f908619df91933050992f061edaf8cd",
+      "bytes": 8824
+    },
+    {
+      "path": "01_support/review/independent-results.json",
+      "sha256": "8adc8b2dae861ce258c20f70f60563642d31f82e3a82593a21c279673f5f4b76",
+      "bytes": 5557
+    },
+    {
+      "path": "01_support/review/independent_check.py",
+      "sha256": "432ffed0065950bc624b06e53d6086efeee896148932f72bf1afa69f87a5d762",
+      "bytes": 3917
+    },
+    {
+      "path": "01_support/review/independent_dxf.py",
+      "sha256": "5c59d27ecbc0941d7af4fe1c52dd66ad3aa4fd6e33f0d13817f9c52a21d8ece4",
+      "bytes": 2596
+    },
+    {
+      "path": "01_support/sprint-brief.md",
+      "sha256": "a585c3301d1add3e418d47b039aedfd29726663d555cce13978083382b5afbc3",
+      "bytes": 5590
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-11",
+  "checks": {
+    "unique_11_rows": true,
+    "current_net_9": true,
+    "mounts_net_990_46": true,
+    "data/office/tasks.csv_width": true,
+    "data/office/decisions.csv_width": true,
+    "link:deliverables/M04/v001/00_yanmar-completeness.md:01_support/package-price-audit.md": true,
+    "link:deliverables/M04/v001/00_yanmar-completeness.md:01_support/gearbox.md": true,
+    "link:deliverables/M04/v001/00_yanmar-completeness.md:01_support/ancillaries.md": true,
+    "link:deliverables/M04/v001/00_yanmar-completeness.md:01_support/yanmar-addendum.csv": true,
+    "link:deliverables/M04/v001/01_support/gearbox.md:gearbox.csv": true,
+    "pdf:.local/M04/6lpa-parts-2018.pdf": true,
+    "pdf:.local/M04/6lpam-parts.pdf": true,
+    "pdf:.local/M04/ultraflex-b183-manual.pdf": true,
+    "u01_unchanged": true,
+    "m03_unchanged": true
+  },
+  "scope": "Document, arithmetic and file checks only; independent review separate."
+}

@@ -55,3 +55,7 @@ deliverables/G03/**/*.svg -whitespace linguist-generated=true
 
 # M07 frozen estimate and supporting CSV keep reviewed bytes.
 deliverables/M07/** -text whitespace=cr-at-eol
+
+# M08 is a byte-preserving document snapshot, including upstream formatting.
+"Машина - версия 1.0/**" -text -whitespace
+deliverables/M08/** -text whitespace=cr-at-eol

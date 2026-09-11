@@ -1,0 +1,308 @@
+{
+  "review_date": "2026-09-10",
+  "reviewer": "Independent reviewing agent, not the office author",
+  "result": "PASS_FOR_OFFICE_HANDOFF",
+  "scope": "General operational office, skills, templates, initial registries, arithmetic tools. No maritime technical validation or budget approval.",
+  "source_commit": "786f60ae55773337f780860f8043b4232c8b16b7",
+  "preservation": {
+    "unchanged_source_files": 11,
+    "readme_original_preserved_with_appended_office_navigation": true,
+    "original_spec_rows": 73,
+    "crosswalk_rows": 73,
+    "field_or_status_mismatches": 0
+  },
+  "links_and_ids": {
+    "broken_markdown_links": 0,
+    "foreign_key_errors": 0,
+    "task_count": 10,
+    "cyclic_dependencies": 0,
+    "missing_task_input_paths": 0,
+    "role_count": 7,
+    "real_assignees": 0
+  },
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 11,
+    "failed": 0
+  },
+  "workflows": {
+    "training_only": true,
+    "live_project_data_changed": false,
+    "scenario_pilot": {
+      "old_total": "130.02",
+      "currency": "EUR",
+      "price_basis": "NET",
+      "status": "PASS"
+    },
+    "scenario_revision": {
+      "new_total": "144.00",
+      "delta": "13.98",
+      "status": "PASS"
+    },
+    "missing_quantity_refused": true,
+    "manifest_files": 5,
+    "temporary_fixture_removed_after_check": true
+  },
+  "closed_findings": [
+    {
+      "id": "REV-01",
+      "severity": "MINOR",
+      "problem": "Source registry lacked distinct issuer/document-date/receipt-date/document-number/drawing-scale fields required by discipline.",
+      "resolution": "Five columns added to active and template registries; unknown original fields remain blank; dictionary updated.",
+      "status": "VERIFIED_CLOSED"
+    },
+    {
+      "id": "REV-02",
+      "severity": "MINOR",
+      "problem": "Initial T08 combined author calculation and independent review under ESTIMATE owner role.",
+      "resolution": "Separate T08 ESTIMATE, T09 REVIEW and T10 HEAD with ordered dependencies.",
+      "status": "VERIFIED_CLOSED"
+    }
+  ],
+  "open_findings": [],
+  "not_checked": [
+    "External technical sources or maritime requirements",
+    "Physical hull state, drawings or survey",
+    "Production prices, budget or supplier quotes",
+    "Future personal appointments, specialist learning or acceptance",
+    "Remote GitHub publication by author after this local review"
+  ],
+  "reviewed_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "1ce7693da0018472bcd856ec215eb14e3e482727a9f12a5ec5c659d8f1f06f42"
+    },
+    {
+      "path": "data/office/changes.csv",
+      "sha256": "283f7dfdea553750c2df5846a3793e5401658d8cc99eb6bbd64d537102d1abad"
+    },
+    {
+      "path": "data/office/cost-control.csv",
+      "sha256": "2c8ee363b7c8e701cd645481f9bf305fe3076f71b9dd745538b364703815964e"
+    },
+    {
+      "path": "data/office/decisions.csv",
+      "sha256": "3209764f45d51bbce926116600b71f12d958a8583932fb63f11b30536e2c0369"
+    },
+    {
+      "path": "data/office/deliverables.csv",
+      "sha256": "66fe912110a1efff84519bcc14d4e051793ce82c231e934e47397739ea14080e"
+    },
+    {
+      "path": "data/office/estimate.csv",
+      "sha256": "1547666eca2486a028e09f7cc37f6f7984b8221757ff29472060f2140b27046c"
+    },
+    {
+      "path": "data/office/interfaces.csv",
+      "sha256": "eb13d711f31d70209ce48e6acc663338023e29711d83fc2e0a25c731bd58268c"
+    },
+    {
+      "path": "data/office/quantities.csv",
+      "sha256": "274e49b3e4562d0c4a18afd1a422a72def9a226b1984d29dbeb86ec68d7e3714"
+    },
+    {
+      "path": "data/office/questions.csv",
+      "sha256": "f2ff4c33461788684d3240c278485a79cbec072829d4e982924699b2bb103df0"
+    },
+    {
+      "path": "data/office/quotes.csv",
+      "sha256": "a9e81900f2625e96b7f72f3417aaea283961c0917e6b520b8847d7692e3e72dd"
+    },
+    {
+      "path": "data/office/risks.csv",
+      "sha256": "2f3d7771be964e4b73df212f991b28305bb7531c5ccf8fb092f31513401d7c25"
+    },
+    {
+      "path": "data/office/roles.csv",
+      "sha256": "e6487d9c2e1af1400d050cbfb709a1a5a546f60717a34c2875156a7355240a63"
+    },
+    {
+      "path": "data/office/source-register.csv",
+      "sha256": "4971125fbdc23bf5ecffb8306724d13663b88b8e07fa6c2f11f366d5b0c1595d"
+    },
+    {
+      "path": "data/office/spec-crosswalk.csv",
+      "sha256": "7b6af89a41c7173dc2fc343d6a275e42a36be60bb3fbd427fb136c53ac2a2e05"
+    },
+    {
+      "path": "data/office/tasks.csv",
+      "sha256": "6f014a3361e01c23ba055991bf3335f8cbca3d32b6a47ebcc28764d65ee2f29d"
+    },
+    {
+      "path": "data/office/wbs.csv",
+      "sha256": "b55e5833d8fdb08c4951366dbd7b77bf0255f73717c3c738adc179d454da4455"
+    },
+    {
+      "path": "office/CHANGELOG.md",
+      "sha256": "8e9861af3aff8e9c4af69b16786d3c82dd22d28376e04e7a44e4c0abd003af67"
+    },
+    {
+      "path": "office/HANDOFF-TO-HEAD.md",
+      "sha256": "0c4c36263e80f5f39a645cec9073af6f56c933b650e7b121e395ec0a68d7f298"
+    },
+    {
+      "path": "office/README.md",
+      "sha256": "838c4b6450343755addf607cff5be257c53fbc151780d7eed4742bd97ce25d89"
+    },
+    {
+      "path": "office/charter.md",
+      "sha256": "8833c30b9249c874468963a3713c744039299842a8b72d6742c95356a264f8c8"
+    },
+    {
+      "path": "office/cost-policy.md",
+      "sha256": "850fdcfa2b662ad059c0ffd52618818b57cad843005f0f2102bcac33331b51db"
+    },
+    {
+      "path": "office/data-dictionary.md",
+      "sha256": "c903ad8084a16c670984f60b7a22cfe8d39ffc1c693da782b4597e9f45e5fcd8"
+    },
+    {
+      "path": "office/evidence-and-changes.md",
+      "sha256": "a47f43d2abc7019029b855397e822142a046fc079ee39ce1c2ad456eced04767"
+    },
+    {
+      "path": "office/project.json",
+      "sha256": "da62f61ce6933e7c6452c6670f5368d7df99abc64ae1940cc58f47297f6ca08e"
+    },
+    {
+      "path": "office/quality-and-release.md",
+      "sha256": "e36dbe7278c742212e5605de07a08208025446bd42f89181856e9d5aee0a7013"
+    },
+    {
+      "path": "office/repository.md",
+      "sha256": "95b7ae0bb4cb7c207bc477225ea4a50eda82669e81263a6caef3cece644b3936"
+    },
+    {
+      "path": "office/roles-and-handoffs.md",
+      "sha256": "a9cecdc406132e46d172c7a882df738c5ea448e03532be97a24909ea2edfc629"
+    },
+    {
+      "path": "office/specialization-plan.md",
+      "sha256": "1127c6ea34b4a1be718b0d5736c00c51d3bbfdb0c7094402a3de0b5edeb9e772"
+    },
+    {
+      "path": "office/workflow.md",
+      "sha256": "39632aed5a3763ed0e0e693fa327c99e9931f4e41479909893f76c0bc562efc7"
+    },
+    {
+      "path": "skills/README.md",
+      "sha256": "de5077b35903b174d2db89f387590c2686f89358b8a3f004803358d895250a7d"
+    },
+    {
+      "path": "skills/estimate-change-review/SKILL.md",
+      "sha256": "cc1b9a6f1115f7dedfe907b5ffeab19ab9d18935c15196bdd91609d7780d964b"
+    },
+    {
+      "path": "skills/estimate-costing/SKILL.md",
+      "sha256": "8c5ff667f6bd2475d5494344e36d08ef32d19a16239c1f33a8465e10425d2454"
+    },
+    {
+      "path": "skills/estimate-evidence/SKILL.md",
+      "sha256": "4dd1ccfdc532c53a5b2352f36cfe2e5c8b8494b722abbaf5a0e6f4aea78b44b5"
+    },
+    {
+      "path": "skills/estimate-release/SKILL.md",
+      "sha256": "31a45302a661886a81169dc38c7e839333ad5d0887394f91d97fcd0b612a7820"
+    },
+    {
+      "path": "skills/yacht-project-office/SKILL.md",
+      "sha256": "33e7179e99361c4eb1975287050e9915418eb70da37f7c8ef9ece511d3c3d2be"
+    },
+    {
+      "path": "templates/README.md",
+      "sha256": "d0f62d9003185cb438365b7f73bfd0466f2f3467a1a79b85b63ec50959c2b5ca"
+    },
+    {
+      "path": "templates/decision.md",
+      "sha256": "735890bf183a00b6783c426642a96cf2b7718dc3338cedea23601cc0b2f577a4"
+    },
+    {
+      "path": "templates/handoff.md",
+      "sha256": "fdccb08be514f7b5b7620063955f7743909670fcb1c4c42beba4a9c4ac15fb81"
+    },
+    {
+      "path": "templates/registers/changes.csv",
+      "sha256": "283f7dfdea553750c2df5846a3793e5401658d8cc99eb6bbd64d537102d1abad"
+    },
+    {
+      "path": "templates/registers/cost-control.csv",
+      "sha256": "2c8ee363b7c8e701cd645481f9bf305fe3076f71b9dd745538b364703815964e"
+    },
+    {
+      "path": "templates/registers/decisions.csv",
+      "sha256": "864d1c3f46f1bf1ff285580badb3da85152bbf853c4bd0c89a510f819e9d1b15"
+    },
+    {
+      "path": "templates/registers/deliverables.csv",
+      "sha256": "66fe912110a1efff84519bcc14d4e051793ce82c231e934e47397739ea14080e"
+    },
+    {
+      "path": "templates/registers/estimate.csv",
+      "sha256": "1547666eca2486a028e09f7cc37f6f7984b8221757ff29472060f2140b27046c"
+    },
+    {
+      "path": "templates/registers/interfaces.csv",
+      "sha256": "eb13d711f31d70209ce48e6acc663338023e29711d83fc2e0a25c731bd58268c"
+    },
+    {
+      "path": "templates/registers/quantities.csv",
+      "sha256": "274e49b3e4562d0c4a18afd1a422a72def9a226b1984d29dbeb86ec68d7e3714"
+    },
+    {
+      "path": "templates/registers/questions.csv",
+      "sha256": "c6f7fd8886786a6cc3a8ccea1c85a03530220fbfa265001fca74eb3f54689a03"
+    },
+    {
+      "path": "templates/registers/quotes.csv",
+      "sha256": "a9e81900f2625e96b7f72f3417aaea283961c0917e6b520b8847d7692e3e72dd"
+    },
+    {
+      "path": "templates/registers/risks.csv",
+      "sha256": "2f3d7771be964e4b73df212f991b28305bb7531c5ccf8fb092f31513401d7c25"
+    },
+    {
+      "path": "templates/registers/roles.csv",
+      "sha256": "45c5b70a6104348792f6706433553695f11570351735e44ffb7f5ba286689491"
+    },
+    {
+      "path": "templates/registers/source-register.csv",
+      "sha256": "cbba19baaa5ac72469bfd454514b5f5b000ec3ebdd4594f4b3c8d9a823b30b80"
+    },
+    {
+      "path": "templates/registers/spec-crosswalk.csv",
+      "sha256": "d6f8412ae551d0b8c81476229bf7ce23bfd25bd3d61062ff6f198570f2edc44a"
+    },
+    {
+      "path": "templates/registers/tasks.csv",
+      "sha256": "19a5ff5713b81ad6f7fdd72638c15531a15e33a45a7da8e78e061230f5272e4c"
+    },
+    {
+      "path": "templates/registers/wbs.csv",
+      "sha256": "f1580d8e06c929dd87c4da26cfdfbe80e320a4cf4b601d04466bf45a4d0843e0"
+    },
+    {
+      "path": "templates/release.md",
+      "sha256": "f05db6805f2c1b61870744e6dbed619cae13443bb0aefbb97124e9d3f06ed161"
+    },
+    {
+      "path": "templates/review.md",
+      "sha256": "fe6ef69e8f9a62fa0f60837a6430e4f2876d8772b38b5f855d2ca0b8d34f17fa"
+    },
+    {
+      "path": "templates/task.md",
+      "sha256": "ceff8b9bf2828eeac89a92629c98678afbd6f6b1738154f5e1c81af99c02e572"
+    },
+    {
+      "path": "tests/test_office.py",
+      "sha256": "d27880b38a5fb83a7bbdf551a132400e26c60f18864d05f1b98563a13bcb3cab"
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "9d09ab6bb233fa2ae615e4b2e4443c24f275857c216aaaf972e95bdd17c88581"
+    },
+    {
+      "path": "tools/office.py",
+      "sha256": "5b6a061ad4893f72ef75f7b55c1283f9bf79e9ccc0a857ceee03f232e8b98c5f"
+    }
+  ]
+}

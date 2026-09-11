@@ -1,0 +1,111 @@
+{
+  "status": "APPROXIMATE_PLANNING_PROPOSAL_NOT_APPROVED_LAYOUT",
+  "owner_requirements": [
+    "Central engine room",
+    "Passage alongside galley",
+    "Lower galley confirmed by owner"
+  ],
+  "source_geometry": "G02/EXP003 coordinates; bow-only GA overlay is approximate, not as-built registration",
+  "plan_y_convention": "Y+ labelled port for this symmetric-hull overlay; no claim of independently proved native side naming",
+  "ga_source": {
+    "outer_area_m2": 9.36,
+    "inner_drawn_area_m2": 8.18,
+    "outer_dimensions_m": [
+      2.378,
+      3.936
+    ],
+    "outer_centre_y_m": 0.885
+  },
+  "A": {
+    "outer_dimensions_m": [
+      3.6,
+      2.6
+    ],
+    "outer_area_m2": 9.36,
+    "inner_dimensions_m": [
+      3.4,
+      2.4
+    ],
+    "inner_area_m2": 8.16,
+    "corridor_width_m": 0.75,
+    "corridor_headroom_low_deck_m": 1.6865,
+    "status": "REJECTED_FOR_TWO_METRE_SIDE_PASSAGE_WITH_EXISTING_DECK"
+  },
+  "B": {
+    "geometry_basis_key": "B3_ER_with_walls / B3_passage",
+    "outer_bounds_xy_m": [
+      -15.47,
+      -11.27,
+      -1.05,
+      1.05
+    ],
+    "outer_dimensions_m": [
+      4.2,
+      2.1
+    ],
+    "wall_reserve_m": 0.1,
+    "outer_area_m2": 8.82,
+    "inner_dimensions_m": [
+      4.0,
+      1.9
+    ],
+    "inner_area_m2": 7.6,
+    "clear_geometric_height_m": 1.47,
+    "geometric_volume_m3": 11.17,
+    "floor_z_m": -0.55,
+    "ceiling_z_m": 0.92,
+    "saloon_floor_z_m": 1.1,
+    "floor_slab_reserve_m": 0.18,
+    "underfloor_reserve_m": 0.15,
+    "floor_margin_above_sampled_shell_m": 0.174785,
+    "centre_y_m": 0,
+    "inner_area_change_vs_GA_m2": -0.58,
+    "inner_area_change_percent": -7.1,
+    "aft_extension_vs_GA_m": 1.83,
+    "aft_cabin_longitudinal_overlap_m": 0.59
+  },
+  "passage": {
+    "bounds_xy_m": [
+      -15.47,
+      -11.27,
+      -1.75,
+      -1.05
+    ],
+    "clear_width_m": 0.7,
+    "floor_z_m": -0.3,
+    "length_along_room_m": 4.2,
+    "area_along_room_m2": 2.94,
+    "minimum_conservative_canopy_underside_z_m": 3.125,
+    "open_well_geometric_height_after_alteration_m": 3.425,
+    "saloon_headroom_to_conservative_canopy_m": 2.025,
+    "side_structure_allowance_m": 0.1,
+    "remaining_lateral_margin_m": 0.02,
+    "floor_margin_above_sampled_shell_m": 0.155003,
+    "condition": "Requires redesign/opening of intervening salon floor and any obstructing original deck/liner over passage; no existing clear headroom claimed",
+    "galley_continuation": "Direction shown; furniture/doors/stairs and complete through-route not verified"
+  },
+  "height_sensitivity": {
+    "floor_assumption_variation_m": 0.05,
+    "ceiling_assumption_variation_m": 0.05,
+    "clear_height_interval_m": [
+      1.37,
+      1.57
+    ],
+    "meaning": "Sensitivity to assumed construction/floor levels, not a surveyed confidence interval"
+  },
+  "two_metre_ER_scenario": {
+    "required_saloon_floor_z_m": 1.63,
+    "required_raise_saloon_floor_m": 0.53,
+    "remaining_upper_headroom_m": 1.495,
+    "required_additional_roof_underside_raise_for_two_metre_saloon_m": 0.505,
+    "status": "NOT_ADOPTED_REQUIRES_NEW_SUPERSTRUCTURE_AND_STRUCTURAL_DESIGN"
+  },
+  "limits": [
+    "Sampled historical mesh, not measured interior",
+    "150mm bottom reserve,100mm walls and180mm slab are planning allowances, not approved scantlings",
+    "No machinery, foundations, tanks, exhaust or service envelopes deducted from net area",
+    "Two-centimetre lateral residual is not an installation tolerance or demonstrated structural fit",
+    "Existing companion stair/WC and aft cabin layout intersect the new envelope",
+    "Shaft line/foundations and structural openings require separate design"
+  ]
+}

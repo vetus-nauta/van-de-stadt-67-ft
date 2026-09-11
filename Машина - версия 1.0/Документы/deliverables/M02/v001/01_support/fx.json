@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-10",
+  "access_date": "2026-09-11",
+  "base": "EUR",
+  "quote": "GBP",
+  "quote_per_base": "0.85915",
+  "conversion": "EUR=GBP/0.85915",
+  "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-gbp.en.html",
+  "note": "11September blank when accessed;10September is latest displayed observation. Reference conversion only, not bank/import/landed cost."
+}

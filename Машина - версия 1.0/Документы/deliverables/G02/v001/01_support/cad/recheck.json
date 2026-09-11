@@ -1,0 +1,58 @@
+{
+  "recheck": {
+    "same_model_handle_set": true,
+    "model_geometry_pass": 1241,
+    "model_geometry_fail": [],
+    "block_reference_findings": [
+      {
+        "insert": "4C21",
+        "g01_name": "*X5",
+        "oda_name": "*X5",
+        "g01_block_same_record": "*X5",
+        "block_record": "3D",
+        "line_count": 37,
+        "same_member_handles": true,
+        "geometry_delta": 0.0
+      },
+      {
+        "insert": "4C22",
+        "g01_name": "*X6",
+        "oda_name": "*X6",
+        "g01_block_same_record": "*X6",
+        "block_record": "3E",
+        "line_count": 53,
+        "same_member_handles": true,
+        "geometry_delta": 0.0
+      }
+    ],
+    "scope": "core model geometry only, not binary or all DB equivalence"
+  },
+  "audit": {
+    "same_model_handle_set": true,
+    "model_geometry_pass": 1241,
+    "model_geometry_fail": [],
+    "block_reference_findings": [
+      {
+        "insert": "4C21",
+        "g01_name": "*X5",
+        "oda_name": "*X5",
+        "g01_block_same_record": "*X5",
+        "block_record": "3D",
+        "line_count": 37,
+        "same_member_handles": true,
+        "geometry_delta": 0.0
+      },
+      {
+        "insert": "4C22",
+        "g01_name": "*X6",
+        "oda_name": "*X6",
+        "g01_block_same_record": "*X6",
+        "block_record": "3E",
+        "line_count": 53,
+        "same_member_handles": true,
+        "geometry_delta": 0.0
+      }
+    ],
+    "scope": "core model geometry only, not binary or all DB equivalence"
+  }
+}

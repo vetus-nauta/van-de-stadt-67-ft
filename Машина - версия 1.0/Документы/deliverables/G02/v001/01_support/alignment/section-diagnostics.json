@@ -1,0 +1,50 @@
+[
+  {
+    "handle": "506C",
+    "layer": "40",
+    "role": "HOLDOUT_DIAGNOSTIC_DIFFERENT_FEATURE_CLASSES",
+    "dwg_longitudinal_native": -4250.0,
+    "working_x_mm": -4250.102744529249,
+    "vertex_count": 101,
+    "median_vertex_to_mesh_section_mm_hypothesis": 10.264847354609467,
+    "p95_mm_hypothesis": 18.93590732986181,
+    "max_mm_hypothesis": 22.657827081053647,
+    "note": "Frame-pattern vertices versus outer-shell cached mesh section; not identical features; no fit/no acceptance tolerance; possible plate offsets/cut-outs and mesh error."
+  },
+  {
+    "handle": "5472",
+    "layer": "30",
+    "role": "HOLDOUT_DIAGNOSTIC_DIFFERENT_FEATURE_CLASSES",
+    "dwg_longitudinal_native": -8250.0,
+    "working_x_mm": -8250.10274452925,
+    "vertex_count": 101,
+    "median_vertex_to_mesh_section_mm_hypothesis": 23.301538733700294,
+    "p95_mm_hypothesis": 41.24014072064431,
+    "max_mm_hypothesis": 43.42290077537595,
+    "note": "Frame-pattern vertices versus outer-shell cached mesh section; not identical features; no fit/no acceptance tolerance; possible plate offsets/cut-outs and mesh error."
+  },
+  {
+    "handle": "5878",
+    "layer": "20",
+    "role": "HOLDOUT_DIAGNOSTIC_DIFFERENT_FEATURE_CLASSES",
+    "dwg_longitudinal_native": -12250.0,
+    "working_x_mm": -12250.10274452925,
+    "vertex_count": 101,
+    "median_vertex_to_mesh_section_mm_hypothesis": 21.261457163851773,
+    "p95_mm_hypothesis": 42.972716695379475,
+    "max_mm_hypothesis": 45.97242150238707,
+    "note": "Frame-pattern vertices versus outer-shell cached mesh section; not identical features; no fit/no acceptance tolerance; possible plate offsets/cut-outs and mesh error."
+  },
+  {
+    "handle": "5C7E",
+    "layer": "10",
+    "role": "HOLDOUT_DIAGNOSTIC_DIFFERENT_FEATURE_CLASSES",
+    "dwg_longitudinal_native": -16250.0,
+    "working_x_mm": -16250.10274452925,
+    "vertex_count": 101,
+    "median_vertex_to_mesh_section_mm_hypothesis": 9.96558466621635,
+    "p95_mm_hypothesis": 31.899586572223303,
+    "max_mm_hypothesis": 35.90892501411423,
+    "note": "Frame-pattern vertices versus outer-shell cached mesh section; not identical features; no fit/no acceptance tolerance; possible plate offsets/cut-outs and mesh error."
+  }
+]

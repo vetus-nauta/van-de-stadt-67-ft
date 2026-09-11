@@ -1,0 +1,112 @@
+[
+  {
+    "x_m": -15.0,
+    "inner_starboard_y": 2.625344401652868,
+    "inner_port_y": -2.625344401652868,
+    "body_max_y": 2.1248176421097362,
+    "body_min_y": -2.1248176147254423,
+    "starboard_plan_gap_m": 0.5005267595431317,
+    "port_plan_gap_m": 0.5005267869274257,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -14.0,
+    "inner_starboard_y": 2.7294756541404803,
+    "inner_port_y": -2.7294756541404803,
+    "body_max_y": 2.222217353179769,
+    "body_min_y": -2.222217353179769,
+    "starboard_plan_gap_m": 0.5072583009607112,
+    "port_plan_gap_m": 0.5072583009607112,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -13.0,
+    "inner_starboard_y": 2.796624373890626,
+    "inner_port_y": -2.796624373890626,
+    "body_max_y": 2.273615527153527,
+    "body_min_y": -2.273615527153527,
+    "starboard_plan_gap_m": 0.523008846737099,
+    "port_plan_gap_m": 0.523008846737099,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -12.0,
+    "inner_starboard_y": 2.8203174387143237,
+    "inner_port_y": -2.8203174387143237,
+    "body_max_y": 2.278733377501624,
+    "body_min_y": -2.278733304569229,
+    "starboard_plan_gap_m": 0.5415840612126996,
+    "port_plan_gap_m": 0.5415841341450949,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -11.0,
+    "inner_starboard_y": 2.7959044445356334,
+    "inner_port_y": -2.7959044445356334,
+    "body_max_y": 2.2729660917218615,
+    "body_min_y": -2.2729661999743858,
+    "starboard_plan_gap_m": 0.5229383528137719,
+    "port_plan_gap_m": 0.5229382445612476,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -10.0,
+    "inner_starboard_y": 2.723475380515835,
+    "inner_port_y": -2.723475380515835,
+    "body_max_y": 2.2156503701356036,
+    "body_min_y": -2.215650489345008,
+    "starboard_plan_gap_m": 0.5078250103802313,
+    "port_plan_gap_m": 0.5078248911708267,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -9.0,
+    "inner_starboard_y": 2.6044561340824766,
+    "inner_port_y": -2.6044561340824766,
+    "body_max_y": 2.0897468547016533,
+    "body_min_y": -2.0897467295322656,
+    "starboard_plan_gap_m": 0.5147092793808232,
+    "port_plan_gap_m": 0.514709404550211,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -8.0,
+    "inner_starboard_y": 2.4404039048750876,
+    "inner_port_y": -2.4404039048750876,
+    "body_max_y": 1.9525427524813874,
+    "body_min_y": -1.9279705237672446,
+    "starboard_plan_gap_m": 0.4878611523937002,
+    "port_plan_gap_m": 0.512433381107843,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -7.0,
+    "inner_starboard_y": 2.235470223098488,
+    "inner_port_y": -2.235470223098488,
+    "body_max_y": 1.7440100020535712,
+    "body_min_y": -1.7161641716789333,
+    "starboard_plan_gap_m": 0.4914602210449168,
+    "port_plan_gap_m": 0.5193060514195547,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -6.0,
+    "inner_starboard_y": 1.992531750359436,
+    "inner_port_y": -1.992531750359436,
+    "body_max_y": 1.4950512218964598,
+    "body_min_y": -1.4676095887839076,
+    "starboard_plan_gap_m": 0.4974805284629762,
+    "port_plan_gap_m": 0.5249221615755284,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -5.5,
+    "inner_starboard_y": 1.8580784955859992,
+    "inner_port_y": -1.8580784955859992,
+    "body_max_y": 1.35688284900495,
+    "body_min_y": -1.3316847924557735,
+    "starboard_plan_gap_m": 0.5011956465810492,
+    "port_plan_gap_m": 0.5263937031302257,
+    "status": "MESH_SECTION_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  }
+]

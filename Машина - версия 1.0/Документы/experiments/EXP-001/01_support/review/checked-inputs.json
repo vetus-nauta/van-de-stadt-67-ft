@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root/tools_freecad",
+  "date": "2026-09-10",
+  "status": "ACCEPTED_FOR_EXPERIMENTAL_SCOPE_WITH_DISCLOSED_LIMITS",
+  "files_sha256": {
+    "deliverables/G02/v001/01_support/alignment/transform.json": "b74cca09fb57524e493156c1b1da215db830cc454a14b0e0dadc0f59c9f66feb",
+    "deliverables/V02/v001/01_support/full/vds67-reference.blend": "d0a47aa2fafbe60e24518658f6029a82aba491d9e88a6d2eb0469009bef36a6a",
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "documentation/02-general-arrangement/7-1.pdf": "71c31e8ddcea35efb728e7567f18e7a78359f5aadf365bf3f8f5ce006a7a8486",
+    "documentation/03-rig-and-sails/8-1.pdf": "d385d61571106e80be1e818969f47170e15d1d23024c074d220a6b3d40485cb1",
+    "experiments/EXP-001/00_proposal.md": "9ecda8f2d17f2dd4ba336b5d90830f8036dc992966ac1d1e3f1bc2f591e0c230",
+    "experiments/EXP-001/01_support/basis/basis.md": "8eef950498215bdb15b8bb8a5627da46ce5410efb63201514260cfee76142df8",
+    "experiments/EXP-001/01_support/basis/extract_basis.py": "b6f55fc553d3d1e2f8f8fd318864adf933aa21519adadeb1cd69911607cae046",
+    "experiments/EXP-001/01_support/basis/source-refs.json": "a4d803971643f4dd8c0e61ea6e2054841987ed4138082d5b616d6b4af78b8939",
+    "experiments/EXP-001/01_support/design-brief.md": "b754e8f2dda94209d555b00058d5c6ee90a69bd4aa30183101d6494ce1f1fe13",
+    "experiments/EXP-001/01_support/engineering-notes.md": "7a38d4556b6fea085c9ce44d8b37b7aaea554e514b51d7bac78f00c2711b2907",
+    "experiments/EXP-001/01_support/model/README.md": "4edfc2a9d0939683bbcae4886e0f6bc20dbfba4d9e733dca5bfe4670384a8bd5",
+    "experiments/EXP-001/01_support/model/build_model.py": "5f012aa539a753e159a463af6bf2fc566760120f85eb96852e1a2b130bc93a87",
+    "experiments/EXP-001/01_support/model/experiment.blend": "2308af27b136a30543de68152d1b54857a1becc25c9db67b9beeed371aa9a8da",
+    "experiments/EXP-001/01_support/model/exterior.png": "6f65da242be7b1f53f9fe027586cf7920c514331f173a0c90f96ae83e1ca8a09",
+    "experiments/EXP-001/01_support/model/parameters.json": "ccf6bcbbb1d6686388fe6f68a4ffc91e82247df0133d2d1b7b135d38a921197d",
+    "experiments/EXP-001/01_support/model/reference-inventory.json": "5548a3f9ccc36c423cb88f5cb71f3ee5179985fd7ea18f4ba37bfd045d63efe5",
+    "experiments/EXP-001/01_support/model/roof-detail.png": "c97f58731991025d16dca28b087b10fb565d056dc2a1d2667d0fb36f4a164fb6",
+    "experiments/EXP-001/01_support/model/section.png": "4a1cc4dac3371e76c70d1f7c346f262cdc7c631755c3932f1b34e5272a095b46",
+    "experiments/EXP-001/01_support/model/side.png": "8e088ec0b344c20191337197b11c7939858ed7b2f9a018110e9fa1615dc7207e",
+    "deliverables/V02/v001/01_support/full/metadata.json": "199dfbac9dbadb7d1af051087b1361db330cc7b4bf7615ee42b01a21af56878b",
+    "deliverables/G01/v001/01_support/rhino/objects.csv": "b0e9be733273e2a348567e0da80aaeb63f8a4a8842d84d6eabe4fb20b6942f4b"
+  }
+}

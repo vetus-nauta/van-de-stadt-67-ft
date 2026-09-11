@@ -1,0 +1,106 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_UTV_template.xlsx",
+      "sha256": "03f2387084789467a9af5c7d8dba8af0329009109ddcd5adbfb2531fa34d7439",
+      "bytes": 274646
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "sha256": "f605637dac840e1cbf992603058373b158bc257b60441276aef2c17c2951aed2",
+      "bytes": 18388
+    },
+    {
+      "path": "01_support/acceptance.md",
+      "sha256": "4200c6fd7af3007698fedae153b6370734d9f0e72d78e2c9194412371327a412",
+      "bytes": 3979
+    },
+    {
+      "path": "01_support/basis/commercial-workflow.md",
+      "sha256": "a09785e4e37fc54ee4ce9fe20f3f73938b9c0d62595b1334530693fe38822452",
+      "bytes": 16270
+    },
+    {
+      "path": "01_support/basis/hull-outfitting.md",
+      "sha256": "cacce5c8a315f674cb7ce4c497cf547455c7436322f6e99de03157432b864c96",
+      "bytes": 15310
+    },
+    {
+      "path": "01_support/basis/hull-packages.json",
+      "sha256": "5888a9d7407e3c9741ac5760fdc741b8ae772c3bcafcb81dfb32a78ed43e1e9c",
+      "bytes": 25555
+    },
+    {
+      "path": "01_support/basis/hull-peer-review.md",
+      "sha256": "5c4ea2220b179f49e26cf3e784383c5e6c7477fd768f87c4809a2c1a5247473c",
+      "bytes": 7464
+    },
+    {
+      "path": "01_support/basis/structure-review.md",
+      "sha256": "22775be2b50e327b6b2d3a530a113c5570c3ddc0fb2cf0c50cf8c64ef3ae75f1",
+      "bytes": 19293
+    },
+    {
+      "path": "01_support/basis/systems-packages.json",
+      "sha256": "90cd1aae9855bdade989a2059d48aed9a998196f2bf4481457b316bf51f9e890",
+      "bytes": 30554
+    },
+    {
+      "path": "01_support/basis/systems.md",
+      "sha256": "67e9c0cf82296cc3075b1aecf28bb42ccd5d5117090a4b28f7ce66393cc111bf",
+      "bytes": 18792
+    },
+    {
+      "path": "01_support/review/check_cases.py",
+      "sha256": "77fa902a3cd04d3fe45f2525854b757b5aa78b98fc0ab2738eefe6f05130e3e9",
+      "bytes": 2698
+    },
+    {
+      "path": "01_support/review/checked-inputs.json",
+      "sha256": "fe91e43fbba523eb02b077db585ee1ae511ef77462379b911f58a5a6c5363871",
+      "bytes": 1591
+    },
+    {
+      "path": "01_support/review/create_cases.py",
+      "sha256": "09c823f06113afdc0a7bf82f69b2dd3c70008f0cff4b6a9f7ef257aaadb1c252",
+      "bytes": 7046
+    },
+    {
+      "path": "01_support/review/final-revision-check.json",
+      "sha256": "af1f74a6685a3d11c5bcafae2d4b73202fb06e5303e4503d77ab6bb918b30239",
+      "bytes": 3954
+    },
+    {
+      "path": "01_support/review/output-guard.json",
+      "sha256": "5ef6c2dc92617e25c9d756bdf071267da3e88ac0ccef07a9d077191806a4d05c",
+      "bytes": 187
+    },
+    {
+      "path": "01_support/review/review.md",
+      "sha256": "22110c33258e5a35ad7d8a0b0376271cdccbe1b1c144b7cd7f3e5326efa81cf9",
+      "bytes": 8440
+    },
+    {
+      "path": "01_support/review/workbook-tests.json",
+      "sha256": "7dc5cb7fad4b732f939c1060e96540b3c2df86edfed3f893054c584ee84f0aca",
+      "bytes": 8885
+    },
+    {
+      "path": "01_support/tools/build_template.py",
+      "sha256": "5d478872ac1fbdb9b4a97cf5f8894fc917b5f7e1689ef06c75ab44b86995a275",
+      "bytes": 31453
+    },
+    {
+      "path": "01_support/workbook-schema.json",
+      "sha256": "225360f4519d56c30aadb5f0402a551393e7b1b106c702f5ac5bdd2902607fd7",
+      "bytes": 8998
+    }
+  ]
+}

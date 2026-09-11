@@ -1,0 +1,79 @@
+{
+  "release": "M07/v001",
+  "date": "2026-09-11",
+  "basis_commit": "749bbf35181388a63d81eabd632f16851752b43c",
+  "status": "FROZEN_WORKING_ESTIMATE_PARTIAL_COST_SCOPE",
+  "release_decision": "Root accepts current estimate as requested after LibreOffice,138checks and independentreview.131819.50EUR knownmixedgross8rows,30unpriced.23%provisional inline, YanmarSOURCE_GROSSnotdoubletaxed. NotUTV,purchaseapprovalorcompleteinstalledcost.",
+  "files": [
+    {
+      "path": "00_engine-room-estimate.xlsx",
+      "bytes": 86916,
+      "sha256": "b4eaf485d69df0432c9d13eda988f7046bd9f7601063b05576edb20f469532f6"
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "bytes": 10717,
+      "sha256": "0c4af278f4368e11fbc92c02957c9757a513d26cbb1c9168b8e705fa085582ca"
+    },
+    {
+      "path": "01_support/01_estimate-print.pdf",
+      "bytes": 66767,
+      "sha256": "46b54f181a435fb979a467c2da6e5b2c549b32ddf8ae8844a11be609330e7e9c"
+    },
+    {
+      "path": "01_support/build_estimate.py",
+      "bytes": 16654,
+      "sha256": "5c95bac480b9baeaabb0bc3bace8b516e6c13e0046bf19c792a644b3625c5d4b"
+    },
+    {
+      "path": "01_support/build_print.py",
+      "bytes": 5879,
+      "sha256": "5a29fde9c87c85ed347149cbb635b1b5cdbb8376950826f21e1e9cc39f3efd78"
+    },
+    {
+      "path": "01_support/cost-scope-audit.json",
+      "bytes": 37851,
+      "sha256": "c42737d0190739d0ed6c1f848c4005d6b79ac4057ace290acdeae140bc7ba69b"
+    },
+    {
+      "path": "01_support/cost-scope-audit.md",
+      "bytes": 17203,
+      "sha256": "c031290042a848e53a8992ccf34166ef806cce257844afd14476df53828be0ca"
+    },
+    {
+      "path": "01_support/estimate-lines.csv",
+      "bytes": 21847,
+      "sha256": "6703684c2163de7e952b878041c72dfb631cb55f673cda54e4b5851dd22a948c"
+    },
+    {
+      "path": "01_support/propulsion-carryforward.json",
+      "bytes": 9104,
+      "sha256": "b0ad9abf147ed00780def3c30235b17cf7a56e371adb8295f53ded09f45d7c02"
+    },
+    {
+      "path": "01_support/propulsion-carryforward.md",
+      "bytes": 6990,
+      "sha256": "2af1d9c1948fc85ca41904b28dddc1ad23e7edd034be9562ba5822b0f3920661"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 6608,
+      "sha256": "cf5d81f09ea587e0065b401a89b88e95755f02a9573ba39790800c927dc5c314"
+    },
+    {
+      "path": "01_support/summary.png",
+      "bytes": 167043,
+      "sha256": "53a80193b132508269c5bb5b77d678bd4bd13965f24f84de2acd44cfe84480c9"
+    },
+    {
+      "path": "01_support/totals.json",
+      "bytes": 424,
+      "sha256": "09f273a40cba85a42105b14c4f34e912768c29dd3a3d34fa42080a631ca41941"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 11377,
+      "sha256": "7b55709972e4c866956bbc2d63f774192e1bab8ae21d065a6d301f33a22b0f9d"
+    }
+  ]
+}

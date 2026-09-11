@@ -1,0 +1,261 @@
+{
+  "dwg_to_rhino_native_inverse_max_error": 0.0,
+  "rhino_native_to_working_inverse_max_error": 0.0,
+  "dwg_to_working_inverse_max_error": 0.0,
+  "native_rhino_layout_points_checked": 23387,
+  "max_layout_point_delta_m": 0,
+  "anchors": [
+    {
+      "id": "FIT-01",
+      "role": "FIT_X_Z_ONLY",
+      "residual_recomputed_mm_hypothesis": 0.36118088038347196,
+      "native_reference_delta_mm_at_8193_samples": 0.0
+    },
+    {
+      "id": "HOLD-SHEER-0-0",
+      "role": "HOLDOUT_SECTION",
+      "residual_recomputed_mm_hypothesis": 0.4217226548017396,
+      "native_reference_delta_mm_at_8193_samples": 7.493859233731e-05
+    },
+    {
+      "id": "HOLD-SHEER-0-1",
+      "role": "HOLDOUT_SECTION",
+      "residual_recomputed_mm_hypothesis": 0.4894670269866571,
+      "native_reference_delta_mm_at_8193_samples": 0.0003389482041388291
+    },
+    {
+      "id": "HOLD-SHEER-0-2",
+      "role": "HOLDOUT_SECTION",
+      "residual_recomputed_mm_hypothesis": 0.09104150319513479,
+      "native_reference_delta_mm_at_8193_samples": 0.0004708347970975705
+    },
+    {
+      "id": "HOLD-SHEER-1-2",
+      "role": "HOLDOUT_SECTION",
+      "residual_recomputed_mm_hypothesis": 0.09104150319513479,
+      "native_reference_delta_mm_at_8193_samples": 0.00047083479725040496
+    },
+    {
+      "id": "HOLD-SHEER-1-3",
+      "role": "HOLDOUT_SECTION",
+      "residual_recomputed_mm_hypothesis": 0.6716574541334912,
+      "native_reference_delta_mm_at_8193_samples": 0.00021233633779548018
+    },
+    {
+      "id": "HOLD-BOW-END",
+      "role": "HOLDOUT_ENDPOINT",
+      "residual_recomputed_mm_hypothesis": 222.81731811600415,
+      "native_reference_delta_mm_at_8193_samples": 0.0
+    }
+  ],
+  "zones": 35,
+  "A_garage_master_rectangle_overlap_m": [
+    2.0000000000000018,
+    3.2
+  ],
+  "B_garage_master_rectangle_overlap_m": [
+    0,
+    1.8499999999999999
+  ],
+  "dxf": {
+    "modelspace_count": 1241,
+    "INSUNITS": [
+      0,
+      0
+    ],
+    "blocks": [
+      {
+        "insert": "4C21",
+        "old_definition": "*X27",
+        "oda_definition": "*X5",
+        "identical_lines": 37
+      },
+      {
+        "insert": "4C22",
+        "old_definition": "*X28",
+        "oda_definition": "*X6",
+        "identical_lines": 53
+      }
+    ],
+    "polyline_differences": [
+      {
+        "handle": "6387",
+        "flags": [
+          2,
+          2
+        ],
+        "smooth_type": [
+          0,
+          0
+        ],
+        "wcs_max_delta": 20250.0
+      },
+      {
+        "handle": "646E",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 2.3298868577420758e-12
+      },
+      {
+        "handle": "661C",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "67BA",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "69BD",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "6B60",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "6D41",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "7083",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.101061571971809e-11
+      },
+      {
+        "handle": "722C",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.1036409977815853e-11
+      },
+      {
+        "handle": "7425",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      },
+      {
+        "handle": "75CD",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 2.2737367544323206e-12
+      },
+      {
+        "handle": "77C2",
+        "flags": [
+          8,
+          12
+        ],
+        "smooth_type": [
+          2,
+          6
+        ],
+        "wcs_max_delta": 1.0998871059607903e-11
+      }
+    ],
+    "oda_audit": {
+      "errors": 0,
+      "fixes": 0
+    },
+    "raw_oda_anchors": [
+      {
+        "id": "FIT-01",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-SHEER-0-0",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-SHEER-0-1",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-SHEER-0-2",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-SHEER-1-2",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-SHEER-1-3",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      },
+      {
+        "id": "HOLD-BOW-END",
+        "raw_oda_vertex_or_interpolation_delta": 0.0
+      }
+    ]
+  }
+}

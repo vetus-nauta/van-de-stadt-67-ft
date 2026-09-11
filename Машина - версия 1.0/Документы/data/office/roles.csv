@@ -1,0 +1,15 @@
+role_id;role_name;assignee;appointment_status;scope;reviewer
+HEAD;Начальник;/root;ACTIVE;Управление заданиями, решения, сведение и внутренний выпуск;REVIEW для содержательных результатов
+DESIGN;Корпус и общая компоновка;/root/naval_layout;APPOINTED_O02_COMPLETED;"Чтение чертежей; зональные варианты и интерьер; расчётный допуск отдельно";/root/independent_review
+SYSTEMS;Интеграция систем;/root/systems;APPOINTED_O02_COMPLETED;Ведомость оборудования, размещение по зонам и интерфейсы;/root/independent_review
+PROCUREMENT;Закупки и сравнение предложений;/root/procurement_cost;APPOINTED_O02_COMPLETED;"Польша/ЕС; первичные рыночные источники и готовые запросы без отправки";/root/independent_review
+ESTIMATE;Сметная подготовка;/root/procurement_cost;APPOINTED_O02_COMPLETED;"WBS, условия КАЦ и будущей УТВ; пока без полного денежного расчёта";/root/independent_review
+PLAN;Планирование;/root;ACTIVE;Зависимости, очередность, контроль результатов специалистов;REVIEW
+REVIEW;Независимая проверка;/root/g02_review;APPOINTED_G02_COMPLETED;Независимая проверка CAD, координат и концептуальных вариантов;HEAD принимает решение
+DOCS;Выпуск и синхронизация;/root;ACTIVE;Реестры, журнал, manifest, сохранность исходников и GitHub;Контроль SHA и дерева
+GEOMETRY_RH;Геометрия Rhino;/root/rhino_geometry;APPOINTED_G01_COMPLETED;"Чтение3DM; слои/объекты/координаты; проекции и ограничения";/root/geometry_review
+GEOMETRY_DW;Геометрия DWG;/root/dwg_geometry;APPOINTED_G01_COMPLETED;"Локальная конвертация и чтение DWG; виды/единицы; сопоставление";/root/geometry_review
+SURVEY;План обмеров;/root/geometry_survey;APPOINTED_G01_COMPLETED;"PDF/фото; адресные реперы и пробелы, связанные с будущими изменениями";/root/geometry_review
+G02_CAD;Второй CAD-движок;/root/g02_cad;APPOINTED_G02_COMPLETED;ODA/LibreDWG: блоки, геометрия, единицы и ограничения;/root/g02_review
+G02_ALIGNMENT;Координатная привязка;/root/g02_alignment;APPOINTED_G02_COMPLETED;Общие реперы, проверочные сечения и рабочая система Rhino;/root/g02_review
+G02_LAYOUT;Концептуальная компоновка;/root/g02_layout;APPOINTED_G02_COMPLETED;"Два варианта на исходной подоснове; предложения и конфликты";/root/g02_review

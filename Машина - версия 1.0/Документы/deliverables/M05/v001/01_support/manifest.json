@@ -1,0 +1,53 @@
+{
+  "release": "M05/v001",
+  "date": "2026-09-11",
+  "basis_commit": "2d5df9c5e137871680d5f1f3198e1009b0d4fba2",
+  "status": "WORKING_PRICE_SUBSTITUTION_WITH_DISCLOSED_LIMITS",
+  "files": [
+    {
+      "path": "00_price-substitutions.md",
+      "bytes": 6316,
+      "sha256": "7ba3b67e7c7547ac1ceb68b4e008212d09b8a10f91101ca4b5e9ceaf017ccda1"
+    },
+    {
+      "path": "01_support/ancillary-alternatives.csv",
+      "bytes": 1752,
+      "sha256": "18eda74eaae5c5c6fb3547914b13cf369448eee7bf7bffb5feda540c1b7b8d89"
+    },
+    {
+      "path": "01_support/ancillary-alternatives.md",
+      "bytes": 6281,
+      "sha256": "2d669bf2e3ceddf9471a110161adb76a6f4e767d537323da52000247ad695b35"
+    },
+    {
+      "path": "01_support/fx.json",
+      "bytes": 419,
+      "sha256": "a3acc7343e45c586fc4e7b1e8c00d9add4309302b94a88af3057deae4cd2e233"
+    },
+    {
+      "path": "01_support/gearbox-alternatives.csv",
+      "bytes": 1772,
+      "sha256": "e51b48b5d44f9b549c070536436672fc2a80c6012013e99cd55a4db13137d983"
+    },
+    {
+      "path": "01_support/gearbox-alternatives.md",
+      "bytes": 7095,
+      "sha256": "74337ea82c8c367b3c52f89fbf39309aa64a99e04510fa544c47a91edee8aa79"
+    },
+    {
+      "path": "01_support/price-substitutions.csv",
+      "bytes": 4032,
+      "sha256": "de68f41faebd69a8988fabfde80efe7b197b4dc9b185c97a540f4fd08095dc98"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 5347,
+      "sha256": "f39918926ea8563927bc57a2704bcabd0e4406e1eb6d93e43bb6460610c201c7"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 968,
+      "sha256": "1b5e2d58e03a33d58544054cbe0d4b14eb28be06aeedb498ef03feacc9a173eb"
+    }
+  ]
+}

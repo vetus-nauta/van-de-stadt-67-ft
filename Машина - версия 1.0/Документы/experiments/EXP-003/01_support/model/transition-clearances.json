@@ -1,0 +1,35 @@
+[
+  {
+    "source_index": 52,
+    "overlap_x": [
+      -17.349599765625,
+      -15.375224765625001
+    ],
+    "source_max_z": 1.2479224337429877,
+    "conservative_lowest_canopy_and_frame_reserve_z": 3.6750000000000003,
+    "conservative_vertical_gap_m": 2.4270775662570125,
+    "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+  },
+  {
+    "source_index": 58,
+    "overlap_x": [
+      -18.71396890625,
+      -17.349615390625
+    ],
+    "source_max_z": 1.5246880587429879,
+    "conservative_lowest_canopy_and_frame_reserve_z": 3.6750000000000003,
+    "conservative_vertical_gap_m": 2.150311941257012,
+    "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+  },
+  {
+    "source_index": 212,
+    "overlap_x": [
+      -17.238634921875,
+      -14.9933468359375
+    ],
+    "source_max_z": 1.6200200899929877,
+    "conservative_lowest_canopy_and_frame_reserve_z": 3.6749715491764063,
+    "conservative_vertical_gap_m": 2.0549514591834184,
+    "status": "PROFILE_RESERVE_OVER_LOCAL_SURFACE_CANDIDATE_NOT_CONFIRMED_FLOOR"
+  }
+]

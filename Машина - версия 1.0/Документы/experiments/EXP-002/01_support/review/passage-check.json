@@ -1,0 +1,554 @@
+{
+  "scope": "BARE_COAMING_PLAN_GAPS_NOT_USABLE_PASSAGE",
+  "native_source_sha256": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+  "method": "Read actual coaming lower mesh edges; exact direct native edge roots; independent of author interpolation",
+  "author_stations_checked": [
+    {
+      "x_m": -15.1,
+      "footprint_y_min_max_m": [
+        -2.1146546433471918,
+        2.1146546433471918
+      ],
+      "native_edge_points_m": [
+        [
+          -15.100000000000007,
+          2.664928692428064,
+          1.5135842933342865
+        ],
+        [
+          -15.099999999999996,
+          -2.664928416340419,
+          1.5135843168001957
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5502737729932274,
+        0.5502740490808722
+      ],
+      "author_row": {
+        "x_m": -15.1,
+        "deck_halfwidth_min_m": 2.664928416340419,
+        "base_halfwidth_m": 2.1146546433471918,
+        "design_envelope_halfwidth_m": 2.114928416340419,
+        "plan_gap_each_side_m": 0.5502737729932274,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -15,
+      "footprint_y_min_max_m": [
+        -2.1255777503726945,
+        2.1255777503726945
+      ],
+      "native_edge_points_m": [
+        [
+          -15.000000000000004,
+          2.67744354843122,
+          1.5145314345003935
+        ],
+        [
+          -15.0,
+          -2.6774432480584984,
+          1.5145314548101851
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.551865497685804,
+        0.5518657980585253
+      ],
+      "author_row": {
+        "x_m": -15,
+        "deck_halfwidth_min_m": 2.6774432480584984,
+        "base_halfwidth_m": 2.1255777503726945,
+        "design_envelope_halfwidth_m": 2.1274432480584986,
+        "plan_gap_each_side_m": 0.551865497685804,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -14,
+      "footprint_y_min_max_m": [
+        -2.2232760535972638,
+        2.2232760535972638
+      ],
+      "native_edge_points_m": [
+        [
+          -14.0,
+          2.784342778876133,
+          1.525090847053685
+        ],
+        [
+          -13.999999999999996,
+          -2.7843426062610814,
+          1.5250908990255847
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5610665526638177,
+        0.5610667252788692
+      ],
+      "author_row": {
+        "x_m": -14,
+        "deck_halfwidth_min_m": 2.7843426062610814,
+        "base_halfwidth_m": 2.2232760535972638,
+        "design_envelope_halfwidth_m": 2.234342606261081,
+        "plan_gap_each_side_m": 0.5610665526638177,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -13,
+      "footprint_y_min_max_m": [
+        -2.2748432337074354,
+        2.2748432337074354
+      ],
+      "native_edge_points_m": [
+        [
+          -13.000000000000002,
+          2.853131163072205,
+          1.537920809385032
+        ],
+        [
+          -13.0,
+          -2.8531318825736234,
+          1.5379206496877778
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.578288648866188,
+        0.5782879293647696
+      ],
+      "author_row": {
+        "x_m": -13,
+        "deck_halfwidth_min_m": 2.853131163072205,
+        "base_halfwidth_m": 2.2748432337074354,
+        "design_envelope_halfwidth_m": 2.28,
+        "plan_gap_each_side_m": 0.5782879293647696,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -12,
+      "footprint_y_min_max_m": [
+        -2.2799999713897705,
+        2.2799999713897705
+      ],
+      "native_edge_points_m": [
+        [
+          -11.999999999999996,
+          2.876991515620328,
+          1.553241547845566
+        ],
+        [
+          -11.999999999999998,
+          -2.8769911706930142,
+          1.5532415653567877
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5969911993032437,
+        0.5969915442305576
+      ],
+      "author_row": {
+        "x_m": -12,
+        "deck_halfwidth_min_m": 2.8769911706930142,
+        "base_halfwidth_m": 2.2799999713897705,
+        "design_envelope_halfwidth_m": 2.28,
+        "plan_gap_each_side_m": 0.5969911993032437,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -11,
+      "footprint_y_min_max_m": [
+        -2.274243331459324,
+        2.274243331459324
+      ],
+      "native_edge_points_m": [
+        [
+          -11.000000000000005,
+          2.8509942462752806,
+          1.5707968234325782
+        ],
+        [
+          -11.000000000000002,
+          -2.8509941583848195,
+          1.5707967884363498
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5767508269254957,
+        0.5767509148159569
+      ],
+      "author_row": {
+        "x_m": -11,
+        "deck_halfwidth_min_m": 2.8509941583848195,
+        "base_halfwidth_m": 2.274243331459324,
+        "design_envelope_halfwidth_m": 2.28,
+        "plan_gap_each_side_m": 0.5767508269254957,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -10.5,
+      "footprint_y_min_max_m": [
+        -2.2694461345672607,
+        2.2694461345672607
+      ],
+      "native_edge_points_m": [
+        [
+          -10.500000000000002,
+          2.819446158043502,
+          1.5801855508666267
+        ],
+        [
+          -10.5,
+          -2.8194462371586777,
+          1.5801854887572444
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.550000102591417,
+        0.5500000234762412
+      ],
+      "author_row": {
+        "x_m": -10.5,
+        "deck_halfwidth_min_m": 2.819446158043502,
+        "base_halfwidth_m": 2.2694461345672607,
+        "design_envelope_halfwidth_m": 2.269446158043502,
+        "plan_gap_each_side_m": 0.5500000234762412,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -10,
+      "footprint_y_min_max_m": [
+        -2.2167781591415405,
+        2.2167781591415405
+      ],
+      "native_edge_points_m": [
+        [
+          -10.000000000000002,
+          2.7756512188250926,
+          1.5899155924787738
+        ],
+        [
+          -9.999999999999998,
+          -2.7756507845110536,
+          1.5899156015217304
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5588726253695131,
+        0.558873059683552
+      ],
+      "author_row": {
+        "x_m": -10,
+        "deck_halfwidth_min_m": 2.7756507845110536,
+        "base_halfwidth_m": 2.2167781591415405,
+        "design_envelope_halfwidth_m": 2.2256507845110534,
+        "plan_gap_each_side_m": 0.5588726253695131,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -9,
+      "footprint_y_min_max_m": [
+        -2.0904890453260796,
+        2.0904890453260796
+      ],
+      "native_edge_points_m": [
+        [
+          -8.999999999999995,
+          2.652569630144568,
+          1.6103324266890777
+        ],
+        [
+          -8.999999999999996,
+          -2.652569392002042,
+          1.6103324352923265
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5620803466759625,
+        0.5620805848184882
+      ],
+      "author_row": {
+        "x_m": -9,
+        "deck_halfwidth_min_m": 2.652569392002042,
+        "base_halfwidth_m": 2.0904890453260796,
+        "design_envelope_halfwidth_m": 2.1025693920020423,
+        "plan_gap_each_side_m": 0.5620803466759625,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -8,
+      "footprint_y_min_max_m": [
+        -1.9297852867919592,
+        1.9297852867919592
+      ],
+      "native_edge_points_m": [
+        [
+          -7.9999999999999964,
+          2.4834424443005956,
+          1.6328876955183769
+        ],
+        [
+          -7.999999999999998,
+          -2.483442214448351,
+          1.6328881407047193
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5536569276563916,
+        0.5536571575086364
+      ],
+      "author_row": {
+        "x_m": -8,
+        "deck_halfwidth_min_m": 2.483442214448351,
+        "base_halfwidth_m": 1.9297852867919592,
+        "design_envelope_halfwidth_m": 1.9334422144483507,
+        "plan_gap_each_side_m": 0.5536569276563916,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -7.798,
+      "footprint_y_min_max_m": [
+        -1.8939726602925817,
+        1.8939726602925817
+      ],
+      "native_edge_points_m": [
+        [
+          -7.798000000000004,
+          2.4439733979940175,
+          1.6377667383508743
+        ],
+        [
+          -7.798000000000002,
+          -2.443972601180827,
+          1.6377669853746375
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5499999408882452,
+        0.5500007377014358
+      ],
+      "author_row": {
+        "x_m": -7.798,
+        "deck_halfwidth_min_m": 2.443972601180827,
+        "base_halfwidth_m": 1.8939726657024525,
+        "design_envelope_halfwidth_m": 1.8939726011808269,
+        "plan_gap_each_side_m": 0.5499999354783744,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 5.409870773576131e-09
+    },
+    {
+      "x_m": -7,
+      "footprint_y_min_max_m": [
+        -1.721908688545227,
+        1.721908688545227
+      ],
+      "native_edge_points_m": [
+        [
+          -6.999999999999998,
+          2.271908822692618,
+          1.6579267188974336
+        ],
+        [
+          -7.000000000000002,
+          -2.271908683540656,
+          1.657926700550499
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5499999949954288,
+        0.5500001341473908
+      ],
+      "author_row": {
+        "x_m": -7,
+        "deck_halfwidth_min_m": 2.271908683540656,
+        "base_halfwidth_m": 1.721908688545227,
+        "design_envelope_halfwidth_m": 1.7219086835406558,
+        "plan_gap_each_side_m": 0.5499999949954288,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -6.5,
+      "footprint_y_min_max_m": [
+        -1.6018255949020386,
+        1.6018255949020386
+      ],
+      "native_edge_points_m": [
+        [
+          -6.4999999999999964,
+          2.1518256969575087,
+          1.6711402114291376
+        ],
+        [
+          -6.5,
+          -2.151825649291433,
+          1.6711401918730007
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5500000543893946,
+        0.5500001020554701
+      ],
+      "author_row": {
+        "x_m": -6.5,
+        "deck_halfwidth_min_m": 2.151825649291433,
+        "base_halfwidth_m": 1.6018255949020386,
+        "design_envelope_halfwidth_m": 1.6018256492914331,
+        "plan_gap_each_side_m": 0.5500000543893946,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -6,
+      "footprint_y_min_max_m": [
+        -1.4729678630828857,
+        1.4729678630828857
+      ],
+      "native_edge_points_m": [
+        [
+          -6.0,
+          2.0229680753458306,
+          1.6848351109796968
+        ],
+        [
+          -6.0,
+          -2.0229678511725724,
+          1.6848351413582132
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5499999880896866,
+        0.5500002122629448
+      ],
+      "author_row": {
+        "x_m": -6,
+        "deck_halfwidth_min_m": 2.0229678511725724,
+        "base_halfwidth_m": 1.4729678630828857,
+        "design_envelope_halfwidth_m": 1.4729678511725723,
+        "plan_gap_each_side_m": 0.5499999880896866,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -5.5,
+      "footprint_y_min_max_m": [
+        -1.3359568119049072,
+        1.3359568119049072
+      ],
+      "native_edge_points_m": [
+        [
+          -5.5000000000000036,
+          1.8859570281821834,
+          1.699154592819752
+        ],
+        [
+          -5.499999999999998,
+          -1.8859567744972265,
+          1.699154787318159
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5499999625923193,
+        0.5500002162772761
+      ],
+      "author_row": {
+        "x_m": -5.5,
+        "deck_halfwidth_min_m": 1.8859567744972265,
+        "base_halfwidth_m": 1.3359568119049072,
+        "design_envelope_halfwidth_m": 1.3359567744972265,
+        "plan_gap_each_side_m": 0.5499999625923193,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -5,
+      "footprint_y_min_max_m": [
+        -1.1906421369831452,
+        1.1906421369831452
+      ],
+      "native_edge_points_m": [
+        [
+          -4.999999999999998,
+          1.741481651129303,
+          1.7140821644757815
+        ],
+        [
+          -4.9999999999999964,
+          -1.7414815065069051,
+          1.7140820037694757
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5508393695237599,
+        0.5508395141461577
+      ],
+      "author_row": {
+        "x_m": -5,
+        "deck_halfwidth_min_m": 1.7414815065069051,
+        "base_halfwidth_m": 1.1906421369831452,
+        "design_envelope_halfwidth_m": 1.191481506506905,
+        "plan_gap_each_side_m": 0.5508393695237599,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    },
+    {
+      "x_m": -4.798,
+      "footprint_y_min_max_m": [
+        -1.131143849938206,
+        1.131143849938206
+      ],
+      "native_edge_points_m": [
+        [
+          -4.798000000000004,
+          1.6811440096404986,
+          1.7202398063255204
+        ],
+        [
+          -4.7979999999999965,
+          -1.6811438323880648,
+          1.7202397650424537
+        ]
+      ],
+      "gaps_port_starboard_m": [
+        0.5499999824498587,
+        0.5500001597022925
+      ],
+      "author_row": {
+        "x_m": -4.798,
+        "deck_halfwidth_min_m": 1.6811438323880648,
+        "base_halfwidth_m": 1.131143849938206,
+        "design_envelope_halfwidth_m": 1.1311438323880647,
+        "plan_gap_each_side_m": 0.5499999824498587,
+        "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+      },
+      "author_gap_difference_m": 0.0
+    }
+  ],
+  "dense_sample_count": 301,
+  "dense_minimum_plan_gap_m": 0.5499999824498587,
+  "dense_minimum_is_sampled_not_exact_global": true
+}

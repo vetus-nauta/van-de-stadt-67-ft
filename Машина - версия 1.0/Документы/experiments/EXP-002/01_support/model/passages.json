@@ -1,0 +1,138 @@
+[
+  {
+    "x_m": -15.1,
+    "deck_halfwidth_min_m": 2.664928416340419,
+    "base_halfwidth_m": 2.1146546433471918,
+    "design_envelope_halfwidth_m": 2.114928416340419,
+    "plan_gap_each_side_m": 0.5502737729932274,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -15,
+    "deck_halfwidth_min_m": 2.6774432480584984,
+    "base_halfwidth_m": 2.1255777503726945,
+    "design_envelope_halfwidth_m": 2.1274432480584986,
+    "plan_gap_each_side_m": 0.551865497685804,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -14,
+    "deck_halfwidth_min_m": 2.7843426062610814,
+    "base_halfwidth_m": 2.2232760535972638,
+    "design_envelope_halfwidth_m": 2.234342606261081,
+    "plan_gap_each_side_m": 0.5610665526638177,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -13,
+    "deck_halfwidth_min_m": 2.853131163072205,
+    "base_halfwidth_m": 2.2748432337074354,
+    "design_envelope_halfwidth_m": 2.28,
+    "plan_gap_each_side_m": 0.5782879293647696,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -12,
+    "deck_halfwidth_min_m": 2.8769911706930142,
+    "base_halfwidth_m": 2.2799999713897705,
+    "design_envelope_halfwidth_m": 2.28,
+    "plan_gap_each_side_m": 0.5969911993032437,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -11,
+    "deck_halfwidth_min_m": 2.8509941583848195,
+    "base_halfwidth_m": 2.274243331459324,
+    "design_envelope_halfwidth_m": 2.28,
+    "plan_gap_each_side_m": 0.5767508269254957,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -10.5,
+    "deck_halfwidth_min_m": 2.819446158043502,
+    "base_halfwidth_m": 2.2694461345672607,
+    "design_envelope_halfwidth_m": 2.269446158043502,
+    "plan_gap_each_side_m": 0.5500000234762412,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -10,
+    "deck_halfwidth_min_m": 2.7756507845110536,
+    "base_halfwidth_m": 2.2167781591415405,
+    "design_envelope_halfwidth_m": 2.2256507845110534,
+    "plan_gap_each_side_m": 0.5588726253695131,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -9,
+    "deck_halfwidth_min_m": 2.652569392002042,
+    "base_halfwidth_m": 2.0904890453260796,
+    "design_envelope_halfwidth_m": 2.1025693920020423,
+    "plan_gap_each_side_m": 0.5620803466759625,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -8,
+    "deck_halfwidth_min_m": 2.483442214448351,
+    "base_halfwidth_m": 1.9297852867919592,
+    "design_envelope_halfwidth_m": 1.9334422144483507,
+    "plan_gap_each_side_m": 0.5536569276563916,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -7.798,
+    "deck_halfwidth_min_m": 2.443972601180827,
+    "base_halfwidth_m": 1.8939726657024525,
+    "design_envelope_halfwidth_m": 1.8939726011808269,
+    "plan_gap_each_side_m": 0.5499999354783744,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -7,
+    "deck_halfwidth_min_m": 2.271908683540656,
+    "base_halfwidth_m": 1.721908688545227,
+    "design_envelope_halfwidth_m": 1.7219086835406558,
+    "plan_gap_each_side_m": 0.5499999949954288,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -6.5,
+    "deck_halfwidth_min_m": 2.151825649291433,
+    "base_halfwidth_m": 1.6018255949020386,
+    "design_envelope_halfwidth_m": 1.6018256492914331,
+    "plan_gap_each_side_m": 0.5500000543893946,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -6,
+    "deck_halfwidth_min_m": 2.0229678511725724,
+    "base_halfwidth_m": 1.4729678630828857,
+    "design_envelope_halfwidth_m": 1.4729678511725723,
+    "plan_gap_each_side_m": 0.5499999880896866,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -5.5,
+    "deck_halfwidth_min_m": 1.8859567744972265,
+    "base_halfwidth_m": 1.3359568119049072,
+    "design_envelope_halfwidth_m": 1.3359567744972265,
+    "plan_gap_each_side_m": 0.5499999625923193,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -5,
+    "deck_halfwidth_min_m": 1.7414815065069051,
+    "base_halfwidth_m": 1.1906421369831452,
+    "design_envelope_halfwidth_m": 1.191481506506905,
+    "plan_gap_each_side_m": 0.5508393695237599,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  },
+  {
+    "x_m": -4.798,
+    "deck_halfwidth_min_m": 1.6811438323880648,
+    "base_halfwidth_m": 1.131143849938206,
+    "design_envelope_halfwidth_m": 1.1311438323880647,
+    "plan_gap_each_side_m": 0.5499999824498587,
+    "status": "OUTER_EDGE_PLAN_ONLY_NOT_CLEAR_PASSAGE"
+  }
+]

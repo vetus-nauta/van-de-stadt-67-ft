@@ -1,0 +1,19 @@
+{
+  "status": "PASS_BLANK_TEMPLATE_ONLY",
+  "sha256": {
+    ".local/U01/UTV-template-draft2.xlsx": "cf0afba6b4f278c15cca7cd9a682af8367e0e689571c60da45e64f84ab4721ac",
+    ".local/U01/review/recalculated/blank.xlsx": "d7abbd6df9e884ed90239a291ced446693aa56544d1c89cd46c34cfa5e25530d",
+    "deliverables/U01/v001/01_support/tools/build_template.py": "5d478872ac1fbdb9b4a97cf5f8894fc917b5f7e1689ef06c75ab44b86995a275",
+    "deliverables/U01/v001/01_support/basis/commercial-workflow.md": "a09785e4e37fc54ee4ce9fe20f3f73938b9c0d62595b1334530693fe38822452",
+    "office/cost-policy.md": "850fdcfa2b662ad059c0ffd52618818b57cad843005f0f2102bcac33331b51db",
+    "office/data-dictionary.md": "c903ad8084a16c670984f60b7a22cfe8d39ffc1c693da782b4597e9f45e5fcd8",
+    "office/evidence-and-changes.md": "a47f43d2abc7019029b855397e822142a046fc079ee39ce1c2ad456eced04767",
+    "office/quality-and-release.md": "e36dbe7278c742212e5605de07a08208025446bd42f89181856e9d5aee0a7013",
+    "office/project.json": "d92939cf0d3b6f300a136b16e5534b8f9b62a34626d2c8e33d36a6cbb4b543c4",
+    ".local/U01/UTV-template-draft3.xlsx": "91573ecd04ec86d9c83ed90dacd2040bb66aaf829e6d326ac39bcfd0b4266a69",
+    ".local/U01/final/00_UTV_template.xlsx": "03f2387084789467a9af5c7d8dba8af0329009109ddcd5adbfb2531fa34d7439",
+    "deliverables/U01/v001/01_support/00_readme.md": "f605637dac840e1cbf992603058373b158bc257b60441276aef2c17c2951aed2",
+    "deliverables/U01/v001/00_UTV_template.xlsx": "03f2387084789467a9af5c7d8dba8af0329009109ddcd5adbfb2531fa34d7439"
+  },
+  "final_workbook": "deliverables/U01/v001/00_UTV_template.xlsx"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-10",
+  "scope": "Author repeat check; not independent review; no proof of full DWG equivalence.",
+  "files": [
+    {
+      "file": "lines-derived.dxf",
+      "deliverable_sha256": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273",
+      "repeat_sha256": "78c011b7724a26fe8087a55d36c8224607491c06d2f71d11fc9ac878fcd45273",
+      "identical": true
+    },
+    {
+      "file": "lines-decoded.json",
+      "deliverable_sha256": "ea5d2215b5c7bdd8906e944c03f0bf09218e3f29a4262362de6e28d7916f52d3",
+      "repeat_sha256": "ea5d2215b5c7bdd8906e944c03f0bf09218e3f29a4262362de6e28d7916f52d3",
+      "identical": true
+    },
+    {
+      "file": "entities.json",
+      "deliverable_sha256": "6d32dde2412da0dbb191d9b5dfcec68c2ec82fb76a21f81454cb1d23ce6d9860",
+      "repeat_sha256": "6d32dde2412da0dbb191d9b5dfcec68c2ec82fb76a21f81454cb1d23ce6d9860",
+      "identical": true
+    },
+    {
+      "file": "texts.json",
+      "deliverable_sha256": "abcf7454ce7985981dc690ae0667e6879fa71c4e7badb2e5dfdae7ff94aae045",
+      "repeat_sha256": "abcf7454ce7985981dc690ae0667e6879fa71c4e7badb2e5dfdae7ff94aae045",
+      "identical": true
+    },
+    {
+      "file": "layers.csv",
+      "deliverable_sha256": "cdf45f02e7c9fc286e84b20976525fb7afa8f008b3cfc7f67f5c30929c0d7ffc",
+      "repeat_sha256": "cdf45f02e7c9fc286e84b20976525fb7afa8f008b3cfc7f67f5c30929c0d7ffc",
+      "identical": true
+    },
+    {
+      "file": "dimensions.json",
+      "deliverable_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "repeat_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "identical": true
+    },
+    {
+      "file": "projection-log.json",
+      "deliverable_sha256": "1898683f68549c8c182dc898b2b5ba171ca04b8edf7c7df07ddd3dc61e812dc8",
+      "repeat_sha256": "1898683f68549c8c182dc898b2b5ba171ca04b8edf7c7df07ddd3dc61e812dc8",
+      "identical": true
+    }
+  ]
+}

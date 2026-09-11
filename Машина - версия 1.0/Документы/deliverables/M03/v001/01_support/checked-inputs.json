@@ -1,0 +1,79 @@
+{
+  "algorithm": "SHA256",
+  "status": "INPUT_IDENTITY_NOT_APPROVAL",
+  "base_commit": "19ae46e57f941e87168590b7d69776f41e74c505",
+  "files": [
+    {
+      "path": "deliverables/U01/v001/00_UTV_template.xlsx",
+      "sha256": "03f2387084789467a9af5c7d8dba8af0329009109ddcd5adbfb2531fa34d7439"
+    },
+    {
+      "path": "deliverables/M01/v001/01_support/equipment-list.csv",
+      "sha256": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/all-candidates.csv",
+      "sha256": "337c1fcb4f7a96a6967d4a81b58e69bca747bf9433f014240cc338413f264133"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/fx.json",
+      "sha256": "1327751d48af03052c3ab482af8cec48efc8c4de7e15562022ed2acd8e302150"
+    },
+    {
+      "path": "office/tax-treatment-2026-09-11.md",
+      "sha256": "2062383dc3b4a3b1e2fcbffba1c49d144387c082db651504385e8a4c8386f3ed"
+    },
+    {
+      "path": "data/office/decisions.csv",
+      "sha256": "b28bace81f6e1b65b51ab289de07ede9a4f9f90e43ab5486513d2f4c6e16909f"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/packages.csv",
+      "sha256": "3e359e42991d66603d59e5dae54501b3e36a2e5b100231f45bcca0ee1c66cd90"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/package-notes.md",
+      "sha256": "cf671ea3394402c18eb8e7be626af5339b66f622209bdd4335d60849752d5c93"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/yanmar/candidates.csv",
+      "sha256": "78aff6ded8c2518e41bf380f439019473a74d7f60aa381bc192f8e17fc433eff"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/yanmar/research.md",
+      "sha256": "0811732ffb888fc2991669e0108dc8c81354901dd0c3204596b429a63336e601"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/panda/candidates.csv",
+      "sha256": "d5174a6e8b6df6daf1913b94a180c0f7b5c20e32cfbffff505a270392768037b"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/panda/research.md",
+      "sha256": "44041a8f4dd456b1551d906f909ae0ea211a2c13867a8e6e3e6a10b132ff0b46"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/build_kac.py",
+      "sha256": "5ec4ae8a1fff6bd2931e9f90335070700ca453b05fe44888651a41059a17cb9d"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/price-register.csv",
+      "sha256": "10c8a7f35b57c4d407d560e3c658eb12fc8f059b450fe9f2514fb901eb24ca2a"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/variant-register.csv",
+      "sha256": "6f8201c4d76caed6b742a6640c8044888c3ed372203d04bda9333b21aa135ebb"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/components.csv",
+      "sha256": "d850d56cec801670bbed2dd3b33806aba49acb782b156165d1547cbc31ae69e2"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/scope-checklist.csv",
+      "sha256": "d8dedbb9d6365d36f0234f4bdb6b6c2d0f5ab500f39816d8331b92edcb9b4016"
+    },
+    {
+      "path": "deliverables/M03/v001/00_working-KAC.xlsx",
+      "sha256": "65060bed53e362a17d0a38c0586b79f67f5285fe191f8c7bdf9ebaf4c86640a7"
+    }
+  ]
+}

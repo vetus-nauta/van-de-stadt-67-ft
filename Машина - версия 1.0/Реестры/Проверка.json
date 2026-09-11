@@ -1,0 +1,4298 @@
+{
+  "status": "PASS",
+  "date": "2026-09-11",
+  "document_copies": 503,
+  "local_pdf_occurrences": 19,
+  "checks_total": 1072,
+  "checks": [
+    {
+      "check": "source-copy:AGENTS.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:HANDOFF.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/changes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/cost-control.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/decisions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/deliverables.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/design-intents.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/estimate.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/quantities.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/quotes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/risks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/roles.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/source-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/spec-crosswalk.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/tasks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/office/wbs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:data/spec-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/00_geometry-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/00_dwg-inspection.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/author-recheck.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/conversion-status.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/dimensions.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/dwg2dxf.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/dwg2dxf.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/dwgread.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/dwgread.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/entities.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/inspect_dxf.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/inspection.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/inspection.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/layers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/lines-decoded.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/lines-derived-preview.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/lines-derived.dxf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/lines-derived.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/orthographic-linework.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/projection-log.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/reproduce.sh",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/requirements-lock.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/dwg/texts.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/check_dwg.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/check_geometry.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/findings.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/independent-dwg-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/review/independent-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/00_rhino-inspection.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/all-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/all-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/deck-candidate-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/deck-candidate-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/hull-layer-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/hull-layer-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/inspect_rhino.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/internal-surfaces-example-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/internal-surfaces-example-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/objects.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/requirements-lock.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/roof-candidates-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/roof-candidates-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/selections.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/shell-surfaces-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/rhino/shell-surfaces-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/survey/00_survey-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/survey/survey-checklist.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G01/v001/01_support/task-definition.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/00_sprint-result.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/00_alignment.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/alignment-overlay.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/alignment-overlay.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/anchors.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/author-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/bow-detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/bow-detail.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/build_alignment.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/curves-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/dwg-selected-extraction.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/holdout-sections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/holdout-sections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/section-diagnostics.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/sections-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/alignment/transform.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/00_cad-validation.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/audit.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/audit.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/compare_cad.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/comparison.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/comparison.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/comparison.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/exit-status.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/lines-oda-noaudit.dxf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/noaudit.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/noaudit.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/recheck.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/reproduce.sh",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/cad/toolchain.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/00_layout-options.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/author-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/backdrop-curves.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/option-A.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/option-A.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/option-B.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/option-B.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/sketch-provenance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/tradeoffs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/layout/zones.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/review/independent-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/review/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/review/independent_dxf.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G02/v001/01_support/sprint-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/00_central-engine-room.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/area-height.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/build_proposal.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/extract_geometry.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/geometry-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/geometry-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/plan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/plan.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/proposal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/section.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/section.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/source-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/00_equipment-block-layout.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/01-plan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/01-plan.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/02-elevations.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/02-elevations.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/03-dry-cabinet.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/03-dry-cabinet.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/04-open-issues.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/04-open-issues.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/auxiliary-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/auxiliary-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/blocks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/build_blocks.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/layout.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/propulsion-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/propulsion-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/sample_shell.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/shell-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/G03/v002/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/00_equipment-list.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/comparison-rules.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/electrical-hydraulic-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/equipment-list.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/owner-requirements.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M01/v001/01_support/systems-list.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/00_market-analysis.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/00_findings.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/01_sources-and-files.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/02_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/all-candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/auxiliary/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/auxiliary/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/build_market.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/dimensions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/electrical/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/electrical/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/fx.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/propulsion/archive-note.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/propulsion/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/propulsion/live-price-extracts.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/propulsion/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/propulsion/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/review/auxiliary-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/review/electrical-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/review/integration-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/review/propulsion-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/review/water-climate-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/service-outcomes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/water-climate/build_register.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/water-climate/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/water-climate/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/water-climate/sources/cache-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M02/v001/01_support/water-climate/sources/evidence-extracts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/00_working-KAC.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/01_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/build-stats.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/build_kac.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/components.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/package-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/packages.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/panda/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/panda/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/panda/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/price-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/review/integration-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/review/packages-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/review/panda-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/review/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/review/yanmar-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/scope-checklist.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/variant-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/yanmar/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/yanmar/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M03/v001/01_support/yanmar/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/00_yanmar-completeness.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/ancillaries.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/ancillaries.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/gearbox.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/gearbox.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/local-pdf-index.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/package-price-audit.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M04/v001/01_support/yanmar-addendum.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/00_price-substitutions.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/ancillary-alternatives.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/ancillary-alternatives.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/fx.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/gearbox-alternatives.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/gearbox-alternatives.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/price-substitutions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M05/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/00_powerplant-scope.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/RFQ-draft-en.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/build-stats.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/build_scope.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/electrical-hydraulic-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/electrical-hydraulic.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/generator-interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/mechanical-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/mechanical.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/open-questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/scope-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/space-inputs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M06/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/00_engine-room-estimate.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/01_estimate-print.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/build_estimate.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/build_print.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/cost-scope-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/cost-scope-audit.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/estimate-lines.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/propulsion-carryforward.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/propulsion-carryforward.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/summary.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/totals.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/M07/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/00_office-launch.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/commercial/00_commercial-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/commercial/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/commercial/preliminary-market-note.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/commercial/rfq-drafts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/design/00_design-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/design/01_project-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/design/design-gaps.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/design/layout-zones.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/design/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/review/findings.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/systems/00_systems-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/systems/equipment-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/systems/interface-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/O02/v001/01_support/systems/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/R01/v001/00_shipbuilding-research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/R01/v001/01_support/applicability.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/R01/v001/01_support/sources.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/R01/v001/01_support/verification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/00_UTV_template.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/commercial-workflow.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/hull-outfitting.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/hull-packages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/hull-peer-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/structure-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/systems-packages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/basis/systems.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/check_cases.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/create_cases.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/final-revision-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/output-guard.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/review/workbook-tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/tools/build_template.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:deliverables/U01/v001/01_support/workbook-schema.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/01-hull-geometry-weights.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/02-rig-sails-deck.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/03-propulsion-steering.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/04-electrical-generation.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/05-tanks-plumbing-hvac.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/06-layout-interior-machinery.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/07-reference-yachts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/08-open-questions-survey.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:docs/16-premium-builder-specification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/01-hull-and-geometry/3d/2-1.3dm",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/02-general-arrangement/7-1.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/03-rig-and-sails/8-1.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/04-photos/hull/60EFCC49-2240-4061-8B70-3D480DCC43CE.jpg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/05-reference-images/3898828_20120417012409_4_XLARGE.jpg",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/99-service/email-reaction.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/CAD-status.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/previews/DOC-003-general-arrangement.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/previews/DOC-004-sailplan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/registers/2026-09-10/delivery-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/registers/2026-09-10/documents.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/registers/2026-09-10/occurrences.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:documentation/registers/2026-09-10/verification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/basis/extract_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/basis/source-refs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/design-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/engineering-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/reference-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/roof-detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/section.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/check_source.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/expected-native-meshes.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/output-guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-001/01_support/review/source-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/basis/deck-sections.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/basis/extract_sections.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/design-intent.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/font-license.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/hardtop-clearances.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/passages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/reference-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/model/top.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/baseline-readonly-sha.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/basis-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/check_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/check_output_guard.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/check_passages.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/geometry-extracted.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/passage-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-002/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/basis/bulwark-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/basis/extract_bulwark.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/design-intent.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/font-license.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/inner-bulwark-gaps.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/top.png",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/model/transition-clearances.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/baseline-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/baseline-readonly-sha.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/basis-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/check_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/check_output_guard.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/geometry-extracted.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/EXP-003/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:experiments/decisions/2026-09-10-exp003-concept.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:knowledge/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/CHANGELOG.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/HANDOFF-TO-HEAD.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/agent-office.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/charter.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/bootstrap-acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/incoming-update-review.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/incoming-update-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/independent-review.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/independent-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/checks/tax-treatment-2026-09-11-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/cost-policy.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/data-dictionary.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/document-control.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/evidence-and-changes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/project.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/quality-and-release.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/repository.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/roles-and-handoffs.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/specialization-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/tax-treatment-2026-09-11.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:office/workflow.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/estimate-change-review/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/estimate-costing/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/estimate-evidence/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/estimate-release/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:skills/yacht-project-office/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:sources/SOURCES.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/decision.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/handoff.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/changes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/cost-control.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/decisions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/deliverables.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/estimate.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/quantities.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/quotes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/risks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/roles.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/source-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/spec-crosswalk.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/tasks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/registers/wbs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/release.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:templates/task.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/cad/blender_all_breps_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/cad/blender_reference_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/cad/rhino_all_breps_to_obj.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/cad/rhino_cached_mesh_to_obj.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/office.py",
+      "status": "PASS"
+    },
+    {
+      "check": "source-copy:tools/verify_documents.py",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/caf5ae8d41_rehlko-g2186.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/07cca64133_volvo-penta-d4-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/22d3c1a43c_volvo-penta-d6-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/a2d9dec896_volvo-penta-price-2023.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/c929156263_thermowell-2023.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/13c864fe0b_12000x-datasheet.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/42d0f3c7f0_12000x-drawing.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/2f3ea47c53_12000x-manual-legacy.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/b24a7c695c_15000i-manual-R08.2.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/9aa9ec19f5_marine-2026.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/c67cacd99b_6lpa-manual-2018.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/65df72e23f_6lpa-spec.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/cfa22f63fe_6ly2m-spec-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/3fff70ce81_8lv-manual-2019.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/f03f23eb61_8lv-spec-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/24f1b9cfa2_6lpa-parts-2018.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/cedf9eceb4_6lpa-parts.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/c0ddfeb7be_6lpam-parts.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "local-pdf:Каталоги производителей/0bb472fa42_ultraflex-b183-manual.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/00_engine-room-estimate.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/01_estimate-print.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/00_working-KAC.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/00_market-analysis.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/00_yanmar-completeness.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/00_price-substitutions.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/00_equipment-list.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/00_powerplant-scope.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/RFQ-draft-en.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/00_equipment-block-layout.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/00_central-engine-room.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/00_sprint-result.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/02-general-arrangement/7-1.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/01-hull-and-geometry/3d/2-1.3dm",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/16-premium-builder-specification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/00_UTV_template.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/cost-policy.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/caf5ae8d41_rehlko-g2186.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/07cca64133_volvo-penta-d4-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/22d3c1a43c_volvo-penta-d6-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/a2d9dec896_volvo-penta-price-2023.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/c929156263_thermowell-2023.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/13c864fe0b_12000x-datasheet.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/42d0f3c7f0_12000x-drawing.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/2f3ea47c53_12000x-manual-legacy.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/b24a7c695c_15000i-manual-R08.2.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/9aa9ec19f5_marine-2026.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/c67cacd99b_6lpa-manual-2018.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/65df72e23f_6lpa-spec.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/cfa22f63fe_6ly2m-spec-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/3fff70ce81_8lv-manual-2019.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/f03f23eb61_8lv-spec-2021.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/24f1b9cfa2_6lpa-parts-2018.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/cedf9eceb4_6lpa-parts.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/c0ddfeb7be_6lpam-parts.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Каталоги производителей/0bb472fa42_ultraflex-b183-manual.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/AGENTS.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/HANDOFF.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/changes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/cost-control.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/decisions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/deliverables.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/design-intents.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/estimate.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/quantities.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/quotes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/risks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/roles.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/source-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/spec-crosswalk.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/tasks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/office/wbs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/data/spec-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/00_geometry-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/00_dwg-inspection.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/author-recheck.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/conversion-status.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/dimensions.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/dwg2dxf.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/dwg2dxf.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/dwgread.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/dwgread.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/entities.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/inspect_dxf.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/inspection.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/inspection.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/layers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/lines-decoded.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/lines-derived-preview.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/lines-derived.dxf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/lines-derived.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/orthographic-linework.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/projection-log.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/reproduce.sh",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/requirements-lock.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/dwg/texts.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/check_dwg.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/check_geometry.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/findings.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/independent-dwg-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/review/independent-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/00_rhino-inspection.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/all-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/all-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/deck-candidate-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/deck-candidate-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/hull-layer-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/hull-layer-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/inspect_rhino.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/internal-surfaces-example-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/internal-surfaces-example-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/objects.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/requirements-lock.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/roof-candidates-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/roof-candidates-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/selections.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/shell-surfaces-projections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/rhino/shell-surfaces-projections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/survey/00_survey-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/survey/survey-checklist.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G01/v001/01_support/task-definition.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/00_sprint-result.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/00_alignment.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/alignment-overlay.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/alignment-overlay.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/anchors.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/author-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/bow-detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/bow-detail.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/build_alignment.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/curves-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/dwg-selected-extraction.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/holdout-sections.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/holdout-sections.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/section-diagnostics.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/sections-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/alignment/transform.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/00_cad-validation.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/audit.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/audit.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/compare_cad.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/comparison.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/comparison.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/comparison.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/exit-status.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/lines-oda-noaudit.dxf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/noaudit.stderr.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/noaudit.stdout.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/recheck.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/reproduce.sh",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/cad/toolchain.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/00_layout-options.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/author-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/backdrop-curves.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/option-A.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/option-A.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/option-B.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/option-B.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/sketch-provenance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/tradeoffs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/layout/zones.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/review/independent-results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/review/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/review/independent_dxf.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G02/v001/01_support/sprint-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/00_central-engine-room.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/area-height.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/build_proposal.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/extract_geometry.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/geometry-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/geometry-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/plan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/plan.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/proposal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/section.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/section.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/source-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/00_equipment-block-layout.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/01-plan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/01-plan.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/02-elevations.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/02-elevations.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/03-dry-cabinet.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/03-dry-cabinet.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/04-open-issues.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/04-open-issues.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/auxiliary-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/auxiliary-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/blocks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/build_blocks.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/layout.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/propulsion-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/propulsion-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/sample_shell.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/shell-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/G03/v002/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/00_equipment-list.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/comparison-rules.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/electrical-hydraulic-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/equipment-list.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/owner-requirements.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M01/v001/01_support/systems-list.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/00_market-analysis.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/00_findings.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/01_sources-and-files.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/02_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/all-candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/auxiliary/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/auxiliary/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/build_market.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/dimensions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/electrical/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/electrical/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/fx.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/propulsion/archive-note.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/propulsion/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/propulsion/live-price-extracts.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/propulsion/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/propulsion/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/review/auxiliary-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/review/electrical-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/review/integration-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/review/propulsion-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/review/water-climate-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/service-outcomes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/water-climate/build_register.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/water-climate/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/water-climate/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/water-climate/sources/cache-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M02/v001/01_support/water-climate/sources/evidence-extracts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/00_working-KAC.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/01_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/build-stats.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/build_kac.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/components.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/package-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/packages.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/panda/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/panda/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/panda/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/price-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/review/integration-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/review/packages-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/review/panda-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/review/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/review/yanmar-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/scope-checklist.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/variant-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/yanmar/candidates.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/yanmar/pdf-archive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M03/v001/01_support/yanmar/research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/00_yanmar-completeness.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/ancillaries.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/ancillaries.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/gearbox.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/gearbox.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/local-pdf-index.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/package-price-audit.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M04/v001/01_support/yanmar-addendum.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/00_price-substitutions.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/ancillary-alternatives.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/ancillary-alternatives.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/fx.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/gearbox-alternatives.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/gearbox-alternatives.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/price-substitutions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M05/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/00_powerplant-scope.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/RFQ-draft-en.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/build-stats.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/build_scope.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/electrical-hydraulic-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/electrical-hydraulic.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/generator-interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/mechanical-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/mechanical.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/open-questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/scope-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/space-inputs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M06/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/00_engine-room-estimate.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/01_estimate-print.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/build_estimate.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/build_print.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/cost-scope-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/cost-scope-audit.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/estimate-lines.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/propulsion-carryforward.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/propulsion-carryforward.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/summary.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/totals.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/M07/v001/01_support/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/00_office-launch.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/00_acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/commercial/00_commercial-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/commercial/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/commercial/preliminary-market-note.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/commercial/rfq-drafts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/design/00_design-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/design/01_project-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/design/design-gaps.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/design/layout-zones.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/design/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/review/00_review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/review/findings.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/systems/00_systems-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/systems/equipment-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/systems/interface-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/O02/v001/01_support/systems/learning-card.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/R01/v001/00_shipbuilding-research.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/R01/v001/01_support/applicability.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/R01/v001/01_support/sources.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/R01/v001/01_support/verification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/00_UTV_template.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/00_readme.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/commercial-workflow.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/hull-outfitting.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/hull-packages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/hull-peer-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/structure-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/systems-packages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/basis/systems.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/check_cases.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/create_cases.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/final-revision-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/output-guard.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/review/workbook-tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/tools/build_template.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/deliverables/U01/v001/01_support/workbook-schema.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/01-hull-geometry-weights.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/02-rig-sails-deck.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/03-propulsion-steering.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/04-electrical-generation.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/05-tanks-plumbing-hvac.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/06-layout-interior-machinery.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/07-reference-yachts.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/08-open-questions-survey.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/docs/16-premium-builder-specification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/01-hull-and-geometry/3d/2-1.3dm",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/01-hull-and-geometry/lines/Linie teoretyczne VDS 67.DWG",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/02-general-arrangement/7-1.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/03-rig-and-sails/8-1.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/04-photos/hull/60EFCC49-2240-4061-8B70-3D480DCC43CE.jpg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/05-reference-images/3898828_20120417012409_4_XLARGE.jpg",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/99-service/email-reaction.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/CAD-status.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/previews/DOC-003-general-arrangement.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/previews/DOC-004-sailplan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/registers/2026-09-10/delivery-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/registers/2026-09-10/documents.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/registers/2026-09-10/occurrences.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/documentation/registers/2026-09-10/verification.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/basis/extract_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/basis/source-refs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/design-brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/engineering-notes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/reference-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/roof-detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/section.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/check_source.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/expected-native-meshes.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/output-guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-001/01_support/review/source-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/basis/deck-sections.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/basis/extract_sections.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/design-intent.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/font-license.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/hardtop-clearances.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/passages.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/reference-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/model/top.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/baseline-readonly-sha.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/basis-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/check_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/check_output_guard.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/check_passages.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/geometry-extracted.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/passage-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-002/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/00_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/basis/basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/basis/bulwark-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/basis/extract_bulwark.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/brief.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/design-intent.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/detail.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/exterior.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/font-license.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/inner-bulwark-gaps.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/side.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/top.png",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/model/transition-clearances.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/baseline-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/baseline-readonly-sha.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/basis-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/check_basis.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/check_output_guard.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/check_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/checked-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/existing-release.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/geometry-extracted.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/guard-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/missing-output.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/scene-check.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/EXP-003/01_support/review/scene-check.log",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/experiments/decisions/2026-09-10-exp003-concept.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/knowledge/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/CHANGELOG.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/HANDOFF-TO-HEAD.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/agent-office.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/charter.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/bootstrap-acceptance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/incoming-update-review.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/incoming-update-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/independent-review.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/independent-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/checks/tax-treatment-2026-09-11-review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/cost-policy.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/data-dictionary.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/document-control.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/evidence-and-changes.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/project.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/quality-and-release.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/repository.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/roles-and-handoffs.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/specialization-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/tax-treatment-2026-09-11.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/office/workflow.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/estimate-change-review/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/estimate-costing/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/estimate-evidence/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/estimate-release/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/skills/yacht-project-office/SKILL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/sources/SOURCES.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/decision.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/handoff.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/changes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/cost-control.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/decisions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/deliverables.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/estimate.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/interfaces.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/quantities.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/questions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/quotes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/risks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/roles.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/source-register.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/spec-crosswalk.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/tasks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/registers/wbs.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/release.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/review.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/templates/task.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/cad/blender_all_breps_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/cad/blender_reference_scene.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/cad/rhino_all_breps_to_obj.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/cad/rhino_cached_mesh_to_obj.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/office.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Документы/tools/verify_documents.py",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Реестры/Документы.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:Реестры/Каталоги.json",
+      "status": "PASS"
+    },
+    {
+      "check": "index-link:README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "document-inventory-exact",
+      "status": "PASS"
+    },
+    {
+      "check": "no-symlinks",
+      "status": "PASS"
+    },
+    {
+      "check": "no-lockfiles-or-private-workspaces",
+      "status": "PASS"
+    }
+  ],
+  "limits": "Integrity and document navigation only; no new engineering, tax or budget approval."
+}

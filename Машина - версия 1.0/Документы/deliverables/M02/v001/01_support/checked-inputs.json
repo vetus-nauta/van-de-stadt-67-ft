@@ -1,0 +1,78 @@
+{
+  "status": "INPUT_IDENTITY_NOT_ENGINEERING_APPROVAL",
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "deliverables/M01/v001/01_support/equipment-list.csv",
+      "sha256": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1"
+    },
+    {
+      "path": "deliverables/M01/v001/01_support/owner-requirements.md",
+      "sha256": "c0708258406b61a360c71a0fc50fca9e9787a33444dbb3b98d27c4b281f08eb8"
+    },
+    {
+      "path": "deliverables/U01/v001/00_UTV_template.xlsx",
+      "sha256": "03f2387084789467a9af5c7d8dba8af0329009109ddcd5adbfb2531fa34d7439"
+    },
+    {
+      "path": "data/office/decisions.csv",
+      "sha256": "90ec24da7c424811a45353282543df1cb2cdb9154af17e2ff33a449b15f6abd7"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/auxiliary/candidates.csv",
+      "sha256": "9a762332a5b4a4225e8a6baeaf32266b4351c0ee3afcfa6ccaa43accfc7bc2d4"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/electrical/candidates.csv",
+      "sha256": "84a1acf3278b2e3b44896db4393e52f483cf0e2c97a0aeac6cc7650aa9b5e33a"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/propulsion/candidates.csv",
+      "sha256": "aba7e9cbbb1cbf03d32a5c9569a3239f435cef626135ead1f468e6de2775ade4"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/water-climate/candidates.csv",
+      "sha256": "63d7317c9b57e65d522b39a6f20cfdef7d0c1f0f3c48213091d27d23163f544a"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/basis.md",
+      "sha256": "60b6adc8ebc9f263ecd3d0785e49477f08ef0befc0093c074f21b196c6e0c4fd"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/service-outcomes.csv",
+      "sha256": "4bf02d26e1f5c4ce2f67ef6031a1084559988b74696f312901c95cf1dc73c511"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/fx.json",
+      "sha256": "1327751d48af03052c3ab482af8cec48efc8c4de7e15562022ed2acd8e302150"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/build_market.py",
+      "sha256": "c2481307e4f4b83d59b5a085f70492cf94cc74c33ba3a3001d225b7277f879d6"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/all-candidates.csv",
+      "sha256": "337c1fcb4f7a96a6967d4a81b58e69bca747bf9433f014240cc338413f264133"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/comparison.csv",
+      "sha256": "d3a3e8ff011afb20cb1644e3d6e65d7d59ce58d0a924da8070d8adcea913d605"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/coverage.csv",
+      "sha256": "a7dcadc3222eddd823a1995f5d6b35d2ae31dfac9f0cdc6db46a761ca1e9396f"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/dimensions.csv",
+      "sha256": "ed37415a64d7e27493595a8925115a38f2302c91e04cb401c9f71008a77739a9"
+    },
+    {
+      "path": "deliverables/M02/v001/01_support/00_findings.md",
+      "sha256": "6cb75c95cbdfaa531f20d61acc77a2d8a7be96dd0028c2a8eecd9bc132da4815"
+    },
+    {
+      "path": "deliverables/M02/v001/00_market-analysis.xlsx",
+      "sha256": "65ba4f6bc2c128e9f120a484c7bcf8bec9f6b69503ef858c2096301ef2446cab"
+    }
+  ]
+}

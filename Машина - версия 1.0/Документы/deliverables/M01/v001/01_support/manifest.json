@@ -1,0 +1,51 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "00_equipment-list.md",
+      "sha256": "6b7baa69e6b78640b11f1d84c8cf275bb27d0ee221617f4973a05162b34f48f5",
+      "bytes": 9631
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "sha256": "94412f4309b19f8269e7fd068444b7e2074ee6dbc59c7de9769acc3525f3ae58",
+      "bytes": 1810
+    },
+    {
+      "path": "01_support/checked-inputs.json",
+      "sha256": "960c2eb2736358d973f5f30257a728784fa241a6351664239fce8c62a5ba3e88",
+      "bytes": 2064
+    },
+    {
+      "path": "01_support/comparison-rules.md",
+      "sha256": "3295f6894ab316ad04d04fd2ac531c2eb5360475309bf08c68c80b5fdb9b8427",
+      "bytes": 16719
+    },
+    {
+      "path": "01_support/electrical-hydraulic-notes.md",
+      "sha256": "37e366c472a63c70a02ef273f144cb4a68bf763cb4d451373d23a91d0e3e6d4f",
+      "bytes": 9819
+    },
+    {
+      "path": "01_support/equipment-list.csv",
+      "sha256": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1",
+      "bytes": 14831
+    },
+    {
+      "path": "01_support/owner-requirements.md",
+      "sha256": "c0708258406b61a360c71a0fc50fca9e9787a33444dbb3b98d27c4b281f08eb8",
+      "bytes": 2233
+    },
+    {
+      "path": "01_support/review.md",
+      "sha256": "78b94f5b709c0b365131d0eedeab3259dd687e66da3466661de7d7d000415cda",
+      "bytes": 7952
+    },
+    {
+      "path": "01_support/systems-list.md",
+      "sha256": "bbd54427f2c96a15a3ce6bfb4a5fb906300b77fd5d937ef370cd5b6addedd7cf",
+      "bytes": 27917
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "status": "PROVISIONAL_CALIBRATED_GA_NOT_AS_BUILT",
+  "source": {
+    "pdf": "documentation/02-general-arrangement/7-1.pdf",
+    "sheet": "430A-7-1",
+    "sheet_date": "2001-05-21",
+    "preview": "documentation/previews/DOC-003-general-arrangement.png",
+    "preview_size_px": [
+      1274,
+      1800
+    ],
+    "pdf_sha256": "71c31e8ddcea35efb728e7567f18e7a78359f5aadf365bf3f8f5ce006a7a8486"
+  },
+  "calibration": {
+    "loa_label_m": 20.5,
+    "beam_label_m": 5.75,
+    "aft_pixel_v": 122,
+    "bow_pixel_v": 1674,
+    "axis_pixel_u": 247,
+    "pixels_per_m": 75.70731707317073,
+    "raw_axes": "u right,v down in original1274x1800preview",
+    "formulas": {
+      "X_bow_m": "(v-1674)/75.70731707317073",
+      "Y_port_m": "(u-247)/75.70731707317073"
+    },
+    "read_error_px": 5,
+    "concept_position_allowance_m": 0.2,
+    "scale_relative_allowance": 0.01,
+    "Y_sign": "positive=port by plan bow-down interpretation; not established RhinoY sign"
+  },
+  "g02_overlay": {
+    "file": "deliverables/G02/v001/01_support/alignment/curves-working.json",
+    "shell_sampled_x_min_m": -20.49992292617181,
+    "shell_sampled_x_max_m": -0.20910133001676967,
+    "proposed_formula": "Xw_approx=X_bow-0.2091",
+    "status": "BOW_ALIGNED_TRANSLATION_ONLY; revision/geometry correspondence unproved;±0.2m allowance",
+    "warning": "GAloa20.5 vs sampledRhinoXspan20.2908; no claimed exactregistration"
+  },
+  "zones": [
+    {
+      "name": "engine_room_outer_main_rectangle",
+      "raw_bounds_u_v_px": [
+        165,
+        463,
+        657,
+        837
+      ],
+      "X_bow_m": [
+        -13.433,
+        -11.056
+      ],
+      "Xw_overlay_approx_m": [
+        -13.642,
+        -11.265
+      ],
+      "Y_port_m": [
+        -1.083,
+        2.853
+      ],
+      "length_m": 2.378,
+      "width_m": 3.936,
+      "rectangle_area_m2": 9.36,
+      "confidence": "MEDIUM_GEOMETRIC_READING_NOT_FINISHED_INTERNAL_AREA",
+      "error_m": 0.2
+    },
+    {
+      "name": "engine_room_inner_main_rectangle",
+      "raw_bounds_u_v_px": [
+        171,
+        455,
+        664,
+        829
+      ],
+      "X_bow_m": [
+        -13.341,
+        -11.161
+      ],
+      "Xw_overlay_approx_m": [
+        -13.55,
+        -11.371
+      ],
+      "Y_port_m": [
+        -1.004,
+        2.747
+      ],
+      "length_m": 2.179,
+      "width_m": 3.751,
+      "rectangle_area_m2": 8.18,
+      "confidence": "MEDIUM_INSIDE_DRAWN_BOUNDARY_EXCLUDES_AFT_LOW_EXTENSION",
+      "error_m": 0.2
+    },
+    {
+      "name": "galley_appliance_band_starboard",
+      "raw_bounds_u_v_px": [
+        40,
+        195,
+        837,
+        1018
+      ],
+      "X_bow_m": [
+        -11.056,
+        -8.665
+      ],
+      "Xw_overlay_approx_m": [
+        -11.265,
+        -8.874
+      ],
+      "Y_port_m": [
+        -2.734,
+        -0.687
+      ],
+      "length_m": 2.391,
+      "width_m": 2.047,
+      "rectangle_area_m2": 4.89,
+      "confidence": "MEDIUM_FUNCTION_VISIBLE_BOUNDS_APPROX",
+      "error_m": 0.2
+    },
+    {
+      "name": "existing_passage_starboard_of_engine_room",
+      "raw_bounds_u_v_px": [
+        34,
+        163,
+        715,
+        836
+      ],
+      "X_bow_m": [
+        -12.667,
+        -11.069
+      ],
+      "Xw_overlay_approx_m": [
+        -12.876,
+        -11.278
+      ],
+      "Y_port_m": [
+        -2.813,
+        -1.11
+      ],
+      "length_m": 1.598,
+      "width_m": 1.704,
+      "rectangle_area_m2": 2.72,
+      "confidence": "MEDIUM_GROSS_STRIP_INTERRUPTED_BY_CABINETS_AND_STEPS",
+      "error_m": 0.2
+    },
+    {
+      "name": "aft_companion_stair_near_center",
+      "raw_bounds_u_v_px": [
+        196,
+        238,
+        595,
+        656
+      ],
+      "X_bow_m": [
+        -14.252,
+        -13.447
+      ],
+      "Xw_overlay_approx_m": [
+        -14.461,
+        -13.656
+      ],
+      "Y_port_m": [
+        -0.674,
+        -0.119
+      ],
+      "length_m": 0.806,
+      "width_m": 0.555,
+      "rectangle_area_m2": 0.45,
+      "confidence": "MEDIUM_STAIR_VISIBLE",
+      "error_m": 0.2
+    },
+    {
+      "name": "aft_starboard_stair",
+      "raw_bounds_u_v_px": [
+        83,
+        122,
+        505,
+        563
+      ],
+      "X_bow_m": [
+        -15.441,
+        -14.675
+      ],
+      "Xw_overlay_approx_m": [
+        -15.65,
+        -14.884
+      ],
+      "Y_port_m": [
+        -2.166,
+        -1.651
+      ],
+      "length_m": 0.766,
+      "width_m": 0.515,
+      "rectangle_area_m2": 0.39,
+      "confidence": "MEDIUM_STAIR_VISIBLE",
+      "error_m": 0.2
+    },
+    {
+      "name": "aft_port_stair",
+      "raw_bounds_u_v_px": [
+        377,
+        419,
+        505,
+        563
+      ],
+      "X_bow_m": [
+        -15.441,
+        -14.675
+      ],
+      "Xw_overlay_approx_m": [
+        -15.65,
+        -14.884
+      ],
+      "Y_port_m": [
+        1.717,
+        2.272
+      ],
+      "length_m": 0.766,
+      "width_m": 0.555,
+      "rectangle_area_m2": 0.43,
+      "confidence": "MEDIUM_STAIR_VISIBLE",
+      "error_m": 0.2
+    }
+  ],
+  "profile": {
+    "coordinates": "rotatedpreviewU=v_original,V=1273-u_original",
+    "reference_horizontal_V_px": 262,
+    "Z_relative_formula": "(262-V)/75.7073; arbitrary drawing datum not provenCWL/G02Z",
+    "main_floor_saloon_top_V_px": 184,
+    "main_floor_saloon_structural_underside_V_px": 191,
+    "lower_unlabelled_ceiling_line_V_px": [
+      211,
+      214
+    ],
+    "forward_step_underside_V_px": [
+      211,
+      214
+    ],
+    "shell_inside_bottom_V_px": [
+      346,
+      356
+    ],
+    "main_structural_gross_height_m": [
+      2.05,
+      2.18
+    ],
+    "height_below_lower_line_m": [
+      1.74,
+      1.92
+    ],
+    "lower_galley_floor_V_px": 279,
+    "engine_room_flat_finished_floor": null,
+    "height_status": "GEOMETRIC_CLEARANCE_CANDIDATES_BEFORE_FLOOR_FOUNDATIONS_SERVICES;NOT_FINISHED_HEADROOM",
+    "error_allowance_m": 0.15
+  },
+  "owner_input": {
+    "text": "Исходная машина/МО прижата к левому борту; новоеМОстрогоцентр; проход вдоль будущейкухни",
+    "status": "OWNER_INPUT",
+    "document_comparison": "GAtechnicalcompartment markedlyport-offset; exact engine planoutline vs hatchsymbol unlabelled, so no claim measured engine transverseaxis"
+  },
+  "g02_old_layout": "A-ER/B-ER and galley zones were proposed rectangles, not independent original measurements",
+  "bulkhead_stations_raw_v_px": [
+    383,
+    563,
+    657,
+    837,
+    1018,
+    1240,
+    1322,
+    1473
+  ],
+  "bulkhead_X_bow_m": [
+    -17.053,
+    -14.675,
+    -13.433,
+    -11.056,
+    -8.665,
+    -5.733,
+    -4.649,
+    -2.655
+  ],
+  "central_variant_interface": {
+    "status": "ROOT_PROPOSED_NOT_ADOPTED",
+    "outer_length_m": 3.6,
+    "outer_width_m": 2.6,
+    "forward_Xw_m": -11.265,
+    "aft_Xw_m": -14.865,
+    "approx_original_pixel_bounds": [
+      149,
+      345,
+      565,
+      837
+    ],
+    "direct_conflicts": [
+      "near-centre aft stair u196..238 v595..656",
+      "adjacent WC symbol nearu176 v637 and aft access circulation"
+    ],
+    "longitudinal_only_conflict": [
+      "bath/shower in profilev563..600; transverse overlap not proven"
+    ],
+    "aft_cabin": "Main aftcabin forwardpartitionv563; proposalv565nearlytouches, no definite intrusion beyond±0.2m reading allowance",
+    "owner_update": "Lowergalley retained as GA"
+  }
+}

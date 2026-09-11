@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-10",
+  "access_date": "2026-09-11",
+  "base": "EUR",
+  "quote": "USD",
+  "quote_per_base": "1.1616",
+  "conversion": "EUR=USD/1.1616",
+  "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+  "note": "Same reference date as M02; 11 September blank at access. Reference conversion, not bank spread or customs rate."
+}

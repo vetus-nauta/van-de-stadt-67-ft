@@ -1,0 +1,51 @@
+[
+  {
+    "source_id": "PANDA_EU",
+    "url": "https://www.manelservice.com/it/gruppi-elettrogeni-marini/9814-fischer-panda-12000x-pms-generatore-marino-monofase-12-kva-10-kw.html",
+    "retrieval": "direct HTTPS GET + HTML selector; web open separately attempted",
+    "http_status": 200,
+    "access_date": "2026-09-11",
+    "price_date": null,
+    "price_excerpt": "Disponibile su preventivo",
+    "availability_excerpt": null
+  },
+  {
+    "source_id": "PAGURO_EU",
+    "url": "https://www.manelservice.com/it/gruppi-elettrogeni-marini/3925-vte-paguro-12000-v-ap12023050m0.html",
+    "retrieval": "direct HTTPS GET + HTML selector; web open separately attempted",
+    "http_status": 200,
+    "access_date": "2026-09-11",
+    "price_date": null,
+    "price_excerpt": "Disponibile 12.446,50 € Nessuna tassa 12.446,50 €",
+    "availability_excerpt": null
+  },
+  {
+    "source_id": "PANDA_UK",
+    "url": "https://www.jpcdirect.com/product/fischer-panda-12000x-generator/",
+    "retrieval": "direct HTTPS GET + HTML selector; web open separately attempted",
+    "http_status": 200,
+    "access_date": "2026-09-11",
+    "price_date": null,
+    "price_excerpt": "£ 16,830.00 inc vat £ 14,025.00 ex vat VAT APPLIES TO UK CUSTOMERS ONLY",
+    "availability_excerpt": "Available on back-order"
+  },
+  {
+    "source_id": "KOHLER_UK",
+    "url": "https://www.jpcdirect.com/product/kohler-12-kilowatt-generator/",
+    "retrieval": "direct HTTPS GET + HTML selector; web open separately attempted",
+    "http_status": 200,
+    "access_date": "2026-09-11",
+    "price_date": null,
+    "price_excerpt": "£ 18,484.56 inc vat £ 15,403.80 ex vat VAT APPLIES TO UK CUSTOMERS ONLY",
+    "availability_excerpt": "Available on back-order"
+  },
+  {
+    "source_id": "PAGURO_EU_FIRST_GET",
+    "url": "https://www.manelservice.com/it/gruppi-elettrogeni-marini/3925-vte-paguro-12000-v-ap12023050m0.html",
+    "access_date": "2026-09-11",
+    "price_date": null,
+    "retrieval": "direct HTTPS GET + product_p_price_container, first retrieval",
+    "price_excerpt": "14.935,80 € DPH SK 20% incl. / 12.446,50 € + IVA",
+    "note": "Later retrieval displayed both12446.50 and Nessuna tassa. NET stable; tax localization varies. No Polish VAT inferred."
+  }
+]

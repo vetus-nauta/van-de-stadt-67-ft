@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11",
+  "note": "Original third-party PDFs stay local; source URLs and attribution in gearbox.md and ancillaries.md.",
+  "files": [
+    {
+      "path": ".local/M04/6lpa-parts-2018.pdf",
+      "sha256": "24f1b9cfa202cf53e94026e8160ee64d6174680cd744cd1b63e0aaa6fecc5c92",
+      "bytes": 4885521,
+      "pdf_signature": true
+    },
+    {
+      "path": ".local/M04/6lpa-parts.pdf",
+      "sha256": "cedf9eceb439c13847e2a688ee021af92e4f422335171bc14a9dd3d688778100",
+      "bytes": 4366964,
+      "pdf_signature": true
+    },
+    {
+      "path": ".local/M04/6lpam-parts.pdf",
+      "sha256": "c0ddfeb7be31d4f1f83c8b9385449614cbbe61bd7f7e94ab74cdfef8745fefe8",
+      "bytes": 2784635,
+      "pdf_signature": true
+    },
+    {
+      "path": ".local/M04/ultraflex-b183-manual.pdf",
+      "sha256": "0bb472fa429a7a9335d30d0cf9878d1d742d0448153be7c7b5692986defb2743",
+      "bytes": 5998646,
+      "pdf_signature": true
+    }
+  ]
+}

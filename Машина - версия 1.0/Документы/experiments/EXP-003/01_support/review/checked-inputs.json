@@ -1,0 +1,24 @@
+{
+  "status": "CHECKED_FINAL_EXPERIMENTAL_RELEASE",
+  "sha256": {
+    "experiments/EXP-003/00_proposal.md": "9f50591f03b487d9f312c8b4969c762391680aadaa1c29ff94b408bbb5a5e3b7",
+    "experiments/EXP-003/01_support/brief.md": "1267747870c2ca541dc218a8e00f0753d7d6b44fb412485ed68511377849099d",
+    "experiments/EXP-003/01_support/design-intent.md": "c5d781a84012de2dfe5aca5738e0aeea2dbc88238786d99c84bab859bb390af3",
+    "experiments/EXP-003/01_support/basis/basis.md": "c4ed745fd16a5278c82884afcb7caa96789b951089307c43ae9e3457f917a15f",
+    "experiments/EXP-003/01_support/basis/bulwark-basis.json": "cf44183ebe4044a3e5357017457792ddd657839cdc41386e88ab649480a8a77e",
+    "experiments/EXP-003/01_support/basis/extract_bulwark.py": "5594a7d8dbe94e0bee906eae1daae4a510c6865ebc264cc106af085769deda36",
+    "experiments/EXP-003/01_support/model/README.md": "9d758b59472586405be1cb97c2e666e49e3b3bfb8ef9ecbf2746af9e541abac9",
+    "experiments/EXP-003/01_support/model/build_model.py": "47c6f4471753fb9431a8623db8158f9a8ccbea631678ccefdaa435027121cdc8",
+    "experiments/EXP-003/01_support/model/detail.png": "65bebb76ba05a585508ef4d7d7eace9e0108f6e63ae15a75423d301f8e5dbdd9",
+    "experiments/EXP-003/01_support/model/experiment.blend": "450cb9dd8185a2b591d058d6a3cb09487dbd100257b63713f0a904868a8f363e",
+    "experiments/EXP-003/01_support/model/exterior.png": "55338914b8da852936b2909a3c4cd7da8042df6183b32851deb9953a2b9e8a27",
+    "experiments/EXP-003/01_support/model/font-license.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+    "experiments/EXP-003/01_support/model/inner-bulwark-gaps.json": "7b1045cf49bbe355c0688a81a2c5bc10892a4ee4814638730135ad291028d74c",
+    "experiments/EXP-003/01_support/model/parameters.json": "5b5cf5fe2ae99ebdc49ffbc969df2be57948345bd41da9a5a658189ccd137e15",
+    "experiments/EXP-003/01_support/model/side.png": "a97a355e7698c9bed035b4d013384a64ca0af29b1d9b19376589e87297ab684d",
+    "experiments/EXP-003/01_support/model/top.png": "5c0382d0811661454ac1448d05827dfac445d1cb5369fb1f157fa8162b345f04",
+    "experiments/EXP-003/01_support/model/transition-clearances.json": "574e5e4fad46dc4d7576115efd9370ab6265230698fd1fc0912541dcd90f1620",
+    "documentation/01-hull-and-geometry/3d/2-1.3dm": "814ecb9ae6afa27963f288d52df8db9e67d5c43bf967131b89b5ff40f1c3caa8",
+    "experiments/EXP-002/01_support/model/experiment.blend": "f3b33300d3a72a10be57a852c8897ae05db199a8bb07f6e6afb505711e317565"
+  }
+}

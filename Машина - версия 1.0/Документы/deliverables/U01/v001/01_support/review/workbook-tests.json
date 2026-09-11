@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "engine": "LibreOffice actual XLSX open/save conversion; openpyxl reads cached values",
+  "fixture_data": "SYNTHETIC ONLY, not project amounts",
+  "results": [
+    {
+      "case": "blank_no_formula_errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "case": "cases_no_formula_errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "case": "missing-base-date_no_formula_errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "case": "missing-base-tax_no_formula_errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "case": "valid_kac",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 200,
+      "expected_status": "READY",
+      "expected_amount": 200
+    },
+    {
+      "case": "valid_direct",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 200,
+      "expected_status": "READY",
+      "expected_amount": 200
+    },
+    {
+      "case": "confirmed_zero_price",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 0,
+      "expected_status": "READY",
+      "expected_amount": 0
+    },
+    {
+      "case": "unknown_zero_price",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_price",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_fx",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_tax_basis",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "technical_reject",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "double_selected_a",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "double_selected_b",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "unit_mismatch",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "package_mismatch",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "negative_quantity",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "negative_price",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "rounding_kac",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 3.02,
+      "expected_status": "READY",
+      "expected_amount": 3.02
+    },
+    {
+      "case": "rounding_direct",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 3.02,
+      "expected_status": "READY",
+      "expected_amount": 3.02
+    },
+    {
+      "case": "sunk_existing",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 200,
+      "expected_status": "READY",
+      "expected_amount": 200
+    },
+    {
+      "case": "confirmed_zero_quantity",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 0,
+      "expected_status": "READY",
+      "expected_amount": 0
+    },
+    {
+      "case": "missing_quantity",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_quantity_revision",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_correction",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "unresolved_tax_other",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_quote_price_date",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_source_registry",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "not_applicable",
+      "pass": true,
+      "actual_status": "NOT_APPLICABLE",
+      "actual_amount": null,
+      "expected_status": "NOT_APPLICABLE",
+      "expected_amount": null
+    },
+    {
+      "case": "invalid_numeric_text",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "direct_negative",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "direct_tax_mismatch",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "unit_fx_adjustment_arithmetic",
+      "pass": true,
+      "actual_status": "READY",
+      "actual_amount": 2420,
+      "expected_status": "READY",
+      "expected_amount": 2420
+    },
+    {
+      "case": "unselected_option",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_quantity_source",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_direct_source_id",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_fx_source_id",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_adjustment_source_id",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing_quantity_source_id",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null,
+      "expected_status": "INCOMPLETE / LINK",
+      "expected_amount": null
+    },
+    {
+      "case": "missing-base-date_KAC",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null
+    },
+    {
+      "case": "missing-base-date_DIRECT",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null
+    },
+    {
+      "case": "missing-base-tax_KAC",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null
+    },
+    {
+      "case": "missing-base-tax_DIRECT",
+      "pass": true,
+      "actual_status": "INCOMPLETE / LINK",
+      "actual_amount": null
+    },
+    {
+      "case": "blank_money_not_zero",
+      "pass": true
+    },
+    {
+      "case": "forecast_excludes_payments",
+      "pass": true
+    },
+    {
+      "case": "sunk_separate",
+      "pass": true
+    }
+  ],
+  "workbook_input_sha256": "cf0afba6b4f278c15cca7cd9a682af8367e0e689571c60da45e64f84ab4721ac"
+}

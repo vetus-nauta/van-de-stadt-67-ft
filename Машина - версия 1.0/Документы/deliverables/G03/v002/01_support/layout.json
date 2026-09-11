@@ -1,0 +1,874 @@
+{
+  "status": "BLOCK_TEST_NOT_MINIMUM_APPROVAL_OR_COMPLETE_FIT",
+  "units": "m",
+  "wet_inner_LWH": [
+    4.4,
+    3.2,
+    2.1
+  ],
+  "dry_inner_LWH": [
+    0.6,
+    3.2,
+    2.45
+  ],
+  "wall_reserve_m": 0.1,
+  "outer_technical_footprint_LW": [
+    5.3,
+    3.4
+  ],
+  "outer_technical_area_m2": 18.02,
+  "wet_internal_area_m2": 14.08,
+  "dry_internal_area_m2": 1.92,
+  "external_galley_passage_width_m": 0.7,
+  "external_dry_service_width_m": 0.75,
+  "coordinate_note": "Localx forward, y from port wall to starboard; hull overlay X=x-15.37 Y=1.6-y. z relative to each proposed floor, no actual floor adopted.",
+  "blocks": [
+    {
+      "id": "D",
+      "source_block": "MAIN",
+      "label": "Yanmar + редуктор",
+      "zone": "wet",
+      "xyz_m": [
+        0.5,
+        1.16,
+        0.15
+      ],
+      "size_xyz_m": [
+        1.34,
+        0.88,
+        0.766
+      ],
+      "note": ""
+    },
+    {
+      "id": "V",
+      "source_block": "ME-03",
+      "label": "Муфта / вал",
+      "zone": "wet",
+      "xyz_m": [
+        0,
+        1.4,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.5,
+        0.4,
+        0.35
+      ],
+      "note": "Условная зона линии, не утверждённая ось/комплект"
+    },
+    {
+      "id": "G1",
+      "source_block": "GEN",
+      "label": "Panda 1",
+      "zone": "wet",
+      "xyz_m": [
+        2.75,
+        0.2,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.705,
+        0.59
+      ],
+      "note": "Продольная ось генератора поперёк МО; ремни к центральному проходу"
+    },
+    {
+      "id": "G2",
+      "source_block": "GEN",
+      "label": "Panda 2",
+      "zone": "wet",
+      "xyz_m": [
+        2.75,
+        2.295,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.705,
+        0.59
+      ],
+      "note": "Продольная ось генератора поперёк МО; ремни к центральному проходу"
+    },
+    {
+      "id": "H",
+      "source_block": "AX09",
+      "label": "Гидробак / фильтр",
+      "zone": "wet",
+      "xyz_m": [
+        0.6,
+        0,
+        0.15
+      ],
+      "size_xyz_m": [
+        1,
+        0.45,
+        0.85
+      ],
+      "note": ""
+    },
+    {
+      "id": "W24",
+      "source_block": "AX14",
+      "label": "Вода 24 В",
+      "zone": "wet",
+      "xyz_m": [
+        0.6,
+        2.8,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.65,
+        0.4,
+        0.55
+      ],
+      "note": ""
+    },
+    {
+      "id": "W220",
+      "source_block": "AX15",
+      "label": "Вода 220 В",
+      "zone": "wet",
+      "xyz_m": [
+        1.3,
+        2.8,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.65,
+        0.4,
+        0.55
+      ],
+      "note": ""
+    },
+    {
+      "id": "HW",
+      "source_block": "AX16",
+      "label": "ГВС / коллектор",
+      "zone": "wet",
+      "xyz_m": [
+        3.85,
+        0.05,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.55,
+        0.9,
+        0.7
+      ],
+      "note": ""
+    },
+    {
+      "id": "C1",
+      "source_block": "AX11",
+      "label": "Чиллер 1",
+      "zone": "wet",
+      "xyz_m": [
+        4.0,
+        1.05,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.4,
+        0.45,
+        0.45
+      ],
+      "note": ""
+    },
+    {
+      "id": "C2",
+      "source_block": "AX11",
+      "label": "Чиллер 2",
+      "zone": "wet",
+      "xyz_m": [
+        4.0,
+        1.6,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.4,
+        0.45,
+        0.45
+      ],
+      "note": ""
+    },
+    {
+      "id": "CP",
+      "source_block": "AX12",
+      "label": "Насосы климата",
+      "zone": "wet",
+      "xyz_m": [
+        4.0,
+        2.35,
+        0.15
+      ],
+      "size_xyz_m": [
+        0.4,
+        0.75,
+        0.6
+      ],
+      "note": ""
+    },
+    {
+      "id": "RO",
+      "source_block": "AX13",
+      "label": "Опреснитель 150 л/ч",
+      "zone": "wet",
+      "xyz_m": [
+        2.0,
+        0,
+        1.2
+      ],
+      "size_xyz_m": [
+        1.2,
+        0.45,
+        0.55
+      ],
+      "note": "Верхняя полка; извлечение мембраны вдоль x+ на1м, крепление не рассчитано"
+    },
+    {
+      "id": "F",
+      "source_block": "AX17",
+      "label": "Топливный стенд",
+      "zone": "wet",
+      "xyz_m": [
+        0.65,
+        0,
+        1.1
+      ],
+      "size_xyz_m": [
+        0.8,
+        0.25,
+        0.7
+      ],
+      "note": ""
+    },
+    {
+      "id": "OIL",
+      "source_block": "AX22",
+      "label": "Маслосмена / контроль",
+      "zone": "wet",
+      "xyz_m": [
+        1.5,
+        0,
+        1.2
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.2,
+        0.6
+      ],
+      "note": ""
+    },
+    {
+      "id": "EX1",
+      "source_block": "AX18",
+      "label": "Охл./выхлоп 1",
+      "zone": "wet",
+      "xyz_m": [
+        0,
+        0,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.6,
+        0.45,
+        0.6
+      ],
+      "note": "Карманы трёх независимых контуров, уклоны/петли/противодавление не проверены"
+    },
+    {
+      "id": "EX2",
+      "source_block": "AX18",
+      "label": "Охл./выхлоп 2",
+      "zone": "wet",
+      "xyz_m": [
+        0,
+        2.75,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.6,
+        0.45,
+        0.6
+      ],
+      "note": "Карманы трёх независимых контуров, уклоны/петли/противодавление не проверены"
+    },
+    {
+      "id": "EX3",
+      "source_block": "AX18",
+      "label": "Охл./выхлоп 3",
+      "zone": "wet",
+      "xyz_m": [
+        1.9,
+        0,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.6,
+        0.45,
+        0.6
+      ],
+      "note": "Карманы трёх независимых контуров, уклоны/петли/противодавление не проверены"
+    },
+    {
+      "id": "BIL",
+      "source_block": "AX19",
+      "label": "Осушение",
+      "zone": "wet",
+      "xyz_m": [
+        0,
+        0.65,
+        0.05
+      ],
+      "size_xyz_m": [
+        0.5,
+        0.35,
+        0.4
+      ],
+      "note": ""
+    },
+    {
+      "id": "AIR1",
+      "source_block": "AX21",
+      "label": "Воздух 1",
+      "zone": "wet",
+      "xyz_m": [
+        0,
+        0,
+        1.1
+      ],
+      "size_xyz_m": [
+        0.4,
+        0.4,
+        0.9
+      ],
+      "note": "Шахта продолжается наружу; сечение не рассчитано"
+    },
+    {
+      "id": "AIR2",
+      "source_block": "AX21",
+      "label": "Воздух 2",
+      "zone": "wet",
+      "xyz_m": [
+        3.95,
+        2.8,
+        1.1
+      ],
+      "size_xyz_m": [
+        0.4,
+        0.4,
+        0.9
+      ],
+      "note": "Шахта продолжается наружу; сечение не рассчитано"
+    },
+    {
+      "id": "BS1",
+      "source_block": "AX03",
+      "label": "С1",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.05,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BS2",
+      "source_block": "AX03",
+      "label": "С2",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.27,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BS3",
+      "source_block": "AX03",
+      "label": "С3",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.49,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BS4",
+      "source_block": "AX03",
+      "label": "С4",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.05,
+        0.9
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BS5",
+      "source_block": "AX03",
+      "label": "С5",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.27,
+        0.9
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BS6",
+      "source_block": "AX03",
+      "label": "С6",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.49,
+        0.9
+      ],
+      "size_xyz_m": [
+        0.45,
+        0.22,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BD",
+      "source_block": "AX04",
+      "label": "Пуск Д",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.8,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.55,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BG1",
+      "source_block": "AX05",
+      "label": "Пуск G1",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.8,
+        0.9
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.55,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "BG2",
+      "source_block": "AX05",
+      "label": "Пуск G2",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        0.8,
+        1.7
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.55,
+        0.38
+      ],
+      "note": ""
+    },
+    {
+      "id": "DC",
+      "source_block": "AX07",
+      "label": "Щит 24 В / резерв пуска",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        1.4,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.8,
+        0.9
+      ],
+      "note": ""
+    },
+    {
+      "id": "AC",
+      "source_block": "AX08",
+      "label": "Щит 220 В",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        2.3,
+        0.1
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.8,
+        0.9
+      ],
+      "note": ""
+    },
+    {
+      "id": "INV1",
+      "source_block": "AX01",
+      "label": "Инв. 1",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        1.45,
+        1.2
+      ],
+      "size_xyz_m": [
+        0.2,
+        0.3,
+        0.55
+      ],
+      "note": ""
+    },
+    {
+      "id": "INV2",
+      "source_block": "AX01",
+      "label": "Инв. 2",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        1.9,
+        1.2
+      ],
+      "size_xyz_m": [
+        0.2,
+        0.3,
+        0.55
+      ],
+      "note": ""
+    },
+    {
+      "id": "ISO",
+      "source_block": "AX06",
+      "label": "Берег",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        2.35,
+        1.2
+      ],
+      "size_xyz_m": [
+        0.3,
+        0.35,
+        0.45
+      ],
+      "note": ""
+    },
+    {
+      "id": "IW",
+      "source_block": "AX02",
+      "label": "Резерв воды",
+      "zone": "dry",
+      "xyz_m": [
+        4.5,
+        2.8,
+        1.2
+      ],
+      "size_xyz_m": [
+        0.2,
+        0.3,
+        0.35
+      ],
+      "note": ""
+    }
+  ],
+  "service_rectangles": [
+    {
+      "id": "D-L",
+      "owner": "D",
+      "label": "Боковой доступ",
+      "xywh_m": [
+        0.5,
+        0.56,
+        1.34,
+        0.6
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "D-R",
+      "owner": "D",
+      "label": "Боковой доступ",
+      "xywh_m": [
+        0.5,
+        2.04,
+        1.34,
+        0.6
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "D-F",
+      "owner": "D",
+      "label": "Ремни",
+      "xywh_m": [
+        1.84,
+        1.16,
+        0.5,
+        0.88
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "D-A",
+      "owner": "D",
+      "label": "Редуктор/вал",
+      "xywh_m": [
+        0,
+        1.16,
+        0.5,
+        0.88
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G1-A",
+      "owner": "G1",
+      "label": "Боковой сервис",
+      "xywh_m": [
+        2.25,
+        0.2,
+        0.5,
+        0.705
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G1-B",
+      "owner": "G1",
+      "label": "Боковой сервис",
+      "xywh_m": [
+        3.2,
+        0.2,
+        0.5,
+        0.705
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G1-F",
+      "owner": "G1",
+      "label": "Ремни",
+      "xywh_m": [
+        2.75,
+        0.905,
+        0.45,
+        0.5
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G2-A",
+      "owner": "G2",
+      "label": "Боковой сервис",
+      "xywh_m": [
+        2.25,
+        2.295,
+        0.5,
+        0.705
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G2-B",
+      "owner": "G2",
+      "label": "Боковой сервис",
+      "xywh_m": [
+        3.2,
+        2.295,
+        0.5,
+        0.705
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "G2-F",
+      "owner": "G2",
+      "label": "Ремни",
+      "xywh_m": [
+        2.75,
+        1.795,
+        0.45,
+        0.5
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "H-F",
+      "owner": "H",
+      "label": "Сервис гидромодуля",
+      "xywh_m": [
+        0.6,
+        0.45,
+        1,
+        0.7
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "W24-F",
+      "owner": "W24",
+      "label": "Сервис воды",
+      "xywh_m": [
+        0.6,
+        2.15,
+        0.65,
+        0.65
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "W220-F",
+      "owner": "W220",
+      "label": "Сервис воды",
+      "xywh_m": [
+        1.3,
+        2.15,
+        0.65,
+        0.65
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    },
+    {
+      "id": "FRONT",
+      "owner": "HW|C1|C2|CP",
+      "label": "Сервис переднего ряда",
+      "xywh_m": [
+        3.2,
+        0.05,
+        0.65,
+        3.05
+      ],
+      "basis": "PROJECT_RESERVE_NOT_OEM_MINIMUM"
+    }
+  ],
+  "unplaced_or_external": [
+    {
+      "id": "HP",
+      "source_block": "AX10",
+      "label": "Гидропривод / PTO / охладитель",
+      "size_m": [
+        0.8,
+        0.45,
+        0.6
+      ],
+      "status": "UNPLACED_REQUIRED",
+      "reason": "Кинематика PTO и автономный режим не выбраны; пробное место у двигателя перекрывает сервис ремней."
+    },
+    {
+      "id": "FIRE",
+      "source_block": "AX20",
+      "label": "Пожарный баллонный шкаф",
+      "size_m": [
+        0.4,
+        0.35,
+        0.9
+      ],
+      "status": "EXTERNAL_LOCATION_OPEN",
+      "reason": "Доступ снаружи МО; место и заряд ещё не определены."
+    },
+    {
+      "id": "TANK",
+      "source_block": "AX23",
+      "label": "Танки / интерфейсы",
+      "size_m": [
+        0.4,
+        0.25,
+        0.5
+      ],
+      "status": "EXTERNAL_TANK_VOLUMES_OPEN",
+      "reason": "Размер только узла; объёмы танков не помещены в этот прямоугольник."
+    },
+    {
+      "id": "SAN",
+      "source_block": "AX24",
+      "label": "Санитарный модуль",
+      "size_m": [
+        0.6,
+        0.4,
+        0.5
+      ],
+      "status": "EXTERNAL_LOCATION_OPEN",
+      "reason": "Отдельная санитарная зона; трассы открыты."
+    },
+    {
+      "id": "HEAT",
+      "source_block": "AX25",
+      "label": "Отопитель — условно",
+      "size_m": [
+        0.65,
+        0.4,
+        0.5
+      ],
+      "status": "CONDITIONAL_NOT_ADOPTED",
+      "reason": "Отдельная опция; не обязательное добавление."
+    }
+  ],
+  "body_clashes": [],
+  "service_obstacles": [
+    {
+      "service": "G1-A",
+      "obstacle": "RO"
+    },
+    {
+      "service": "G1-A",
+      "obstacle": "EX3"
+    }
+  ],
+  "limits": [
+    "No proved minimum permissible size",
+    "No complete fit: HP mandatory module not placed",
+    "External galley passage and cabinet service floor/headroom/steps unresolved",
+    "Upper modules and battery shelves require engineered supports and removal method",
+    "Service volumes may overlap each other for sequential maintenance",
+    "Removal of whole main engine requires dedicated hatch; ordinary door not enough",
+    "Electrical candidates 12V starters conflict with owner24V architecture until resolved; rectangles not electrical selection"
+  ]
+}

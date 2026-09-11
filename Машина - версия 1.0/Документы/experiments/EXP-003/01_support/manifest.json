@@ -1,0 +1,171 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_proposal.md",
+      "sha256": "9f50591f03b487d9f312c8b4969c762391680aadaa1c29ff94b408bbb5a5e3b7",
+      "bytes": 5793
+    },
+    {
+      "path": "01_support/acceptance.md",
+      "sha256": "5c1f618e4e4db6b207be0e4d8d8a69d815cb33590cfd676e30264fd5ee372f88",
+      "bytes": 3603
+    },
+    {
+      "path": "01_support/basis/basis.md",
+      "sha256": "c4ed745fd16a5278c82884afcb7caa96789b951089307c43ae9e3457f917a15f",
+      "bytes": 6637
+    },
+    {
+      "path": "01_support/basis/bulwark-basis.json",
+      "sha256": "cf44183ebe4044a3e5357017457792ddd657839cdc41386e88ab649480a8a77e",
+      "bytes": 542766
+    },
+    {
+      "path": "01_support/basis/extract_bulwark.py",
+      "sha256": "5594a7d8dbe94e0bee906eae1daae4a510c6865ebc264cc106af085769deda36",
+      "bytes": 2479
+    },
+    {
+      "path": "01_support/brief.md",
+      "sha256": "1267747870c2ca541dc218a8e00f0753d7d6b44fb412485ed68511377849099d",
+      "bytes": 3426
+    },
+    {
+      "path": "01_support/design-intent.md",
+      "sha256": "c5d781a84012de2dfe5aca5738e0aeea2dbc88238786d99c84bab859bb390af3",
+      "bytes": 2487
+    },
+    {
+      "path": "01_support/model/README.md",
+      "sha256": "9d758b59472586405be1cb97c2e666e49e3b3bfb8ef9ecbf2746af9e541abac9",
+      "bytes": 3000
+    },
+    {
+      "path": "01_support/model/build_model.py",
+      "sha256": "47c6f4471753fb9431a8623db8158f9a8ccbea631678ccefdaa435027121cdc8",
+      "bytes": 22635
+    },
+    {
+      "path": "01_support/model/detail.png",
+      "sha256": "65bebb76ba05a585508ef4d7d7eace9e0108f6e63ae15a75423d301f8e5dbdd9",
+      "bytes": 2408642
+    },
+    {
+      "path": "01_support/model/experiment.blend",
+      "sha256": "450cb9dd8185a2b591d058d6a3cb09487dbd100257b63713f0a904868a8f363e",
+      "bytes": 18143900
+    },
+    {
+      "path": "01_support/model/exterior.png",
+      "sha256": "55338914b8da852936b2909a3c4cd7da8042df6183b32851deb9953a2b9e8a27",
+      "bytes": 2282617
+    },
+    {
+      "path": "01_support/model/font-license.txt",
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "bytes": 3859
+    },
+    {
+      "path": "01_support/model/inner-bulwark-gaps.json",
+      "sha256": "7b1045cf49bbe355c0688a81a2c5bc10892a4ee4814638730135ad291028d74c",
+      "bytes": 3693
+    },
+    {
+      "path": "01_support/model/parameters.json",
+      "sha256": "5b5cf5fe2ae99ebdc49ffbc969df2be57948345bd41da9a5a658189ccd137e15",
+      "bytes": 8127
+    },
+    {
+      "path": "01_support/model/side.png",
+      "sha256": "a97a355e7698c9bed035b4d013384a64ca0af29b1d9b19376589e87297ab684d",
+      "bytes": 2214246
+    },
+    {
+      "path": "01_support/model/top.png",
+      "sha256": "5c0382d0811661454ac1448d05827dfac445d1cb5369fb1f157fa8162b345f04",
+      "bytes": 2274630
+    },
+    {
+      "path": "01_support/model/transition-clearances.json",
+      "sha256": "574e5e4fad46dc4d7576115efd9370ab6265230698fd1fc0912541dcd90f1620",
+      "bytes": 1074
+    },
+    {
+      "path": "01_support/review/baseline-check.json",
+      "sha256": "934d0d99dfe62bf37a00582c1996ddab46582940d57d98f05576a00f1f008b77",
+      "bytes": 68
+    },
+    {
+      "path": "01_support/review/baseline-readonly-sha.json",
+      "sha256": "afa911fa885b02e2ddb80a251a6f127186e42c41f12f93781f4eb81844e9b6ba",
+      "bytes": 9886
+    },
+    {
+      "path": "01_support/review/basis-check.json",
+      "sha256": "1bbab0f46717edda100e989064eccd718fb7bc1274030903160474f2ac5dc61a",
+      "bytes": 748
+    },
+    {
+      "path": "01_support/review/check_basis.py",
+      "sha256": "855565e05e12fc69acca8b1ffe3161d3809fe87e2baf9cfb2640474edc892df9",
+      "bytes": 2491
+    },
+    {
+      "path": "01_support/review/check_output_guard.py",
+      "sha256": "fea1b3d32e9f71fd9352d4b370ddac653a4dd0c7fa006a64f39b3ea237f57d9c",
+      "bytes": 1107
+    },
+    {
+      "path": "01_support/review/check_scene.py",
+      "sha256": "dea7b42bf5f22b36eac82834937fb1c346e4f0298aa21eec9950170ed9a7437a",
+      "bytes": 7789
+    },
+    {
+      "path": "01_support/review/checked-inputs.json",
+      "sha256": "3a3431b7e6585c835c38c5a0a9adf044223b31310043cb693a027aee2c12199c",
+      "bytes": 2451
+    },
+    {
+      "path": "01_support/review/existing-release.log",
+      "sha256": "237758b6082364d78de3e4de4234dcfbbd95a007a0b60f26240fed4ac0a9cd3c",
+      "bytes": 241
+    },
+    {
+      "path": "01_support/review/geometry-extracted.json",
+      "sha256": "fbe7a25dc0412183428370d9325a11f35eda5752b8425e992ad800de2b68e217",
+      "bytes": 3257373
+    },
+    {
+      "path": "01_support/review/guard-check.json",
+      "sha256": "9ba32ce7e865b2c6e49ccf151c29d42138ea355afeaa7de1a59ffba4f7f3c3ea",
+      "bytes": 289
+    },
+    {
+      "path": "01_support/review/missing-output.log",
+      "sha256": "13cf5dbd26a439eba90fab8063a9875e1112d64f626513d0cc1b3decf929ef0a",
+      "bytes": 185
+    },
+    {
+      "path": "01_support/review/review.md",
+      "sha256": "086caf49ea573545338d0bc01938494c6f1f7d9c175b344ac9319f4287afcbf2",
+      "bytes": 10089
+    },
+    {
+      "path": "01_support/review/scene-check.json",
+      "sha256": "db6788a70d8f5f82b0396bd91ae3c1fbcc72cb61c430b33418febac4607dcc9d",
+      "bytes": 11192
+    },
+    {
+      "path": "01_support/review/scene-check.log",
+      "sha256": "88f7f216df031ebad53b24fb2b0b2b918930e69cdf89538444d77ad49ae2b38f",
+      "bytes": 7949
+    }
+  ]
+}
