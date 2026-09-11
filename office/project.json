@@ -33,5 +33,7 @@
   "geometry_deliverable": "deliverables/G02/v001/00_sprint-result.md",
   "geometry_open_limit": "G02: второе CAD-чтение и частичная привязка выполнены; spline/6387/единицы, полная идентичность и натурное соответствие открыты; варианты A/B не прошли проверку помещаемости",
   "budget_template": "deliverables/U01/v001/00_UTV_template.xlsx",
-  "budget_template_guide": "deliverables/U01/v001/01_support/00_readme.md"
+  "budget_template_guide": "deliverables/U01/v001/01_support/00_readme.md",
+  "machinery_inventory": "deliverables/M01/v001/00_equipment-list.md",
+  "latest_owner_system_requirements": "deliverables/M01/v001/01_support/owner-requirements.md"
 }
