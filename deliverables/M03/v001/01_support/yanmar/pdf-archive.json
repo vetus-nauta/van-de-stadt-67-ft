@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/03/DS_8LV320-350-370_A4_2021_1018_HR.pdf?download=1",
+    "local_relative_path": ".local/M03/yanmar/8lv-spec-2021.pdf",
+    "sha256": "f03f23eb617badd188a14473284f16131e04133d6e7fbcf588074107b15e6fba",
+    "date": "2026-09-11",
+    "type": "spec",
+    "pdf_magic_verified": true,
+    "note": "Manufacturer specification/manual; not quotation; base URL403 bypassed by download=1"
+  },
+  {
+    "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/03/0A8LV-EN0013_2019.08.pdf?download=1",
+    "local_relative_path": ".local/M03/yanmar/8lv-manual-2019.pdf",
+    "sha256": "3fff70ce81ff2e9a43c922749d6c4b9ebb96a0ecf60eae600a922003adbdf807",
+    "date": "2026-09-11",
+    "type": "spec",
+    "pdf_magic_verified": true,
+    "note": "Manufacturer specification/manual; not quotation; base URL403 bypassed by download=1"
+  },
+  {
+    "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/05/0A6LP-EN0015_2018.08.pdf?download=1",
+    "local_relative_path": ".local/M03/yanmar/6lpa-manual-2018.pdf",
+    "sha256": "c67cacd99b0b37be36db50fbf5fa9b8b3f7a30d60bb2c4da8920ee2db0769f71",
+    "date": "2026-09-11",
+    "type": "spec",
+    "pdf_magic_verified": true,
+    "note": "Manufacturer specification/manual; not quotation; base URL403 bypassed by download=1"
+  },
+  {
+    "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/05/Yanmar-Datasheet_6LPA-STP2.pdf?download=1",
+    "local_relative_path": ".local/M03/yanmar/6lpa-spec.pdf",
+    "sha256": "65df72e23fee04ee67da520b79bf97af72e8d0210fcbf59d016fc3a04102a504",
+    "date": "2026-09-11",
+    "type": "spec",
+    "pdf_magic_verified": true,
+    "note": "Manufacturer specification/manual; not quotation; base URL403 bypassed by download=1"
+  },
+  {
+    "url": "https://www.yanmar.com/marine/wp-content/uploads/2021/02/DS_6LY2M_WDT-WST_A4_022021_HR.pdf?download=1",
+    "local_relative_path": ".local/M03/yanmar/6ly2m-spec-2021.pdf",
+    "sha256": "cfa22f63fe4e86e38a7f617a31607b48ff986dd00504039c6b44b13f45451263",
+    "date": "2026-09-11",
+    "type": "spec",
+    "pdf_magic_verified": true,
+    "note": "Yanmar02/2021 spec not quotation"
+  }
+]

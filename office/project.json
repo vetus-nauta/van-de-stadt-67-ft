@@ -28,7 +28,7 @@
   "utv_definition": "Утверждённая исходная смета / базовый бюджет — прямой ответ Алексея 10.09.2026",
   "market_context": "Europe / Poland; российские сметные нормы и цены не применяются",
   "baseline_commit": "9eca7cce48295ec2a718f27011d24c1604b90e30",
-  "current_stage": "G02 завершён в аналитической и концептуальной области; следующая очередь G03 — объёмная помещаемость",
+  "current_stage": "M03 — рабочая КАЦ по МО; техническая ветвь G03 — измеренная компоновка и сервисные зоны остаются открытыми",
   "future_design_intents": "data/office/design-intents.csv",
   "geometry_deliverable": "deliverables/G02/v001/00_sprint-result.md",
   "geometry_open_limit": "G02: второе CAD-чтение и частичная привязка выполнены; spline/6387/единицы, полная идентичность и натурное соответствие открыты; варианты A/B не прошли проверку помещаемости",
@@ -40,5 +40,9 @@
   "machinery_market_findings": "deliverables/M02/v001/01_support/00_findings.md",
   "machinery_market_status": "PUBLIC_PRICE_RESEARCH_WITH_OPEN_OUTPUT_AND_SCOPE_INPUTS",
   "comparison_owner_clarification": "Сравнивать полезный результат и полную функциональную стоимость; разные модели/номиналы/обвязка допустимы, количества основных агрегатов сохраняются. D021, 2026-09-11.",
-  "price_evidence_rule": "Прямой URL цены, дата просмотра, NET-основание и тип доказательства; доступные PDF локально с SHA; публичные цены не КП. D022."
+  "price_evidence_rule": "Прямой URL цены, дата просмотра, NET-основание и тип доказательства; доступные PDF локально с SHA; публичные цены не КП. D022.",
+  "machinery_working_kac": "deliverables/M03/v001/00_working-KAC.xlsx",
+  "machinery_working_kac_guide": "deliverables/M03/v001/01_support/00_readme.md",
+  "machinery_working_kac_status": "DRAFT_OPEN_NO_APPROVED_EQUIPMENT_OR_BUDGET",
+  "tax_scheme_status": "BUYER_VAT_IMPORTER_AND_INTENDED_USE_UNKNOWN; no automatic23percent/deduction"
 }

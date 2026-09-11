@@ -1,0 +1,53 @@
+[
+  {
+    "filename": "marine-2026.pdf",
+    "local_path": ".local/M03/panda/marine-2026.pdf",
+    "source_url": "https://www.fischerpanda.co.uk/res/Fischer%20Panda%20Marine%20Generators%202026%20-%20FPUK",
+    "retrieval_date": "2026-09-11",
+    "sha256": "9aa9ec19f5a63d0e833a1959b3a8e59016705649d208dc90acb774993ee3d982",
+    "bytes": 1489315,
+    "status": "ARCHIVED_PDF"
+  },
+  {
+    "filename": "12000x-datasheet.pdf",
+    "local_path": ".local/M03/panda/12000x-datasheet.pdf",
+    "source_url": "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-compact-power/12000x/Panda_12000x_PMS_-_EN.pdf",
+    "retrieval_date": "2026-09-11",
+    "sha256": "13c864fe0b3e939c01a8237648d0d14062a7830dc64d7d6364febe6c18459aa0",
+    "bytes": 164558,
+    "status": "ARCHIVED_PDF"
+  },
+  {
+    "filename": "12000x-drawing.pdf",
+    "local_path": ".local/M03/panda/12000x-drawing.pdf",
+    "source_url": "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-compact-power/12000x/Panda_12000x_230v_PMS.pdf",
+    "retrieval_date": "2026-09-11",
+    "sha256": "42d0f3c7f09493d5dcdb1b2c75390bc04fd7bf9b3264831cf5ca26f9573bdf55",
+    "bytes": 219627,
+    "status": "ARCHIVED_PDF"
+  },
+  {
+    "filename": "15000i-datasheet.pdf",
+    "source_url": "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-iseries/0013241/Panda_15000i_-_230_V_PMS_-_EN.pdf",
+    "status": "FETCH_FAILED",
+    "http_status": 404
+  },
+  {
+    "filename": "15000i-manual-R08.2.pdf",
+    "local_path": ".local/M03/panda/15000i-manual-R08.2.pdf",
+    "source_url": "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-iseries-2026/handbooks/0037352_G_15000i_PMS_eng.R08.2.pdf",
+    "retrieval_date": "2026-09-11",
+    "sha256": "b24a7c695ca96a62342b74f0f6c2335c9f9218289c2d071e2acabd5fdfd98e35",
+    "bytes": 11529696,
+    "status": "ARCHIVED_PDF"
+  },
+  {
+    "filename": "12000x-manual-legacy.pdf",
+    "local_path": ".local/M03/panda/12000x-manual-legacy.pdf",
+    "source_url": "https://www.fischerpanda.de/fileadmin/user_upload/generators/generator_media_web/FP1-302229.pdf",
+    "retrieval_date": "2026-09-11",
+    "sha256": "2f3ea47c53f7df2835db86c47306ee56867f34c39a5faa54e99e00b164baa6b0",
+    "bytes": 5673748,
+    "status": "ARCHIVED_PDF"
+  }
+]

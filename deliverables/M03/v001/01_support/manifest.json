@@ -1,0 +1,126 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_working-KAC.xlsx",
+      "sha256": "65060bed53e362a17d0a38c0586b79f67f5285fe191f8c7bdf9ebaf4c86640a7",
+      "bytes": 98405
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "sha256": "8cadf53586971735453fb5b3352e8c30ac5759e20760ae71d7c2e297c873f4e6",
+      "bytes": 12918
+    },
+    {
+      "path": "01_support/01_acceptance.md",
+      "sha256": "eb7f4cb14ae0edf5b2f710d18cc0b1b108c314cc51dd43bdc41b8427282d033f",
+      "bytes": 5357
+    },
+    {
+      "path": "01_support/build-stats.json",
+      "sha256": "b7ec7c5efdb5816768ee7d9965fe34f0ab43520c19ed2254ca9cb5f3a2cc46df",
+      "bytes": 225
+    },
+    {
+      "path": "01_support/build_kac.py",
+      "sha256": "5ec4ae8a1fff6bd2931e9f90335070700ca453b05fe44888651a41059a17cb9d",
+      "bytes": 21968
+    },
+    {
+      "path": "01_support/checked-inputs.json",
+      "sha256": "7c7f7fe8579a0090ae18ba27060a8f7b8f815cda7d6a4a4a7542b507c1ec6c6f",
+      "bytes": 3035
+    },
+    {
+      "path": "01_support/components.csv",
+      "sha256": "d850d56cec801670bbed2dd3b33806aba49acb782b156165d1547cbc31ae69e2",
+      "bytes": 19930
+    },
+    {
+      "path": "01_support/package-notes.md",
+      "sha256": "cf671ea3394402c18eb8e7be626af5339b66f622209bdd4335d60849752d5c93",
+      "bytes": 11325
+    },
+    {
+      "path": "01_support/packages.csv",
+      "sha256": "3e359e42991d66603d59e5dae54501b3e36a2e5b100231f45bcca0ee1c66cd90",
+      "bytes": 23445
+    },
+    {
+      "path": "01_support/panda/candidates.csv",
+      "sha256": "d5174a6e8b6df6daf1913b94a180c0f7b5c20e32cfbffff505a270392768037b",
+      "bytes": 3010
+    },
+    {
+      "path": "01_support/panda/pdf-archive.json",
+      "sha256": "96b34d26aba391a65c3d623a7c615fdc4d282458e60fe205c9cda1e958b32690",
+      "bytes": 2345
+    },
+    {
+      "path": "01_support/panda/research.md",
+      "sha256": "44041a8f4dd456b1551d906f909ae0ea211a2c13867a8e6e3e6a10b132ff0b46",
+      "bytes": 11614
+    },
+    {
+      "path": "01_support/price-register.csv",
+      "sha256": "10c8a7f35b57c4d407d560e3c658eb12fc8f059b450fe9f2514fb901eb24ca2a",
+      "bytes": 48690
+    },
+    {
+      "path": "01_support/review/integration-review.md",
+      "sha256": "329feddf6c62883a171a1ee1678765056fe3fe82856151e9fe0569fae92e49a5",
+      "bytes": 7414
+    },
+    {
+      "path": "01_support/review/packages-review.md",
+      "sha256": "02dfca9c71877edc6f70666f8489f46ae3a2185f802433e274f14f58050d4e89",
+      "bytes": 1909
+    },
+    {
+      "path": "01_support/review/panda-review.md",
+      "sha256": "2dd1c15b2c2f8efd4719e7ce74dd7623ad2dbe9282688dab7a2404b82c8c4c7c",
+      "bytes": 5634
+    },
+    {
+      "path": "01_support/review/verification.json",
+      "sha256": "f36f1ead0153ffff0e7ed3e7d6c1967fdac260e9ab1561a196176e8b52aea5ba",
+      "bytes": 27380
+    },
+    {
+      "path": "01_support/review/yanmar-review.md",
+      "sha256": "22f7473d46f0abede9f74c1a900d75e68fdd1584f55d28e032341094d5ff0d8f",
+      "bytes": 4274
+    },
+    {
+      "path": "01_support/scope-checklist.csv",
+      "sha256": "d8dedbb9d6365d36f0234f4bdb6b6c2d0f5ab500f39816d8331b92edcb9b4016",
+      "bytes": 47470
+    },
+    {
+      "path": "01_support/variant-register.csv",
+      "sha256": "6f8201c4d76caed6b742a6640c8044888c3ed372203d04bda9333b21aa135ebb",
+      "bytes": 18783
+    },
+    {
+      "path": "01_support/yanmar/candidates.csv",
+      "sha256": "78aff6ded8c2518e41bf380f439019473a74d7f60aa381bc192f8e17fc433eff",
+      "bytes": 2267
+    },
+    {
+      "path": "01_support/yanmar/pdf-archive.json",
+      "sha256": "ed51cafd42109c7db3cc456665621ec6818755e66ab954b3924e621dbf146560",
+      "bytes": 2187
+    },
+    {
+      "path": "01_support/yanmar/research.md",
+      "sha256": "0811732ffb888fc2991669e0108dc8c81354901dd0c3204596b429a63336e601",
+      "bytes": 13879
+    }
+  ]
+}
