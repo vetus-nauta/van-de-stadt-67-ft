@@ -1,0 +1,965 @@
+{
+  "status": "PASS_WITH_OPEN_COST_SCOPE",
+  "scope": "Independent audit of frozen M01-M06 inputs for M07 transfer; not review of final M07 workbook",
+  "counts": {
+    "groups": 29,
+    "packages": 12,
+    "variants": 36,
+    "component_rows": 79,
+    "M03_scope_checks": 177,
+    "M03_open_scope_checks": 177,
+    "M06_scope_rows": 49
+  },
+  "coverage": [
+    {
+      "me_id": "ME-01",
+      "title": "Главный морской дизель",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK01"
+      ],
+      "component_line_ids": [
+        "PK01-A-L01",
+        "PK01-B-L01",
+        "PK01-C-L01"
+      ],
+      "candidate_ids": [
+        "PROP-E02",
+        "PROP-E04",
+        "YAN-E01"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Уточнить комплект поставки: редуктор, панель, проводка, опоры и штатные агрегаты",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-02",
+      "title": "Морской редуктор",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "PROPOSED_DERIVED",
+      "package_ids": [
+        "PK01"
+      ],
+      "component_line_ids": [
+        "PK01-A-L01",
+        "PK01-B-L01",
+        "PK01-C-L01"
+      ],
+      "candidate_ids": [
+        "PROP-E02",
+        "PROP-E04",
+        "YAN-E01"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "1 на единственную силовую линию — предлагаемое количество; не добавлять повторно к комплектному двигателю",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-03",
+      "title": "Муфта, опоры, упорный узел и элементы валопровода",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK01"
+      ],
+      "component_line_ids": [
+        "PK01-A-L01",
+        "PK01-C-L01"
+      ],
+      "candidate_ids": [
+        "PROP-E02",
+        "PROP-E04"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Функциональная линия одна; числа подшипников/опор/уплотнений и комплектность не установлены",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-04",
+      "title": "Дизель-генераторы в акустическом исполнении",
+      "fixed_quantity_as_M01": "2",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK02"
+      ],
+      "component_line_ids": [
+        "PK02-A-L01",
+        "PK02-B-L01",
+        "PK02-C-L01"
+      ],
+      "candidate_ids": [
+        "PAN-G02",
+        "PROP-G02",
+        "PROP-G03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Не заменять двумя меньшими или одним большим; капсула/опоры/контроллер могут быть включены",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-05",
+      "title": "Основные инверторы-зарядные устройства",
+      "fixed_quantity_as_M01": "2",
+      "quantity_status": "ARCHITECTURE_TARGET",
+      "package_ids": [
+        "PK03"
+      ],
+      "component_line_ids": [
+        "PK03-A-L01",
+        "PK03-B-L01",
+        "PK03-C-L01"
+      ],
+      "candidate_ids": [
+        "EL-INV-A",
+        "EL-INV-B",
+        "EL-INV-C"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Цель dual-архитектуры; проверить распределение мощностей и допустимость параллельной работы",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-06",
+      "title": "Независимое инверторное питание AC насоса пресной воды",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "TARGET_FUNCTION",
+      "package_ids": [
+        "PK03"
+      ],
+      "component_line_ids": [],
+      "candidate_ids": [],
+      "cost_coverage": "SCOPE_ONLY_NO_COMPONENT_PRICE",
+      "required_open_scope": "РеестрO02 предлагает1 отдельный инвертор; brief допускает отдельное либо изолированное исполнение. Аппаратное исполнение выбрать одинаково для3вариантов",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-07",
+      "title": "Пусковой аккумулятор главного двигателя",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "OWNER_FIXED_COUNT",
+      "package_ids": [
+        "PK04"
+      ],
+      "component_line_ids": [
+        "PK04-A-L02",
+        "PK04-B-L02",
+        "PK04-C-L02"
+      ],
+      "candidate_ids": [
+        "EL-OPEN-MAIN"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Один физический АКБ; дистанционное резервирование — ME-28",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-08",
+      "title": "Сервисные аккумуляторы",
+      "fixed_quantity_as_M01": "6",
+      "quantity_status": "OWNER_FIXED_COUNT",
+      "package_ids": [
+        "PK04"
+      ],
+      "component_line_ids": [
+        "PK04-A-L01",
+        "PK04-B-L01",
+        "PK04-C-L01"
+      ],
+      "candidate_ids": [
+        "EL-BAT-A",
+        "EL-BAT-B",
+        "EL-BAT-C"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Химия, соединение и суммарная ёмкость банка не установлены; BMS при применимости; пригодность к пуску проверить",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-09",
+      "title": "Разделительный трансформатор / подготовка берегового питания",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK03"
+      ],
+      "component_line_ids": [
+        "PK03-A-L02",
+        "PK03-B-L02",
+        "PK03-C-L02"
+      ],
+      "candidate_ids": [
+        "EL-ISO-A",
+        "EL-ISO-B"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Число аппаратов и мощность не фиксировать по случайно найденной цене",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-10",
+      "title": "Распределение AC/DC, переключение источников, зарядная и защитная автоматика",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK03"
+      ],
+      "component_line_ids": [],
+      "candidate_ids": [],
+      "cost_coverage": "SCOPE_ONLY_NO_COMPONENT_PRICE",
+      "required_open_scope": "Состав щитов/аппаратов/датчиков по однолинейной схеме; штатное включение в инверторы/генераторы не считать дважды",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-11",
+      "title": "Напорная насосная установка пресной воды24VDC",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK05"
+      ],
+      "component_line_ids": [
+        "PK05-A-L01",
+        "PK05-B-L01",
+        "PK05-C-L01"
+      ],
+      "candidate_ids": [
+        "WC-DC-01",
+        "WC-DC-02",
+        "WC-DC-03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Зафиксировано число установок; встроенный состав выбранного pump set должен быть сопоставим",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-12",
+      "title": "Напорная насосная установка пресной воды220VAC",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK05"
+      ],
+      "component_line_ids": [
+        "PK05-A-L02",
+        "PK05-B-L02",
+        "PK05-C-L02"
+      ],
+      "candidate_ids": [
+        "WC-AC-01",
+        "WC-AC-02",
+        "WC-AC-03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Не заменять обе ветви одним насосом; расход/напор одинаковы в3сравнениях",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-13",
+      "title": "Опреснитель обратного осмоса",
+      "fixed_quantity_as_M01": "1",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK06"
+      ],
+      "component_line_ids": [
+        "PK06-A-L01",
+        "PK06-B-L01",
+        "PK06-C-L01"
+      ],
+      "candidate_ids": [
+        "WC-RO-01",
+        "WC-RO-02",
+        "WC-RO-03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Насосы, предфильтры, панель и автоматика могут входить в установку; проверить гарантированные условия производительности",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-14",
+      "title": "Бойлеры-калориферы ГВС",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK07"
+      ],
+      "component_line_ids": [
+        "PK07-A-L01",
+        "PK07-B-L01",
+        "PK07-C-L01"
+      ],
+      "candidate_ids": [
+        "WC-HW-01",
+        "WC-HW-02",
+        "WC-HW-03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Два источника нагрева не означают два бойлера. Второй рассматривается, количество1или2 ещё не зафиксировано",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-15",
+      "title": "Независимые чиллерные модули кондиционирования",
+      "fixed_quantity_as_M01": "2",
+      "quantity_status": "TARGET",
+      "package_ids": [
+        "PK08"
+      ],
+      "component_line_ids": [
+        "PK08-A-L01",
+        "PK08-B-L01",
+        "PK08-C-L01"
+      ],
+      "candidate_ids": [
+        "WC-CH-01",
+        "WC-CH-02",
+        "WC-CH-03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Во всех3вариантах2модуля с одинаковой требуемой холодопроизводительностью и резервированием",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-16",
+      "title": "Насосы, расширительные ёмкости и обвязка климатической системы",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK08"
+      ],
+      "component_line_ids": [
+        "PK08-A-L02",
+        "PK08-B-L02",
+        "PK08-C-L02"
+      ],
+      "candidate_ids": [
+        "WC-AUX-01"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Резервирование предложено где возможно, точное число насосов и независимость контуров пока не установлены",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-17",
+      "title": "Гидроаккумуляторы, коллекторы, фильтры, клапаны и рециркуляция ГВС",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK05"
+      ],
+      "component_line_ids": [],
+      "candidate_ids": [],
+      "cost_coverage": "SCOPE_ONLY_NO_COMPONENT_PRICE",
+      "required_open_scope": "Разделить комплектные и внешние детали; количество по P&ID, рециркуляция по необходимости",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-18",
+      "title": "Топливная фильтрация, подача, перекачка и отсечки",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK09"
+      ],
+      "component_line_ids": [
+        "PK09-A-L01",
+        "PK09-B-L01",
+        "PK09-C-L01"
+      ],
+      "candidate_ids": [
+        "A09"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Дополнительная очистка/суточный танк условны; полное число фильтров и насосов не задано",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-19",
+      "title": "Забортное охлаждение и выхлоп двигателя и генераторов",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK09"
+      ],
+      "component_line_ids": [
+        "PK02-A-L01",
+        "PK02-B-L01",
+        "PK02-C-L01",
+        "PK09-A-L02",
+        "PK09-B-L02",
+        "PK09-C-L02"
+      ],
+      "candidate_ids": [
+        "A10",
+        "A11",
+        "PAN-G02",
+        "PROP-G02",
+        "PROP-G03"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Состав каждого контура по монтажным требованиям; не предполагать3одинаковых набора и не повторять штатные насосы",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-20",
+      "title": "Осушение: локальные насосы, центральный аварийный, ручной и сигнализация",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK10"
+      ],
+      "component_line_ids": [
+        "PK10-A-L01",
+        "PK10-A-L02",
+        "PK10-A-L03",
+        "PK10-B-L01",
+        "PK10-B-L02",
+        "PK10-B-L03",
+        "PK10-C-L01",
+        "PK10-C-L02",
+        "PK10-C-L03"
+      ],
+      "candidate_ids": [
+        "A12",
+        "A13",
+        "A14"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Количество по отсекам и схеме; отдельный привод аварийного насоса изучается, не считать двумя обязательными агрегатами",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-21",
+      "title": "Стационарное пожаротушение и защита МО",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK10"
+      ],
+      "component_line_ids": [
+        "PK10-A-L04",
+        "PK10-B-L04",
+        "PK10-C-L04"
+      ],
+      "candidate_ids": [
+        "A20"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Заряд, баллоны, сопла и число датчиков по объёму/схеме; COпо применимости, не выбрать по цене до задания",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-22",
+      "title": "Приточная и вытяжная вентиляция МО",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK09"
+      ],
+      "component_line_ids": [
+        "PK09-A-L03",
+        "PK09-B-L03",
+        "PK09-C-L03"
+      ],
+      "candidate_ids": [
+        "A15"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Число вентиляторов, расход, напор и шум пока не заданы",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-23",
+      "title": "Сервис МО: маслосмена, поддоны, освещение, контроль и сигнализация",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "OPEN",
+      "package_ids": [
+        "PK09"
+      ],
+      "component_line_ids": [
+        "PK09-A-L04",
+        "PK09-B-L04",
+        "PK09-C-L04"
+      ],
+      "candidate_ids": [
+        "A16"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Сервисный насос/камеры/датчики по схеме; кабели и арматура отдельно от комплектов",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-24",
+      "title": "Танки топлива/воды и их оснащение",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "INTERFACE_OPEN",
+      "package_ids": [
+        "PK11"
+      ],
+      "component_line_ids": [
+        "PK11-A-L01",
+        "PK11-B-L01",
+        "PK11-C-L01"
+      ],
+      "candidate_ids": [
+        "A17",
+        "A18"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Встроенные сварные танки — корпусные работы, покупные — соответствующий пакет; не включать целиком вМО без компоновки",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-25",
+      "title": "Санитарная забортная подача, насосы стоков и вентиляция танков",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "INTERFACE_OPEN",
+      "package_ids": [
+        "PK11"
+      ],
+      "component_line_ids": [
+        "PK11-A-L02",
+        "PK11-B-L02",
+        "PK11-C-L02"
+      ],
+      "candidate_ids": [
+        "A19"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Унитазы и фанкойлы помещений не являются оборудованием внутриМО; санитарные насосы включать при принятом размещении",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-26",
+      "title": "Резервное водяное отопление",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "CONDITIONAL",
+      "package_ids": [
+        "PK08"
+      ],
+      "component_line_ids": [],
+      "candidate_ids": [],
+      "cost_coverage": "CONDITIONAL_COST_NOT_PRICED",
+      "required_open_scope": "Не обязательная покупка до решения; обратный цикл чиллеров и отдельное отопление не назначаются автоматически",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-27",
+      "title": "Пусковые аккумуляторы генераторов",
+      "fixed_quantity_as_M01": "2",
+      "quantity_status": "OWNER_FIXED_COUNT",
+      "package_ids": [
+        "PK04"
+      ],
+      "component_line_ids": [
+        "PK04-A-L03",
+        "PK04-B-L03",
+        "PK04-C-L03"
+      ],
+      "candidate_ids": [
+        "EL-OPEN-GEN"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Сохранить независимые пусковые цепи и зарядку; всего на яхте 9 АКБ по поручению",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-28",
+      "title": "Дистанционная система резервного пуска",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "REQUIRED_BOM_OPEN",
+      "package_ids": [
+        "PK04"
+      ],
+      "component_line_ids": [
+        "PK04-A-L04",
+        "PK04-B-L04",
+        "PK04-C-L04"
+      ],
+      "candidate_ids": [
+        "EL-REM-A"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Изоляция неисправного АКБ до подключения резерва перед пуском; контакторы, блокировки и защита по схеме; не добавлять десятый АКБ; переход после пуска проектировать отдельно",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    },
+    {
+      "me_id": "ME-29",
+      "title": "Гидросиловая установка и центральная обвязка",
+      "fixed_quantity_as_M01": null,
+      "quantity_status": "REQUIRED_BOM_OPEN",
+      "package_ids": [
+        "PK12"
+      ],
+      "component_line_ids": [
+        "PK12-A-L01",
+        "PK12-A-L02",
+        "PK12-A-L03",
+        "PK12-A-L04",
+        "PK12-A-L05",
+        "PK12-B-L01",
+        "PK12-C-L01"
+      ],
+      "candidate_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A07",
+        "A08"
+      ],
+      "cost_coverage": "PARTIAL_COMPONENT_REFERENCES_NOT_FULL_SCOPE",
+      "required_open_scope": "Насосы и привод, бак, фильтры, охладитель, распределители, клапаны, контроль и трубопроводы; число компонентов открыто; проверить работу при остановленном главном двигателе",
+      "warning": "Component reference does not establish quantity or current NET; do not sum A/B/C"
+    }
+  ],
+  "fixed_quantity_checks": [
+    {
+      "slot": "A",
+      "me_id": "ME-01",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-04",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-05",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-07",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-08",
+      "quantity": 6.0,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-27",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-11",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-12",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-13",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "A",
+      "me_id": "ME-15",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-01",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-04",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-05",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-07",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-08",
+      "quantity": 6.0,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-27",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-11",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-12",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-13",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "B",
+      "me_id": "ME-15",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-01",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-04",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-05",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-07",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-08",
+      "quantity": 6.0,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-27",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-11",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-12",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-13",
+      "quantity": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "slot": "C",
+      "me_id": "ME-15",
+      "quantity": 2.0,
+      "expected": 2,
+      "pass": true
+    }
+  ],
+  "open_cost_scopes": [
+    {
+      "id": "COST01",
+      "title": "Монтаж и пусконаладка",
+      "cost_location": "PK01–PK12",
+      "open_items": "Труд, расходники, центровка, настройки и испытания каждого пакета; общесудовая приёмка отдельным уровнем"
+    },
+    {
+      "id": "COST02",
+      "title": "Логистика/импорт/налог",
+      "cost_location": "Все пакеты",
+      "open_items": "Отправка, доставка/страхование, погрузка, таможенная база/пошлины где применимо; NET, денежный платёж и возможный вычет отдельно"
+    },
+    {
+      "id": "COST03",
+      "title": "Фундаменты и шумозащита",
+      "cost_location": "PK01/02/09",
+      "open_items": "Корпусные основания, сварка, крепления, изоляция, шумозащита, отверстия и восстановление покрытий; комплектные опоры не повторять"
+    },
+    {
+      "id": "COST04",
+      "title": "Электромонтаж24VDC/220VAC",
+      "cost_location": "PK03/04",
+      "open_items": "Щиты, кабели и наконечники, защита, переключениеAC, заземление/возврат, резерв водыME06; стандартная моторнаяпроводка отдельно"
+    },
+    {
+      "id": "COST05",
+      "title": "9 АКБ и резервный пуск",
+      "cost_location": "PK04",
+      "open_items": "6 сервисных115ампер с неизвестнымиAh/напряжением;1пусковая+2генераторных без утверждённых характеристик/цен; дистанционная изоляция неисправнойАКБ и совместимость каждого донора"
+    },
+    {
+      "id": "COST06",
+      "title": "Санкционированное исполнение24В",
+      "cost_location": "PK01/02/04",
+      "open_items": "OEM-подтверждение пуска/заряда/электроники; не считать штатные12В деталями уже принятой24В схемы"
+    },
+    {
+      "id": "COST07",
+      "title": "Трубы/шланги/клапаны/опоры",
+      "cost_location": "PK05–PK12",
+      "open_items": "Разводки воды, топлива, охлаждения, стоков, гидравлики, крепёж, проходы переборок; длины/диаметры/комплектность пока открыты"
+    },
+    {
+      "id": "COST08",
+      "title": "Выхлоп и вентиляция",
+      "cost_location": "PK09",
+      "open_items": "Три независимых функциональных маршрута для двигателя/2генераторов; водозамки/антисифоны/шланги и воздуховоды/заслонки; цена капсулы не закрывает обвязку"
+    },
+    {
+      "id": "COST09",
+      "title": "Гидросиловой функциональный комплект",
+      "cost_location": "PK12",
+      "open_items": "PTO/привод, основнойнасос, резерв функции, бак/фильтрация, распределители, охлаждение и защитные клапаны; найденный частичныймодуль не закрывает все гидравлические лебёдки/подрульки"
+    },
+    {
+      "id": "COST10",
+      "title": "Системы аварии и сервис",
+      "cost_location": "PK10/09",
+      "open_items": "Осушение поотсекам, пожарный заряд/сопла/датчики/отсечки, маслосмена/свет/контроль; количества открыты"
+    },
+    {
+      "id": "COST11",
+      "title": "Танки/стоки/ГВС/климат",
+      "cost_location": "PK05/07/08/11",
+      "open_items": "Объёмы танков и бойлеров, насосные/климатические контуры; сантехника/фанкойлы внеМО имеют интерфейсы, не исчезают из общей достройки"
+    },
+    {
+      "id": "COST12",
+      "title": "Проектирование и изменения компоновки",
+      "cost_location": "Все пакеты/общепроектный",
+      "open_items": "Проектирование, согласование, исполнительная документация и общие испытания; влияние компоновки оценить позднее, не присваивать нулевуюстоимость сейчас"
+    }
+  ],
+  "double_count_controls": [
+    {
+      "risk": "Сложение A+B+C или одинаковых кандидатов из разных слотов",
+      "rule": "Выбирать один слот в каждом пакете для сценария; один и тот же кандидат в двух вариантах не две покупки"
+    },
+    {
+      "risk": "Добавление M04/M05 коробки/опор/панели к комплектному8LV",
+      "rule": "Для8LV сначала подтвердить поставку; заявленные включения повторно не прибавлять. Bobtail6LPA сдокомплектацией отдельная альтернативнаяветвь"
+    },
+    {
+      "risk": "Суммирование B/C/D панелей или разных жгутов",
+      "rule": "Одна панель и жгут точной ревизии; дети панели не отдельные обязательныепокупки"
+    },
+    {
+      "risk": "Генераторныекапсулы/встроенные насосы/пульты и внешняяобвязка",
+      "rule": "PK02 покрывает заводскую границу,PK09/03/04 только отсутствующие внешниеузлы"
+    },
+    {
+      "risk": "Встроенные насосы/баки/фильтры RO и водяныхустановок",
+      "rule": "Разделять PK05/06/07 иME17 поP&ID; не суммировать комплектные элементы вторично"
+    },
+    {
+      "risk": "Штатный охладитель редуктора вместо гидросистемы либо наоборот",
+      "rule": "Назначение разное; каждый нужен по собственнойсхеме, но включение вкомплект исключает повтор"
+    },
+    {
+      "risk": "Резервный водянойинвертор или гидронасос как обязательный дополнительный аппарат",
+      "rule": "ME06=1 независимаяфункция; резерв гидравлики также требует выбора архитектуры, а не автоматического добавления устройства"
+    },
+    {
+      "risk": "Накладные/резерв/налоги и суммы без основания",
+      "rule": "Не назначать произвольныепроценты; незаполненное оставитьOPEN. Резерв не маскирует известную отсутствующуюработу"
+    }
+  ],
+  "scenario_rules": [
+    "A/B/C remain incomplete alternatives; B is working reference only, not selected or midpoint average",
+    "All M03 variants NOT_SELECTED; functional equivalence not proven",
+    "Historical/SEARCH_ONLY/gross without tax basis never enter confirmed current NET subtotal",
+    "Quantity blank or price blank is OPEN, never zero; show known subtotal with missing rows",
+    "No final M07 arithmetic or publication acceptance performed here",
+    "Owner-authorized23percent planning VAT allowed in estimate columns with explicit assumption; source gross must not be taxed twice"
+  ],
+  "inputs_sha256": {
+    "deliverables/M01/v001/01_support/equipment-list.csv": "0b8330d5a934daac5f1726b74568204200522c70fa2788043310d3b9562414d1",
+    "deliverables/M01/v001/01_support/owner-requirements.md": "c0708258406b61a360c71a0fc50fca9e9787a33444dbb3b98d27c4b281f08eb8",
+    "deliverables/M03/v001/01_support/components.csv": "d850d56cec801670bbed2dd3b33806aba49acb782b156165d1547cbc31ae69e2",
+    "deliverables/M03/v001/01_support/packages.csv": "3e359e42991d66603d59e5dae54501b3e36a2e5b100231f45bcca0ee1c66cd90",
+    "deliverables/M03/v001/01_support/variant-register.csv": "6f8201c4d76caed6b742a6640c8044888c3ed372203d04bda9333b21aa135ebb",
+    "deliverables/M03/v001/01_support/scope-checklist.csv": "d8dedbb9d6365d36f0234f4bdb6b6c2d0f5ab500f39816d8331b92edcb9b4016",
+    "deliverables/M03/v001/01_support/price-register.csv": "10c8a7f35b57c4d407d560e3c658eb12fc8f059b450fe9f2514fb901eb24ca2a",
+    "deliverables/M06/v001/01_support/scope-register.csv": "77d0459edf6aedf529a1933c969126d76bb253c673e2d60882022bdd07958fed"
+  },
+  "owner_tax_steering_for_M07": {
+    "placement": "Columns inside estimate, not separate tax calculation",
+    "provisional_rate_percent": 23,
+    "authorization_basis": "Parent relayed latest explicit owner direction in current session",
+    "net_rows": "Planning23percent VAT only on known NET rows, labelled assumption; not statement of actual seller/buyer tax regime",
+    "source_gross_rows": "YAN-E01 gross58842EUR retained once asSOURCE_GROSS;NET/VAT blank; no added23percent",
+    "total": "Mixed planning gross subtotal with only partially allocated VAT, not full tax base or approved budget",
+    "qa_limit": "Instruction reviewed; generated M07 formulas not yet inspected"
+  }
+}

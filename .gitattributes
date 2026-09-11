@@ -52,3 +52,6 @@ experiments/**/font-license.txt -whitespace
 # G03 approximate geometry study: preserve reviewed mesh/plot/calculation bytes.
 deliverables/G03/** -text whitespace=cr-at-eol
 deliverables/G03/**/*.svg -whitespace linguist-generated=true
+
+# M07 frozen estimate and supporting CSV keep reviewed bytes.
+deliverables/M07/** -text whitespace=cr-at-eol

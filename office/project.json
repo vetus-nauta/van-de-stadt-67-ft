@@ -5,7 +5,7 @@
   "office_version": "1.1",
   "office_status": "AGENT_OFFICE_PLAN_ACCEPTED_FOR_SCOPE",
   "technical_status": "G03_BLOCK_LAYOUT_TEST_COMPLETE_FULL_FIT_OPEN",
-  "estimate_status": "TEMPLATE_PREPARED_NOT_APPROVED_BUDGET",
+  "estimate_status": "WORKING_MO_ESTIMATE_FROZEN_WITH_OPEN_COSTS_NOT_UTV",
   "source_commit": "786f60ae55773337f780860f8043b4232c8b16b7",
   "source_spec_rows": 73,
   "project_scope": "Достройка существующего неокрашенного алюминиевого корпуса VDS67 до оснащённой яхты; проектирование, компоновка, оборудование, изготовление, монтаж и испытания. Полнота пакетов уточняется по WBS.",
@@ -28,7 +28,7 @@
   "utv_definition": "Утверждённая исходная смета / базовый бюджет — прямой ответ Алексея 10.09.2026",
   "market_context": "Europe / Poland; российские сметные нормы и цены не применяются",
   "baseline_commit": "9eca7cce48295ec2a718f27011d24c1604b90e30",
-  "current_stage": "G03/v002 — прямоугольники оборудования и сервис; далее устранить конфликты RO/EX3 и разместить гидропривод до выбора полов",
+  "current_stage": "M07 — текущая смета МО зафиксирована; компоновка по сечениям отдельно, G03 сервисные вопросы открыты",
   "future_design_intents": "data/office/design-intents.csv",
   "geometry_deliverable": "deliverables/G02/v001/00_sprint-result.md",
   "geometry_open_limit": "G02: второе CAD-чтение и частичная привязка выполнены; spline/6387/единицы, полная идентичность и натурное соответствие открыты; варианты A/B не прошли проверку помещаемости",
@@ -56,5 +56,8 @@
   "powerplant_scope_status": "SCHEDULE_PREPARED_TECHNICAL_AND_SUPPLY_CLOSURE_OPEN",
   "central_engine_room_study": "deliverables/G03/v002/00_equipment-block-layout.pdf",
   "central_engine_room_study_basis": "deliverables/G03/v002/01_support/layout.json",
-  "central_engine_room_study_status": "TEST_NOT_MINIMUM_OR_FLOOR_APPROVAL_SERVICE_AND_REQUIRED_HP_OPEN"
+  "central_engine_room_study_status": "TEST_NOT_MINIMUM_OR_FLOOR_APPROVAL_SERVICE_AND_REQUIRED_HP_OPEN",
+  "engine_room_estimate": "deliverables/M07/v001/00_engine-room-estimate.xlsx",
+  "engine_room_estimate_basis": "deliverables/M07/v001/01_support/00_readme.md",
+  "engine_room_estimate_tax": "INLINE_PL23_PROVISIONAL_PLUS_SOURCE_GROSS_UNSPLIT"
 }

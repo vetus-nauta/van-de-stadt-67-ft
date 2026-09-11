@@ -1,0 +1,14 @@
+{
+  "main_rows": 38,
+  "source_B_rows": 25,
+  "missing_ME_added": 5,
+  "additional_unpriced_cost_rows": 8,
+  "priced_net_rows": 7,
+  "priced_gross_rows": 8,
+  "unpriced_gross_rows": 30,
+  "known_net_eur": "59331.29",
+  "estimated_vat_identified_part_eur": "13646.21",
+  "source_gross_tax_not_split_eur": "58842.00",
+  "known_gross_mixed_basis_eur": "131819.50",
+  "status": "FROZEN_WORKING_ESTIMATE_PARTIAL_SCOPE_NOT_UTV"
+}

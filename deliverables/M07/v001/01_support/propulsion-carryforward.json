@@ -1,0 +1,195 @@
+{
+  "status": "AS_IS_WORKING_COST_FREEZE_NOT_APPROVED_COMPLETE_BUDGET",
+  "date": "2026-09-11",
+  "pricing_policy": "No new price search; retain source revisions and existingFX;23percent owner-authorized calculation not tax advice",
+  "variants": [
+    {
+      "variant_id": "PK01-A",
+      "candidate_id": "PROP-E02",
+      "quantity": "1",
+      "model": "D4-300 I + HS85A",
+      "source_currency": "EUR",
+      "source_net_unit": "45977",
+      "eur_net_unit_frozen": "45977.00",
+      "eur_net_total": "45977.00",
+      "eur_vat_calculated_23": "10574.71",
+      "eur_line_total": "56551.71",
+      "tax_mode": "PL23_CALCULATED_NOT_SUPPLIER_TAX",
+      "price_class": "HISTORICAL_NOT_CURRENT",
+      "source_url": "https://www.dbmoteurs.fr/sites/default/files/Volvo-Penta-tarifs-prix-achat-moteurs-2023-DB-Moteurs-motorisation-marine-bateau-plaisance.pdf",
+      "scope": "300 metric hp crank / 289 prop shaft; 3500rpm R5; 24V option price open; ratio2.500. L=433+801 W=441+407 H=274+520 from drawing; excludes projecting lifting eye/service space; not installation GA; ME-03 partial only factory mounts where included: shaft/coupling/thrust unit quantities and price OPEN",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    },
+    {
+      "variant_id": "PK01-B",
+      "candidate_id": "YAN-E01",
+      "quantity": "1",
+      "model": "8LV320E-KMH50A + VC20",
+      "source_currency": "EUR",
+      "source_net_unit": null,
+      "eur_net_unit_frozen": null,
+      "eur_net_total": null,
+      "eur_vat_calculated_23": null,
+      "eur_line_total": "58842",
+      "tax_mode": "SOURCE_GROSS_RATE_UNKNOWN",
+      "price_class": "NO_VERIFIED_NET",
+      "source_url": "https://www.abma-sneek.nl/yanmar/engines-gears-drives/powerboat-engines?prod_id=650436",
+      "scope": "320 mhp / 235 kW at 3800 rpm; 1 engine + 1 KMH50A + VC20; manufacturer 2021 package dry mass 435+52 kg and envelope with gear/elbow; standard 12V starter; front belt PTO optional capacity unverified; dealer includes mounts/panel/wiring/fluids; installed propulsion scope incomplete",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    },
+    {
+      "variant_id": "PK01-C",
+      "candidate_id": "PROP-E04",
+      "quantity": "1",
+      "model": "C90 410 rating D 300hp + gearbox RFQ",
+      "source_currency": "EUR",
+      "source_net_unit": null,
+      "eur_net_unit_frozen": null,
+      "eur_net_total": null,
+      "eur_vat_calculated_23": null,
+      "eur_line_total": null,
+      "tax_mode": "UNPRICED",
+      "price_class": "NO_VERIFIED_NET",
+      "source_url": "https://www.etruck.fi/shop-1",
+      "scope": "Official2026 220kW300hp@2000rpm ratingD heavy duty; gearbox unselected/unpriced; shown dimensions length to flywheel and mass ENGINE ONLY; not complete package envelope;24V option RFQ; ME-03 partial only factory mounts where included: shaft/coupling/thrust unit quantities and price OPEN",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    },
+    {
+      "variant_id": "PK02-A",
+      "candidate_id": "PROP-G03",
+      "quantity": "2",
+      "model": "Paguro12000V AP12023050M0",
+      "source_currency": "EUR",
+      "source_net_unit": "12446.5",
+      "eur_net_unit_frozen": "12446.50",
+      "eur_net_total": "24893.00",
+      "eur_vat_calculated_23": "5725.39",
+      "eur_line_total": "30618.39",
+      "tax_mode": "PL23_CALCULATED_NOT_SUPPLIER_TAX",
+      "price_class": "OBSERVED_NET_CONDITIONAL_SCOPE",
+      "source_url": "https://www.manelservice.com/it/gruppi-elettrogeni-marini/3925-vte-paguro-12000-v-ap12023050m0.html",
+      "scope": "12kVA10kW continuous50Hz230V;12V starter;mass165capsule+15control electronics. Official dimensions capsule only; separate electronics footprint RFQ. Dealer/allpa dimensions/mass differ; exact SKU installationdrawing required. Published net directly not Polish VAT assumption; ME-19 partial factory cooling only: external seawater/exhaust runs and installation OPEN",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    },
+    {
+      "variant_id": "PK02-B",
+      "candidate_id": "PAN-G02",
+      "quantity": "2",
+      "model": "12000x-230V PMS NautiRadar0028284",
+      "source_currency": "EUR",
+      "source_net_unit": "17451.22",
+      "eur_net_unit_frozen": "17451.22",
+      "eur_net_total": "34902.44",
+      "eur_vat_calculated_23": "8027.56",
+      "eur_line_total": "42930.00",
+      "tax_mode": "PL23_CALCULATED_NOT_SUPPLIER_TAX",
+      "price_class": "OBSERVED_NET_CONDITIONAL_SCOPE",
+      "source_url": "https://www.nautiradar.pt/en/products/fischer-panda/panda-12000x-230v-pms-12kva-fixed-engine-speed-marine-generator",
+      "scope": "50Hz230V not yet accepted as220V target;2generators retained;standard datasheet12Vstarter, priced24V SKU unconfirmed. 10.2kW/12kVA NOMINAL at20C;2026catalogue treats0.85 kVA factor as short inductive starting only;hot continuous useful output OPEN. Capsule dimensions exclude fittings and service space;ME19 partial factory cooling only. SellerSKU0028284 vsOEMsheet0024660:exact revision must be tied to offer. EU seller does not yet prove EU dispatch/free-circulation/Poland delivery.",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    },
+    {
+      "variant_id": "PK02-C",
+      "candidate_id": "PROP-G02",
+      "quantity": "2",
+      "model": "12EFKOZD",
+      "source_currency": "GBP",
+      "source_net_unit": "15403.8",
+      "eur_net_unit_frozen": "17929.12",
+      "eur_net_total": "35858.24",
+      "eur_vat_calculated_23": "8247.40",
+      "eur_line_total": "44105.64",
+      "tax_mode": "PL23_CALCULATED_NOT_SUPPLIER_TAX",
+      "price_class": "OBSERVED_NET_CONDITIONAL_SCOPE",
+      "source_url": "https://www.jpcdirect.com/product/kohler-12-kilowatt-generator/",
+      "scope": "Singlephase115/230V50Hz:12kW12kVA continuous140C rise;11/11continuous115C;10.5/10.5prime. Official12or24V; JPC exactstarter/shield revision RFQ. Official shield mass385dry398wet; dealer406kg conflict. No borrowing US24V price scope; ME-19 partial factory cooling only: external seawater/exhaust runs and installation OPEN",
+      "selection": "NOT_SELECTED; Bworkingcostscenarioonly"
+    }
+  ],
+  "working_B_summary": {
+    "PK01_source_gross_eur": "58842.00",
+    "PK01_NET": null,
+    "PK01_VAT": null,
+    "PK02_net_eur": "34902.44",
+    "PK02_calculated_VAT_eur": "8027.56",
+    "PK02_line_total_eur": "42930.00",
+    "sum_line_totals_eur": "101772.00",
+    "label": "PARTIAL_EQUIPMENT_REFERENCE_MIXED_TAX_BASIS_NOT_COMPLETE_ENGINE_ROOM",
+    "net_total_complete": false
+  },
+  "M06_mechanical_price_boundary": {
+    "included_dealer_statement": [
+      "M01engine",
+      "M02gear",
+      "M11factorymounts quantityBOMopen"
+    ],
+    "partially_included_or_exact_BOM_open": [
+      "M03damper",
+      "M04adapters",
+      "M17factorycooling",
+      "M19standardmixingelbow",
+      "M24initialfluids_only;drainpump/traysnotpriced",
+      "M28standardmanuals_only;training/sparesnotpriced"
+    ],
+    "not_separately_priced_in_selected_PK01_PK02": [
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10conditional",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M18exactinclusionopen",
+      "M20",
+      "M21",
+      "M22conditionalPTO",
+      "M23",
+      "M25",
+      "M26",
+      "M27"
+    ],
+    "warning": "Unpriced here does not prove missing cost elsewhere in PK09/10/12; root must map shared packages. Included in price is not paid/purchased."
+  },
+  "six_lpa_appendix_only": {
+    "engine_price_ref": "M03YAN-E02",
+    "engine_net_eur": "21675.00",
+    "M05S01gear_reference_net_eur": "3911.85",
+    "basic_engine_plus_gear_reference_eur": "25586.85",
+    "restriction": "Alternative incomplete line; notaddto8LV; S02/S03/S04conditionalpartsnotautomaticallyadded; S05grossunknownnotNET",
+    "price_validity": "PalmerpriceValidUntil2020-03-25 conflict retained; exactconfigurationnewconditionimportopen"
+  },
+  "frozen_inputs": [
+    {
+      "path": "deliverables/M03/v001/01_support/price-register.csv",
+      "sha256": "10c8a7f35b57c4d407d560e3c658eb12fc8f059b450fe9f2514fb901eb24ca2a"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/components.csv",
+      "sha256": "d850d56cec801670bbed2dd3b33806aba49acb782b156165d1547cbc31ae69e2"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/variant-register.csv",
+      "sha256": "6f8201c4d76caed6b742a6640c8044888c3ed372203d04bda9333b21aa135ebb"
+    },
+    {
+      "path": "deliverables/M03/v001/01_support/panda/candidates.csv",
+      "sha256": "d5174a6e8b6df6daf1913b94a180c0f7b5c20e32cfbffff505a270392768037b"
+    },
+    {
+      "path": "deliverables/M04/v001/01_support/gearbox.csv",
+      "sha256": "3a85cd0e8b74eae595d52b751de940a96f6527bcc1dc95d988473561855f9318"
+    },
+    {
+      "path": "deliverables/M05/v001/01_support/price-substitutions.csv",
+      "sha256": "de68f41faebd69a8988fabfde80efe7b197b4dc9b185c97a540f4fd08095dc98"
+    },
+    {
+      "path": "deliverables/M06/v001/01_support/mechanical.csv",
+      "sha256": "2d865d45270f3020e48d2368b03f5f7b4b3ea2d3e8c28f9e35f23996cb0d5612"
+    }
+  ]
+}
