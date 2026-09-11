@@ -1,0 +1,119 @@
+{
+  "release": "G03/v002",
+  "date": "2026-09-11",
+  "basis_commit": "03eb672cb046f9945b1813feffc721b9bd592491",
+  "status": "BLOCK_DIAGNOSTIC_COMPLETE_MINIMUM_AND_FULL_FIT_OPEN",
+  "release_decision": "Root accepts four-sheet block test after independent review and100rootchecks. No final floor/appearance/equipment selection or complete service fit. Required HP unplaced and G1 service obstructed.",
+  "files": [
+    {
+      "path": "00_equipment-block-layout.pdf",
+      "bytes": 63438,
+      "sha256": "6567293c46d8ded563e0afbcfe4f772fd5d43386f87ca0f2f245289ecb2133ea"
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "bytes": 17361,
+      "sha256": "83e7851ad07c53a508ce7a04e6a896fdc30c9573d417ec6fde979b106c79c3ae"
+    },
+    {
+      "path": "01_support/01-plan.png",
+      "bytes": 233683,
+      "sha256": "87fc431aad521a96e142401b447e5343ab3be7fe4a3564f6aeeb6d36503d48ec"
+    },
+    {
+      "path": "01_support/01-plan.svg",
+      "bytes": 37227,
+      "sha256": "14748353703d9ad776b8fb49276d83c02d034668efc8b5d7e8803cb249ca48a7"
+    },
+    {
+      "path": "01_support/02-elevations.png",
+      "bytes": 199380,
+      "sha256": "4a687427345a41943b7a16ad0c7db359d592d96e2a938ebd788ea5e3384447ce"
+    },
+    {
+      "path": "01_support/02-elevations.svg",
+      "bytes": 35558,
+      "sha256": "1c8ce3a52092d1521378276853134f9d639ffb7b8be8a6c83076e9cd193774ba"
+    },
+    {
+      "path": "01_support/03-dry-cabinet.png",
+      "bytes": 191283,
+      "sha256": "2df7ab59f4a0a0bc3075f47b3d44e7da86b1ec81cc70d13e79784188a70547a7"
+    },
+    {
+      "path": "01_support/03-dry-cabinet.svg",
+      "bytes": 23794,
+      "sha256": "c492aeeb8bd94e542e13a2ffb4a52fbcee00f6f3e14cb138e0178e67425e9f74"
+    },
+    {
+      "path": "01_support/04-open-issues.png",
+      "bytes": 182683,
+      "sha256": "6373075bd0971c7be587baa54066672c1201f13e9aae7a74c843ad6d855be986"
+    },
+    {
+      "path": "01_support/04-open-issues.svg",
+      "bytes": 14993,
+      "sha256": "b304fa94d0fd2873cf577c8fe2c74028be6b0af959548336050b939c4565b2fc"
+    },
+    {
+      "path": "01_support/auxiliary-basis.json",
+      "bytes": 49455,
+      "sha256": "67037011a37b828774a545d54ca961f93b4ba9d39129bf6c3f70f664c9985900"
+    },
+    {
+      "path": "01_support/auxiliary-basis.md",
+      "bytes": 11942,
+      "sha256": "f463c94108adf5c08e01dfb15cb3d681a2d8203deb9b36b6465b0cc4f765de36"
+    },
+    {
+      "path": "01_support/blocks.csv",
+      "bytes": 3144,
+      "sha256": "95754ff9235d3f6a2e84a0c1fca55ad6d4f680fd344e1c1961e77d3c1e775508"
+    },
+    {
+      "path": "01_support/build_blocks.py",
+      "bytes": 20540,
+      "sha256": "eec5bb56b3f5ac268d9bdaaf6a560084c8c58cc470b611f71575390ca3731b60"
+    },
+    {
+      "path": "01_support/coverage.csv",
+      "bytes": 1871,
+      "sha256": "8b5463ff4be53f47968d72dc026f1da9adf8a42d23dcc8a37a7396b43154ef6a"
+    },
+    {
+      "path": "01_support/layout.json",
+      "bytes": 16926,
+      "sha256": "0ebfbe37d36aa7c3b745d8a4f1b2ed25824d78b869630f61df862b22366bdf20"
+    },
+    {
+      "path": "01_support/propulsion-basis.json",
+      "bytes": 5693,
+      "sha256": "99fb6d79514976076848f3f7a7eb3d670a1d9e46da890189f22a1a791aefee3d"
+    },
+    {
+      "path": "01_support/propulsion-basis.md",
+      "bytes": 7827,
+      "sha256": "1165809b74fe64cccd46aceb75a3b31df122d1e9a467472911c01ad70774c409"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 7191,
+      "sha256": "89d5db9e5bf5462edd24c26dd4bc14dd1a7a4278aed818ac654cd21231c48faf"
+    },
+    {
+      "path": "01_support/sample_shell.py",
+      "bytes": 2076,
+      "sha256": "2b0aa821194ae68f6401ffe7b72d70fd2e4b42cb2854d8ca81ce60737a76f156"
+    },
+    {
+      "path": "01_support/shell-check.json",
+      "bytes": 1757,
+      "sha256": "cd42b65afbf1b515ce91d674bb0947ec82172ba7618f518e42d346ae42799ce2"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 7986,
+      "sha256": "142e2451d500587ed554cfccb8ecf5eb30d553112b2c5dcc93fff5d777292c58"
+    }
+  ]
+}

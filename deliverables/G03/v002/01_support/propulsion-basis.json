@@ -1,0 +1,157 @@
+{
+  "status": "CONCEPT_BLOCK_BASIS_NOT_PURCHASE_SELECTION",
+  "access_date": "2026-09-11",
+  "units": "mm",
+  "selected_geometry": [
+    {
+      "id": "MAIN",
+      "model": "Yanmar8LV320 withKMH50A standardmixingelbow",
+      "quantity": 1,
+      "envelope_LWH": [
+        1340,
+        880,
+        766
+      ],
+      "dry_mass_kg": 487,
+      "mass_basis": "435engine+52gear dry; wetweight/installaddonsnotprovided",
+      "source": "Y-SPEC",
+      "service_faces": {
+        "F": "front/accessorydrive/PTO end oppositegear; projected+nose direction if conventionalshaftlayout",
+        "R": "gear/outputflange end",
+        "S": "manualfig1 serviceface:fuelprimingpump,fuelandoilfilters,dipstick",
+        "N": "manualfig2 oppositeface:seawaterpump/impeller,heatexchanger,ECU",
+        "TOP": "oilfiller/coveraccess"
+      },
+      "service_face_global_Y": "OPEN until OEMorientationandblockplacementfixed; do notlabelportfromfigurealone",
+      "project_reserves_NOT_OEM_MINIMUM": {
+        "F": 500,
+        "R": 500,
+        "S": 600,
+        "N": 600,
+        "TOP": 350
+      },
+      "plan_envelope_with_all_reserves": [
+        2340,
+        2080
+      ],
+      "height_with_topreserve_only": 1116,
+      "unknowns": [
+        "servicepull-outdimensions",
+        "liftingroute",
+        "foundationheight",
+        "couplingandPTOprotrusions",
+        "highriserwouldchangeenvelope",
+        "fullinstalledmass"
+      ],
+      "duty": "320mhp nominalnot300continuous; ratingand12Vstarterarchitectureopen"
+    },
+    {
+      "id": "GEN",
+      "model": "FischerPanda12000xPMS",
+      "quantity": 2,
+      "envelope_LWH": [
+        705,
+        450,
+        590
+      ],
+      "dry_mass_kg_each": 195,
+      "envelope_basis": "capsuleexcludingfittings; standard50Hz230V,12Vstarter",
+      "source": "P-SPEC",
+      "service_faces": {
+        "F": "enginefront:Vbelt,waterpumps;oilfiltervisiblefrontprojection;connectionface",
+        "L_OEM": "leftsideview:dipstick,seawaterpump,actuator,airfilter",
+        "R_OEM": "rightsideview:engineoilfilter,starter",
+        "TOP": "capsuleremovalclearance and dismantlingpath"
+      },
+      "project_reserves_NOT_OEM_MINIMUM": {
+        "F": 500,
+        "REAR": 150,
+        "L_OEM": 500,
+        "R_OEM": 400,
+        "TOP": 350
+      },
+      "plan_envelope_with_all_reserves_each": [
+        1355,
+        1350
+      ],
+      "height_with_topreserve_only": 940,
+      "OEM_numeric_clearance": {
+        "under_capsule_air_mm": 12,
+        "source": "P-MAN printed51",
+        "limit": "airinletgapnotpersonaccess; legacy exactSKUconfirm; do notdoublecountifmountdrawingalreadyincludesgap"
+      },
+      "unknowns": [
+        "capsulepanelwithdrawaldirectionandsweptvolume",
+        "exactpricedSKUrevision",
+        "coolantconnectionsandminimumhoseradii",
+        "mountheight",
+        "continuousoutputhotambient",
+        "220Vacceptance",
+        "24Vstarteroptionnotpriced"
+      ],
+      "warning": "2machinesretained; noautomaticparallelgeneration"
+    }
+  ],
+  "alternatives_not_instantiated": [
+    {
+      "model": "6LPA-STP2+KMH50A-LP",
+      "LWH_reference": [
+        1220,
+        666,
+        739
+      ],
+      "dry_mass_reference_kg": 459,
+      "limit": "M03/M04source dimensionrevisionconflict1190/1220; gearmass excludesfootcoolerdamper; EUnewbuildapprovalOPEN; not substitutedinmainblock"
+    },
+    {
+      "model": "Panda15000i230V",
+      "capsule_LWH": [
+        650,
+        465,
+        589
+      ],
+      "mass_capsule_plus_external_inverter_kg": 176,
+      "limit": "160capsule+16externalPMGi; PMGigeometryandcoolingmustadd; not substitutedforchosen12000xblocks"
+    }
+  ],
+  "layout_rules": [
+    "Maintenanceenvelopes may share a common clearaisle if simultaneousservice not required; no fixedunit inside functionalaccess area",
+    "Topreserve350 is preliminary hand/cover allowance, not proofwholecapsule can be removed",
+    "Machinebase/foundationandfuturefloorlevelindependent; do notfitbyloweringfloor without hullclearance check",
+    "Allthreeequipmentrectangles nominalfootprintsum1.814m2 excludingallserviceareas; sumofrectanglesnotMOsize"
+  ],
+  "sources": [
+    {
+      "id": "Y-SPEC",
+      "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/03/DS_8LV320-350-370_A4_2021_1018_HR.pdf?download=1",
+      "local_path": ".local/M03/yanmar/8lv-spec-2021.pdf",
+      "pages": "PDF1-2",
+      "edition": "2021-10",
+      "sha256": "f03f23eb617badd188a14473284f16131e04133d6e7fbcf588074107b15e6fba"
+    },
+    {
+      "id": "Y-MAN",
+      "url": "https://www.yanmar.com/marine/wp-content/uploads/2020/03/0A8LV-EN0013_2019.08.pdf?download=1",
+      "local_path": ".local/M03/yanmar/8lv-manual-2019.pdf",
+      "pages": "printed13/PDF19 figures1-2; printed11 duty",
+      "edition": "2019-08",
+      "sha256": "3fff70ce81ff2e9a43c922749d6c4b9ebb96a0ecf60eae600a922003adbdf807"
+    },
+    {
+      "id": "P-SPEC",
+      "url": "https://www.onefischerpanda.com/fileadmin/content/product-information/marine-generators-compact-power/12000x/Panda_12000x_PMS_-_EN.pdf",
+      "local_path": ".local/M03/panda/12000x-datasheet.pdf",
+      "pages": "PDF1",
+      "edition": "not stated",
+      "sha256": "13c864fe0b3e939c01a8237648d0d14062a7830dc64d7d6364febe6c18459aa0"
+    },
+    {
+      "id": "P-MAN",
+      "url": "https://www.fischerpanda.de/fileadmin/user_upload/generators/generator_media_web/FP1-302229.pdf",
+      "local_path": ".local/M03/panda/12000x-manual-legacy.pdf",
+      "pages": "printed34-36 components;50-51 access",
+      "edition": "2016-06-10 legacy; exactSKUconfirmationrequired",
+      "sha256": "2f3ea47c53f7df2835db86c47306ee56867f34c39a5faa54e99e00b164baa6b0"
+    }
+  ]
+}

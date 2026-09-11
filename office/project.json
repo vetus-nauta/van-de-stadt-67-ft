@@ -4,7 +4,7 @@
   "created_on": "2026-09-10",
   "office_version": "1.1",
   "office_status": "AGENT_OFFICE_PLAN_ACCEPTED_FOR_SCOPE",
-  "technical_status": "G03_APPROXIMATE_CENTRAL_ENGINE_ROOM_ENVELOPE_WITH_OPEN_INTERFACES",
+  "technical_status": "G03_BLOCK_LAYOUT_TEST_COMPLETE_FULL_FIT_OPEN",
   "estimate_status": "TEMPLATE_PREPARED_NOT_APPROVED_BUDGET",
   "source_commit": "786f60ae55773337f780860f8043b4232c8b16b7",
   "source_spec_rows": 73,
@@ -28,7 +28,7 @@
   "utv_definition": "Утверждённая исходная смета / базовый бюджет — прямой ответ Алексея 10.09.2026",
   "market_context": "Europe / Poland; российские сметные нормы и цены не применяются",
   "baseline_commit": "9eca7cce48295ec2a718f27011d24c1604b90e30",
-  "current_stage": "G03 — предварительное пятно/высота центрального МО с нижним камбузом; дальше упаковка агрегатов и перепланировка прохода/трапов",
+  "current_stage": "G03/v002 — прямоугольники оборудования и сервис; далее устранить конфликты RO/EX3 и разместить гидропривод до выбора полов",
   "future_design_intents": "data/office/design-intents.csv",
   "geometry_deliverable": "deliverables/G02/v001/00_sprint-result.md",
   "geometry_open_limit": "G02: второе CAD-чтение и частичная привязка выполнены; spline/6387/единицы, полная идентичность и натурное соответствие открыты; варианты A/B не прошли проверку помещаемости",
@@ -54,7 +54,7 @@
   "powerplant_scope_guide": "deliverables/M06/v001/01_support/00_readme.md",
   "powerplant_rfq_draft": "deliverables/M06/v001/01_support/RFQ-draft-en.md",
   "powerplant_scope_status": "SCHEDULE_PREPARED_TECHNICAL_AND_SUPPLY_CLOSURE_OPEN",
-  "central_engine_room_study": "deliverables/G03/v001/00_central-engine-room.pdf",
-  "central_engine_room_study_basis": "deliverables/G03/v001/01_support/proposal.json",
-  "central_engine_room_study_status": "PROPOSED_NOT_OWNER_SELECTED_NOT_FIT_CHECKED"
+  "central_engine_room_study": "deliverables/G03/v002/00_equipment-block-layout.pdf",
+  "central_engine_room_study_basis": "deliverables/G03/v002/01_support/layout.json",
+  "central_engine_room_study_status": "TEST_NOT_MINIMUM_OR_FLOOR_APPROVAL_SERVICE_AND_REQUIRED_HP_OPEN"
 }

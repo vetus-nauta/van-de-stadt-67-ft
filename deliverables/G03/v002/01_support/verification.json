@@ -1,0 +1,428 @@
+{
+  "release": "G03/v002",
+  "date": "2026-09-11",
+  "basis_commit": "03eb672cb046f9945b1813feffc721b9bd592491",
+  "scope": "Evidence/quantities/rectangular arithmetic/readability; OPEN fit results correctly disclosed",
+  "checks": [
+    {
+      "check": "35 unique bodies",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity MAIN",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity GEN",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX01",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX03",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX04",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX05",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX11",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX14",
+      "status": "PASS"
+    },
+    {
+      "check": "Fixed quantity AX15",
+      "status": "PASS"
+    },
+    {
+      "check": "Main OEM envelope",
+      "status": "PASS"
+    },
+    {
+      "check": "Two generators rotated rigidly",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size H",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size W24",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size W220",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size HW",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size C1",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size C2",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size CP",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size RO",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size F",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size OIL",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size EX1",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size EX2",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size EX3",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size BIL",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size AIR1",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size AIR2",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size BD",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size BG1",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size BG2",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size DC",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size AC",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size INV1",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size INV2",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size ISO",
+      "status": "PASS"
+    },
+    {
+      "check": "Aux size IW",
+      "status": "PASS"
+    },
+    {
+      "check": "Individual service battery cells sum to two trays",
+      "status": "PASS"
+    },
+    {
+      "check": "Body interference recomputed",
+      "status": "PASS"
+    },
+    {
+      "check": "Open service conflicts recomputed",
+      "status": "PASS"
+    },
+    {
+      "check": "Required hydraulic block not falsely placed",
+      "status": "PASS"
+    },
+    {
+      "check": "Five external/unplaced functions",
+      "status": "PASS"
+    },
+    {
+      "check": "Area wet",
+      "status": "PASS"
+    },
+    {
+      "check": "Area dry",
+      "status": "PASS"
+    },
+    {
+      "check": "Area outer",
+      "status": "PASS"
+    },
+    {
+      "check": "Compact widths",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds D",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds V",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds G1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds G2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds H",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds W24",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds W220",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds HW",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds C1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds C2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds CP",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds RO",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds F",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds OIL",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds EX1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds EX2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds EX3",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BIL",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds AIR1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds AIR2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS3",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS4",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS5",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BS6",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BD",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BG1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds BG2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds DC",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds AC",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds INV1",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds INV2",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds ISO",
+      "status": "PASS"
+    },
+    {
+      "check": "Bounds IW",
+      "status": "PASS"
+    },
+    {
+      "check": "OEM local source SHA Y-SPEC",
+      "status": "PASS"
+    },
+    {
+      "check": "OEM local source SHA Y-MAN",
+      "status": "PASS"
+    },
+    {
+      "check": "OEM local source SHA P-SPEC",
+      "status": "PASS"
+    },
+    {
+      "check": "OEM local source SHA P-MAN",
+      "status": "PASS"
+    },
+    {
+      "check": "Hull source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Sampled shell floor bound wet_outer",
+      "status": "PASS"
+    },
+    {
+      "check": "Sampled shell floor bound dry_cabinet_outer",
+      "status": "PASS"
+    },
+    {
+      "check": "Sampled shell floor bound side_passage",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV consistent data/office/tasks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV consistent data/office/decisions.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV consistent deliverables/G03/v002/01_support/coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "CSV consistent deliverables/G03/v002/01_support/blocks.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "All 29 ME groups covered",
+      "status": "PASS"
+    },
+    {
+      "check": "Published old sources/releases unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Python parse sample_shell.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python parse build_blocks.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Four A3 PDF pages",
+      "status": "PASS"
+    },
+    {
+      "check": "PDF key values readable",
+      "status": "PASS"
+    },
+    {
+      "check": "Root visually inspected four PNG sheets",
+      "status": "PASS"
+    }
+  ],
+  "body_interferences": [],
+  "service_obstacles": [
+    {
+      "service": "G1-A",
+      "obstacle": "RO"
+    },
+    {
+      "service": "G1-A",
+      "obstacle": "EX3"
+    }
+  ],
+  "not_checked": [
+    "Global minimum permissible size",
+    "All detailed service/removal sweeps",
+    "Electrical/hydraulic suitability",
+    "Scantlings and hull as-built match",
+    "Final floor and roof levels",
+    "Ventilation/thermal/fire design"
+  ],
+  "pdf_sha256": "6567293c46d8ded563e0afbcfe4f772fd5d43386f87ca0f2f245289ecb2133ea"
+}
