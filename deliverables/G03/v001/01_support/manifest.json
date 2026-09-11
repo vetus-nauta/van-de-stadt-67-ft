@@ -1,0 +1,89 @@
+{
+  "release": "G03/v001",
+  "date": "2026-09-11",
+  "basis_commit": "52dc6782db6c157f4fd48d48fff337d11505cde4",
+  "status": "APPROXIMATE_ENVELOPE_WITH_OPEN_LAYOUT_INTERFACES",
+  "release_decision": "Root accepts approximate analytical sketch after independent review; no as-built, fit, strength or owner layout approval. Broader G03 furniture/tender/garage scope remains open.",
+  "files": [
+    {
+      "path": "00_central-engine-room.pdf",
+      "bytes": 70925,
+      "sha256": "21f3085ab8e0d4bc76ad314a1a20f3e67d0bcbef49da6072d7fa2b4349c12892"
+    },
+    {
+      "path": "01_support/00_readme.md",
+      "bytes": 13839,
+      "sha256": "fdcd9078e1bbcc229363eaca8c444d03d848b4b4ca7ec7dc9cb98ff2569aa442"
+    },
+    {
+      "path": "01_support/area-height.csv",
+      "bytes": 328,
+      "sha256": "fcb73ab909f3820f9d571acee25468ce4f6bcf765afaed210a049aa6077f2851"
+    },
+    {
+      "path": "01_support/build_proposal.py",
+      "bytes": 17051,
+      "sha256": "899827a65318ca5db010f4c6e7246833dc7bb23fe3e6a91816e9c342776005b3"
+    },
+    {
+      "path": "01_support/extract_geometry.py",
+      "bytes": 7081,
+      "sha256": "8ff4c633fb206cf33fc573760be9d96a9affd8478e3fc40700d526289c5c33b9"
+    },
+    {
+      "path": "01_support/geometry-basis.json",
+      "bytes": 406183,
+      "sha256": "c19fe89b190d3fb6a4308cabc7b1b73e8674b4f78cd55aae0894ff00b815831b"
+    },
+    {
+      "path": "01_support/geometry-basis.md",
+      "bytes": 13878,
+      "sha256": "f7931ce6aa4340fd4a50bf482d228415b4c7e5dc95f79488bd8de8633828b4d8"
+    },
+    {
+      "path": "01_support/plan.png",
+      "bytes": 322425,
+      "sha256": "1c4581b95f1a830bafaae5a5ea106bb9addf731199892907d91b9b4959f2eb43"
+    },
+    {
+      "path": "01_support/plan.svg",
+      "bytes": 92216,
+      "sha256": "2960b8142682173bec7752f561ab1949f2bb30481e12a8b2cf8acca66d66cb75"
+    },
+    {
+      "path": "01_support/proposal.json",
+      "bytes": 3647,
+      "sha256": "2e3afd890f53f7980e5d796d2e0012f936ec0febc9b7535c2a73604eda77ebc6"
+    },
+    {
+      "path": "01_support/review.md",
+      "bytes": 6864,
+      "sha256": "aecee4a1c279ae13431eac654f81248cc72273ccd2282784127b9684859bf87f"
+    },
+    {
+      "path": "01_support/section.png",
+      "bytes": 301008,
+      "sha256": "ede877faf5ba189ed934041ee1e3515c51de505b668c34a1b0c7b519bef5ab7d"
+    },
+    {
+      "path": "01_support/section.svg",
+      "bytes": 39621,
+      "sha256": "ee4149230445973edda43be0e8b17dbacd43964015d552652b29bdcef901b1ae"
+    },
+    {
+      "path": "01_support/source-plan.json",
+      "bytes": 7305,
+      "sha256": "6e3bce4d839c7a94bbe33186a120907f3c7595f3697f5f4c3749755bb4be5d23"
+    },
+    {
+      "path": "01_support/source-plan.md",
+      "bytes": 10953,
+      "sha256": "f7a7bf996e75c88c7523f3c8c839d9f7649d3bc58672c6059ebd86371c2a3d36"
+    },
+    {
+      "path": "01_support/verification.json",
+      "bytes": 5478,
+      "sha256": "19b5db2d11093a0ebd2c025ad9c2ff33043783ac921f286649b6aee58ab99112"
+    }
+  ]
+}

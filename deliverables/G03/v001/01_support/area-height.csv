@@ -1,0 +1,4 @@
+case;outer_length_m;outer_width_m;outer_area_m2;inner_length_m;inner_width_m;inner_area_m2;clear_height_m;passage_width_m;status
+GA source;2.378;3.936;9.36;2.179;3.751;8.18;;;CALIBRATED_DRAWING_NOT_AS_BUILT
+A;3.6;2.6;9.36;3.4;2.4;8.16;;0.75;LOW_PASSAGE_HEADROOM_REJECTED
+B;4.2;2.1;8.82;4.0;1.9;7.6;1.47;0.7;CONDITIONAL_PROPOSAL

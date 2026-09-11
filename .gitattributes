@@ -48,3 +48,7 @@ deliverables/M06/** -text whitespace=cr-at-eol
 
 # Preserve upstream font licence formatting verbatim.
 experiments/**/font-license.txt -whitespace
+
+# G03 approximate geometry study: preserve reviewed mesh/plot/calculation bytes.
+deliverables/G03/** -text whitespace=cr-at-eol
+deliverables/G03/**/*.svg -whitespace linguist-generated=true

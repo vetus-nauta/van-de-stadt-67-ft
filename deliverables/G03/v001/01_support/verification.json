@@ -1,0 +1,244 @@
+{
+  "release": "G03/v001",
+  "date": "2026-09-11",
+  "basis_commit": "52dc6782db6c157f4fd48d48fff337d11505cde4",
+  "scope": "Arithmetic/source integrity/artifact readability only; not engineering approval",
+  "checks": [
+    {
+      "check": "outer area",
+      "status": "PASS"
+    },
+    {
+      "check": "inner area",
+      "status": "PASS"
+    },
+    {
+      "check": "centered room",
+      "status": "PASS"
+    },
+    {
+      "check": "wall length",
+      "status": "PASS"
+    },
+    {
+      "check": "wall width",
+      "status": "PASS"
+    },
+    {
+      "check": "ER rounded floor",
+      "status": "PASS"
+    },
+    {
+      "check": "passage rounded floor",
+      "status": "PASS"
+    },
+    {
+      "check": "ER floor allowance",
+      "status": "PASS"
+    },
+    {
+      "check": "passage floor allowance",
+      "status": "PASS"
+    },
+    {
+      "check": "ceiling",
+      "status": "PASS"
+    },
+    {
+      "check": "MO height",
+      "status": "PASS"
+    },
+    {
+      "check": "volume",
+      "status": "PASS"
+    },
+    {
+      "check": "passage width",
+      "status": "PASS"
+    },
+    {
+      "check": "passage area",
+      "status": "PASS"
+    },
+    {
+      "check": "open well height",
+      "status": "PASS"
+    },
+    {
+      "check": "roof lateral margin",
+      "status": "PASS"
+    },
+    {
+      "check": "two metre MO floor",
+      "status": "PASS"
+    },
+    {
+      "check": "two storey roof raise",
+      "status": "PASS"
+    },
+    {
+      "check": "GA LOA calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area engine_room_outer_main_rectangle",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area engine_room_inner_main_rectangle",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area galley_appliance_band_starboard",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area existing_passage_starboard_of_engine_room",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area aft_companion_stair_near_center",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area aft_starboard_stair",
+      "status": "PASS"
+    },
+    {
+      "check": "GA area aft_port_stair",
+      "status": "PASS"
+    },
+    {
+      "check": "Source SHA experiments/EXP-003/01_support/model/experiment.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "Source SHA experiments/EXP-003/01_support/model/parameters.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Source SHA deliverables/G02/v001/01_support/alignment/transform.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Source SHA deliverables/G02/v001/01_support/alignment/sections-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Source SHA deliverables/G02/v001/01_support/alignment/curves-working.json",
+      "status": "PASS"
+    },
+    {
+      "check": "GA source PDF SHA",
+      "status": "PASS"
+    },
+    {
+      "check": "tasks CSV widths and unique IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "decisions CSV widths and unique IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "design-intents CSV widths and unique IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Area CSV widths",
+      "status": "PASS"
+    },
+    {
+      "check": "Prior drawings and releases unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "PDF two A3 pages",
+      "status": "PASS"
+    },
+    {
+      "check": "PDF contains key printed values",
+      "status": "PASS"
+    },
+    {
+      "check": "Root visually inspected plan and section PNG",
+      "status": "PASS"
+    },
+    {
+      "check": "Independent review PASS for sketch",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 00_central-engine-room.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/proposal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/area-height.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/geometry-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/plan.png",
+      "status": "PASS"
+    },
+    {
+      "check": "Reviewed bytes 01_support/section.png",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link source-plan.md:source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:../00_central-engine-room.pdf",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:source-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:proposal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:area-height.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:geometry-basis.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:geometry-basis.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Local link 00_readme.md:review.md",
+      "status": "PASS"
+    }
+  ],
+  "not_checked": [
+    "As-built interior identity",
+    "Equipment and service fit",
+    "Shaft line and foundations",
+    "Fire separation and structural openings",
+    "Continuous door/stair/galley route"
+  ],
+  "main_pdf_sha256": "21f3085ab8e0d4bc76ad314a1a20f3e67d0bcbef49da6072d7fa2b4349c12892"
+}
