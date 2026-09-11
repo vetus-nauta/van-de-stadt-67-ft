@@ -1,0 +1,25 @@
+{
+  "basis_commit": "87025e21fd038ef02d67b5a7400696e9030fd5d7",
+  "files": [
+    {
+      "path": "Машина - версия 1.0/Основные документы/01_Смета машинного отделения.xlsx",
+      "source_path": "Машина - версия 1.0/Документы/deliverables/M07/v001/00_engine-room-estimate.xlsx",
+      "sha256": "b4eaf485d69df0432c9d13eda988f7046bd9f7601063b05576edb20f469532f6"
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/02_Смета для печати.pdf",
+      "source_path": "Машина - версия 1.0/Документы/deliverables/M07/v001/01_support/01_estimate-print.pdf",
+      "sha256": "46b54f181a435fb979a467c2da6e5b2c549b32ddf8ae8844a11be609330e7e9c"
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/03_КАЦ оборудования.xlsx",
+      "source_path": "Машина - версия 1.0/Документы/deliverables/M03/v001/00_working-KAC.xlsx",
+      "sha256": "65060bed53e362a17d0a38c0586b79f67f5285fe191f8c7bdf9ebaf4c86640a7"
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/04_Цены и предложения из открытых источников.xlsx",
+      "source_path": "Машина - версия 1.0/Документы/deliverables/M02/v001/00_market-analysis.xlsx",
+      "sha256": "65ba4f6bc2c128e9f120a484c7bcf8bec9f6b69503ef858c2096301ef2446cab"
+    }
+  ]
+}

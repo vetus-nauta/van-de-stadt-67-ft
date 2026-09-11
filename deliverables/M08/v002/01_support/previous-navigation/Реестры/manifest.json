@@ -11,14 +11,14 @@
     },
     {
       "path": "00_Оглавление.html",
-      "bytes": 145530,
-      "sha256": "582be432419ae371248795965820142b07d9860e1928576b3b651f22e93221a5",
+      "bytes": 143892,
+      "sha256": "32d60a81c1dd62df2b28ddfa272e16feae5306250e3a224fc195dd4efde6e569",
       "visibility": "PUBLIC"
     },
     {
       "path": "README.md",
-      "bytes": 4201,
-      "sha256": "8c44287cd77d34c683ac99c277aed8c4a67b454de2cfd3297ee8c594ebccac75",
+      "bytes": 3891,
+      "sha256": "4686105168b8b2a3d712c25a1123022031660eb168d986f8164a79036411806e",
       "visibility": "PUBLIC"
     },
     {
@@ -3154,36 +3154,6 @@
       "visibility": "LOCAL_ONLY"
     },
     {
-      "path": "Основные документы/01_Смета машинного отделения.xlsx",
-      "bytes": 86916,
-      "sha256": "b4eaf485d69df0432c9d13eda988f7046bd9f7601063b05576edb20f469532f6",
-      "visibility": "PUBLIC"
-    },
-    {
-      "path": "Основные документы/02_Смета для печати.pdf",
-      "bytes": 66767,
-      "sha256": "46b54f181a435fb979a467c2da6e5b2c549b32ddf8ae8844a11be609330e7e9c",
-      "visibility": "PUBLIC"
-    },
-    {
-      "path": "Основные документы/03_КАЦ оборудования.xlsx",
-      "bytes": 98405,
-      "sha256": "65060bed53e362a17d0a38c0586b79f67f5285fe191f8c7bdf9ebaf4c86640a7",
-      "visibility": "PUBLIC"
-    },
-    {
-      "path": "Основные документы/04_Цены и предложения из открытых источников.xlsx",
-      "bytes": 58367,
-      "sha256": "65ba4f6bc2c128e9f120a484c7bcf8bec9f6b69503ef858c2096301ef2446cab",
-      "visibility": "PUBLIC"
-    },
-    {
-      "path": "Основные документы/README.md",
-      "bytes": 1221,
-      "sha256": "4f0334761d601719facbd86256de7a763098b8132bae33ffb1ffe0d3ba831525",
-      "visibility": "PUBLIC"
-    },
-    {
       "path": "Реестры/Документы.csv",
       "bytes": 147093,
       "sha256": "d3c67731170b9085e71e3db7f3007c674bd9d0dfab3a2ec946c9df38f51c6ea8",
@@ -3219,6 +3189,5 @@
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
       "visibility": "PUBLIC"
     }
-  ],
-  "navigation_revision": "M08/v002: D032; four primary copies in Основные документы; original issued calculations unchanged"
+  ]
 }

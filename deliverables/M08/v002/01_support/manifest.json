@@ -1,0 +1,82 @@
+{
+  "revision": "M08/v002",
+  "decision": "D032",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "deliverables/M08/v002/00_navigation.md",
+      "sha256": "10c92caf4f83b45b7ecc852219e78e5be38fc5674c4f464396e84b6bfb93ed57",
+      "bytes": 1104
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/copies.json",
+      "sha256": "5d593f5980d450972cb58351346198d794b39ff770248053b4ee3c64941d3266",
+      "bytes": 1521
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/previous-navigation/00_Оглавление.html",
+      "sha256": "32d60a81c1dd62df2b28ddfa272e16feae5306250e3a224fc195dd4efde6e569",
+      "bytes": 143892
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/previous-navigation/README.md",
+      "sha256": "4686105168b8b2a3d712c25a1123022031660eb168d986f8164a79036411806e",
+      "bytes": 3891
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/previous-navigation/Реестры/manifest.json",
+      "sha256": "32a491f5706d69c7ed7b3f0482b579ff4452d41786f1d7aed91ca8fb9436fa69",
+      "bytes": 123817
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/review.md",
+      "sha256": "8245fbbafe26a28673fb31033a2d0f34aa1bec3fdb8703a1691f6108e68049ea",
+      "bytes": 2665
+    },
+    {
+      "path": "deliverables/M08/v002/01_support/verification.json",
+      "sha256": "68ecc3c71accef40cff9b88eec4097ec8b7782838c715bfb9e3615ef44874b91",
+      "bytes": 144
+    },
+    {
+      "path": "Машина - версия 1.0/00_Оглавление.html",
+      "sha256": "582be432419ae371248795965820142b07d9860e1928576b3b651f22e93221a5",
+      "bytes": 145530
+    },
+    {
+      "path": "Машина - версия 1.0/README.md",
+      "sha256": "8c44287cd77d34c683ac99c277aed8c4a67b454de2cfd3297ee8c594ebccac75",
+      "bytes": 4201
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/01_Смета машинного отделения.xlsx",
+      "sha256": "b4eaf485d69df0432c9d13eda988f7046bd9f7601063b05576edb20f469532f6",
+      "bytes": 86916
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/02_Смета для печати.pdf",
+      "sha256": "46b54f181a435fb979a467c2da6e5b2c549b32ddf8ae8844a11be609330e7e9c",
+      "bytes": 66767
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/03_КАЦ оборудования.xlsx",
+      "sha256": "65060bed53e362a17d0a38c0586b79f67f5285fe191f8c7bdf9ebaf4c86640a7",
+      "bytes": 98405
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/04_Цены и предложения из открытых источников.xlsx",
+      "sha256": "65ba4f6bc2c128e9f120a484c7bcf8bec9f6b69503ef858c2096301ef2446cab",
+      "bytes": 58367
+    },
+    {
+      "path": "Машина - версия 1.0/Основные документы/README.md",
+      "sha256": "4f0334761d601719facbd86256de7a763098b8132bae33ffb1ffe0d3ba831525",
+      "bytes": 1221
+    },
+    {
+      "path": "Машина - версия 1.0/Реестры/manifest.json",
+      "sha256": "cd698d64a52ac22a25c15537780d3e52c9bf7e95c0a1168579b3893b49bbc857",
+      "bytes": 125195
+    }
+  ]
+}

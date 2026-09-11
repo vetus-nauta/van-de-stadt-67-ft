@@ -61,5 +61,6 @@
   "engine_room_estimate_basis": "deliverables/M07/v001/01_support/00_readme.md",
   "engine_room_estimate_tax": "INLINE_PL23_PROVISIONAL_PLUS_SOURCE_GROSS_UNSPLIT",
   "engine_room_package": "Машина - версия 1.0/00_Оглавление.html",
-  "engine_room_package_status": "V1_DOCUMENT_SNAPSHOT_WITH_LOCAL_ONLY_OEM_PDFS"
+  "engine_room_package_status": "V1_DOCUMENT_SNAPSHOT_WITH_LOCAL_ONLY_OEM_PDFS",
+  "engine_room_main_documents": "Машина - версия 1.0/Основные документы/"
 }
