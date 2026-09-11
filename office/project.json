@@ -46,5 +46,8 @@
   "machinery_working_kac_status": "DRAFT_OPEN_NO_APPROVED_EQUIPMENT_OR_BUDGET",
   "tax_scheme_status": "BUYER_VAT_IMPORTER_AND_INTENDED_USE_UNKNOWN; no automatic23percent/deduction",
   "machinery_yanmar_addendum": "deliverables/M04/v001/00_yanmar-completeness.md",
-  "machinery_yanmar_addendum_status": "PUBLIC_COMPONENT_PRICES_WITH_OPEN_EXACT_ASSEMBLY"
+  "machinery_yanmar_addendum_status": "PUBLIC_COMPONENT_PRICES_WITH_OPEN_EXACT_ASSEMBLY",
+  "machinery_price_substitutions": "deliverables/M05/v001/01_support/price-substitutions.csv",
+  "machinery_price_substitution_guide": "deliverables/M05/v001/00_price-substitutions.md",
+  "machinery_price_substitution_status": "WORKING_SOURCE_BASED_PRICES_WITH_DISCLOSED_LIMITS_NOT_QUOTATION"
 }
