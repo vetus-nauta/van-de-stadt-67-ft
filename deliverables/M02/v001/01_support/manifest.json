@@ -1,0 +1,171 @@
+{
+  "status": "CHECKSUMS_ONLY_NOT_APPROVAL",
+  "algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".local",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "00_market-analysis.xlsx",
+      "sha256": "65ba4f6bc2c128e9f120a484c7bcf8bec9f6b69503ef858c2096301ef2446cab",
+      "bytes": 58367
+    },
+    {
+      "path": "01_support/00_findings.md",
+      "sha256": "6cb75c95cbdfaa531f20d61acc77a2d8a7be96dd0028c2a8eecd9bc132da4815",
+      "bytes": 13372
+    },
+    {
+      "path": "01_support/01_sources-and-files.md",
+      "sha256": "fdc25dd0cb2bf764c408106ebe5332e8e2510d962aa59a12d969d9f5fb7e7f75",
+      "bytes": 3466
+    },
+    {
+      "path": "01_support/02_acceptance.md",
+      "sha256": "70ad18fc317957e8e460fdfd8a48e7a70fbb2877a1935287260e43d4af53ab6a",
+      "bytes": 4181
+    },
+    {
+      "path": "01_support/all-candidates.csv",
+      "sha256": "337c1fcb4f7a96a6967d4a81b58e69bca747bf9433f014240cc338413f264133",
+      "bytes": 47175
+    },
+    {
+      "path": "01_support/auxiliary/candidates.csv",
+      "sha256": "9a762332a5b4a4225e8a6baeaf32266b4351c0ee3afcfa6ccaa43accfc7bc2d4",
+      "bytes": 12038
+    },
+    {
+      "path": "01_support/auxiliary/research.md",
+      "sha256": "7bd41d50e790cdbb45aa7bc682aef421b3c0452ebbc1145c36dd418df6d33232",
+      "bytes": 9905
+    },
+    {
+      "path": "01_support/basis.md",
+      "sha256": "60b6adc8ebc9f263ecd3d0785e49477f08ef0befc0093c074f21b196c6e0c4fd",
+      "bytes": 6722
+    },
+    {
+      "path": "01_support/build_market.py",
+      "sha256": "c2481307e4f4b83d59b5a085f70492cf94cc74c33ba3a3001d225b7277f879d6",
+      "bytes": 22713
+    },
+    {
+      "path": "01_support/checked-inputs.json",
+      "sha256": "808d3b663b9b42662344f48c579c599a42c9c7c29b42970b20ed14f9f17f6bcc",
+      "bytes": 3022
+    },
+    {
+      "path": "01_support/comparison.csv",
+      "sha256": "d3a3e8ff011afb20cb1644e3d6e65d7d59ce58d0a924da8070d8adcea913d605",
+      "bytes": 12245
+    },
+    {
+      "path": "01_support/coverage.csv",
+      "sha256": "a7dcadc3222eddd823a1995f5d6b35d2ae31dfac9f0cdc6db46a761ca1e9396f",
+      "bytes": 9751
+    },
+    {
+      "path": "01_support/dimensions.csv",
+      "sha256": "ed37415a64d7e27493595a8925115a38f2302c91e04cb401c9f71008a77739a9",
+      "bytes": 13003
+    },
+    {
+      "path": "01_support/electrical/candidates.csv",
+      "sha256": "84a1acf3278b2e3b44896db4393e52f483cf0e2c97a0aeac6cc7650aa9b5e33a",
+      "bytes": 8230
+    },
+    {
+      "path": "01_support/electrical/research.md",
+      "sha256": "9c8a975e2bcbaa97ecfb477f1efda5f7da224008d0bfc42166f7af1278aceb58",
+      "bytes": 16729
+    },
+    {
+      "path": "01_support/fx.json",
+      "sha256": "1327751d48af03052c3ab482af8cec48efc8c4de7e15562022ed2acd8e302150",
+      "bytes": 441
+    },
+    {
+      "path": "01_support/propulsion/archive-note.md",
+      "sha256": "801c8c4c99ba0b5d8795397afb198925e29c5c4d8f496e6491a39a85c15ff277",
+      "bytes": 2316
+    },
+    {
+      "path": "01_support/propulsion/candidates.csv",
+      "sha256": "aba7e9cbbb1cbf03d32a5c9569a3239f435cef626135ead1f468e6de2775ade4",
+      "bytes": 6290
+    },
+    {
+      "path": "01_support/propulsion/live-price-extracts.json",
+      "sha256": "8f59e923753df89d0a9d8acb3f9a94c6647dba8af7b7eba84985f53999913bd6",
+      "bytes": 2248
+    },
+    {
+      "path": "01_support/propulsion/pdf-archive.json",
+      "sha256": "be117d1a18ed1f89f870e2363dd98f39822160120cd7e365391176e7f6cb8277",
+      "bytes": 1986
+    },
+    {
+      "path": "01_support/propulsion/research.md",
+      "sha256": "ce04621b459edecaed8e059768cb463aed1838a7c617c0223759ce2ed4702043",
+      "bytes": 13565
+    },
+    {
+      "path": "01_support/review/auxiliary-review.md",
+      "sha256": "30fbfc8a8d0682c42132c25413ab6edea6d203531a66dbe7360d89df8dbde5bd",
+      "bytes": 5335
+    },
+    {
+      "path": "01_support/review/electrical-review.md",
+      "sha256": "450c83e1ac8b909833db5f58a22dd9805d5db57ef1f4fa5eb4c57ea188f6ab74",
+      "bytes": 3914
+    },
+    {
+      "path": "01_support/review/integration-review.md",
+      "sha256": "b71d60b32ab8fd2aa2d1528dc8a6bc2d821a8d79dbfd46527b85b607a0d65436",
+      "bytes": 7634
+    },
+    {
+      "path": "01_support/review/propulsion-review.md",
+      "sha256": "0b6caed51361d0565b8b87c214da35b79cbb20d5a40feaede8e38bbada5eef46",
+      "bytes": 5303
+    },
+    {
+      "path": "01_support/review/water-climate-review.md",
+      "sha256": "3b3f1d92da44d2e9c65b030dec12b677190310f5a245acc40f88b0ee1d8de237",
+      "bytes": 5377
+    },
+    {
+      "path": "01_support/service-outcomes.csv",
+      "sha256": "4bf02d26e1f5c4ce2f67ef6031a1084559988b74696f312901c95cf1dc73c511",
+      "bytes": 7373
+    },
+    {
+      "path": "01_support/water-climate/build_register.py",
+      "sha256": "b2e9841c9554fae04f5bee19b291bedf46f6c9e4b45fb60947d97044468b40c4",
+      "bytes": 9780
+    },
+    {
+      "path": "01_support/water-climate/candidates.csv",
+      "sha256": "63d7317c9b57e65d522b39a6f20cfdef7d0c1f0f3c48213091d27d23163f544a",
+      "bytes": 9943
+    },
+    {
+      "path": "01_support/water-climate/research.md",
+      "sha256": "472e483faec72276179d40924e58b83cc34476eeecbdd261d2933948cb55f3ae",
+      "bytes": 17030
+    },
+    {
+      "path": "01_support/water-climate/sources/cache-manifest.json",
+      "sha256": "0c2aab3953db0d2feefcdf51b09462a36f7f2ce42c858a2cebf93837b6139bb5",
+      "bytes": 1213
+    },
+    {
+      "path": "01_support/water-climate/sources/evidence-extracts.md",
+      "sha256": "71cbb55892e9a923f596c67d5a99a7fdceebca9af68aec7ea2c50a19934b054a",
+      "bytes": 981
+    }
+  ]
+}

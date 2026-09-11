@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.dbmoteurs.fr/sites/default/files/Volvo-Penta-tarifs-prix-achat-moteurs-2023-DB-Moteurs-motorisation-marine-bateau-plaisance.pdf",
+    "local_relative_path": ".local/M02/propulsion-source-cache/volvo-penta-price-2023.pdf",
+    "sha256": "a2d9dec8969b74096ddb69f882cdad09f2054cf888095eade78c8fb14c786d1c",
+    "date": "2026-09-11",
+    "type": "price_historical",
+    "note": "March2023 public tariff; not quotation",
+    "bytes": 1474377,
+    "pages": 4,
+    "pdf_magic_verified": true
+  },
+  {
+    "url": "https://www.dbmoteurs.fr/sites/default/files/Moteur-Volvo-Penta-D4-270-300-320-fiche-commerciale-2021-47711815-en.pdf",
+    "local_relative_path": ".local/M02/propulsion-source-cache/volvo-penta-d4-2021.pdf",
+    "sha256": "07cca64133d147668f2bc6bc3d3c360136ff7a3df11c859e17c5b7ab9b1d433c",
+    "date": "2026-09-11",
+    "type": "spec",
+    "note": "May2021 brochure; HS85A dimensions not installation GA",
+    "bytes": 2775825,
+    "pages": 2,
+    "pdf_magic_verified": true
+  },
+  {
+    "url": "https://www.dbmoteurs.fr/sites/default/files/Moteur-Volvo-Penta-D6-300-340-380-fiche-commerciale-brochure-2021-47711891-fr-dbmoteurs.pdf",
+    "local_relative_path": ".local/M02/propulsion-source-cache/volvo-penta-d6-2021.pdf",
+    "sha256": "22d3c1a43c89361b38694b35a57a2dcf336a00b76d6013438ca0a83aba4e64d6",
+    "date": "2026-09-11",
+    "type": "spec",
+    "note": "May2021 brochure; HS85A dimensions not installation GA",
+    "bytes": 1010970,
+    "pages": 2,
+    "pdf_magic_verified": true
+  },
+  {
+    "url": "https://techcomm.rehlko.com/techcomm/pdf/g2186.pdf?download=1",
+    "local_relative_path": ".local/M02/propulsion-source-cache/rehlko-g2186.pdf",
+    "sha256": "caf5ae8d41a9901d126ba4bdce21c8a6feafc1745d1b99be1299be0221631c01",
+    "date": "2026-09-11",
+    "type": "spec",
+    "note": "Manufacturer datasheet; base URL403 bypassed by download=1; not quotation",
+    "bytes": 841386,
+    "pages": 6,
+    "pdf_magic_verified": true
+  }
+]

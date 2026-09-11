@@ -35,5 +35,10 @@
   "budget_template": "deliverables/U01/v001/00_UTV_template.xlsx",
   "budget_template_guide": "deliverables/U01/v001/01_support/00_readme.md",
   "machinery_inventory": "deliverables/M01/v001/00_equipment-list.md",
-  "latest_owner_system_requirements": "deliverables/M01/v001/01_support/owner-requirements.md"
+  "latest_owner_system_requirements": "deliverables/M01/v001/01_support/owner-requirements.md",
+  "machinery_market_analysis": "deliverables/M02/v001/00_market-analysis.xlsx",
+  "machinery_market_findings": "deliverables/M02/v001/01_support/00_findings.md",
+  "machinery_market_status": "PUBLIC_PRICE_RESEARCH_WITH_OPEN_OUTPUT_AND_SCOPE_INPUTS",
+  "comparison_owner_clarification": "Сравнивать полезный результат и полную функциональную стоимость; разные модели/номиналы/обвязка допустимы, количества основных агрегатов сохраняются. D021, 2026-09-11.",
+  "price_evidence_rule": "Прямой URL цены, дата просмотра, NET-основание и тип доказательства; доступные PDF локально с SHA; публичные цены не КП. D022."
 }

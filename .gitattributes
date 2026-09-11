@@ -39,5 +39,8 @@ experiments/** -text whitespace=cr-at-eol
 experiments/**/*.log -whitespace linguist-generated=true
 *.gz binary
 
+# M02: preserve exact reviewed supplier registers and generated workbook bytes.
+deliverables/M02/** -text whitespace=cr-at-eol
+
 # Preserve upstream font licence formatting verbatim.
 experiments/**/font-license.txt -whitespace
