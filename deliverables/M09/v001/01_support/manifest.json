@@ -1,0 +1,177 @@
+{
+  "release": "M09/v001",
+  "date": "2026-09-15",
+  "status": "REVIEWED_PARTIAL_ESTIMATE_NOT_UTV",
+  "files": [
+    {
+      "path": "deliverables/M09/v001/00_engine-room-estimate.xlsx",
+      "bytes": 90573,
+      "sha256": "e431e89d66878f69f86f9beea0ea3f396ae1abbefd74ffc68c268868150e1b42"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/00_acceptance.md",
+      "bytes": 2728,
+      "sha256": "7d8c76012909aa2544c160b2ea5c7917198be2e1282106e7aa89c0a19ffc7e19"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/00_readme.md",
+      "bytes": 6343,
+      "sha256": "f59edfc45c403fbb35e7f2bec5420107aed01505d43f770aced1d9fad0fd9fed"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/01_estimate-print.pdf",
+      "bytes": 76417,
+      "sha256": "1289a4abf408e946007e13a29c627ad26ad6ac920b73d034afea4f2befded2de"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/auxiliary/offers.json",
+      "bytes": 22874,
+      "sha256": "a7e2267066ecdf68b2b0e228c7cacff1fc568e1e77746c558e72a012dc734d1a"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/auxiliary/research.md",
+      "bytes": 10703,
+      "sha256": "8385ac6fc516e54323a985496b071515da73898d6283a93b64a87998f9a2fdc4"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/baseline-coverage.csv",
+      "bytes": 3162,
+      "sha256": "c3b1537e2800dda67a2e2710d4bd97ad7914eec77a09902cf3118fed21332866"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/build_documents.py",
+      "bytes": 19788,
+      "sha256": "22bade64145c87a467e3c7858cb608d6f14aa3222f3717facd79d31f2c9fc900"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/build_print.py",
+      "bytes": 5247,
+      "sha256": "cab745ef1f0a5dd2b3da7c76044cf320dcc276df5d4f9f3804e232ad61bfff79"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/calculated-components.csv",
+      "bytes": 170323,
+      "sha256": "0ab28adb896e0922fb2e9fc45532531a989afdb42d3a3d19d91b2d5a826147ff"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/components.csv",
+      "bytes": 58727,
+      "sha256": "d097f41397c416c8bae75c4407429c68b0475a47a30d93368d5f277e593741b8"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/electrical/offers.json",
+      "bytes": 15099,
+      "sha256": "fb2d79c46e3791c48f7ee5954a51b273cae496f85a663fcaface8ffe11247781"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/electrical/research.md",
+      "bytes": 6596,
+      "sha256": "b63a5a8d2df5409f8ffa8f1be6a7bc576d65979e29ff25e299f5f0a69aef1a83"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/estimate-lines.csv",
+      "bytes": 66677,
+      "sha256": "6374294c8090b644fc6021ee84fa7466d47fdbb86bd70b2da14d99dcd31eaf39"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/hydraulic/offers.json",
+      "bytes": 12326,
+      "sha256": "eba8dd6869d16cfc9a56c144c6eb4356a4a48d093d50a934c05f874c3bacddf3"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/hydraulic/research.md",
+      "bytes": 2810,
+      "sha256": "80466bbf89760d2f8a6aee247e7ce748e6c4f20c732d25bcdd3d2f073590defd"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/integration.json",
+      "bytes": 24270,
+      "sha256": "c67de25d14444f73cc38b6224b47ce950f760481d771c298981c69f44a23d46f"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/mechanical/offers.json",
+      "bytes": 24569,
+      "sha256": "dd197aab64a5aa4a507aee4aa5640607bf8039c2e47e193c7d04d6a23a760e04"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/mechanical/research.md",
+      "bytes": 14378,
+      "sha256": "80767be4e94421f3c084ed09771be8d907e60702755303e03a9688abc02a5610"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/price-register.csv",
+      "bytes": 94521,
+      "sha256": "0e72c640d279c8bb8c89e5d7ab84d845a77871b5c54220aa2bc13b97cea49cc7"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/review-electrical.md",
+      "bytes": 7089,
+      "sha256": "33dac3c4c7cf165a58b90da14de4cd1fd4100697cc8fec0c0daf5759f9644c14"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/review-integration.md",
+      "bytes": 7148,
+      "sha256": "6421767e39ec6150860b122d6cf07240812ce121d102bc5fb6952621ee896eb8"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/review-scope.md",
+      "bytes": 10693,
+      "sha256": "fc16d80ff96806e9ecdc7dccbe17394fbbb3c152b6f0afb0e1148c878fb7da2f"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/review-source-crosscheck.md",
+      "bytes": 5836,
+      "sha256": "20d82bac31f4615cc0b8d362920ccabae45721fb121d03ab0adcd8d539a8532e"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/summary.png",
+      "bytes": 142684,
+      "sha256": "3708976b508014ff5a51ceecf95e3d823456cc53d1f4484523221f1d24dd01b7"
+    },
+    {
+      "path": "deliverables/M09/v001/01_support/totals.json",
+      "bytes": 481,
+      "sha256": "514439f71ad33344257473b4f5236af4edba46dca6d99aa21af73df2cb55dafe"
+    },
+    {
+      "path": "deliverables/M09/v001/02_working-KAC.xlsx",
+      "bytes": 135481,
+      "sha256": "4e7887ac366d0ac6f2d109031042f54ed9e82ba7aa63bc5e250ec41b0b36462c"
+    },
+    {
+      "path": "deliverables/M09/v001/03_public-price-offers.xlsx",
+      "bytes": 70392,
+      "sha256": "76fb5491fe83a3fe074358a0e032e90cb7a697400ac05d353ccaac3616eabd38"
+    },
+    {
+      "path": "Машина - версия 1.1/README.md",
+      "bytes": 573,
+      "sha256": "b41d10256915caffe2e55fdf15ec4db441b83b997109cb697c6cfbf127e34bb2"
+    },
+    {
+      "path": "Машина - версия 1.1/Основные документы/01_Смета машинного отделения.xlsx",
+      "bytes": 90573,
+      "sha256": "e431e89d66878f69f86f9beea0ea3f396ae1abbefd74ffc68c268868150e1b42"
+    },
+    {
+      "path": "Машина - версия 1.1/Основные документы/02_Смета для печати.pdf",
+      "bytes": 76417,
+      "sha256": "1289a4abf408e946007e13a29c627ad26ad6ac920b73d034afea4f2befded2de"
+    },
+    {
+      "path": "Машина - версия 1.1/Основные документы/03_КАЦ оборудования.xlsx",
+      "bytes": 135481,
+      "sha256": "4e7887ac366d0ac6f2d109031042f54ed9e82ba7aa63bc5e250ec41b0b36462c"
+    },
+    {
+      "path": "Машина - версия 1.1/Основные документы/04_Цены и предложения из открытых источников.xlsx",
+      "bytes": 70392,
+      "sha256": "76fb5491fe83a3fe074358a0e032e90cb7a697400ac05d353ccaac3616eabd38"
+    },
+    {
+      "path": "Машина - версия 1.1/Основные документы/README.md",
+      "bytes": 1405,
+      "sha256": "bdfa09179b305ec7c296569976c0c4f9be58a876e7cf06250215758561091a1f"
+    }
+  ]
+}

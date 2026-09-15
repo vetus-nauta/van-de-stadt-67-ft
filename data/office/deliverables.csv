@@ -1,1 +1,2 @@
 deliverable_id;task_id;version;kind;main_file;support_folder;review_ref;decision_id;status;manifest_path
+M09-ESTIMATE;M09;v001;XLSX_KAC_PRICE_PDF;deliverables/M09/v001/00_engine-room-estimate.xlsx;deliverables/M09/v001/01_support;deliverables/M09/v001/01_support/review-integration.md;D033;REVIEWED_PARTIAL_ESTIMATE_NOT_UTV;deliverables/M09/v001/01_support/manifest.json

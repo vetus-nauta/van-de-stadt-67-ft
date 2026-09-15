@@ -1,0 +1,15 @@
+{
+  "main_rows": 65,
+  "priced_gross_rows": 40,
+  "unpriced_gross_rows": 24,
+  "priced_net_rows": 36,
+  "known_net_eur": "78585.51",
+  "estimated_vat_identified_part_eur": "18074.68",
+  "source_gross_tax_not_split_eur": "63954.00",
+  "known_gross_mixed_basis_eur": "160614.19",
+  "optional_gross_eur": "2780.37",
+  "new_price_records": 55,
+  "baseline_gross_eur": "131819.50",
+  "status": "PLANNING_COMPONENT_COST_NOT_COMPLETE_INSTALLED_BUDGET",
+  "change_gross_eur": "28794.69"
+}

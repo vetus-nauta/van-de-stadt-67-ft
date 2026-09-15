@@ -59,3 +59,7 @@ deliverables/M07/** -text whitespace=cr-at-eol
 # M08 is a byte-preserving document snapshot, including upstream formatting.
 "Машина - версия 1.0/**" -text -whitespace
 deliverables/M08/** -text whitespace=cr-at-eol
+
+# M09 reviewed component estimate and owner-facing copies.
+deliverables/M09/** -text whitespace=cr-at-eol
+"Машина - версия 1.1/**" -text -whitespace
